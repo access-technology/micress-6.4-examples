@@ -1,6 +1,10 @@
-# micress-examples
+
 
 ![MICRESS](logo.png)
+
+# MICRESS Examples
+
+![MICRESS](https://img.shields.io/badge/MICRESS-6.4-blue)
 
 This repository contains a collection of [MICRESS][1] examples.
 
