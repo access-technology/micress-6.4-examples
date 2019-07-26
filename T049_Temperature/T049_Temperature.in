@@ -1,0 +1,313 @@
+#
+# Automatic 'Driving File' written out by MICRESS.
+#
+#
+#
+# MICRESS binary
+# ==============
+# version number: 6.400 (Linux)
+# compiled: 01/17/2018
+# compiler version: Intel 1400 20140120
+# executable architecture: x64
+# Thermo-Calc coupling: enabled
+#    Version:    19
+#    Link Date:  20-03-2017 12:28:00
+#    OS Name:    Linux
+#    Build Date: 10716
+#    Compiler:   ifort (IFORT) 14.0.2 20140120
+# OpenMP: disabled
+# shell: /bin/tcsh
+# ('double precision' binary)
+#
+#
+# Language settings
+# =================
+# Please select a language: 'English', 'Deutsch' or 'Francais'
+English
+#
+#
+# Flags and settings
+# ==================
+#
+# Geometry
+# --------
+# Grid size?
+# (for 2D calculations: CellsY=1, for 1D calculations: CellsX=1, CellsY=1)
+# Cells in X-direction (CellsX):
+500
+# Cells in Y-direction (CellsY):
+1
+# Cells in Z-direction (CellsZ):
+500
+# Cell dimension (grid spacing in micrometers):
+# (optionally followed by rescaling factor for the output in the form of '3/4')
+0.2
+#
+# Flags
+# -----
+# Type of coupling?
+# Options:  phase  concentration [volume_change] temperature  temp_cyl_coord
+#    [stress] [stress_coupled] [flow] [flow_coarse] [dislocation]
+temperature
+# Type of temperature coupling?
+# Solvers : gs  rbgs
+rbgs
+# Type of potential?
+# Options:  double_obstacle  multi_obstacle   [fd_correction]
+double_obstacle fd_correction
+#
+# Phase field data structure
+# --------------------------
+# Coefficient for initial dimension of field iFace
+#  [minimum usage] [target usage]
+0.4 0.7
+# Coefficient for initial dimension of field nTupel
+#  [minimum usage] [target usage]
+0.4 0.7
+#
+#
+# Restart options
+# ===============
+# Restart using old results?
+# Options:    new       restart [reset_time | structure_only]
+new
+#
+#
+# Name of output files
+# ====================
+# Name of result files?
+Results_Temperature/T049_Temperature
+# Overwrite files with the same name?
+# Options:    overwrite      write_protected     append
+#             [zipped|not_zipped|vtk]
+#             [unix|windows|non_native]
+overwrite
+#
+#
+# Selection of the outputs
+# ========================
+# [legacy|verbose|terse]
+# Finish selection of outputs with 'end_of_outputs'.
+terse
+out_fraction 1
+tab_fractions
+out_temp
+out_driv_force
+tab_log 1.e-5
+# out_restart         ! [wallclock time, h.]
+# out_grains
+# out_phases          ! [no_interfaces]
+# out_interface       ! [sharp]
+# out_mobility
+# out_curvature
+# out_velocity
+# tab_grains          ! [extra|standard]
+# tab_vnm
+# tab_grain_data
+# out_recrystall
+# tab_recrystall
+# out_disloc
+# out_miller
+# out_orientation
+# tab_orientation     ! [rotmat]
+end_of_outputs
+#
+#
+# Time input data
+# ===============
+# Finish input of output times (in seconds) with 'end_of_simulation'
+# 'regularly-spaced' outputs can be set with 'linear_step'
+# or 'logarithmic_step' and then specifying the increment
+# and end value
+0.000025
+0.00005
+linear_step 0.00005 0.0004
+end_of_simulation
+# Time-step?
+# Options:   fix ...[s]   automatic    automatic_limited
+automatic_limited
+# Options:   constant      from_file
+constant
+# Limits: (real) min./s, [max./s], [phase-field factor], [segregation factor]
+1.E-12 100 0.2
+# Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]?
+20
+#
+#
+# Phase data
+# ==========
+# Number of distinct solid phases?
+1
+#
+# Data for phase 1:
+# -----------------
+# Simulation of recrystallisation in phase 1?
+# Options:   recrystall     no_recrystall   [verbose|no_verbose]
+no_recrystall
+# Is phase 1 anisotrop?
+# Options: isotropic  anisotropic  faceted_a faceted_b  antifaceted
+anisotropic
+# Crystal symmetry of the phase?
+# Options:   none  cubic  hexagonal  tetragonal orthorhombic
+cubic
+# Should grains of phase 1 be reduced to categories?
+# Options:   categorize no_categorize
+no_categorize
+#
+# Orientation
+# -----------
+# How shall grain orientations be defined?
+# Options:  angle_2d  euler_zxz  angle_axis  miller_indices  quaternion
+angle_2d
+#
+#
+# Grain input
+# ===========
+# Type of grain positioning?
+# Options:  deterministic   random [deterministic_infile]   from_file
+deterministic
+# NB: the origin of coordinate system is the bottom left-hand corner,
+#     all points within the simulation domain having positive coordinates.
+# Number of grains at the beginning?
+1
+# Input data for grain number 1:
+# Geometry?
+# Options:  round  rectangular  elliptic  round_inverse
+round
+# Center x,z coordinates [micrometers], grain number 1?
+0.00000
+0.00000
+# Grain radius?   [micrometers]
+0.00000
+# Shall grain 1 be stabilized or shall
+# an analytical curvature description be applied?
+# Options:    stabilisation   analytical_curvature
+stabilisation
+# Should the Voronoi criterion be applied?
+# Options:    voronoi     no_voronoi
+no_voronoi # dummy!
+# Phase number?   (integer)
+1
+# Rotation angle? [Degree]
+0.000000000000000E+000
+#
+#
+# Data for further nucleation
+# ===========================
+# Enable further nucleation?
+# Options:  nucleation   nucleation_symm   no_nucleation  [verbose|no_verbose]
+no_nucleation
+#
+#
+# Phase interaction data
+# ======================
+# Finish input of phase interactions with 'end_phase_interactions'.
+#
+# Data for phase interaction 0 / 1:
+# ---------------------------------
+# Simulation of interaction between phases 0 and 1?
+# Options: phase_interaction  no_phase_interaction
+#  [standard|particle_pinning[_temperature]|solute_drag]
+0 1 phase_interaction
+# Type of interfacial energy definition between phases 0 and 1?
+# Options:  constant  temp_dependent
+constant
+# Interfacial energy between phases 0 and 1? [J/cm**2]
+#     [max. value for num. interface stabilisation [J/cm**2]]
+1.0E-04
+# Type of mobility definition between phases 0 and 1?
+# Options: constant temp_dependent dg_dependent [fixed_minimum]
+constant
+# Kinetic coefficient mu between phases 0 and 1  [ min. value ] [cm**4/(Js)] ?
+10.000
+# Is interaction isotropic?
+# Options: isotropic
+#          anisotropic [junction_force] [harmonic_expansion]
+#          aniso_special_orient [junction_force][harmonic_expansion]
+anisotropic
+# Anisotropy of interfacial stiffness? (cubic)
+# 1 - delta * cos(4*phi), (delta =delta_stiffness =15*delta_energy)
+# Coefficient delta (<1.) ?
+0.30000
+# Anisotropy of interfacial mobility? (cubic)
+# 1 + delta * cos(4*phi)
+# Coefficient delta (<1.) ?
+0.10000
+end_phase_interactions
+#
+#
+# Phase diagram - input data
+# ==========================
+# Equilibrium temperature [K] between 0  and 1
+800.000000000000
+# Entropy of fusion between phase 0  and 1 ?  [J/(cm**3 K)]
+0.500000000000000
+#
+#
+#
+# Temperature Data
+# ================
+# Type of thermal conductivity definition for phase 0 ?
+# Options:    constant     temp_dependent
+constant
+# Thermal conductivity of phase 0 ?  [W/cm/K]
+0.100000000000000
+# Type of thermal conductivity definition for phase 1 ?
+# Options:    constant     temp_dependent
+constant
+# Thermal conductivity of phase 1 ?  [W/cm/K]
+0.100000000000000
+# Type of specific heat capacity definition for phase 0 ?
+# Options:    constant     temp_dependent
+constant
+# Specific heat capacity of phase 0 ?  [J/cm**3/K]
+5.00000000000000
+# Type of specific heat capacity definition for phase 1 ?
+# Options:    constant     temp_dependent
+constant
+# Specific heat capacity of phase 1 ?  [J/cm**3/K]
+5.00000000000000
+# latent heat for phase interaction 0/1 ?  [J/cm**3]
+400.000000000000
+#
+#
+# Boundary conditions
+# ===================
+# Type of initial temperature profile?
+# Options:    linear     from_file
+linear
+# Initial temperature at the bottom [K]
+765.0000
+# Initial temperature at the top [K]
+765.0000
+# Moving-frame system in z-direction?
+# Options:      moving_frame      no_moving_frame
+no_moving_frame
+#
+# Boundary conditions for phase field in each direction
+# Options: i (insulation) s (symmetric) p (periodic/wrap-around)
+#          g (gradient)   f (fixed)     w (wetting)
+# Sequence: W E (S N, if 3D) B T borders
+iiii
+#
+# Boundary conditions for temperature field in each direction
+# Options: i (insulation) s (symmetric) p (periodic/wrap-around) g (gradient) f (fixed) j (flux)
+# Sequence: W E (S N, if 3D) B T borders
+iiii
+# Unit-cell model symmetric with respect to the x/y diagonal plane?
+# Options:    unit_cell_symm   no_unit_cell_symm
+no_unit_cell_symm
+#
+#
+# Other numerical parameters
+# ==========================
+# Convergence criterion for temperature iterations (maximum norm)? [K]
+5.0000E-06
+# Maximum number of iterations for the temperature solver? (integer)
+1500
+# Phase minimum?
+1.E-4
+# Interface thickness (in cells)?
+4.00
+#
+#

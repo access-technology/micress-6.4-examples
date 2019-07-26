@@ -1,0 +1,2761 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (04:05)
+ Machine: n009
+ Driving file: T010_Gamma_Alpha_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 250, 1, 250
+ deltaX, deltaY, deltaZ [cm] = 2.5000E-05, 2.5000E-05, 2.5000E-05
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Multi-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 27
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 2.0000000E+00 s
+ Intermediate output at t       = 3.0000000E+00 s
+ Intermediate output at t       = 4.0000000E+00 s
+ Intermediate output at t       = 5.0000000E+00 s
+ Intermediate output at t       = 6.0000000E+00 s
+ Intermediate output at t       = 8.0000000E+00 s
+ Intermediate output at t       = 1.0000000E+01 s
+ Intermediate output at t       = 1.5000000E+01 s
+ Intermediate output at t       = 2.0000000E+01 s
+ Intermediate output at t       = 2.5000000E+01 s
+ Intermediate output at t       = 3.0000000E+01 s
+ Intermediate output at t       = 4.0000000E+01 s
+ Intermediate output at t       = 5.0000000E+01 s
+ Intermediate output at t       = 6.0000000E+01 s
+ Intermediate output at t       = 7.0000000E+01 s
+ Intermediate output at t       = 8.0000000E+01 s
+ Intermediate output at t       = 9.0000000E+01 s
+ Intermediate output at t       = 1.0000000E+02 s
+ Intermediate output at t       = 1.2500000E+02 s
+ Intermediate output at t       = 1.5000000E+02 s
+ Intermediate output at t       = 1.7500000E+02 s
+ Intermediate output at t       = 2.0000000E+02 s
+ Intermediate output at t       = 2.2500000E+02 s
+ Intermediate output at t       = 2.5000000E+02 s
+ Intermediate output at t       = 2.7500000E+02 s
+ Intermediate output at t       = 3.0000000E+02 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.00
+ Lower limit for time step: 1.000E-04
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 20
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is isotropic.
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is isotropic.
+ No categorization is allowed for phase 2
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 9
+ Input data for grain number 1:
+  'Round' grain.
+  x,z coordinates               : 51.2400, 20.9700 micrometers
+  Grain radius                  : 23.3600 micrometers
+  Grain 1 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 2:
+  'Round' grain.
+  x,z coordinates               : 52.1000, 47.3650 micrometers
+  Grain radius                  : 25.8600 micrometers
+  Grain 2 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 3:
+  'Round' grain.
+  x,z coordinates               : 37.1300, 23.0300 micrometers
+  Grain radius                  : 23.8100 micrometers
+  Grain 3 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 4:
+  'Round' grain.
+  x,z coordinates               : 3.24500, 21.1300 micrometers
+  Grain radius                  : 23.8700 micrometers
+  Grain 4 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 5:
+  'Round' grain.
+  x,z coordinates               : 13.1700, 35.4850 micrometers
+  Grain radius                  : 27.0200 micrometers
+  Grain 5 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 6:
+  'Round' grain.
+  x,z coordinates               : 29.3050, 12.8200 micrometers
+  Grain radius                  : 27.7700 micrometers
+  Grain 6 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 7:
+  'Round' grain.
+  x,z coordinates               : 4.78500, 31.4650 micrometers
+  Grain radius                  : 25.3700 micrometers
+  Grain 7 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 8:
+  'Round' grain.
+  x,z coordinates               : 2.15500, 2.49000 micrometers
+  Grain radius                  : 27.9450 micrometers
+  Grain 8 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 9:
+  'Round' grain.
+  x,z coordinates               : 42.1750, 4.61000 micrometers
+  Grain radius                  : 24.1500 micrometers
+  Grain 9 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 3
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: higher-order junctions
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 250
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 1: 0.0000 K
+  max. nucleation temperature for seed type 1: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Input for seed type 2:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  Nucleation driving force for seed type 2 will be undercooling.
+  Seed type 2 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 2: 500
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 2: 0.0000 K
+  max. nucleation temperature for seed type 2: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Input for seed type 3:
+ ----------------------
+  Type of 'position' of the seeds: bulk
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 3 will be undercooling.
+  Seed type 3 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 3: 500
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 3: 0.0000 K
+  max. nucleation temperature for seed type 3: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Max. number of simultaneous nucleations: 1250
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will not be simulated.
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will not be simulated.
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will be simulated.
+  Interaction parameters between phases  1  and 1:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-05 [cm**4/(Js)]
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will be simulated.
+  Interaction parameters between phases  1  and 2:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 2.20000E-06 [cm**4/(Js)]
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will be simulated.
+  Interaction parameters between phases  2  and 2:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-05 [cm**4/(Js)]
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 2
+ Concentration in weight percent wt%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will not be solved.
+ Diffusion of component 1  in phase 1  will be solved.
+ Diff.-coefficient:
+ Prefactor: 0.234000000000000 [cm**2/s]
+ Activation energy: 147700.000000000 [J/mol]
+ Diffusion of component 1  in phase 2  will be solved.
+ Diff.-coefficient:
+ Prefactor: 0.123000000000000 [cm**2/s]
+ Activation energy: 98290.0000000000 [J/mol]
+ Diffusion of component 2  in phase 0  will not be solved.
+ Diffusion of component 2  in phase 1  will be solved.
+ Diff.-coefficient:
+ Prefactor: 0.159000000000000 [cm**2/s]
+ Activation energy: 261600.000000000 [J/mol]
+ Diffusion of component 2  in phase 2  will be solved.
+ Diff.-coefficient:
+ Prefactor: 127.000000000000 [cm**2/s]
+ Activation energy: 270800.000000000 [J/mol]
+
+
+ Phase diagram - input data
+ **************************
+
+ TC-Coupling is not performed
+
+ Input of the phase diagram of phase 1 and phase 2:
+ --------------------------------------------------
+ Linear phase diagram is used
+  Temperature of the cut = 1025.00000000000 K
+  conc0( 1: 2: 1) = 1.00062E-01 [wt%]
+  conc0( 2: 1: 1) = 2.03949E-03 [wt%]
+  conc0( 1: 2: 2) = 3.79995E+00 [wt%]
+  conc0( 2: 1: 2) = 1.53480E+00 [wt%]
+  Slope       mSlope( 2: 1: 1) = -1.60441E+04 K/wt%
+  Slope       mSlope( 1: 2: 1) = -1.56377E+02 K/wt%
+  Slope       mSlope( 2: 1: 2) = -9.88250E+01 K/wt%
+  Slope       mSlope( 1: 2: 2) = -2.26615E+01 K/wt%
+ Redistribution characteristics of components:
+ 1:  normal normal
+ 2:  nple nple
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 1
+ Initial concentration of component 1 in phase 1 = 0.1000000000 wt%
+ Initial concentration of component 2 in phase 1 = 1.500000000 wt%
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1023.000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: 0.0000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction periodic/wrap-around boundary condition for phase field
+ In E-direction periodic/wrap-around boundary condition for phase field
+ In B-direction periodic/wrap-around boundary condition for phase field
+ In T-direction periodic/wrap-around boundary condition for phase field
+ 
+ In W-direction periodic/wrap-around boundary condition for concentration field
+ In E-direction periodic/wrap-around boundary condition for concentration field
+ In B-direction periodic/wrap-around boundary condition for concentration field
+ In T-direction periodic/wrap-around boundary condition for concentration field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ # Grain number 1 set
+ # Grain number 2 set
+ # Grain number 3 set
+ # Grain number 4 set
+ # Grain number 5 set
+ # Grain number 6 set
+ # Grain number 7 set
+ # Grain number 8 set
+ # Grain number 9 set
+ Equilibrium temperature T_Glgew = 1077.1301 K
+ Phase  1, Component  0: 98.40000
+ Phase  1, Component  1:0.1000000
+ Phase  1, Component  2: 1.500000
+ Phase  2, Component  0: 98.99056
+ Phase  2, Component  1:2.0388773E-03
+ Phase  2, Component  2: 1.007400
+ 
+ # tWidth_max( 1 : 1 ) = 0.7421875 s
+ # tWidth_max( 1 : 2 ) = 3.373580 s
+ # tWidth_max( 2 : 2 ) = 0.7421875 s
+ # Maximal value for tWidth = 0.7421875 s for phase-field solver
+ # Maximal value for tWidth = 1.2595758E-04 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 1.19660E-04 s
+ # Initial value for tWidth = 1.19660E-04 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 2 in phase 1 = 0.54054 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 1.20E-04 s
+ Average conc. of comp. 1 = 0.1000000 wt%
+ Average conc. of comp. 2 = 1.5000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ Fraction of phase 0: 0.00000
+ Fraction of phase 1: 1.00000
+ Fraction of phase 2: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 7.42E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 1 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 10
+
+ Seed number 2 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 11
+
+ Seed number 3 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 12
+
+ Seed number 4 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 13
+
+ Seed number 5 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 14
+
+ Seed number 6 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 15
+
+ Seed number 7 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 16
+
+ Seed number 8 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 17
+
+ Seed number 9 set at time t = 1.0100 s
+ --------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 18
+
+ Seed number 10 set at time t = 1.0100 s
+ ---------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 19
+
+ Seed number 11 set at time t = 1.0100 s
+ ---------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 20
+
+ Seed number 12 set at time t = 1.0100 s
+ ---------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 21
+
+ Seed number 13 set at time t = 1.0100 s
+ ---------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 22
+
+ Seed number 14 set at time t = 1.0100 s
+ ---------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 23
+
+ Seed number 15 set at time t = 1.0100 s
+ ---------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 24
+
+ Seed number 16 set at time t = 1.0100 s
+ ---------------------------------------
+ at a triple-junction
+ Phase: 2
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 25
+
+ Seed number 17 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 26
+
+ Seed number 18 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 27
+
+ Seed number 19 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 28
+
+ Seed number 20 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 29
+
+ Seed number 21 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 30
+
+ Seed number 22 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 31
+
+ Seed number 23 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 32
+
+ Seed number 24 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 33
+
+ Seed number 25 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 34
+
+ Seed number 26 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 35
+
+ Seed number 27 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 36
+
+ Seed number 28 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 37
+
+ Seed number 29 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 38
+
+ Seed number 30 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 39
+
+ Seed number 31 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 40
+
+ Seed number 32 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 41
+
+ Seed number 33 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 42
+
+ Seed number 34 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 43
+
+ Seed number 35 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 44
+
+ Seed number 36 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 45
+
+ Seed number 37 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 46
+
+ Seed number 38 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 47
+
+ Seed number 39 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 48
+
+ Seed number 40 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 49
+
+ Seed number 41 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 50
+
+ Seed number 42 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 51
+
+ Seed number 43 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 52
+
+ Seed number 44 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 53
+
+ Seed number 45 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 54
+
+ Seed number 46 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 55
+
+ Seed number 47 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 56
+
+ Seed number 48 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 57
+
+ Seed number 49 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 58
+
+ Seed number 50 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 59
+
+ Seed number 51 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 60
+
+ Seed number 52 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 61
+
+ Seed number 53 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 62
+
+ Seed number 54 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 63
+
+ Seed number 55 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 64
+
+ Seed number 56 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 65
+
+ Seed number 57 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 66
+
+ Seed number 58 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 67
+
+ Seed number 59 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 68
+
+ Seed number 60 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 69
+
+ Seed number 61 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 70
+
+ Seed number 62 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 71
+
+ Seed number 63 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 72
+
+ Seed number 64 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 73
+
+ Seed number 65 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 74
+
+ Seed number 66 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 75
+
+ Seed number 67 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 76
+
+ Seed number 68 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 77
+
+ Seed number 69 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 78
+
+ Seed number 70 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 79
+
+ Seed number 71 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 80
+
+ Seed number 72 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 81
+
+ Seed number 73 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 82
+
+ Seed number 74 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 83
+
+ Seed number 75 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 84
+
+ Seed number 76 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 85
+
+ Seed number 77 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 86
+
+ Seed number 78 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 87
+
+ Seed number 79 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 88
+
+ Seed number 80 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 89
+
+ Seed number 81 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 90
+
+ Intermediate output for t = 2.0000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 4.72E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 82 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 91
+
+ Seed number 83 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 92
+
+ Seed number 84 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 93
+
+ Seed number 85 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 94
+
+ Seed number 86 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 95
+
+ Seed number 87 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 96
+
+ Seed number 88 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 97
+
+ Seed number 89 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 98
+
+ Seed number 90 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 99
+
+ Seed number 91 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 100
+
+ Seed number 92 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 101
+
+ Intermediate output for t = 3.0000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 1.42E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 93 set at time t = 3.0300 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 102
+
+ Seed number 94 set at time t = 3.0300 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 103
+
+ Intermediate output for t = 4.0000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 2.53E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 95 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 104
+
+ Seed number 96 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 105
+
+ Seed number 97 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.129 K
+ Grain number = 106
+
+ Seed number 98 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 107
+
+ Seed number 99 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.130 K
+ Grain number = 108
+
+ Seed number 100 set at time t = 4.0400 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.129 K
+ Grain number = 109
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 3.40E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 6.0000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 3.08E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 8.0000 s
+ CPU-time: 8 s
+ Current phase-field solver time step = 2.85E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 8 s
+ Current phase-field solver time step = 2.69E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 101 set at time t = 13.130 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.102 K
+ Grain number = 110
+
+ Intermediate output for t = 15.000 s
+ CPU-time: 20 s
+ Current phase-field solver time step = 2.37E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 102 set at time t = 15.150 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.111 K
+ Grain number = 111
+
+ Grain 12 reaches full size at t = 15.8800 s
+
+ Grain 13 reaches full size at t = 15.8800 s
+
+ Grain 10 reaches full size at t = 16.1204 s
+
+ Grain 14 reaches full size at t = 16.1204 s
+
+ Grain 22 reaches full size at t = 16.4015 s
+
+ Grain 11 reaches full size at t = 16.6433 s
+
+ Grain 16 reaches full size at t = 16.6433 s
+
+ Grain 18 reaches full size at t = 16.6433 s
+
+ Grain 19 reaches full size at t = 16.6433 s
+
+ Grain 21 reaches full size at t = 16.6433 s
+
+ Grain 23 reaches full size at t = 16.6433 s
+
+ Grain 17 reaches full size at t = 17.1554 s
+
+ Grain 20 reaches full size at t = 17.1554 s
+
+ Grain 15 reaches full size at t = 17.9311 s
+
+ Grain 24 reaches full size at t = 17.9311 s
+
+ Grain 25 reaches full size at t = 18.1225 s
+
+ Grain 49 reaches full size at t = 18.7323 s
+
+ Grain 33 reaches full size at t = 18.9112 s
+
+ Grain 34 reaches full size at t = 18.9112 s
+
+ Grain 37 reaches full size at t = 18.9112 s
+
+ Grain 40 reaches full size at t = 18.9112 s
+
+ Grain 56 reaches full size at t = 18.9112 s
+
+ Grain 32 reaches full size at t = 19.0770 s
+
+ Grain 39 reaches full size at t = 19.0770 s
+
+ Grain 43 reaches full size at t = 19.0770 s
+
+ Grain 53 reaches full size at t = 19.0770 s
+
+ Grain 45 reaches full size at t = 19.3558 s
+
+ Grain 46 reaches full size at t = 19.5189 s
+
+ Grain 42 reaches full size at t = 19.6999 s
+
+ Grain 28 reaches full size at t = 20.0000 s
+
+ Grain 44 reaches full size at t = 20.0000 s
+
+ Intermediate output for t = 20.000 s
+ CPU-time: 22 s
+ Current phase-field solver time step = 1.87E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Grain 27 reaches full size at t = 20.1630 s
+
+ Grain 57 reaches full size at t = 21.4011 s
+
+ Grain 31 reaches full size at t = 22.4431 s
+
+ Grain 50 reaches full size at t = 22.4431 s
+
+ Grain 52 reaches full size at t = 22.4431 s
+
+ Grain 29 reaches full size at t = 22.7780 s
+
+ Grain 36 reaches full size at t = 22.7780 s
+
+ Grain 38 reaches full size at t = 22.9460 s
+
+ Grain 48 reaches full size at t = 22.9460 s
+
+ Grain 26 reaches full size at t = 23.2300 s
+
+ Grain 35 reaches full size at t = 23.4154 s
+
+ Grain 47 reaches full size at t = 23.4154 s
+
+ Grain 55 reaches full size at t = 23.4154 s
+
+ Grain 30 reaches full size at t = 24.1997 s
+
+ Grain 41 reaches full size at t = 24.1997 s
+
+ Grain 51 reaches full size at t = 24.1997 s
+
+ Grain 54 reaches full size at t = 24.4033 s
+
+ Grain 58 reaches full size at t = 24.7571 s
+
+ Intermediate output for t = 25.000 s
+ CPU-time: 25 s
+ Current phase-field solver time step = 1.99E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 103 set at time t = 26.260 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.943 K
+ Grain number = 112
+
+ Seed number 104 set at time t = 26.260 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.952 K
+ Grain number = 113
+
+ Seed number 105 set at time t = 26.260 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.969 K
+ Grain number = 114
+
+ Grain 77 reaches full size at t = 29.6787 s
+
+ Grain 59 reaches full size at t = 29.6787 s
+
+ Grain 70 reaches full size at t = 29.8987 s
+
+ Grain 79 reaches full size at t = 29.8987 s
+
+ Grain 80 reaches full size at t = 29.8987 s
+
+ Grain 83 reaches full size at t = 29.8987 s
+
+ Grain 84 reaches full size at t = 29.8987 s
+
+ Grain 85 reaches full size at t = 29.8987 s
+
+ Grain 87 reaches full size at t = 29.8987 s
+
+ Grain 71 reaches full size at t = 29.8987 s
+
+ Grain 73 reaches full size at t = 29.8987 s
+
+ Grain 72 reaches full size at t = 29.8987 s
+
+ Grain 75 reaches full size at t = 29.8987 s
+
+ Grain 76 reaches full size at t = 29.8987 s
+
+ Grain 82 reaches full size at t = 29.8987 s
+
+ Grain 60 reaches full size at t = 29.8987 s
+
+ Grain 64 reaches full size at t = 29.8987 s
+
+ Grain 66 reaches full size at t = 29.8987 s
+
+ Grain 68 reaches full size at t = 29.8987 s
+
+ Grain 62 reaches full size at t = 29.8987 s
+
+ Grain 89 reaches full size at t = 29.8987 s
+
+ Grain 90 reaches full size at t = 29.8987 s
+
+ Grain 61 reaches full size at t = 29.8987 s
+
+ Grain 88 reaches full size at t = 30.0000 s
+
+ Grain 69 reaches full size at t = 30.0000 s
+
+ Grain 67 reaches full size at t = 30.0000 s
+
+ Grain 81 reaches full size at t = 30.0000 s
+
+ Grain 63 reaches full size at t = 30.0000 s
+
+ Intermediate output for t = 30.000 s
+ CPU-time: 28 s
+ Current phase-field solver time step = 1.89E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Grain 78 reaches full size at t = 30.2008 s
+
+ Grain 65 reaches full size at t = 30.2008 s
+
+ Grain 74 reaches full size at t = 30.2008 s
+
+ Grain 86 reaches full size at t = 30.2008 s
+
+ Grain 91 reaches full size at t = 30.8453 s
+
+ Grain 100 reaches full size at t = 30.9550 s
+
+ Grain 92 reaches full size at t = 30.9550 s
+
+ Grain 96 reaches full size at t = 31.0101 s
+
+ Grain 98 reaches full size at t = 31.1202 s
+
+ Grain 97 reaches full size at t = 31.1202 s
+
+ Grain 95 reaches full size at t = 31.1202 s
+
+ Grain 93 reaches full size at t = 31.1755 s
+
+ Grain 101 reaches full size at t = 31.1755 s
+
+ Grain 99 reaches full size at t = 31.2860 s
+
+ Grain 94 reaches full size at t = 31.2860 s
+
+ Grain 103 reaches full size at t = 31.8114 s
+
+ Grain 102 reaches full size at t = 32.1485 s
+
+ Grain 104 reaches full size at t = 33.2103 s
+
+ Grain 107 reaches full size at t = 33.3189 s
+
+ Grain 108 reaches full size at t = 33.3189 s
+
+ Grain 109 reaches full size at t = 33.6028 s
+
+ Grain 105 reaches full size at t = 33.7672 s
+
+ Grain 106 reaches full size at t = 34.0977 s
+
+ Seed number 106 set at time t = 35.350 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.778 K
+ Grain number = 115
+
+ Seed number 107 set at time t = 35.350 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.679 K
+ Grain number = 116
+
+ Seed number 108 set at time t = 37.370 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.694 K
+ Grain number = 117
+
+ Intermediate output for t = 40.000 s
+ CPU-time: 72 s
+ Current phase-field solver time step = 1.12E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 109 set at time t = 44.440 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.295 K
+ Grain number = 118
+
+ Grain 110 reaches full size at t = 44.7618 s
+
+ Grain 111 reaches full size at t = 45.4500 s
+
+ Intermediate output for t = 50.000 s
+ CPU-time: 94 s
+ Current phase-field solver time step = 2.37E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 110 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.845 K
+ Grain number = 119
+
+ Seed number 111 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.570 K
+ Grain number = 120
+
+ Seed number 112 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.910 K
+ Grain number = 121
+
+ Seed number 113 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.305 K
+ Grain number = 122
+
+ Seed number 114 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.663 K
+ Grain number = 123
+
+ Seed number 115 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.012 K
+ Grain number = 124
+
+ Seed number 116 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.678 K
+ Grain number = 125
+
+ Seed number 117 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.702 K
+ Grain number = 126
+
+ Seed number 118 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.744 K
+ Grain number = 127
+
+ Seed number 119 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.033 K
+ Grain number = 128
+
+ Seed number 120 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.553 K
+ Grain number = 129
+
+ Seed number 121 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.768 K
+ Grain number = 130
+
+ Seed number 122 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.103 K
+ Grain number = 131
+
+ Seed number 123 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.889 K
+ Grain number = 132
+
+ Seed number 124 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.416 K
+ Grain number = 133
+
+ Seed number 125 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.107 K
+ Grain number = 134
+
+ Seed number 126 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.853 K
+ Grain number = 135
+
+ Seed number 127 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.338 K
+ Grain number = 136
+
+ Seed number 128 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.930 K
+ Grain number = 137
+
+ Seed number 129 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.729 K
+ Grain number = 138
+
+ Seed number 130 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.229 K
+ Grain number = 139
+
+ Seed number 131 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.729 K
+ Grain number = 140
+
+ Seed number 132 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.956 K
+ Grain number = 141
+
+ Seed number 133 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.368 K
+ Grain number = 142
+
+ Seed number 134 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.682 K
+ Grain number = 143
+
+ Seed number 135 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.731 K
+ Grain number = 144
+
+ Seed number 136 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.145 K
+ Grain number = 145
+
+ Seed number 137 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.331 K
+ Grain number = 146
+
+ Seed number 138 set at time t = 51.510 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.725 K
+ Grain number = 147
+
+ Seed number 139 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.495 K
+ Grain number = 148
+
+ Seed number 140 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.691 K
+ Grain number = 149
+
+ Seed number 141 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.816 K
+ Grain number = 150
+
+ Seed number 142 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.571 K
+ Grain number = 151
+
+ Seed number 143 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.039 K
+ Grain number = 152
+
+ Seed number 144 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.463 K
+ Grain number = 153
+
+ Seed number 145 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.014 K
+ Grain number = 154
+
+ Seed number 146 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.544 K
+ Grain number = 155
+
+ Seed number 147 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.418 K
+ Grain number = 156
+
+ Seed number 148 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.237 K
+ Grain number = 157
+
+ Seed number 149 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.911 K
+ Grain number = 158
+
+ Seed number 150 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.650 K
+ Grain number = 159
+
+ Seed number 151 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.796 K
+ Grain number = 160
+
+ Seed number 152 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.764 K
+ Grain number = 161
+
+ Seed number 153 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.867 K
+ Grain number = 162
+
+ Seed number 154 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.899 K
+ Grain number = 163
+
+ Seed number 155 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.059 K
+ Grain number = 164
+
+ Seed number 156 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.689 K
+ Grain number = 165
+
+ Seed number 157 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.408 K
+ Grain number = 166
+
+ Seed number 158 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.279 K
+ Grain number = 167
+
+ Seed number 159 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.415 K
+ Grain number = 168
+
+ Seed number 160 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.670 K
+ Grain number = 169
+
+ Seed number 161 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.352 K
+ Grain number = 170
+
+ Seed number 162 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.322 K
+ Grain number = 171
+
+ Seed number 163 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.330 K
+ Grain number = 172
+
+ Seed number 164 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.843 K
+ Grain number = 173
+
+ Seed number 165 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.449 K
+ Grain number = 174
+
+ Seed number 166 set at time t = 51.510 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.165 K
+ Grain number = 175
+
+ Seed number 167 set at time t = 52.520 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.190 K
+ Grain number = 176
+
+ Seed number 168 set at time t = 52.520 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.685 K
+ Grain number = 177
+
+ Seed number 169 set at time t = 52.520 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.046 K
+ Grain number = 178
+
+ Seed number 170 set at time t = 52.520 s
+ ----------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.031 K
+ Grain number = 179
+
+ Seed number 171 set at time t = 52.520 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.302 K
+ Grain number = 180
+
+ Seed number 172 set at time t = 52.520 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.066 K
+ Grain number = 181
+
+ Seed number 173 set at time t = 52.520 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.996 K
+ Grain number = 182
+
+ Seed number 174 set at time t = 52.520 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.147 K
+ Grain number = 183
+
+ Seed number 175 set at time t = 52.520 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.215 K
+ Grain number = 184
+
+ Seed number 176 set at time t = 53.530 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.151 K
+ Grain number = 185
+
+ Seed number 177 set at time t = 53.530 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.696 K
+ Grain number = 186
+
+ Seed number 178 set at time t = 53.530 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.200 K
+ Grain number = 187
+
+ Seed number 179 set at time t = 53.530 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.112 K
+ Grain number = 188
+
+ Seed number 180 set at time t = 53.530 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.405 K
+ Grain number = 189
+
+ Seed number 181 set at time t = 53.530 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.048 K
+ Grain number = 190
+
+ Seed number 182 set at time t = 53.530 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.446 K
+ Grain number = 191
+
+ Seed number 183 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.189 K
+ Grain number = 192
+
+ Seed number 184 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.572 K
+ Grain number = 193
+
+ Seed number 185 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.540 K
+ Grain number = 194
+
+ Seed number 186 set at time t = 55.550 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.019 K
+ Grain number = 195
+
+ Seed number 187 set at time t = 57.570 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.016 K
+ Grain number = 196
+
+ Seed number 188 set at time t = 58.580 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.865 K
+ Grain number = 197
+
+ Seed number 189 set at time t = 58.580 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.351 K
+ Grain number = 198
+
+ Seed number 190 set at time t = 58.580 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.261 K
+ Grain number = 199
+
+ Seed number 191 set at time t = 58.580 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.741 K
+ Grain number = 200
+
+ Seed number 192 set at time t = 58.580 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.972 K
+ Grain number = 201
+
+ Seed number 193 set at time t = 59.590 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.133 K
+ Grain number = 202
+
+ Seed number 194 set at time t = 59.590 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.765 K
+ Grain number = 203
+
+ Intermediate output for t = 60.000 s
+ CPU-time: 115 s
+ Current phase-field solver time step = 1.01E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 195 set at time t = 60.600 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.415 K
+ Grain number = 204
+
+ Seed number 196 set at time t = 61.610 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.320 K
+ Grain number = 205
+
+ Seed number 197 set at time t = 61.610 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.055 K
+ Grain number = 206
+
+ Seed number 198 set at time t = 62.620 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.380 K
+ Grain number = 207
+
+ Seed number 199 set at time t = 62.620 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.821 K
+ Grain number = 208
+
+ Seed number 200 set at time t = 64.640 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.972 K
+ Grain number = 209
+
+ Seed number 201 set at time t = 64.640 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.136 K
+ Grain number = 210
+
+ Seed number 202 set at time t = 65.650 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.083 K
+ Grain number = 211
+
+ Seed number 203 set at time t = 66.660 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.302 K
+ Grain number = 212
+
+ Intermediate output for t = 70.000 s
+ CPU-time: 129 s
+ Current phase-field solver time step = 5.88E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 204 set at time t = 72.720 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.524 K
+ Grain number = 213
+
+ Seed number 205 set at time t = 72.720 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.902 K
+ Grain number = 214
+
+ Seed number 206 set at time t = 72.720 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.447 K
+ Grain number = 215
+
+ Seed number 207 set at time t = 72.720 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.867 K
+ Grain number = 216
+
+ Seed number 208 set at time t = 74.740 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.522 K
+ Grain number = 217
+
+ Seed number 209 set at time t = 76.760 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.596 K
+ Grain number = 218
+
+ Seed number 210 set at time t = 78.780 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.433 K
+ Grain number = 219
+
+ Intermediate output for t = 80.000 s
+ CPU-time: 139 s
+ Current phase-field solver time step = 9.10E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 211 set at time t = 81.810 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.375 K
+ Grain number = 220
+
+ Seed number 212 set at time t = 85.850 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.164 K
+ Grain number = 221
+
+ Seed number 213 set at time t = 87.870 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.064 K
+ Grain number = 222
+
+ Intermediate output for t = 90.000 s
+ CPU-time: 147 s
+ Current phase-field solver time step = 3.02E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 100.00 s
+ CPU-time: 160 s
+ Current phase-field solver time step = 2.90E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 125.00 s
+ CPU-time: 405 s
+ Current phase-field solver time step = 1.38E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 150.00 s
+ CPU-time: 421 s
+ Current phase-field solver time step = 8.05E-03 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 175.00 s
+ CPU-time: 423 s
+ Current phase-field solver time step = 3.38E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 200.00 s
+ CPU-time: 417 s
+ Current phase-field solver time step = 1.61E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 225.00 s
+ CPU-time: 428 s
+ Current phase-field solver time step = 6.13E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 250.00 s
+ CPU-time: 458 s
+ Current phase-field solver time step = 6.07E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 275.00 s
+ CPU-time: 471 s
+ Current phase-field solver time step = 4.59E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 300.00 s
+ CPU-time: 465 s
+ Current phase-field solver time step = 1.14E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:        4484
+ Wall clock time in seconds:  4987
+ End
+ 

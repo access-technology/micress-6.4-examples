@@ -1,0 +1,336 @@
+
+ Diffusion coefficients in LIQUID (global):
+  Time:           0.0000 s
+  Temperature:    1764.75000000000 K
+  Composition C : 4.0000E-01 wt%
+  Composition MN: 8.0000E-01 wt%
+  Composition P : 3.0000E-02 wt%
+  Composition SI: 7.0000E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.000E-05       +1.000E-05         +0.00
+    MN     MN     +1.000E-05       +1.000E-05         +0.00
+    P      P      +1.000E-05       +1.000E-05         +0.00
+    SI     SI     +1.000E-05       +1.000E-05         +0.00
+
+Determinant: 1.00
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           0.0000 s
+  Temperature:    1764.75000000000 K
+  Composition C : 6.4039E-02 wt%
+  Composition MN: 5.1317E-01 wt%
+  Composition P : 8.6529E-03 wt%
+  Composition SI: 4.6788E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy  Min. Diff. Coeff  Max. Diff. Coeff.
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]           [cm**2/s]          [cm**2/s]
+    C      C      +6.834E-05       +6.995E-03        +6.791E+04        +6.834E-06        +6.834E-04
+    C      MN     -2.385E-07       -2.441E-05        +6.791E+04        -2.385E-06          0.00
+    C      P      +5.926E-06       +6.065E-04        +6.791E+04         +0.00            +5.926E-05
+    C      SI     +5.936E-07       +6.076E-05        +6.791E+04         +0.00            +5.936E-06
+    MN     C      -1.328E-09       -1.161E-03        +2.008E+05        -1.328E-08          0.00
+    MN     MN     +1.803E-07       +0.158            +2.008E+05        +1.803E-08        +1.803E-06
+    MN     P      +7.683E-09       +6.721E-03        +2.008E+05         +0.00            +7.683E-08
+    MN     SI     -9.152E-09       -8.005E-03        +2.008E+05        -9.152E-08          0.00
+    P      C      +1.051E-09       +2.783E-04        +1.832E+05         +0.00            +1.051E-08
+    P      MN     +3.318E-10       +8.786E-05        +1.832E+05         +0.00            +3.318E-09
+    P      P      +2.312E-07       +6.122E-02        +1.832E+05        +2.312E-08        +2.312E-06
+    P      SI     +4.398E-10       +1.165E-04        +1.832E+05         +0.00            +4.398E-09
+    SI     C      +1.262E-08       +6.012E-02        +2.256E+05         +0.00            +1.262E-07
+    SI     MN     -3.995E-08       -0.190            +2.256E+05        -3.995E-07          0.00
+    SI     P      +8.101E-08       +0.386            +2.256E+05         +0.00            +8.101E-07
+    SI     SI     +6.590E-07        +3.14            +2.256E+05        +6.590E-08        +6.590E-06
+
+Determinant: 0.857E-07
+
+
+
+ Diffusion coefficients in LIQUID (global):
+  Time:           1.0000 s
+  Temperature:    1764.55000000000 K
+  Composition C : 4.0205E-01 wt%
+  Composition MN: 8.0174E-01 wt%
+  Composition P : 3.0130E-02 wt%
+  Composition SI: 7.0141E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.000E-05       +1.000E-05        +1.810E-07
+    MN     MN     +1.000E-05       +1.000E-05        +1.810E-07
+    P      P      +1.000E-05       +1.000E-05        +1.810E-07
+    SI     SI     +1.000E-05       +1.000E-05        +1.810E-07
+
+Determinant: 1.00
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           1.0000 s
+  Temperature:    1764.55000000000 K
+  Composition C : 6.5167E-02 wt%
+  Composition MN: 5.1612E-01 wt%
+  Composition P : 8.7767E-03 wt%
+  Composition SI: 4.7059E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy  Min. Diff. Coeff  Max. Diff. Coeff.
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]           [cm**2/s]          [cm**2/s]
+    C      C      +6.832E-05       +6.998E-03        +6.792E+04        +6.832E-06        +6.832E-04
+    C      MN     -2.425E-07       -2.484E-05        +6.792E+04        -2.425E-06          0.00
+    C      P      +6.027E-06       +6.174E-04        +6.792E+04         +0.00            +6.027E-05
+    C      SI     +6.048E-07       +6.195E-05        +6.792E+04         +0.00            +6.048E-06
+    MN     C      -1.334E-09       -1.168E-03        +2.008E+05        -1.334E-08          0.00
+    MN     MN     +1.800E-07       +0.158            +2.008E+05        +1.800E-08        +1.800E-06
+    MN     P      +7.714E-09       +6.760E-03        +2.008E+05         +0.00            +7.714E-08
+    MN     SI     -9.185E-09       -8.048E-03        +2.008E+05        -9.185E-08          0.00
+    P      C      +1.065E-09       +2.823E-04        +1.832E+05         +0.00            +1.065E-08
+    P      MN     +3.362E-10       +8.916E-05        +1.832E+05         +0.00            +3.362E-09
+    P      P      +2.309E-07       +6.123E-02        +1.832E+05        +2.309E-08        +2.309E-06
+    P      SI     +4.458E-10       +1.182E-04        +1.832E+05         +0.00            +4.458E-09
+    SI     C      +1.269E-08       +6.056E-02        +2.256E+05         +0.00            +1.269E-07
+    SI     MN     -4.007E-08       -0.191            +2.256E+05        -4.007E-07          0.00
+    SI     P      +8.133E-08       +0.388            +2.256E+05         +0.00            +8.133E-07
+    SI     SI     +6.580E-07        +3.14            +2.256E+05        +6.580E-08        +6.580E-06
+
+Determinant: 0.854E-07
+
+
+
+ Diffusion coefficients in LIQUID (global):
+  Time:           2.0000 s
+  Temperature:    1764.35000000000 K
+  Composition C : 4.0371E-01 wt%
+  Composition MN: 8.0314E-01 wt%
+  Composition P : 3.0235E-02 wt%
+  Composition SI: 7.0253E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.000E-05       +1.000E-05         +0.00
+    MN     MN     +1.000E-05       +1.000E-05         +0.00
+    P      P      +1.000E-05       +1.000E-05         +0.00
+    SI     SI     +1.000E-05       +1.000E-05         +0.00
+
+Determinant: 1.00
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           2.0000 s
+  Temperature:    1764.35000000000 K
+  Composition C : 6.5514E-02 wt%
+  Composition MN: 5.1714E-01 wt%
+  Composition P : 8.8233E-03 wt%
+  Composition SI: 4.7159E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy  Min. Diff. Coeff  Max. Diff. Coeff.
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]           [cm**2/s]          [cm**2/s]
+    C      C      +6.829E-05       +7.000E-03        +6.792E+04        +6.829E-06        +6.829E-04
+    C      MN     -2.437E-07       -2.498E-05        +6.792E+04        -2.437E-06          0.00
+    C      P      +6.057E-06       +6.208E-04        +6.792E+04         +0.00            +6.057E-05
+    C      SI     +6.083E-07       +6.234E-05        +6.792E+04         +0.00            +6.083E-06
+    MN     C      -1.335E-09       -1.172E-03        +2.008E+05        -1.335E-08          0.00
+    MN     MN     +1.798E-07       +0.158            +2.008E+05        +1.798E-08        +1.798E-06
+    MN     P      +7.718E-09       +6.775E-03        +2.008E+05         +0.00            +7.718E-08
+    MN     SI     -9.187E-09       -8.065E-03        +2.008E+05        -9.187E-08          0.00
+    P      C      +1.069E-09       +2.839E-04        +1.832E+05         +0.00            +1.069E-08
+    P      MN     +3.376E-10       +8.966E-05        +1.832E+05         +0.00            +3.376E-09
+    P      P      +2.306E-07       +6.124E-02        +1.832E+05        +2.306E-08        +2.306E-06
+    P      SI     +4.477E-10       +1.189E-04        +1.832E+05         +0.00            +4.477E-09
+    SI     C      +1.271E-08       +6.075E-02        +2.256E+05         +0.00            +1.271E-07
+    SI     MN     -4.007E-08       -0.192            +2.256E+05        -4.007E-07          0.00
+    SI     P      +8.137E-08       +0.389            +2.256E+05         +0.00            +8.137E-07
+    SI     SI     +6.568E-07        +3.14            +2.256E+05        +6.568E-08        +6.568E-06
+
+Determinant: 0.851E-07
+
+
+
+ Diffusion coefficients in LIQUID (global):
+  Time:           3.0000 s
+  Temperature:    1764.15000000000 K
+  Composition C : 4.0542E-01 wt%
+  Composition MN: 8.0458E-01 wt%
+  Composition P : 3.0343E-02 wt%
+  Composition SI: 7.0369E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.000E-05       +1.000E-05         +0.00
+    MN     MN     +1.000E-05       +1.000E-05         +0.00
+    P      P      +1.000E-05       +1.000E-05         +0.00
+    SI     SI     +1.000E-05       +1.000E-05         +0.00
+
+Determinant: 1.00
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           3.0000 s
+  Temperature:    1764.15000000000 K
+  Composition C : 6.5845E-02 wt%
+  Composition MN: 5.1811E-01 wt%
+  Composition P : 8.8634E-03 wt%
+  Composition SI: 4.7250E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy  Min. Diff. Coeff  Max. Diff. Coeff.
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]           [cm**2/s]          [cm**2/s]
+    C      C      +6.826E-05       +7.001E-03        +6.792E+04        +6.826E-06        +6.826E-04
+    C      MN     -2.449E-07       -2.512E-05        +6.792E+04        -2.449E-06          0.00
+    C      P      +6.085E-06       +6.241E-04        +6.792E+04         +0.00            +6.085E-05
+    C      SI     +6.115E-07       +6.271E-05        +6.792E+04         +0.00            +6.115E-06
+    MN     C      -1.336E-09       -1.175E-03        +2.008E+05        -1.336E-08          0.00
+    MN     MN     +1.795E-07       +0.158            +2.008E+05        +1.795E-08        +1.795E-06
+    MN     P      +7.721E-09       +6.789E-03        +2.008E+05         +0.00            +7.721E-08
+    MN     SI     -9.189E-09       -8.080E-03        +2.008E+05        -9.189E-08          0.00
+    P      C      +1.072E-09       +2.853E-04        +1.832E+05         +0.00            +1.072E-08
+    P      MN     +3.387E-10       +9.011E-05        +1.832E+05         +0.00            +3.387E-09
+    P      P      +2.303E-07       +6.125E-02        +1.832E+05        +2.303E-08        +2.303E-06
+    P      SI     +4.492E-10       +1.195E-04        +1.832E+05         +0.00            +4.492E-09
+    SI     C      +1.273E-08       +6.093E-02        +2.256E+05         +0.00            +1.273E-07
+    SI     MN     -4.006E-08       -0.192            +2.256E+05        -4.006E-07          0.00
+    SI     P      +8.139E-08       +0.390            +2.256E+05         +0.00            +8.139E-07
+    SI     SI     +6.557E-07        +3.14            +2.256E+05        +6.557E-08        +6.557E-06
+
+Determinant: 0.848E-07
+
+
+
+ Diffusion coefficients in LIQUID (global):
+  Time:           4.0000 s
+  Temperature:    1763.95000000000 K
+  Composition C : 4.0718E-01 wt%
+  Composition MN: 8.0604E-01 wt%
+  Composition P : 3.0454E-02 wt%
+  Composition SI: 7.0487E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.000E-05       +1.000E-05        +9.186E-08
+    MN     MN     +1.000E-05       +1.000E-05        +9.186E-08
+    P      P      +1.000E-05       +1.000E-05        +9.186E-08
+    SI     SI     +1.000E-05       +1.000E-05        +9.186E-08
+
+Determinant: 1.00
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           4.0000 s
+  Temperature:    1763.95000000000 K
+  Composition C : 6.6150E-02 wt%
+  Composition MN: 5.1896E-01 wt%
+  Composition P : 8.9000E-03 wt%
+  Composition SI: 4.7334E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy  Min. Diff. Coeff  Max. Diff. Coeff.
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]           [cm**2/s]          [cm**2/s]
+    C      C      +6.823E-05       +7.002E-03        +6.792E+04        +6.823E-06        +6.823E-04
+    C      MN     -2.460E-07       -2.524E-05        +6.792E+04        -2.460E-06          0.00
+    C      P      +6.111E-06       +6.271E-04        +6.792E+04         +0.00            +6.111E-05
+    C      SI     +6.145E-07       +6.306E-05        +6.792E+04         +0.00            +6.145E-06
+    MN     C      -1.337E-09       -1.177E-03        +2.008E+05        -1.337E-08          0.00
+    MN     MN     +1.792E-07       +0.158            +2.008E+05        +1.792E-08        +1.792E-06
+    MN     P      +7.722E-09       +6.802E-03        +2.008E+05         +0.00            +7.722E-08
+    MN     SI     -9.188E-09       -8.094E-03        +2.008E+05        -9.188E-08          0.00
+    P      C      +1.075E-09       +2.865E-04        +1.832E+05         +0.00            +1.075E-08
+    P      MN     +3.397E-10       +9.051E-05        +1.832E+05         +0.00            +3.397E-09
+    P      P      +2.299E-07       +6.127E-02        +1.832E+05        +2.299E-08        +2.299E-06
+    P      SI     +4.506E-10       +1.201E-04        +1.832E+05         +0.00            +4.506E-09
+    SI     C      +1.274E-08       +6.110E-02        +2.256E+05         +0.00            +1.274E-07
+    SI     MN     -4.005E-08       -0.192            +2.256E+05        -4.005E-07          0.00
+    SI     P      +8.140E-08       +0.390            +2.256E+05         +0.00            +8.140E-07
+    SI     SI     +6.546E-07        +3.14            +2.256E+05        +6.546E-08        +6.546E-06
+
+Determinant: 0.846E-07
+
+
+
+ Diffusion coefficients in LIQUID (global):
+  Time:           5.0000 s
+  Temperature:    1763.75000000000 K
+  Composition C : 4.0898E-01 wt%
+  Composition MN: 8.0754E-01 wt%
+  Composition P : 3.0567E-02 wt%
+  Composition SI: 7.0608E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.000E-05       +1.000E-05        +9.184E-08
+    MN     MN     +1.000E-05       +1.000E-05        +9.184E-08
+    P      P      +1.000E-05       +1.000E-05        +9.184E-08
+    SI     SI     +1.000E-05       +1.000E-05        +9.184E-08
+
+Determinant: 1.00
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           5.0000 s
+  Temperature:    1763.75000000000 K
+  Composition C : 6.6453E-02 wt%
+  Composition MN: 5.1979E-01 wt%
+  Composition P : 8.9353E-03 wt%
+  Composition SI: 4.7415E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy  Min. Diff. Coeff  Max. Diff. Coeff.
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]           [cm**2/s]          [cm**2/s]
+    C      C      +6.820E-05       +7.004E-03        +6.792E+04        +6.820E-06        +6.820E-04
+    C      MN     -2.471E-07       -2.537E-05        +6.792E+04        -2.471E-06          0.00
+    C      P      +6.136E-06       +6.301E-04        +6.792E+04         +0.00            +6.136E-05
+    C      SI     +6.174E-07       +6.340E-05        +6.792E+04         +0.00            +6.174E-06
+    MN     C      -1.337E-09       -1.180E-03        +2.008E+05        -1.337E-08          0.00
+    MN     MN     +1.789E-07       +0.158            +2.008E+05        +1.789E-08        +1.789E-06
+    MN     P      +7.722E-09       +6.815E-03        +2.008E+05         +0.00            +7.722E-08
+    MN     SI     -9.187E-09       -8.107E-03        +2.008E+05        -9.187E-08          0.00
+    P      C      +1.078E-09       +2.878E-04        +1.832E+05         +0.00            +1.078E-08
+    P      MN     +3.406E-10       +9.090E-05        +1.832E+05         +0.00            +3.406E-09
+    P      P      +2.296E-07       +6.128E-02        +1.832E+05        +2.296E-08        +2.296E-06
+    P      SI     +4.519E-10       +1.206E-04        +1.832E+05         +0.00            +4.519E-09
+    SI     C      +1.275E-08       +6.126E-02        +2.256E+05         +0.00            +1.275E-07
+    SI     MN     -4.004E-08       -0.192            +2.256E+05        -4.004E-07          0.00
+    SI     P      +8.140E-08       +0.391            +2.256E+05         +0.00            +8.140E-07
+    SI     SI     +6.535E-07        +3.14            +2.256E+05        +6.535E-08        +6.535E-06
+
+Determinant: 0.843E-07
+
+
+
+ Diffusion coefficients in LIQUID (global):
+  Time:           6.0000 s
+  Temperature:    1763.55000000000 K
+  Composition C : 4.1081E-01 wt%
+  Composition MN: 8.0906E-01 wt%
+  Composition P : 3.0682E-02 wt%
+  Composition SI: 7.0730E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.000E-05       +1.000E-05        +9.182E-08
+    MN     MN     +1.000E-05       +1.000E-05        +9.182E-08
+    P      P      +1.000E-05       +1.000E-05        +9.182E-08
+    SI     SI     +1.000E-05       +1.000E-05        +9.182E-08
+
+Determinant: 1.00
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           6.0000 s
+  Temperature:    1763.55000000000 K
+  Composition C : 6.6755E-02 wt%
+  Composition MN: 5.2060E-01 wt%
+  Composition P : 8.9699E-03 wt%
+  Composition SI: 4.7494E-01 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy  Min. Diff. Coeff  Max. Diff. Coeff.
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]           [cm**2/s]          [cm**2/s]
+    C      C      +6.817E-05       +7.005E-03        +6.792E+04        +6.817E-06        +6.817E-04
+    C      MN     -2.481E-07       -2.550E-05        +6.792E+04        -2.481E-06          0.00
+    C      P      +6.161E-06       +6.331E-04        +6.792E+04         +0.00            +6.161E-05
+    C      SI     +6.204E-07       +6.375E-05        +6.792E+04         +0.00            +6.204E-06
+    MN     C      -1.338E-09       -1.183E-03        +2.008E+05        -1.338E-08          0.00
+    MN     MN     +1.787E-07       +0.158            +2.008E+05        +1.787E-08        +1.787E-06
+    MN     P      +7.723E-09       +6.828E-03        +2.008E+05         +0.00            +7.723E-08
+    MN     SI     -9.185E-09       -8.121E-03        +2.008E+05        -9.185E-08          0.00
+    P      C      +1.081E-09       +2.890E-04        +1.832E+05         +0.00            +1.081E-08
+    P      MN     +3.415E-10       +9.129E-05        +1.832E+05         +0.00            +3.415E-09
+    P      P      +2.293E-07       +6.129E-02        +1.832E+05        +2.293E-08        +2.293E-06
+    P      SI     +4.532E-10       +1.211E-04        +1.832E+05         +0.00            +4.532E-09
+    SI     C      +1.276E-08       +6.142E-02        +2.256E+05         +0.00            +1.276E-07
+    SI     MN     -4.002E-08       -0.193            +2.256E+05        -4.002E-07          0.00
+    SI     P      +8.140E-08       +0.392            +2.256E+05         +0.00            +8.140E-07
+    SI     SI     +6.524E-07        +3.14            +2.256E+05        +6.524E-08        +6.524E-06
+
+Determinant: 0.840E-07
+
+

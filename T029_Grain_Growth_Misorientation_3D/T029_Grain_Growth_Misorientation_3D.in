@@ -1,0 +1,319 @@
+#
+# Automatic 'Driving File' written out by MICRESS.
+#
+#
+#
+# MICRESS binary
+# ==============
+# version number: 6.400 (Linux)
+# compiled: 01/17/2018
+# compiler version: Intel 1400 20140120
+# executable architecture: x64
+# Thermo-Calc coupling: enabled
+#    Version:    19
+#    Link Date:  20-03-2017 12:28:00
+#    OS Name:    Linux
+#    Build Date: 10716
+#    Compiler:   ifort (IFORT) 14.0.2 20140120
+# OpenMP: disabled
+# shell: /bin/tcsh
+# ('double precision' binary)
+#
+#
+# Language settings
+# =================
+# Please select a language: 'English', 'Deutsch' or 'Francais'
+English
+#
+#
+# Flags and settings
+# ==================
+#
+# Geometry
+# --------
+# Grid size?
+# (for 2D calculations: CellsY=1, for 1D calculations: CellsX=1, CellsY=1)
+# Cells in X-direction (CellsX):
+100
+# Cells in Y-direction (CellsY):
+100
+# Cells in Z-direction (CellsZ):
+100
+# Cell dimension (grid spacing in micrometers):
+# (optionally followed by rescaling factor for the output in the form of '3/4')
+1
+#
+# Flags
+# -----
+# Type of coupling?
+# Options:  phase  concentration [volume_change] temperature  temp_cyl_coord
+#    [stress] [stress_coupled] [flow] [flow_coarse] [dislocation]
+phase
+# Type of potential?
+# Options:  double_obstacle  multi_obstacle   [fd_correction]
+multi_obstacle fd_correction
+#
+# Phase field data structure
+# --------------------------
+# Coefficient for initial dimension of field iFace
+#  [minimum usage] [target usage]
+0.5 0.95
+# Coefficient for initial dimension of field nTupel
+#  [minimum usage] [target usage]
+0.5 0.95
+#
+#
+# Restart options
+# ===============
+# Restart using old results?
+# Options:    new       restart [reset_time | structure_only]
+new
+#
+#
+# Name of output files
+# ====================
+# Name of result files?
+Results_Grain_Growth/T029_Grain_Growth_Misorientation_3D
+# Overwrite files with the same name?
+# Options:    overwrite      write_protected     append
+#             [zipped|not_zipped|vtk]
+#             [unix|windows|non_native]
+overwrite
+#
+#
+# Selection of the outputs
+# ========================
+# [legacy|verbose|terse]
+# Finish selection of outputs with 'end_of_outputs'.
+terse
+out_interface   sharp
+tab_grains
+out_orientation
+tab_log 2.5
+out_grains
+# out_restart         ! [wallclock time, h.]
+# out_phases          ! [no_interfaces]
+# out_fraction        ! [phase number]
+# tab_fractions       ! [front_temp] [TabL_steps]
+# out_driv_force
+# out_mobility
+# out_curvature
+# out_velocity
+# tab_vnm
+# tab_grain_data
+# out_temp
+# out_recrystall
+# tab_recrystall
+# out_disloc
+# out_miller
+# tab_orientation     ! [rotmat]
+end_of_outputs
+#
+#
+# Time input data
+# ===============
+# Finish input of output times (in seconds) with 'end_of_simulation'
+# 'regularly-spaced' outputs can be set with 'linear_step'
+# or 'logarithmic_step' and then specifying the increment
+# and end value
+# ('automatic_outputs' optionally followed by the number
+#  of outputs can be used in conjuction with 'linear_from_file')
+#  'first'                  : additional output for first time-step
+#  'end_at_temperature'    : additional output and end of simulation
+#                             at given temperature
+linear_step   50.  500.
+linear_step 100. 1000.
+end_of_simulation
+# Time-step?
+# Options:   fix ...[s]   automatic    automatic_limited
+automatic
+# Coefficient for phase-field criterion 1.00
+# Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]?
+40
+#
+#
+# Phase data
+# ==========
+# Number of distinct solid phases?
+1
+#
+# Data for phase 1:
+# -----------------
+# Simulation of recrystallisation in phase 1?
+# Options:   recrystall     no_recrystall   [verbose|no_verbose]
+no_recrystall
+# Is phase 1 anisotrop?
+# Options: isotropic  anisotropic  faceted_a faceted_b  antifaceted
+anisotropic
+# Crystal symmetry of the phase?
+# Options:   none  cubic  hexagonal  tetragonal orthorhombic
+cubic
+# Should grains of phase 1 be reduced to categories?
+# Options:   categorize no_categorize
+no_categorize
+#
+# Orientation
+# -----------
+# How shall grain orientations be defined?
+# Options:  angle_2d  euler_zxz  angle_axis  miller_indices  quaternion
+angle_axis
+#
+#
+# Grain input
+# ===========
+# Type of grain positioning?
+# Options:  deterministic   random [deterministic_infile]   from_file
+random
+# Integer for randomization?
+77
+# Number of different types of grains?
+1
+# Number of grains of type 1?
+200
+# Input for grain type 1
+# ----------------------
+# Geometry of grain type 1
+# Options:  round  rectangular  elliptic  round_inverse
+round
+# Minimal value of x-coordinates?  [micrometers]
+0.00000
+# Maximal value of x-coordinates?  [micrometers]
+100.000
+# Minimal value of y-coordinates?  [micrometers]
+0.00000
+# Maximal value of y-coordinates?  [micrometers]
+100.000
+# Minimal value of z-coordinates?  [micrometers]
+0.00000
+# Maximal value of z-coordinates?  [micrometers]
+100.000
+# Minimum grain radius?  [micrometers]
+30.0000
+# Maximum grain radius?  [micrometers]
+35.0000
+# Shall grain type 1 be stabilized or shall
+# an analytical curvature description be applied?
+# Options:    stabilisation   analytical_curvature
+stabilisation
+# Should the Voronoi criterion for grains of type 1 be applied?
+# Options:    voronoi     no_voronoi
+voronoi
+# Phase number for grain type 1? (int)
+1
+# Determination of grain orientations?
+# Options:   fix   random    fix_direction
+#           [step beween random values in degrees]
+random
+# Minimal distance between grains (real) [micrometers]?
+16.000
+#
+#
+# Data for further nucleation
+# ===========================
+# Enable further nucleation?
+# Options:  nucleation   nucleation_symm   no_nucleation  [verbose|no_verbose]
+no_nucleation
+#
+#
+# Phase interaction data
+# ======================
+#
+# Data for phase interaction 0 / 1:
+# ---------------------------------
+# Simulation of interaction between phases 0 and 1?
+# Options: phase_interaction  no_phase_interaction
+#  [standard|particle_pinning[_temperature]|solute_drag]
+#   |[no_junction_force|junction_force]
+no_phase_interaction
+#
+# Data for phase interaction 1 / 1:
+# ---------------------------------
+# Simulation of interaction between phases 1 and 1?
+# Options: phase_interaction  no_phase_interaction  identical phases nb
+#  [standard|particle_pinning[_temperature]|solute_drag]
+#   |[no_junction_force|junction_force]
+phase_interaction
+# Type of interfacial energy definition between phases 1 and 1?
+# Options:  constant  temp_dependent
+constant
+# Interfacial energy between phases 1 and 1? [J/cm**2]
+#     [max. value for num. interface stabilisation [J/cm**2]]
+5.00000E-05
+# Type of mobility definition between phases 1 and 1?
+# Options: constant temp_dependent dg_dependent [fixed_minimum]
+constant
+# Kinetic coefficient mu between phases 1 and 1  [ min. value ] [cm**4/(Js)] ?
+1.0000E-04
+# Shall misorientation be considered?
+# Options:   misorientation    no_misorientation
+#           [low_angle_limit (degrees)] default:15    [special_orient (nb)]
+misorientation low_angle_limit 15. special_orient 2
+# Input of the misorientation coefficients:
+# Modification of interfacial energy for low angle boundaries
+# Options:  factor   read-shockley
+read-shockley
+# Modification of the mobility for low angle boundaries
+# Options:  factor   humphreys [min_reduction + parameters B and N
+#                         (default: min_reduction=0. B=5.0 N=4.0)]
+humphreys
+# Input of the special orientation relation Nb 1
+# Rotation angle? [tolerance] (in degrees)
+60.  3.
+# Rotation axis x, y, z? [tolerance in degrees]
+1. 1. 1. 4.
+# Prefactor of interfacial energy for the special OR:
+0.50000
+# Prefactor of interfacial mobility for the special OR?
+1.0000
+# Input of the special orientation relation Nb 2
+# Rotation angle? [tolerance] (in degrees)
+38.9  3.
+# Rotation axis x, y, z? [tolerance in degrees]
+1. 1. 0. 4.
+# Prefactor of interfacial energy for the special OR:
+0.50000
+# Prefactor of interfacial mobility for the special OR?
+1.0000
+#
+#
+# Phase diagram - input data
+# ==========================
+#
+#
+#
+#
+# Boundary conditions
+# ===================
+# Type of temperature trend?
+# Options:   linear     linear_from_file     profiles_from_file
+linear
+# Number of connecting points?    (integer)
+0
+# Initial temperature at the bottom?  (real)  [K]
+1200.000
+# Temperature gradient in z-direction?  [K/cm]
+0.0000
+# Cooling rate? [K/s]
+0.0000
+# Moving-frame system in z-direction?
+# Options:      moving_frame      no_moving_frame
+no_moving_frame
+#
+# Boundary conditions for phase field in each direction
+# Options: i (insulation) s (symmetric) p (periodic/wrap-around)
+#          g (gradient)   f (fixed)     w (wetting)
+# Sequence: W E (S N, if 3D) B T borders
+pppppp
+# Unit-cell model symmetric with respect to the x/y diagonal plane?
+# Options:    unit_cell_symm   no_unit_cell_symm
+no_unit_cell_symm
+#
+#
+# Other numerical parameters
+# ==========================
+# Phase minimum?
+1.00E-04
+# Interface thickness (in cells)?
+3.50
+#
+#

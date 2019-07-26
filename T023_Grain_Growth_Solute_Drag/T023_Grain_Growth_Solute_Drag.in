@@ -1,0 +1,305 @@
+#
+# Automatic 'Driving File' written out by MICRESS.
+#
+#
+#
+# MICRESS binary
+# ==============
+# version number: 6.400 (Linux)
+# compiled: 01/17/2018
+# compiler version: Intel 1400 20140120
+# executable architecture: x64
+# Thermo-Calc coupling: enabled
+#    Version:    19
+#    Link Date:  20-03-2017 12:28:00
+#    OS Name:    Linux
+#    Build Date: 10716
+#    Compiler:   ifort (IFORT) 14.0.2 20140120
+# OpenMP: disabled
+# shell: /bin/tcsh
+# ('double precision' binary)
+#
+#
+# Language settings
+# =================
+# Please select a language: 'English', 'Deutsch' or 'Francais'
+English
+#
+#
+# Flags and settings
+# ==================
+#
+# Geometry
+# --------
+# Grid size?
+# (for 2D calculations: CellsY=1, for 1D calculations: CellsX=1, CellsY=1)
+# Cells in X-direction (CellsX):
+400
+# Cells in Y-direction (CellsY):
+1
+# Cells in Z-direction (CellsZ):
+320
+# Cell dimension (grid spacing in micrometers):
+# (optionally followed by rescaling factor for the output in the form of '3/4')
+1.5000
+#
+# Flags
+# -----
+# Type of coupling?
+# Options:  phase  concentration [volume_change] temperature  temp_cyl_coord
+#    [stress] [stress_coupled] [flow] [flow_coarse] [dislocation]
+phase
+# Type of potential?
+# Options:  double_obstacle  multi_obstacle   [fd_correction]
+multi_obstacle   fd_correction
+#
+# Phase field data structure
+# --------------------------
+# Coefficient for initial dimension of field iFace
+#  [minimum usage] [target usage]
+0.10
+# Coefficient for initial dimension of field nTupel
+#  [minimum usage] [target usage]
+0.01
+#
+#
+# Restart options
+# ===============
+# Restart using old results?
+# Options:    new       restart [reset_time | structure_only]
+new
+#
+#
+# Name of output files
+# ====================
+# Name of result files?
+Results_Grain_Growth/T023_Grain_Growth_Solute_Drag
+# Overwrite files with the same name?
+# Options:    overwrite      write_protected     append
+#             [zipped|not_zipped|vtk]
+#             [unix|windows|non_native]
+overwrite
+#
+#
+# Selection of the outputs
+# ========================
+# [legacy|verbose|terse]
+# Restart data output?                                 ('rest')
+# Options:     out_restart      no_out_restart         [wallclock time, h.]
+out_restart
+# Grain number output?                                 ('korn')
+# Options:     out_grains       no_out_grains
+out_grains
+# Phase number output?                                 ('phas')
+# Options:     out_phases       no_out_phases          [no_interfaces]
+out_phases
+# Fraction output?                                     ('frac')
+# Options:     out_fraction     no_out_fraction        [phase number]
+no_out_fraction
+# Average fraction table?                              ('TabF')
+# Options:     tab_fractions    no_tab_fractions       [front_temp] [TabL_steps]
+no_tab_fractions
+# Interface output?                                    ('intf')
+# Options:     out_interface    no_out_interface       [sharp]
+out_interface
+# Driving-force output?                                ('driv')
+# Options:     out_driv_force   no_out_driv_force
+no_out_driv_force
+# Interface mobility output?                           ('mueS')
+# Options:     out_mobility     no_out_mobility
+out_mobility
+# Curvature output?                                    ('krum')
+# Options:     out_curvature    no_out_curvature
+out_curvature
+# Interface velocity output?                           ('vel')
+# Options:     out_velocity     no_out_velocity
+out_velocity
+# Should the grain-time file be written out?           ('TabK')
+# Options:     tab_grains       no_tab_grains          [extra|standard]
+tab_grains
+# Should the 'von Neumann Mullins' output be written out?       ('TabN')
+# Options:    tab_vnm    no_tab_vnm
+tab_vnm
+# Should the 'grain data output' be written out?       ('TabGD')
+# Options:    tab_grain_data    no_tab_grain_data
+no_tab_grain_data
+# Temperature output?                                  ('temp')
+# Options:     out_temp         no_out_temp
+no_out_temp
+# Recrystallisation energy output?                     ('rex')
+# Options:     out_recrystall   no_out_recrystall
+no_out_recrystall
+# Recrystallised fraction output?                      ('TabR')
+# Options:     tab_recrystall   no_tab_recrystall
+no_tab_recrystall
+# Dislocation density output?                          ('rhoD')
+# Options:     out_disloc       no_out_disloc
+no_out_disloc
+# Miller-Indices output?                               ('mill')
+# Options:     out_miller       no_out_miller
+no_out_miller
+# Orientation output?                                  ('orie')
+# Options:     out_orientation  no_out_orientation
+no_out_orientation
+# Should the orientation-time file be written?         ('TabO')
+# Options:   tab_orientation  no_tab_orientation    [rotmat]
+no_tab_orientation
+# Should monitoring outputs be written out?            ('TabL')
+# Options:     tab_log [simulation time, s] [wallclock time, min]  no_tab_log
+tab_log 0.5
+#
+#
+# Time input data
+# ===============
+# Finish input of output times (in seconds) with 'end_of_simulation'
+# 'regularly-spaced' outputs can be set with 'linear_step'
+# or 'logarithmic_step' and then specifying the increment
+# and end value
+# ('automatic_outputs' optionally followed by the number
+#  of outputs can be used in conjuction with 'linear_from_file')
+#  'first'                  : additional output for first time-step
+#  'end_at_temperature'    : additional output and end of simulation
+#                             at given temperature
+linear_step 005.0 0020.0
+linear_step 010.0 0250.0
+linear_step 050.0 1000.0
+end_of_simulation
+# Time-step?
+# Options:   fix ...[s]   automatic    automatic_limited
+automatic
+# Coefficient for phase-field criterion 1.00
+# Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]?
+5
+#
+#
+# Phase data
+# ==========
+# Number of distinct solid phases?
+1
+#
+# Data for phase 1:
+# -----------------
+# Simulation of recrystallisation in phase 1?
+# Options:   recrystall     no_recrystall   [verbose|no_verbose]
+no_recrystall
+# Is phase 1 anisotrop?
+# Options: isotropic  anisotropic  faceted_a faceted_b  antifaceted
+isotropic
+# Should grains of phase 1 be reduced to categories?
+# Options:   categorize no_categorize
+no_categorize
+#
+#
+# Grain input
+# ===========
+# Type of grain positioning?
+# Options:  deterministic   random [deterministic_infile]   from_file
+from_file
+# Filename of initial grain/phase structure [VTK_identifier  (default=korn)] ?
+T020_Grain_Growth_Microstructure.txt
+# Treatment of data?
+# (n: none, 1: 1D, f: flip (bottom<->top), t: transpose,
+#  or p: 'phase to grains transformation')
+fp
+# CellsX for initial microstructure?
+500
+# CellsZ for initial microstructure?
+400
+# Number of grains at the beginning?
+# (Set to less than 1 for the number of grain to be read from the input data,
+#  with optionally a minimal size, in cells)
+-1
+# Read grain properties from a file?
+# Options:    input      from_file    identical    blocks
+identical
+# Input data for grain number 1:
+# Phase number?   (integer)
+1
+# 'Non-geometric' data for grains 1 to 53 identical
+#
+#
+# Data for further nucleation
+# ===========================
+# Enable further nucleation?
+# Options:  nucleation   nucleation_symm   no_nucleation  [verbose|no_verbose]
+no_nucleation
+#
+#
+# Phase interaction data
+# ======================
+#
+# Data for phase interaction 0 / 1:
+# ---------------------------------
+# Simulation of interaction between phases 0 and 1?
+# Options: phase_interaction  no_phase_interaction
+#  [standard|particle_pinning[_temperature]|solute_drag]
+#   |[no_junction_force|junction_force]
+no_phase_interaction
+#
+# Data for phase interaction 1 / 1:
+# ---------------------------------
+# Simulation of interaction between phases 1 and 1?
+# Options: phase_interaction  no_phase_interaction  identical phases nb
+#  [standard|particle_pinning[_temperature]|solute_drag]
+#   |[no_junction_force|junction_force]
+phase_interaction solute_drag
+# Type of interfacial energy definition between phases 1 and 1?
+# Options:  constant  temp_dependent
+constant
+# Interfacial energy between phases 1 and 1? [J/cm**2]
+#     [max. value for num. interface stabilisation [J/cm**2]]
+1.00000E-05
+# Type of mobility definition between phases 1 and 1?
+# Options: constant temp_dependent dg_dependent [fixed_minimum]
+constant
+# Kinetic coefficient mu between phases 1 and 1  [ min. value ] [cm**4/(Js)] ?
+5.00000E-03
+# critical velocity       [micrometer/s]
+5.00000E-02
+# transition range deltaV [micrometer/s]
+1.00000E-02
+# Drag factor (real) < 1.
+0.20000
+#
+#
+# Phase diagram - input data
+# ==========================
+#
+#
+#
+#
+# Boundary conditions
+# ===================
+# Type of temperature trend?
+# Options:   linear     linear_from_file     profiles_from_file
+linear
+# Number of connecting points?    (integer)
+0
+# Initial temperature at the bottom?  (real)  [K]
+1000.000
+# Temperature gradient in z-direction?  [K/cm]
+0.0000
+# Cooling rate? [K/s]
+0.0000
+# Moving-frame system in z-direction?
+# Options:      moving_frame      no_moving_frame
+no_moving_frame
+#
+# Boundary conditions for phase field in each direction
+# Options: i (insulation) s (symmetric) p (periodic/wrap-around)
+#          g (gradient)   f (fixed)     w (wetting)
+# Sequence: W E (S N, if 3D) B T borders
+pppp
+# Unit-cell model symmetric with respect to the x/y diagonal plane?
+# Options:    unit_cell_symm   no_unit_cell_symm
+no_unit_cell_symm
+#
+#
+# Other numerical parameters
+# ==========================
+# Phase minimum?
+1.00E-04
+# Interface thickness (in cells)?
+4.00
+#
+#

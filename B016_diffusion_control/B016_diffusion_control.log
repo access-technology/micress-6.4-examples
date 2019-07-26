@@ -1,0 +1,262 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (04:13)
+ Machine: n008
+ Driving file: B016_diffusion_control_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 1, 1, 100
+ deltaX, deltaY, deltaZ [cm] = 5.0000E-05, 5.0000E-05, 5.0000E-05
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Multi-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 5
+ Intermediate output at t       = 8.0000000E-01 s
+ Intermediate output at t       = 1.6000000E+00 s
+ Intermediate output at t       = 2.4000000E+00 s
+ Intermediate output at t       = 3.2000000E+00 s
+ Intermediate output at t       = 4.0000000E+00 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.000E+20
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 100
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 1
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is isotropic.
+ No categorization is allowed for phase 1
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 1
+ Input data for grain number 1:
+  'Rectangular' grain.
+  x,z coordinates               : 0.00000, 0.00000 micrometers
+  Length along X,Z axis         : 2.00000, 15.0000 micrometers
+  No Voronoi construction
+  Phase number                  : 1
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation disabled
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  Averaging coefficient        Av = +0.50
+  Interfacial energy        sigma = 1.00000E-04 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E+10 [cm**4/(Js)]
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will not be simulated.
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 1
+ Concentration in weight percent wt%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will be solved.
+ Diff.-coefficient:
+ Prefactor: 1.000000000000000E-005 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+ Diffusion of component 1  in phase 1  will not be solved.
+
+
+ Phase diagram - input data
+ **************************
+
+ TC-Coupling is not performed
+
+ Input of the phase diagram of phase 0 and phase 1:
+ --------------------------------------------------
+ Linear phase diagram is used
+  Temperature of the cut = 935.000000000000 K
+  conc0( 0: 1: 1) = 0.00000E+00 [wt%]
+  conc0( 1: 0: 1) = 0.00000E+00 [wt%]
+  Slope       mSlope( 1: 0: 1) = -5.50000E+01 K/wt%
+  Slope       mSlope( 0: 1: 1) = -5.00000E+00 K/wt%
+ Redistribution characteristics of components:
+ 1:  ATC
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 0
+ Initial concentration of component 1 in phase 0 = 3.000000000 wt%
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 880.0000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: 0.0000 K/s
+ Simulation domain shifted in z-direction
+ minimal distance to the upper boundary MovingFrameDist = 38.50000 micrometer
+ Data shifted out from moving-frame system will not be stored
+ 
+ In W-direction isolation boundary condition for phase field
+ In E-direction isolation boundary condition for phase field
+ In B-direction isolation boundary condition for phase field
+ In T-direction isolation boundary condition for phase field
+ 
+ In W-direction isolation boundary condition for concentration field
+ In E-direction isolation boundary condition for concentration field
+ In B-direction isolation boundary condition for concentration field
+ In T-direction fixed boundary condition for concentration field
+ Fixed value for concentration field for component 1 in T-direction 3.00000 wt%
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 4.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ # Grain number 1 set
+ Equilibrium temperature T_Glgew = 920.0000 K
+ Phase  0, Component  0: 97.00000
+ Phase  0, Component  1: 3.000000
+ Phase  1, Component  0: 99.72727
+ Phase  1, Component  1:0.2727273
+ 
+ # tWidth_max( 0 : 1 ) = 1.1875000E-15 s
+ # Maximal value for tWidth = 1.1875000E-15 s for phase-field solver
+ # Maximal value for tWidth = 1.1875000E-04 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 1.18750E-15 s
+ # Initial value for tWidth = 1.18750E-15 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 1.0000 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 1.19E-15 s
+ Average conc. of comp. 1 = 2.5909091 wt%
+ Temperature at the bottom = 880.00 K
+ Temperature gradient = 0.00000 K/cm
+ Fraction of phase 0: 0.85000
+ Fraction of phase 1: 0.15000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Intermediate output for t = 0.80000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 1.01E-04 s
+ Average conc. of comp. 1 = 4.8648041 wt%
+ Temperature at the bottom = 880.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 134 layers
+ Velocity of the comoving frame = 0.8375E-02 cm/s
+
+ Intermediate output for t = 1.6000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 9.78E-05 s
+ Average conc. of comp. 1 = 5.0450900 wt%
+ Temperature at the bottom = 880.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 202 layers
+ Velocity of the comoving frame = 0.4250E-02 cm/s
+
+ Intermediate output for t = 2.4000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 1.13E-04 s
+ Average conc. of comp. 1 = 5.0473565 wt%
+ Temperature at the bottom = 880.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 266 layers
+ Velocity of the comoving frame = 0.4000E-02 cm/s
+
+ Intermediate output for t = 3.2000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 9.63E-05 s
+ Average conc. of comp. 1 = 5.0601678 wt%
+ Temperature at the bottom = 880.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 331 layers
+ Velocity of the comoving frame = 0.4063E-02 cm/s
+
+ Intermediate output for t = 4.0000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 1.06E-04 s
+ Average conc. of comp. 1 = 5.0528489 wt%
+ Temperature at the bottom = 880.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 395 layers
+ Velocity of the comoving frame = 0.4000E-02 cm/s
+
+ ==================================================
+
+ Simulation run on machine n008
+ Remaining license time: permanent
+ CPU time in seconds:           5
+ Wall clock time in seconds:  496
+ End
+ 

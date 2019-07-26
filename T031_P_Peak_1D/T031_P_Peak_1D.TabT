@@ -1,0 +1,3 @@
+ #    Sim.      Temp.     Ph.-F.   Time-step   dt PF   Ph.1 Ph.2     Pointer  dt Seg.  Ph.1 Ph.2     Pointer
+ #  time [s]     [K]       steps      [s]       [s]    (PF) (PF)        (PF)    [s]    (S.) (S.)      (Seg.)
+  0.0000      1764.750         0    1.65E-05  0.00E+00    0    0           0  2.23-308    0    0           0

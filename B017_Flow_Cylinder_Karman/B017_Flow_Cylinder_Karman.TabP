@@ -1,0 +1,4 @@
+# Simulation     CPU Time      Wallclock      TQ Time       PF Time      Diff Time      ATC Time     List Time     Seed Time   Enthalpy Time  Volume Time    Stress Time   Temp1d Time    Temp Time     Flow Time  Expansion Time
+#  time [s]        [s]         Time [s]         [s]           [s]           [s]           [s]           [s]           [s]           [s]           [s]           [s]           [s]           [s]          [s]
+  0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000    
+ 1.0000000E-03  853.1453      870.2950      0.000000      1.199000      0.000000      0.000000     0.7300000E-01 0.1500000E-01  0.000000      0.000000      0.000000      0.000000      0.000000      853.4480      0.000000    

@@ -1,0 +1,3469 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (04:56)
+ Machine: n009
+ Driving file: T028_Grain_Growth_3D_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 150, 150, 150
+ deltaX, deltaY, deltaZ [cm] = 1.0000E-04, 1.0000E-04, 1.0000E-04
+
+ Flags
+ -----
+ Phase-field simulation without coupling
+ 'Multi-obstacle' potential
+ IFaceDim coeff. : 0.750 (0.95, 0.75)
+ nTupelDim coeff.: 0.750 (0.95, 0.75)
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 15
+ Intermediate output at t       = 5.0000000E+01 s
+ Intermediate output at t       = 1.0000000E+02 s
+ Intermediate output at t       = 1.5000000E+02 s
+ Intermediate output at t       = 2.0000000E+02 s
+ Intermediate output at t       = 2.5000000E+02 s
+ Intermediate output at t       = 3.0000000E+02 s
+ Intermediate output at t       = 3.5000000E+02 s
+ Intermediate output at t       = 4.0000000E+02 s
+ Intermediate output at t       = 4.5000000E+02 s
+ Intermediate output at t       = 5.0000000E+02 s
+ Intermediate output at t       = 6.0000000E+02 s
+ Intermediate output at t       = 7.0000000E+02 s
+ Intermediate output at t       = 8.0000000E+02 s
+ Intermediate output at t       = 9.0000000E+02 s
+ Intermediate output at t       = 1.0000000E+03 s
+ Coefficient for phase-field criterion 1.00
+ Weight factor for bulk increment = 1.000E-07
+ Upper limit for time step: 1.000E+20
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 20
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 1
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is isotropic.
+ No categorization is allowed for phase 1
+
+
+ Grain input
+ ***********
+ Grains will be positioned randomly
+ Integer for randomization: 77
+ Number of different types of grains: 1
+ Number of grains of type 1: 400
+
+ Input for grain type 1
+ ----------------------
+  For grain type 1 round grains will be set.
+  Minimal value of x-coordinates: 0.00000 micrometers
+  Maximal value of x-coordinates: 150.000 micrometers
+  Minimal value of y-coordinates: 0.00000 micrometers
+  Maximal value of y-coordinates: 0.00000 micrometers
+  Minimal value of z-coordinates: 0.00000 micrometers
+  Maximal value of z-coordinates: 150.000 micrometers
+  Minimum grain radius: 30.0000 micrometers
+  Maximum grain radius: 50.0000 micrometers
+  Grain type 1 is stabilized
+  For grains of type 1 will be set according to the Voronoi construction
+  Phase number for grain type 1: 1
+  Minimal distance between grains is: 15.000 micrometers
+
+ I.e.:
+ -----
+ Number of grains = 400
+ Input data for grain number 1:
+  'Round' grain.
+  x,y,z coordinates             : 118.831, 139.454, 133.798 micrometers
+  Grain radius                  : 44.105 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 2:
+  'Round' grain.
+  x,y,z coordinates             : 56.0265, 101.553, 62.6654 micrometers
+  Grain radius                  : 45.507 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 3:
+  'Round' grain.
+  x,y,z coordinates             : 11.2086, 72.8691, 138.075 micrometers
+  Grain radius                  : 39.650 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 4:
+  'Round' grain.
+  x,y,z coordinates             : 60.7148, 144.852, 32.4034 micrometers
+  Grain radius                  : 49.665 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 5:
+  'Round' grain.
+  x,y,z coordinates             : 35.1715, 74.3383, 5.26871 micrometers
+  Grain radius                  : 48.369 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 6:
+  'Round' grain.
+  x,y,z coordinates             : 56.9351, 6.39716, 122.627 micrometers
+  Grain radius                  : 49.614 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 7:
+  'Round' grain.
+  x,y,z coordinates             : 134.349, 140.366, 112.366 micrometers
+  Grain radius                  : 34.573 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 8:
+  'Round' grain.
+  x,y,z coordinates             : 55.2170, 123.224, 32.9995 micrometers
+  Grain radius                  : 40.263 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 9:
+  'Round' grain.
+  x,y,z coordinates             : 138.900, 105.655, 110.807 micrometers
+  Grain radius                  : 30.491 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 10:
+  'Round' grain.
+  x,y,z coordinates             : 60.0434, 107.511, 39.6948 micrometers
+  Grain radius                  : 37.205 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 11:
+  'Round' grain.
+  x,y,z coordinates             : 112.479, 10.9823, 99.8738 micrometers
+  Grain radius                  : 43.238 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 12:
+  'Round' grain.
+  x,y,z coordinates             : 145.839, 61.8310, 135.244 micrometers
+  Grain radius                  : 34.864 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 13:
+  'Round' grain.
+  x,y,z coordinates             : 113.473, 84.9524, 121.943 micrometers
+  Grain radius                  : 46.660 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 14:
+  'Round' grain.
+  x,y,z coordinates             : 7.48581, 70.6934, 94.3920 micrometers
+  Grain radius                  : 31.845 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 15:
+  'Round' grain.
+  x,y,z coordinates             : 96.4513, 119.342, 59.3505 micrometers
+  Grain radius                  : 43.501 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 16:
+  'Round' grain.
+  x,y,z coordinates             : 138.927, 104.999, 81.6745 micrometers
+  Grain radius                  : 47.315 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 17:
+  'Round' grain.
+  x,y,z coordinates             : 76.8356, 77.4530, 55.5930 micrometers
+  Grain radius                  : 38.290 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 18:
+  'Round' grain.
+  x,y,z coordinates             : 148.396, 74.9756, 106.780 micrometers
+  Grain radius                  : 43.248 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 19:
+  'Round' grain.
+  x,y,z coordinates             : 98.1505, 67.8834, 48.2316 micrometers
+  Grain radius                  : 49.413 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 20:
+  'Round' grain.
+  x,y,z coordinates             : 132.485, 83.3234, 7.71738 micrometers
+  Grain radius                  : 43.989 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 21:
+  'Round' grain.
+  x,y,z coordinates             : 46.4864, 85.0469, 145.611 micrometers
+  Grain radius                  : 33.936 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 22:
+  'Round' grain.
+  x,y,z coordinates             : 31.9735, 64.0017, 135.802 micrometers
+  Grain radius                  : 44.073 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 23:
+  'Round' grain.
+  x,y,z coordinates             : 87.3151, 77.4474, 1.41738 micrometers
+  Grain radius                  : 30.304 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 24:
+  'Round' grain.
+  x,y,z coordinates             : 99.4363, 114.220, 88.5152 micrometers
+  Grain radius                  : 42.575 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 25:
+  'Round' grain.
+  x,y,z coordinates             : 25.1435, 87.8164, 118.822 micrometers
+  Grain radius                  : 40.517 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 26:
+  'Round' grain.
+  x,y,z coordinates             : 104.639, 25.7900, 100.168 micrometers
+  Grain radius                  : 42.020 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 27:
+  'Round' grain.
+  x,y,z coordinates             : 7.60103, 138.237, 119.507 micrometers
+  Grain radius                  : 46.588 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 28:
+  'Round' grain.
+  x,y,z coordinates             : 37.0303, 111.445, 3.56748 micrometers
+  Grain radius                  : 45.104 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 29:
+  'Round' grain.
+  x,y,z coordinates             : 38.2247, 133.286, 29.1139 micrometers
+  Grain radius                  : 43.192 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 30:
+  'Round' grain.
+  x,y,z coordinates             : 73.1269, 54.6396, 4.10999 micrometers
+  Grain radius                  : 42.141 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 31:
+  'Round' grain.
+  x,y,z coordinates             : 87.2968, 35.4367, 46.2684 micrometers
+  Grain radius                  : 47.374 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 32:
+  'Round' grain.
+  x,y,z coordinates             : 123.625, 11.9396, 19.9822 micrometers
+  Grain radius                  : 40.635 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 33:
+  'Round' grain.
+  x,y,z coordinates             : 133.987, 66.3924, 36.7159 micrometers
+  Grain radius                  : 34.461 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 34:
+  'Round' grain.
+  x,y,z coordinates             : 72.7498, 9.71448, 101.123 micrometers
+  Grain radius                  : 34.880 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 35:
+  'Round' grain.
+  x,y,z coordinates             : 41.7830, 135.459, 121.678 micrometers
+  Grain radius                  : 33.874 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 36:
+  'Round' grain.
+  x,y,z coordinates             : 105.129, 66.5603, 24.9593 micrometers
+  Grain radius                  : 46.666 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 37:
+  'Round' grain.
+  x,y,z coordinates             : 147.525, 42.6758, 102.595 micrometers
+  Grain radius                  : 48.301 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 38:
+  'Round' grain.
+  x,y,z coordinates             : 12.8003, 132.568, 42.0519 micrometers
+  Grain radius                  : 41.873 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 39:
+  'Round' grain.
+  x,y,z coordinates             : 146.487, 7.79945, 7.22217 micrometers
+  Grain radius                  : 35.275 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 40:
+  'Round' grain.
+  x,y,z coordinates             : 55.3439, 69.8646, 69.8702 micrometers
+  Grain radius                  : 48.132 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 41:
+  'Round' grain.
+  x,y,z coordinates             : 125.682, 75.6783, 58.3787 micrometers
+  Grain radius                  : 38.531 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 42:
+  'Round' grain.
+  x,y,z coordinates             : 137.319, 58.8792, 10.5450 micrometers
+  Grain radius                  : 39.480 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 43:
+  'Round' grain.
+  x,y,z coordinates             : 134.105, 61.9061, 97.7335 micrometers
+  Grain radius                  : 41.532 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 44:
+  'Round' grain.
+  x,y,z coordinates             : 64.9552, 148.247, 46.7580 micrometers
+  Grain radius                  : 30.026 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 45:
+  'Round' grain.
+  x,y,z coordinates             : 47.4561, 102.177, 95.5573 micrometers
+  Grain radius                  : 34.385 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 46:
+  'Round' grain.
+  x,y,z coordinates             : 97.9815, 70.7411, 137.610 micrometers
+  Grain radius                  : 37.336 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 47:
+  'Round' grain.
+  x,y,z coordinates             : 127.605, 48.6395, 66.9985 micrometers
+  Grain radius                  : 43.861 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 48:
+  'Round' grain.
+  x,y,z coordinates             : 125.971, 35.3218, 1.86613 micrometers
+  Grain radius                  : 41.969 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 49:
+  'Round' grain.
+  x,y,z coordinates             : 26.9932, 14.3407, 71.7986 micrometers
+  Grain radius                  : 31.902 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 50:
+  'Round' grain.
+  x,y,z coordinates             : 82.8793, 23.4690, 10.0806 micrometers
+  Grain radius                  : 47.387 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 51:
+  'Round' grain.
+  x,y,z coordinates             : 60.6816, 123.569, 12.9303 micrometers
+  Grain radius                  : 46.216 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 52:
+  'Round' grain.
+  x,y,z coordinates             : 13.5274, 99.2076, 21.4128 micrometers
+  Grain radius                  : 43.794 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 53:
+  'Round' grain.
+  x,y,z coordinates             : 146.741, 70.2482, 22.7693 micrometers
+  Grain radius                  : 48.503 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 54:
+  'Round' grain.
+  x,y,z coordinates             : 133.049, 27.4331, 48.9297 micrometers
+  Grain radius                  : 48.448 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 55:
+  'Round' grain.
+  x,y,z coordinates             : 31.3456, 85.7879, 134.606 micrometers
+  Grain radius                  : 42.956 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 56:
+  'Round' grain.
+  x,y,z coordinates             : 70.1724, 95.3083, 0.452831 micrometers
+  Grain radius                  : 37.260 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 57:
+  'Round' grain.
+  x,y,z coordinates             : 119.725, 28.9775, 106.203 micrometers
+  Grain radius                  : 30.518 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 58:
+  'Round' grain.
+  x,y,z coordinates             : 135.359, 115.210, 13.7540 micrometers
+  Grain radius                  : 30.540 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 59:
+  'Round' grain.
+  x,y,z coordinates             : 9.71672, 94.6591, 130.904 micrometers
+  Grain radius                  : 48.725 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 60:
+  'Round' grain.
+  x,y,z coordinates             : 57.2038, 55.9990, 115.478 micrometers
+  Grain radius                  : 33.881 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 61:
+  'Round' grain.
+  x,y,z coordinates             : 3.65223, 101.899, 7.83319 micrometers
+  Grain radius                  : 47.529 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 62:
+  'Round' grain.
+  x,y,z coordinates             : 66.9214, 62.2137, 26.5317 micrometers
+  Grain radius                  : 32.712 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 63:
+  'Round' grain.
+  x,y,z coordinates             : 59.2162, 53.9555, 37.9370 micrometers
+  Grain radius                  : 36.435 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 64:
+  'Round' grain.
+  x,y,z coordinates             : 70.5910, 110.999, 86.2193 micrometers
+  Grain radius                  : 47.398 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 65:
+  'Round' grain.
+  x,y,z coordinates             : 140.298, 46.4165, 146.168 micrometers
+  Grain radius                  : 30.851 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 66:
+  'Round' grain.
+  x,y,z coordinates             : 15.9753, 121.696, 28.6980 micrometers
+  Grain radius                  : 43.465 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 67:
+  'Round' grain.
+  x,y,z coordinates             : 50.9292, 123.744, 51.4533 micrometers
+  Grain radius                  : 32.540 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 68:
+  'Round' grain.
+  x,y,z coordinates             : 23.1322, 36.0617, 103.694 micrometers
+  Grain radius                  : 49.859 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 69:
+  'Round' grain.
+  x,y,z coordinates             : 1.97471, 18.2295, 46.9279 micrometers
+  Grain radius                  : 43.895 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 70:
+  'Round' grain.
+  x,y,z coordinates             : 18.6560, 41.2555, 18.4755 micrometers
+  Grain radius                  : 33.582 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 71:
+  'Round' grain.
+  x,y,z coordinates             : 95.5730, 62.7478, 6.88252 micrometers
+  Grain radius                  : 37.903 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 72:
+  'Round' grain.
+  x,y,z coordinates             : 106.253, 15.9135, 82.8066 micrometers
+  Grain radius                  : 42.053 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 73:
+  'Round' grain.
+  x,y,z coordinates             : 121.643, 55.5048, 148.820 micrometers
+  Grain radius                  : 30.005 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 74:
+  'Round' grain.
+  x,y,z coordinates             : 117.888, 68.3651, 98.7453 micrometers
+  Grain radius                  : 49.631 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 75:
+  'Round' grain.
+  x,y,z coordinates             : 127.106, 21.9799, 147.065 micrometers
+  Grain radius                  : 38.444 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 76:
+  'Round' grain.
+  x,y,z coordinates             : 85.5350, 141.565, 15.7338 micrometers
+  Grain radius                  : 45.224 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 77:
+  'Round' grain.
+  x,y,z coordinates             : 105.224, 50.6687, 145.288 micrometers
+  Grain radius                  : 31.317 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 78:
+  'Round' grain.
+  x,y,z coordinates             : 45.2739, 108.711, 77.8562 micrometers
+  Grain radius                  : 49.720 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 79:
+  'Round' grain.
+  x,y,z coordinates             : 42.8613, 146.648, 15.5952 micrometers
+  Grain radius                  : 35.817 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 80:
+  'Round' grain.
+  x,y,z coordinates             : 17.3192, 32.5467, 149.441 micrometers
+  Grain radius                  : 40.301 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 81:
+  'Round' grain.
+  x,y,z coordinates             : 63.2740, 9.29094, 26.9629 micrometers
+  Grain radius                  : 30.202 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 82:
+  'Round' grain.
+  x,y,z coordinates             : 126.486, 107.414, 93.4178 micrometers
+  Grain radius                  : 47.011 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 83:
+  'Round' grain.
+  x,y,z coordinates             : 149.813, 71.4299, 69.4724 micrometers
+  Grain radius                  : 40.508 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 84:
+  'Round' grain.
+  x,y,z coordinates             : 74.6353, 87.1946, 101.356 micrometers
+  Grain radius                  : 45.349 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 85:
+  'Round' grain.
+  x,y,z coordinates             : 95.9301, 78.6001, 81.7580 micrometers
+  Grain radius                  : 36.790 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 86:
+  'Round' grain.
+  x,y,z coordinates             : 19.4238, 85.2041, 6.98099 micrometers
+  Grain radius                  : 45.521 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 87:
+  'Round' grain.
+  x,y,z coordinates             : 130.168, 5.69221, 121.493 micrometers
+  Grain radius                  : 35.258 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 88:
+  'Round' grain.
+  x,y,z coordinates             : 71.6993, 140.037, 66.8677 micrometers
+  Grain radius                  : 41.690 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 89:
+  'Round' grain.
+  x,y,z coordinates             : 34.4144, 130.537, 11.9020 micrometers
+  Grain radius                  : 30.902 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 90:
+  'Round' grain.
+  x,y,z coordinates             : 91.8799, 99.3805, 10.0238 micrometers
+  Grain radius                  : 48.161 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 91:
+  'Round' grain.
+  x,y,z coordinates             : 138.232, 53.2436, 124.635 micrometers
+  Grain radius                  : 36.643 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 92:
+  'Round' grain.
+  x,y,z coordinates             : 45.3286, 38.6255, 51.9294 micrometers
+  Grain radius                  : 38.362 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 93:
+  'Round' grain.
+  x,y,z coordinates             : 115.116, 39.0869, 138.575 micrometers
+  Grain radius                  : 36.274 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 94:
+  'Round' grain.
+  x,y,z coordinates             : 6.04084, 34.6654, 63.3020 micrometers
+  Grain radius                  : 35.466 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 95:
+  'Round' grain.
+  x,y,z coordinates             : 99.2101, 49.2071, 49.8946 micrometers
+  Grain radius                  : 40.561 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 96:
+  'Round' grain.
+  x,y,z coordinates             : 79.6992, 81.7079, 149.147 micrometers
+  Grain radius                  : 33.370 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 97:
+  'Round' grain.
+  x,y,z coordinates             : 87.8538, 71.0988, 119.013 micrometers
+  Grain radius                  : 35.776 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 98:
+  'Round' grain.
+  x,y,z coordinates             : 80.6259, 25.2671, 83.6533 micrometers
+  Grain radius                  : 38.204 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 99:
+  'Round' grain.
+  x,y,z coordinates             : 59.6631, 1.06156, 89.4847 micrometers
+  Grain radius                  : 37.016 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 100:
+  'Round' grain.
+  x,y,z coordinates             : 73.6642, 39.0853, 59.3772 micrometers
+  Grain radius                  : 41.658 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 101:
+  'Round' grain.
+  x,y,z coordinates             : 114.679, 34.5053, 45.1632 micrometers
+  Grain radius                  : 32.266 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 102:
+  'Round' grain.
+  x,y,z coordinates             : 97.9390, 15.2347, 139.077 micrometers
+  Grain radius                  : 31.857 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 103:
+  'Round' grain.
+  x,y,z coordinates             : 70.0384, 26.0540, 18.6345 micrometers
+  Grain radius                  : 35.996 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 104:
+  'Round' grain.
+  x,y,z coordinates             : 1.81751, 33.6410, 143.887 micrometers
+  Grain radius                  : 39.138 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 105:
+  'Round' grain.
+  x,y,z coordinates             : 6.47985, 87.1434, 38.3826 micrometers
+  Grain radius                  : 45.128 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 106:
+  'Round' grain.
+  x,y,z coordinates             : 145.104, 142.697, 83.7915 micrometers
+  Grain radius                  : 45.370 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 107:
+  'Round' grain.
+  x,y,z coordinates             : 13.4914, 84.4977, 67.6881 micrometers
+  Grain radius                  : 44.136 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 108:
+  'Round' grain.
+  x,y,z coordinates             : 24.3477, 84.5943, 34.6691 micrometers
+  Grain radius                  : 48.177 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 109:
+  'Round' grain.
+  x,y,z coordinates             : 86.9200, 105.105, 103.018 micrometers
+  Grain radius                  : 47.666 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 110:
+  'Round' grain.
+  x,y,z coordinates             : 29.6663, 1.96532, 142.183 micrometers
+  Grain radius                  : 40.016 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 111:
+  'Round' grain.
+  x,y,z coordinates             : 120.614, 116.247, 61.7526 micrometers
+  Grain radius                  : 30.738 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 112:
+  'Round' grain.
+  x,y,z coordinates             : 95.7071, 4.54172, 92.2842 micrometers
+  Grain radius                  : 44.072 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 113:
+  'Round' grain.
+  x,y,z coordinates             : 66.2787, 70.6369, 7.64861 micrometers
+  Grain radius                  : 37.871 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 114:
+  'Round' grain.
+  x,y,z coordinates             : 81.6667, 33.1319, 106.097 micrometers
+  Grain radius                  : 41.550 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 115:
+  'Round' grain.
+  x,y,z coordinates             : 37.5160, 54.4660, 30.4576 micrometers
+  Grain radius                  : 41.068 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 116:
+  'Round' grain.
+  x,y,z coordinates             : 113.292, 109.726, 8.85245 micrometers
+  Grain radius                  : 49.931 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 117:
+  'Round' grain.
+  x,y,z coordinates             : 76.9788, 8.83177, 128.476 micrometers
+  Grain radius                  : 35.374 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 118:
+  'Round' grain.
+  x,y,z coordinates             : 59.5554, 18.7527, 82.8804 micrometers
+  Grain radius                  : 33.281 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 119:
+  'Round' grain.
+  x,y,z coordinates             : 148.734, 123.103, 44.0016 micrometers
+  Grain radius                  : 42.322 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 120:
+  'Round' grain.
+  x,y,z coordinates             : 18.2352, 51.2226, 106.220 micrometers
+  Grain radius                  : 47.905 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 121:
+  'Round' grain.
+  x,y,z coordinates             : 70.3965, 56.0923, 134.747 micrometers
+  Grain radius                  : 44.259 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 122:
+  'Round' grain.
+  x,y,z coordinates             : 125.481, 45.5517, 83.2205 micrometers
+  Grain radius                  : 43.533 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 123:
+  'Round' grain.
+  x,y,z coordinates             : 75.6492, 13.0492, 45.1826 micrometers
+  Grain radius                  : 37.147 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 124:
+  'Round' grain.
+  x,y,z coordinates             : 44.7201, 85.1499, 33.6736 micrometers
+  Grain radius                  : 38.753 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 125:
+  'Round' grain.
+  x,y,z coordinates             : 30.5070, 38.4679, 141.238 micrometers
+  Grain radius                  : 45.903 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 126:
+  'Round' grain.
+  x,y,z coordinates             : 51.7112, 35.0093, 81.8555 micrometers
+  Grain radius                  : 42.894 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 127:
+  'Round' grain.
+  x,y,z coordinates             : 48.5838, 32.9296, 146.724 micrometers
+  Grain radius                  : 40.313 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 128:
+  'Round' grain.
+  x,y,z coordinates             : 26.4117, 13.4234, 14.9062 micrometers
+  Grain radius                  : 31.263 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 129:
+  'Round' grain.
+  x,y,z coordinates             : 79.8422, 60.2651, 60.0448 micrometers
+  Grain radius                  : 48.207 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 130:
+  'Round' grain.
+  x,y,z coordinates             : 132.449, 148.229, 135.412 micrometers
+  Grain radius                  : 32.093 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 131:
+  'Round' grain.
+  x,y,z coordinates             : 149.493, 144.800, 8.91182 micrometers
+  Grain radius                  : 44.208 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 132:
+  'Round' grain.
+  x,y,z coordinates             : 1.15667, 5.84950, 129.876 micrometers
+  Grain radius                  : 44.376 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 133:
+  'Round' grain.
+  x,y,z coordinates             : 28.0450, 113.970, 50.4589 micrometers
+  Grain radius                  : 37.566 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 134:
+  'Round' grain.
+  x,y,z coordinates             : 89.5600, 29.4490, 26.4480 micrometers
+  Grain radius                  : 33.326 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 135:
+  'Round' grain.
+  x,y,z coordinates             : 80.1720, 56.5449, 38.5326 micrometers
+  Grain radius                  : 38.722 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 136:
+  'Round' grain.
+  x,y,z coordinates             : 149.059, 143.045, 142.486 micrometers
+  Grain radius                  : 39.455 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 137:
+  'Round' grain.
+  x,y,z coordinates             : 108.969, 140.994, 71.5798 micrometers
+  Grain radius                  : 35.799 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 138:
+  'Round' grain.
+  x,y,z coordinates             : 110.160, 102.044, 23.6374 micrometers
+  Grain radius                  : 40.515 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 139:
+  'Round' grain.
+  x,y,z coordinates             : 34.7786, 99.9116, 142.472 micrometers
+  Grain radius                  : 42.160 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 140:
+  'Round' grain.
+  x,y,z coordinates             : 67.9938, 144.345, 140.524 micrometers
+  Grain radius                  : 47.352 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 141:
+  'Round' grain.
+  x,y,z coordinates             : 109.683, 54.2331, 116.331 micrometers
+  Grain radius                  : 33.720 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 142:
+  'Round' grain.
+  x,y,z coordinates             : 121.059, 5.04212, 81.5015 micrometers
+  Grain radius                  : 34.028 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 143:
+  'Round' grain.
+  x,y,z coordinates             : 64.3579, 86.9729, 28.1940 micrometers
+  Grain radius                  : 35.486 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 144:
+  'Round' grain.
+  x,y,z coordinates             : 89.9325, 71.0030, 35.3756 micrometers
+  Grain radius                  : 41.389 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 145:
+  'Round' grain.
+  x,y,z coordinates             : 3.52705, 121.329, 55.1269 micrometers
+  Grain radius                  : 35.497 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 146:
+  'Round' grain.
+  x,y,z coordinates             : 81.1366, 62.0728, 147.779 micrometers
+  Grain radius                  : 43.678 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 147:
+  'Round' grain.
+  x,y,z coordinates             : 135.784, 10.0106, 37.2560 micrometers
+  Grain radius                  : 36.586 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 148:
+  'Round' grain.
+  x,y,z coordinates             : 77.3753, 131.636, 144.478 micrometers
+  Grain radius                  : 32.190 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 149:
+  'Round' grain.
+  x,y,z coordinates             : 108.575, 11.7257, 30.4867 micrometers
+  Grain radius                  : 30.784 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 150:
+  'Round' grain.
+  x,y,z coordinates             : 139.285, 68.8595, 83.5415 micrometers
+  Grain radius                  : 44.228 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 151:
+  'Round' grain.
+  x,y,z coordinates             : 120.433, 28.6239, 77.5665 micrometers
+  Grain radius                  : 49.326 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 152:
+  'Round' grain.
+  x,y,z coordinates             : 14.3536, 9.38564, 144.082 micrometers
+  Grain radius                  : 40.791 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 153:
+  'Round' grain.
+  x,y,z coordinates             : 86.7131, 99.4509, 84.9287 micrometers
+  Grain radius                  : 38.199 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 154:
+  'Round' grain.
+  x,y,z coordinates             : 139.982, 103.366, 132.170 micrometers
+  Grain radius                  : 48.257 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 155:
+  'Round' grain.
+  x,y,z coordinates             : 123.954, 85.7724, 31.0834 micrometers
+  Grain radius                  : 49.792 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 156:
+  'Round' grain.
+  x,y,z coordinates             : 93.8457, 131.995, 50.5719 micrometers
+  Grain radius                  : 34.661 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 157:
+  'Round' grain.
+  x,y,z coordinates             : 142.186, 99.4693, 63.0466 micrometers
+  Grain radius                  : 30.415 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 158:
+  'Round' grain.
+  x,y,z coordinates             : 75.8693, 117.477, 47.6020 micrometers
+  Grain radius                  : 49.415 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 159:
+  'Round' grain.
+  x,y,z coordinates             : 41.7965, 149.624, 105.621 micrometers
+  Grain radius                  : 34.594 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 160:
+  'Round' grain.
+  x,y,z coordinates             : 50.9974, 78.1054, 19.0724 micrometers
+  Grain radius                  : 41.974 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 161:
+  'Round' grain.
+  x,y,z coordinates             : 67.6852, 122.633, 123.232 micrometers
+  Grain radius                  : 34.340 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 162:
+  'Round' grain.
+  x,y,z coordinates             : 73.7151, 122.798, 20.4075 micrometers
+  Grain radius                  : 36.970 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 163:
+  'Round' grain.
+  x,y,z coordinates             : 15.1599, 32.5528, 129.690 micrometers
+  Grain radius                  : 49.820 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 164:
+  'Round' grain.
+  x,y,z coordinates             : 76.7579, 46.1966, 27.4513 micrometers
+  Grain radius                  : 33.382 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 165:
+  'Round' grain.
+  x,y,z coordinates             : 125.299, 97.0269, 44.0768 micrometers
+  Grain radius                  : 40.968 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 166:
+  'Round' grain.
+  x,y,z coordinates             : 124.445, 148.193, 59.4424 micrometers
+  Grain radius                  : 45.357 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 167:
+  'Round' grain.
+  x,y,z coordinates             : 96.3443, 51.5980, 106.491 micrometers
+  Grain radius                  : 47.585 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 168:
+  'Round' grain.
+  x,y,z coordinates             : 37.3473, 33.3530, 119.143 micrometers
+  Grain radius                  : 47.070 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 169:
+  'Round' grain.
+  x,y,z coordinates             : 83.1861, 130.506, 38.0698 micrometers
+  Grain radius                  : 37.004 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 170:
+  'Round' grain.
+  x,y,z coordinates             : 14.4530, 143.763, 13.4081 micrometers
+  Grain radius                  : 39.809 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 171:
+  'Round' grain.
+  x,y,z coordinates             : 67.8292, 66.0860, 49.6573 micrometers
+  Grain radius                  : 31.837 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 172:
+  'Round' grain.
+  x,y,z coordinates             : 102.811, 81.5364, 2.68999 micrometers
+  Grain radius                  : 41.350 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 173:
+  'Round' grain.
+  x,y,z coordinates             : 94.9617, 15.6540, 18.1053 micrometers
+  Grain radius                  : 42.590 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 174:
+  'Round' grain.
+  x,y,z coordinates             : 12.7045, 3.25001, 20.1152 micrometers
+  Grain radius                  : 47.906 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 175:
+  'Round' grain.
+  x,y,z coordinates             : 3.53977, 29.1946, 29.9586 micrometers
+  Grain radius                  : 38.083 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 176:
+  'Round' grain.
+  x,y,z coordinates             : 21.9774, 140.690, 85.4090 micrometers
+  Grain radius                  : 39.343 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 177:
+  'Round' grain.
+  x,y,z coordinates             : 38.0584, 54.6778, 118.753 micrometers
+  Grain radius                  : 47.781 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 178:
+  'Round' grain.
+  x,y,z coordinates             : 76.3979, 85.6230, 118.821 micrometers
+  Grain radius                  : 47.298 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 179:
+  'Round' grain.
+  x,y,z coordinates             : 45.5331, 100.434, 26.1712 micrometers
+  Grain radius                  : 32.311 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 180:
+  'Round' grain.
+  x,y,z coordinates             : 100.652, 48.6976, 73.9348 micrometers
+  Grain radius                  : 42.250 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 181:
+  'Round' grain.
+  x,y,z coordinates             : 60.3034, 71.2325, 109.575 micrometers
+  Grain radius                  : 41.028 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 182:
+  'Round' grain.
+  x,y,z coordinates             : 144.008, 26.5535, 0.699082 micrometers
+  Grain radius                  : 37.244 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 183:
+  'Round' grain.
+  x,y,z coordinates             : 91.6062, 116.958, 120.177 micrometers
+  Grain radius                  : 30.445 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 184:
+  'Round' grain.
+  x,y,z coordinates             : 46.5635, 134.639, 76.1374 micrometers
+  Grain radius                  : 46.421 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 185:
+  'Round' grain.
+  x,y,z coordinates             : 144.276, 15.6885, 148.582 micrometers
+  Grain radius                  : 34.198 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 186:
+  'Round' grain.
+  x,y,z coordinates             : 131.370, 73.0283, 132.336 micrometers
+  Grain radius                  : 35.303 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 187:
+  'Round' grain.
+  x,y,z coordinates             : 144.850, 27.0642, 106.085 micrometers
+  Grain radius                  : 38.996 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 188:
+  'Round' grain.
+  x,y,z coordinates             : 45.6988, 142.328, 57.1009 micrometers
+  Grain radius                  : 35.924 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 189:
+  'Round' grain.
+  x,y,z coordinates             : 59.2176, 67.9438, 131.917 micrometers
+  Grain radius                  : 40.847 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 190:
+  'Round' grain.
+  x,y,z coordinates             : 91.0686, 143.684, 134.467 micrometers
+  Grain radius                  : 43.636 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 191:
+  'Round' grain.
+  x,y,z coordinates             : 29.4800, 8.23345, 120.680 micrometers
+  Grain radius                  : 48.919 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 192:
+  'Round' grain.
+  x,y,z coordinates             : 0.118648, 0.358004, 40.2403 micrometers
+  Grain radius                  : 34.002 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 193:
+  'Round' grain.
+  x,y,z coordinates             : 106.590, 2.06697, 145.893 micrometers
+  Grain radius                  : 35.644 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 194:
+  'Round' grain.
+  x,y,z coordinates             : 95.4647, 149.189, 42.4426 micrometers
+  Grain radius                  : 36.900 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 195:
+  'Round' grain.
+  x,y,z coordinates             : 55.7231, 72.8870, 93.0866 micrometers
+  Grain radius                  : 35.147 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 196:
+  'Round' grain.
+  x,y,z coordinates             : 100.218, 96.2748, 58.2422 micrometers
+  Grain radius                  : 33.651 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 197:
+  'Round' grain.
+  x,y,z coordinates             : 96.6970, 109.363, 31.6991 micrometers
+  Grain radius                  : 45.295 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 198:
+  'Round' grain.
+  x,y,z coordinates             : 76.9747, 100.551, 138.784 micrometers
+  Grain radius                  : 42.279 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 199:
+  'Round' grain.
+  x,y,z coordinates             : 121.947, 100.936, 135.778 micrometers
+  Grain radius                  : 38.862 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 200:
+  'Round' grain.
+  x,y,z coordinates             : 9.99183, 21.6522, 6.02083 micrometers
+  Grain radius                  : 41.576 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 201:
+  'Round' grain.
+  x,y,z coordinates             : 43.1262, 83.2689, 87.1606 micrometers
+  Grain radius                  : 33.284 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 202:
+  'Round' grain.
+  x,y,z coordinates             : 90.6249, 3.91529, 59.2355 micrometers
+  Grain radius                  : 38.537 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 203:
+  'Round' grain.
+  x,y,z coordinates             : 131.880, 86.7690, 145.451 micrometers
+  Grain radius                  : 45.311 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 204:
+  'Round' grain.
+  x,y,z coordinates             : 116.691, 84.6845, 102.098 micrometers
+  Grain radius                  : 48.408 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 205:
+  'Round' grain.
+  x,y,z coordinates             : 43.4700, 29.8481, 69.9170 micrometers
+  Grain radius                  : 43.221 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 206:
+  'Round' grain.
+  x,y,z coordinates             : 121.087, 129.107, 144.941 micrometers
+  Grain radius                  : 30.184 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 207:
+  'Round' grain.
+  x,y,z coordinates             : 78.0411, 95.1130, 39.3942 micrometers
+  Grain radius                  : 35.393 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 208:
+  'Round' grain.
+  x,y,z coordinates             : 107.064, 109.368, 130.952 micrometers
+  Grain radius                  : 32.077 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 209:
+  'Round' grain.
+  x,y,z coordinates             : 144.928, 26.7107, 129.060 micrometers
+  Grain radius                  : 32.004 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 210:
+  'Round' grain.
+  x,y,z coordinates             : 38.1155, 11.7226, 44.7092 micrometers
+  Grain radius                  : 46.173 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 211:
+  'Round' grain.
+  x,y,z coordinates             : 43.6735, 22.5118, 21.0556 micrometers
+  Grain radius                  : 31.801 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 212:
+  'Round' grain.
+  x,y,z coordinates             : 64.9563, 8.35712, 56.2793 micrometers
+  Grain radius                  : 36.958 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 213:
+  'Round' grain.
+  x,y,z coordinates             : 126.625, 129.631, 44.9427 micrometers
+  Grain radius                  : 38.075 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 214:
+  'Round' grain.
+  x,y,z coordinates             : 39.5886, 60.0485, 13.4052 micrometers
+  Grain radius                  : 42.796 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 215:
+  'Round' grain.
+  x,y,z coordinates             : 28.7483, 41.0943, 43.2145 micrometers
+  Grain radius                  : 33.099 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 216:
+  'Round' grain.
+  x,y,z coordinates             : 18.4849, 109.855, 129.120 micrometers
+  Grain radius                  : 40.998 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 217:
+  'Round' grain.
+  x,y,z coordinates             : 30.4769, 117.896, 73.1882 micrometers
+  Grain radius                  : 49.006 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 218:
+  'Round' grain.
+  x,y,z coordinates             : 42.0627, 45.1558, 130.893 micrometers
+  Grain radius                  : 43.376 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 219:
+  'Round' grain.
+  x,y,z coordinates             : 78.3719, 68.9955, 102.945 micrometers
+  Grain radius                  : 39.364 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 220:
+  'Round' grain.
+  x,y,z coordinates             : 0.680572, 136.797, 69.0003 micrometers
+  Grain radius                  : 49.427 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 221:
+  'Round' grain.
+  x,y,z coordinates             : 139.405, 40.3501, 61.6806 micrometers
+  Grain radius                  : 33.395 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 222:
+  'Round' grain.
+  x,y,z coordinates             : 36.3127, 125.084, 90.3865 micrometers
+  Grain radius                  : 40.319 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 223:
+  'Round' grain.
+  x,y,z coordinates             : 138.132, 141.486, 62.7762 micrometers
+  Grain radius                  : 45.591 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 224:
+  'Round' grain.
+  x,y,z coordinates             : 0.805284, 142.621, 133.381 micrometers
+  Grain radius                  : 44.823 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 225:
+  'Round' grain.
+  x,y,z coordinates             : 72.6163, 104.139, 72.3719 micrometers
+  Grain radius                  : 45.951 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 226:
+  'Round' grain.
+  x,y,z coordinates             : 97.4378, 143.654, 116.436 micrometers
+  Grain radius                  : 36.876 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 227:
+  'Round' grain.
+  x,y,z coordinates             : 20.3444, 149.328, 38.2091 micrometers
+  Grain radius                  : 45.788 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 228:
+  'Round' grain.
+  x,y,z coordinates             : 2.20140, 63.2746, 75.9231 micrometers
+  Grain radius                  : 49.631 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 229:
+  'Round' grain.
+  x,y,z coordinates             : 145.534, 116.047, 119.900 micrometers
+  Grain radius                  : 39.847 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 230:
+  'Round' grain.
+  x,y,z coordinates             : 92.6371, 36.7900, 78.8537 micrometers
+  Grain radius                  : 37.738 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 231:
+  'Round' grain.
+  x,y,z coordinates             : 35.4790, 7.95494, 2.84143 micrometers
+  Grain radius                  : 43.769 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 232:
+  'Round' grain.
+  x,y,z coordinates             : 9.98678, 83.2637, 149.677 micrometers
+  Grain radius                  : 42.243 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 233:
+  'Round' grain.
+  x,y,z coordinates             : 6.76979, 18.2720, 117.772 micrometers
+  Grain radius                  : 38.184 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 234:
+  'Round' grain.
+  x,y,z coordinates             : 21.6825, 13.2618, 93.6854 micrometers
+  Grain radius                  : 34.503 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 235:
+  'Round' grain.
+  x,y,z coordinates             : 74.1561, 147.783, 112.611 micrometers
+  Grain radius                  : 42.927 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 236:
+  'Round' grain.
+  x,y,z coordinates             : 21.4196, 66.1440, 55.7267 micrometers
+  Grain radius                  : 36.084 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 237:
+  'Round' grain.
+  x,y,z coordinates             : 137.740, 146.842, 40.3930 micrometers
+  Grain radius                  : 40.810 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 238:
+  'Round' grain.
+  x,y,z coordinates             : 25.6469, 90.1223, 55.7549 micrometers
+  Grain radius                  : 30.389 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 239:
+  'Round' grain.
+  x,y,z coordinates             : 20.1683, 49.7504, 80.7329 micrometers
+  Grain radius                  : 45.363 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 240:
+  'Round' grain.
+  x,y,z coordinates             : 81.5775, 134.325, 102.541 micrometers
+  Grain radius                  : 45.367 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 241:
+  'Round' grain.
+  x,y,z coordinates             : 108.664, 95.8080, 144.676 micrometers
+  Grain radius                  : 37.908 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 242:
+  'Round' grain.
+  x,y,z coordinates             : 47.9155, 86.3712, 101.309 micrometers
+  Grain radius                  : 44.529 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 243:
+  'Round' grain.
+  x,y,z coordinates             : 98.4902, 6.29278, 111.560 micrometers
+  Grain radius                  : 48.619 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 244:
+  'Round' grain.
+  x,y,z coordinates             : 104.520, 94.5357, 101.019 micrometers
+  Grain radius                  : 43.736 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 245:
+  'Round' grain.
+  x,y,z coordinates             : 100.223, 137.395, 24.4701 micrometers
+  Grain radius                  : 41.826 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 246:
+  'Round' grain.
+  x,y,z coordinates             : 49.3262, 124.528, 102.272 micrometers
+  Grain radius                  : 34.297 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 247:
+  'Round' grain.
+  x,y,z coordinates             : 2.51826, 79.2744, 50.9966 micrometers
+  Grain radius                  : 42.920 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 248:
+  'Round' grain.
+  x,y,z coordinates             : 128.065, 95.3968, 115.525 micrometers
+  Grain radius                  : 46.815 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 249:
+  'Round' grain.
+  x,y,z coordinates             : 101.317, 33.5288, 124.063 micrometers
+  Grain radius                  : 32.656 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 250:
+  'Round' grain.
+  x,y,z coordinates             : 116.447, 102.911, 109.609 micrometers
+  Grain radius                  : 45.088 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 251:
+  'Round' grain.
+  x,y,z coordinates             : 61.6697, 138.626, 81.1447 micrometers
+  Grain radius                  : 42.366 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 252:
+  'Round' grain.
+  x,y,z coordinates             : 29.5328, 81.3892, 68.7931 micrometers
+  Grain radius                  : 41.751 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 253:
+  'Round' grain.
+  x,y,z coordinates             : 11.6065, 51.8894, 121.388 micrometers
+  Grain radius                  : 36.826 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 254:
+  'Round' grain.
+  x,y,z coordinates             : 57.9022, 139.572, 104.595 micrometers
+  Grain radius                  : 35.438 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 255:
+  'Round' grain.
+  x,y,z coordinates             : 149.729, 119.435, 82.3840 micrometers
+  Grain radius                  : 46.857 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 256:
+  'Round' grain.
+  x,y,z coordinates             : 101.714, 101.611, 73.0504 micrometers
+  Grain radius                  : 49.759 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 257:
+  'Round' grain.
+  x,y,z coordinates             : 96.5985, 130.425, 128.681 micrometers
+  Grain radius                  : 41.706 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 258:
+  'Round' grain.
+  x,y,z coordinates             : 2.40387, 39.4466, 2.21101 micrometers
+  Grain radius                  : 32.093 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 259:
+  'Round' grain.
+  x,y,z coordinates             : 138.797, 110.791, 38.9042 micrometers
+  Grain radius                  : 33.904 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 260:
+  'Round' grain.
+  x,y,z coordinates             : 123.157, 112.934, 77.4570 micrometers
+  Grain radius                  : 35.699 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 261:
+  'Round' grain.
+  x,y,z coordinates             : 103.581, 6.72521, 69.1650 micrometers
+  Grain radius                  : 36.969 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 262:
+  'Round' grain.
+  x,y,z coordinates             : 49.0008, 47.6310, 19.8750 micrometers
+  Grain radius                  : 44.115 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 263:
+  'Round' grain.
+  x,y,z coordinates             : 34.5294, 129.078, 45.8770 micrometers
+  Grain radius                  : 31.937 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 264:
+  'Round' grain.
+  x,y,z coordinates             : 2.29800, 101.582, 46.4688 micrometers
+  Grain radius                  : 45.634 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 265:
+  'Round' grain.
+  x,y,z coordinates             : 77.3325, 79.3491, 22.4382 micrometers
+  Grain radius                  : 42.875 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 266:
+  'Round' grain.
+  x,y,z coordinates             : 12.1581, 115.514, 98.6299 micrometers
+  Grain radius                  : 40.280 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 267:
+  'Round' grain.
+  x,y,z coordinates             : 70.1917, 67.6781, 121.056 micrometers
+  Grain radius                  : 47.308 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 268:
+  'Round' grain.
+  x,y,z coordinates             : 38.6454, 93.6930, 71.9402 micrometers
+  Grain radius                  : 48.799 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 269:
+  'Round' grain.
+  x,y,z coordinates             : 30.0370, 135.574, 104.480 micrometers
+  Grain radius                  : 36.415 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 270:
+  'Round' grain.
+  x,y,z coordinates             : 57.7234, 84.5645, 76.5230 micrometers
+  Grain radius                  : 46.836 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 271:
+  'Round' grain.
+  x,y,z coordinates             : 2.14079, 121.895, 77.8041 micrometers
+  Grain radius                  : 45.399 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 272:
+  'Round' grain.
+  x,y,z coordinates             : 46.3696, 18.9901, 121.965 micrometers
+  Grain radius                  : 44.818 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 273:
+  'Round' grain.
+  x,y,z coordinates             : 9.71359, 140.324, 28.1359 micrometers
+  Grain radius                  : 37.626 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 274:
+  'Round' grain.
+  x,y,z coordinates             : 115.597, 32.8194, 12.4107 micrometers
+  Grain radius                  : 45.864 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 275:
+  'Round' grain.
+  x,y,z coordinates             : 71.8967, 50.5968, 103.735 micrometers
+  Grain radius                  : 37.559 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 276:
+  'Round' grain.
+  x,y,z coordinates             : 133.914, 4.99644, 142.092 micrometers
+  Grain radius                  : 36.725 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 277:
+  'Round' grain.
+  x,y,z coordinates             : 113.818, 117.799, 43.7819 micrometers
+  Grain radius                  : 30.815 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 278:
+  'Round' grain.
+  x,y,z coordinates             : 20.3933, 124.952, 8.73855 micrometers
+  Grain radius                  : 32.789 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 279:
+  'Round' grain.
+  x,y,z coordinates             : 24.4720, 47.9104, 56.2180 micrometers
+  Grain radius                  : 44.254 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 280:
+  'Round' grain.
+  x,y,z coordinates             : 144.506, 84.8795, 18.2084 micrometers
+  Grain radius                  : 47.369 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 281:
+  'Round' grain.
+  x,y,z coordinates             : 145.368, 54.5614, 29.3180 micrometers
+  Grain radius                  : 48.803 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 282:
+  'Round' grain.
+  x,y,z coordinates             : 124.656, 125.718, 101.195 micrometers
+  Grain radius                  : 46.301 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 283:
+  'Round' grain.
+  x,y,z coordinates             : 2.14661, 141.112, 0.175830 micrometers
+  Grain radius                  : 43.687 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 284:
+  'Round' grain.
+  x,y,z coordinates             : 124.396, 1.25249, 30.6074 micrometers
+  Grain radius                  : 35.837 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 285:
+  'Round' grain.
+  x,y,z coordinates             : 9.85151, 59.3311, 25.6495 micrometers
+  Grain radius                  : 32.495 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 286:
+  'Round' grain.
+  x,y,z coordinates             : 83.7093, 9.14533, 30.9737 micrometers
+  Grain radius                  : 49.037 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 287:
+  'Round' grain.
+  x,y,z coordinates             : 148.981, 93.8787, 76.5425 micrometers
+  Grain radius                  : 30.433 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 288:
+  'Round' grain.
+  x,y,z coordinates             : 53.6433, 134.845, 145.386 micrometers
+  Grain radius                  : 38.933 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 289:
+  'Round' grain.
+  x,y,z coordinates             : 107.356, 126.492, 12.4729 micrometers
+  Grain radius                  : 38.631 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 290:
+  'Round' grain.
+  x,y,z coordinates             : 112.286, 91.3173, 84.0907 micrometers
+  Grain radius                  : 46.648 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 291:
+  'Round' grain.
+  x,y,z coordinates             : 144.812, 58.5579, 55.3359 micrometers
+  Grain radius                  : 38.001 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 292:
+  'Round' grain.
+  x,y,z coordinates             : 143.594, 3.38719, 113.080 micrometers
+  Grain radius                  : 40.353 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 293:
+  'Round' grain.
+  x,y,z coordinates             : 37.4395, 15.2315, 83.2517 micrometers
+  Grain radius                  : 32.800 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 294:
+  'Round' grain.
+  x,y,z coordinates             : 78.8754, 50.3958, 120.263 micrometers
+  Grain radius                  : 31.970 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 295:
+  'Round' grain.
+  x,y,z coordinates             : 46.8210, 146.491, 87.1666 micrometers
+  Grain radius                  : 44.345 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 296:
+  'Round' grain.
+  x,y,z coordinates             : 29.9476, 39.2332, 75.7241 micrometers
+  Grain radius                  : 36.089 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 297:
+  'Round' grain.
+  x,y,z coordinates             : 3.66335, 118.568, 12.2550 micrometers
+  Grain radius                  : 42.375 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 298:
+  'Round' grain.
+  x,y,z coordinates             : 51.5365, 56.5700, 93.1468 micrometers
+  Grain radius                  : 40.649 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 299:
+  'Round' grain.
+  x,y,z coordinates             : 58.5503, 143.173, 2.14722 micrometers
+  Grain radius                  : 48.290 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 300:
+  'Round' grain.
+  x,y,z coordinates             : 133.257, 42.6876, 20.1201 micrometers
+  Grain radius                  : 33.049 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 301:
+  'Round' grain.
+  x,y,z coordinates             : 56.9594, 32.9425, 61.7788 micrometers
+  Grain radius                  : 38.503 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 302:
+  'Round' grain.
+  x,y,z coordinates             : 4.88496, 6.83517, 4.94546 micrometers
+  Grain radius                  : 31.267 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 303:
+  'Round' grain.
+  x,y,z coordinates             : 26.7273, 69.0414, 105.142 micrometers
+  Grain radius                  : 38.405 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 304:
+  'Round' grain.
+  x,y,z coordinates             : 65.7042, 25.5352, 113.283 micrometers
+  Grain radius                  : 48.952 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 305:
+  'Round' grain.
+  x,y,z coordinates             : 142.092, 131.903, 133.192 micrometers
+  Grain radius                  : 43.967 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 306:
+  'Round' grain.
+  x,y,z coordinates             : 9.77118, 143.751, 94.2276 micrometers
+  Grain radius                  : 48.914 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 307:
+  'Round' grain.
+  x,y,z coordinates             : 62.3710, 53.7449, 61.0110 micrometers
+  Grain radius                  : 48.052 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 308:
+  'Round' grain.
+  x,y,z coordinates             : 19.4927, 0.870142, 63.8781 micrometers
+  Grain radius                  : 36.399 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 309:
+  'Round' grain.
+  x,y,z coordinates             : 75.5527, 127.005, 88.6782 micrometers
+  Grain radius                  : 35.094 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 310:
+  'Round' grain.
+  x,y,z coordinates             : 147.747, 96.1301, 103.273 micrometers
+  Grain radius                  : 41.789 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 311:
+  'Round' grain.
+  x,y,z coordinates             : 121.498, 62.7361, 84.8843 micrometers
+  Grain radius                  : 47.319 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 312:
+  'Round' grain.
+  x,y,z coordinates             : 77.2097, 118.026, 103.428 micrometers
+  Grain radius                  : 30.907 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 313:
+  'Round' grain.
+  x,y,z coordinates             : 8.05117, 13.3628, 103.065 micrometers
+  Grain radius                  : 33.061 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 314:
+  'Round' grain.
+  x,y,z coordinates             : 24.9872, 65.0256, 74.7008 micrometers
+  Grain radius                  : 36.122 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 315:
+  'Round' grain.
+  x,y,z coordinates             : 45.1829, 121.445, 135.647 micrometers
+  Grain radius                  : 32.946 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 316:
+  'Round' grain.
+  x,y,z coordinates             : 116.765, 89.9263, 16.4879 micrometers
+  Grain radius                  : 39.737 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 317:
+  'Round' grain.
+  x,y,z coordinates             : 44.9206, 120.218, 65.1674 micrometers
+  Grain radius                  : 40.573 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 318:
+  'Round' grain.
+  x,y,z coordinates             : 66.5823, 40.5803, 116.310 micrometers
+  Grain radius                  : 30.941 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 319:
+  'Round' grain.
+  x,y,z coordinates             : 91.4686, 18.4481, 50.4332 micrometers
+  Grain radius                  : 32.334 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 320:
+  'Round' grain.
+  x,y,z coordinates             : 129.826, 51.3248, 40.5507 micrometers
+  Grain radius                  : 42.721 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 321:
+  'Round' grain.
+  x,y,z coordinates             : 0.223613, 10.2688, 83.3691 micrometers
+  Grain radius                  : 39.544 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 322:
+  'Round' grain.
+  x,y,z coordinates             : 111.517, 74.4897, 81.0229 micrometers
+  Grain radius                  : 38.674 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 323:
+  'Round' grain.
+  x,y,z coordinates             : 134.773, 104.190, 24.5530 micrometers
+  Grain radius                  : 34.263 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 324:
+  'Round' grain.
+  x,y,z coordinates             : 35.2421, 130.976, 146.442 micrometers
+  Grain radius                  : 31.851 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 325:
+  'Round' grain.
+  x,y,z coordinates             : 111.117, 119.998, 109.537 micrometers
+  Grain radius                  : 37.874 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 326:
+  'Round' grain.
+  x,y,z coordinates             : 103.740, 19.8603, 115.296 micrometers
+  Grain radius                  : 34.552 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 327:
+  'Round' grain.
+  x,y,z coordinates             : 65.6563, 31.3771, 96.9030 micrometers
+  Grain radius                  : 44.711 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 328:
+  'Round' grain.
+  x,y,z coordinates             : 147.218, 0.186523, 86.0290 micrometers
+  Grain radius                  : 43.153 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 329:
+  'Round' grain.
+  x,y,z coordinates             : 48.8260, 48.1586, 147.128 micrometers
+  Grain radius                  : 32.669 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 330:
+  'Round' grain.
+  x,y,z coordinates             : 101.776, 75.3153, 114.755 micrometers
+  Grain radius                  : 39.961 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 331:
+  'Round' grain.
+  x,y,z coordinates             : 107.074, 16.5857, 52.0646 micrometers
+  Grain radius                  : 31.202 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 332:
+  'Round' grain.
+  x,y,z coordinates             : 20.0803, 128.892, 136.907 micrometers
+  Grain radius                  : 44.529 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 333:
+  'Round' grain.
+  x,y,z coordinates             : 74.8392, 2.14737, 18.1725 micrometers
+  Grain radius                  : 44.048 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 334:
+  'Round' grain.
+  x,y,z coordinates             : 149.684, 4.52045, 139.660 micrometers
+  Grain radius                  : 41.345 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 335:
+  'Round' grain.
+  x,y,z coordinates             : 9.86917, 85.2398, 97.9301 micrometers
+  Grain radius                  : 44.226 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 336:
+  'Round' grain.
+  x,y,z coordinates             : 0.617244, 47.8968, 72.6133 micrometers
+  Grain radius                  : 40.639 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 337:
+  'Round' grain.
+  x,y,z coordinates             : 2.46589, 94.3728, 75.4141 micrometers
+  Grain radius                  : 39.005 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 338:
+  'Round' grain.
+  x,y,z coordinates             : 103.607, 88.9336, 34.7886 micrometers
+  Grain radius                  : 33.122 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 339:
+  'Round' grain.
+  x,y,z coordinates             : 7.94737, 38.1151, 88.3470 micrometers
+  Grain radius                  : 44.132 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 340:
+  'Round' grain.
+  x,y,z coordinates             : 31.2964, 115.304, 103.654 micrometers
+  Grain radius                  : 42.947 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 341:
+  'Round' grain.
+  x,y,z coordinates             : 57.9995, 83.1058, 0.417792 micrometers
+  Grain radius                  : 45.601 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 342:
+  'Round' grain.
+  x,y,z coordinates             : 97.7088, 138.857, 99.4069 micrometers
+  Grain radius                  : 42.976 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 343:
+  'Round' grain.
+  x,y,z coordinates             : 111.766, 146.020, 146.693 micrometers
+  Grain radius                  : 48.194 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 344:
+  'Round' grain.
+  x,y,z coordinates             : 39.6981, 10.1656, 132.876 micrometers
+  Grain radius                  : 42.559 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 345:
+  'Round' grain.
+  x,y,z coordinates             : 84.2953, 89.2639, 63.4239 micrometers
+  Grain radius                  : 40.478 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 346:
+  'Round' grain.
+  x,y,z coordinates             : 57.2500, 97.4990, 134.510 micrometers
+  Grain radius                  : 47.993 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 347:
+  'Round' grain.
+  x,y,z coordinates             : 133.386, 11.4036, 88.7008 micrometers
+  Grain radius                  : 32.233 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 348:
+  'Round' grain.
+  x,y,z coordinates             : 28.3337, 148.171, 126.561 micrometers
+  Grain radius                  : 43.897 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 349:
+  'Round' grain.
+  x,y,z coordinates             : 66.4874, 104.226, 19.5817 micrometers
+  Grain radius                  : 45.318 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 350:
+  'Round' grain.
+  x,y,z coordinates             : 20.0539, 17.0058, 37.9355 micrometers
+  Grain radius                  : 49.106 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 351:
+  'Round' grain.
+  x,y,z coordinates             : 121.266, 144.149, 91.1017 micrometers
+  Grain radius                  : 46.750 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 352:
+  'Round' grain.
+  x,y,z coordinates             : 112.525, 9.42771, 9.17607 micrometers
+  Grain radius                  : 42.665 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 353:
+  'Round' grain.
+  x,y,z coordinates             : 44.8601, 2.85371, 31.7982 micrometers
+  Grain radius                  : 30.533 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 354:
+  'Round' grain.
+  x,y,z coordinates             : 56.6639, 83.2359, 47.3758 micrometers
+  Grain radius                  : 48.107 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 355:
+  'Round' grain.
+  x,y,z coordinates             : 70.2072, 47.2814, 88.5197 micrometers
+  Grain radius                  : 35.723 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 356:
+  'Round' grain.
+  x,y,z coordinates             : 63.1248, 8.59483, 137.917 micrometers
+  Grain radius                  : 46.674 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 357:
+  'Round' grain.
+  x,y,z coordinates             : 81.5209, 18.5344, 143.442 micrometers
+  Grain radius                  : 40.641 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 358:
+  'Round' grain.
+  x,y,z coordinates             : 37.1279, 34.3360, 10.0170 micrometers
+  Grain radius                  : 42.773 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 359:
+  'Round' grain.
+  x,y,z coordinates             : 67.3661, 129.462, 41.1288 micrometers
+  Grain radius                  : 45.823 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 360:
+  'Round' grain.
+  x,y,z coordinates             : 115.032, 148.897, 36.2592 micrometers
+  Grain radius                  : 47.628 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 361:
+  'Round' grain.
+  x,y,z coordinates             : 88.4239, 55.6408, 89.7338 micrometers
+  Grain radius                  : 38.666 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 362:
+  'Round' grain.
+  x,y,z coordinates             : 19.5249, 23.9569, 59.7271 micrometers
+  Grain radius                  : 37.468 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 363:
+  'Round' grain.
+  x,y,z coordinates             : 21.4206, 49.6154, 2.52771 micrometers
+  Grain radius                  : 46.825 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 364:
+  'Round' grain.
+  x,y,z coordinates             : 19.3726, 128.991, 74.7164 micrometers
+  Grain radius                  : 30.012 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 365:
+  'Round' grain.
+  x,y,z coordinates             : 119.653, 57.8901, 127.417 micrometers
+  Grain radius                  : 42.516 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 366:
+  'Round' grain.
+  x,y,z coordinates             : 108.124, 59.6732, 66.1164 micrometers
+  Grain radius                  : 35.050 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 367:
+  'Round' grain.
+  x,y,z coordinates             : 116.492, 49.4138, 10.0298 micrometers
+  Grain radius                  : 49.753 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 368:
+  'Round' grain.
+  x,y,z coordinates             : 91.6345, 96.0829, 26.1870 micrometers
+  Grain radius                  : 42.095 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 369:
+  'Round' grain.
+  x,y,z coordinates             : 142.127, 79.9636, 120.886 micrometers
+  Grain radius                  : 35.562 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 370:
+  'Round' grain.
+  x,y,z coordinates             : 51.8141, 40.2474, 113.517 micrometers
+  Grain radius                  : 41.769 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 371:
+  'Round' grain.
+  x,y,z coordinates             : 146.420, 117.857, 146.050 micrometers
+  Grain radius                  : 30.005 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 372:
+  'Round' grain.
+  x,y,z coordinates             : 32.3268, 109.728, 89.5844 micrometers
+  Grain radius                  : 38.531 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 373:
+  'Round' grain.
+  x,y,z coordinates             : 130.250, 135.604, 4.66405 micrometers
+  Grain radius                  : 36.796 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 374:
+  'Round' grain.
+  x,y,z coordinates             : 129.603, 78.0670, 93.1056 micrometers
+  Grain radius                  : 30.180 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 375:
+  'Round' grain.
+  x,y,z coordinates             : 134.724, 65.1103, 66.8919 micrometers
+  Grain radius                  : 31.717 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 376:
+  'Round' grain.
+  x,y,z coordinates             : 87.3599, 0.100131, 144.102 micrometers
+  Grain radius                  : 39.606 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 377:
+  'Round' grain.
+  x,y,z coordinates             : 136.926, 127.405, 72.1110 micrometers
+  Grain radius                  : 47.767 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 378:
+  'Round' grain.
+  x,y,z coordinates             : 140.191, 85.2375, 48.5075 micrometers
+  Grain radius                  : 32.958 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 379:
+  'Round' grain.
+  x,y,z coordinates             : 132.577, 109.880, 146.916 micrometers
+  Grain radius                  : 41.423 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 380:
+  'Round' grain.
+  x,y,z coordinates             : 24.7415, 72.8084, 22.1861 micrometers
+  Grain radius                  : 38.773 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 381:
+  'Round' grain.
+  x,y,z coordinates             : 81.6633, 51.2455, 74.4770 micrometers
+  Grain radius                  : 45.429 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 382:
+  'Round' grain.
+  x,y,z coordinates             : 130.565, 7.55262, 67.5360 micrometers
+  Grain radius                  : 39.474 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 383:
+  'Round' grain.
+  x,y,z coordinates             : 99.3273, 78.7504, 64.7307 micrometers
+  Grain radius                  : 39.172 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 384:
+  'Round' grain.
+  x,y,z coordinates             : 77.2812, 4.12732, 74.0880 micrometers
+  Grain radius                  : 36.171 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 385:
+  'Round' grain.
+  x,y,z coordinates             : 47.9657, 147.788, 40.9945 micrometers
+  Grain radius                  : 45.364 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 386:
+  'Round' grain.
+  x,y,z coordinates             : 132.237, 89.1612, 70.9791 micrometers
+  Grain radius                  : 43.618 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 387:
+  'Round' grain.
+  x,y,z coordinates             : 41.9043, 5.07149, 57.7540 micrometers
+  Grain radius                  : 49.542 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 388:
+  'Round' grain.
+  x,y,z coordinates             : 51.4754, 106.179, 109.601 micrometers
+  Grain radius                  : 42.216 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 389:
+  'Round' grain.
+  x,y,z coordinates             : 81.6166, 35.1502, 128.598 micrometers
+  Grain radius                  : 48.785 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 390:
+  'Round' grain.
+  x,y,z coordinates             : 35.0621, 1.07210, 103.598 micrometers
+  Grain radius                  : 49.445 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 391:
+  'Round' grain.
+  x,y,z coordinates             : 50.2298, 13.8087, 2.63360 micrometers
+  Grain radius                  : 38.169 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 392:
+  'Round' grain.
+  x,y,z coordinates             : 22.3645, 20.2586, 136.085 micrometers
+  Grain radius                  : 34.991 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 393:
+  'Round' grain.
+  x,y,z coordinates             : 90.9371, 86.8851, 95.6271 micrometers
+  Grain radius                  : 47.748 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 394:
+  'Round' grain.
+  x,y,z coordinates             : 130.583, 130.198, 86.8373 micrometers
+  Grain radius                  : 43.369 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 395:
+  'Round' grain.
+  x,y,z coordinates             : 111.129, 135.967, 47.3552 micrometers
+  Grain radius                  : 42.345 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 396:
+  'Round' grain.
+  x,y,z coordinates             : 19.0374, 105.304, 39.9012 micrometers
+  Grain radius                  : 48.943 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 397:
+  'Round' grain.
+  x,y,z coordinates             : 36.3911, 45.7444, 101.523 micrometers
+  Grain radius                  : 41.485 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 398:
+  'Round' grain.
+  x,y,z coordinates             : 138.973, 25.8009, 27.1062 micrometers
+  Grain radius                  : 46.192 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 399:
+  'Round' grain.
+  x,y,z coordinates             : 118.265, 55.3643, 28.2555 micrometers
+  Grain radius                  : 40.954 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 400:
+  'Round' grain.
+  x,y,z coordinates             : 115.851, 149.769, 108.596 micrometers
+  Grain radius                  : 34.201 micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation disabled
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will not be simulated.
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will be simulated.
+  Interaction parameters between phases  1  and 1:
+  Interfacial energy        sigma = 1.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.40000E-03 [cm**4/(Js)]
+
+
+ Phase diagram - input data
+ **************************
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1200.000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: 0.0000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction periodic/wrap-around boundary condition for phase field
+ In E-direction periodic/wrap-around boundary condition for phase field
+ In S-direction periodic/wrap-around boundary condition for phase field
+ In N-direction periodic/wrap-around boundary condition for phase field
+ In B-direction periodic/wrap-around boundary condition for phase field
+ In T-direction periodic/wrap-around boundary condition for phase field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 4.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ # Grain number   1 set
+ # Grain number   2 set
+ # Grain number   3 set
+ # Grain number   4 set
+ # Grain number   5 set
+ # Grain number   6 set
+ # Grain number   7 set
+ # Grain number   8 set
+ # Grain number   9 set
+ # Grain number  10 set
+ # Grain number  11 set
+ # Grain number  12 set
+ # Grain number  13 set
+ # Grain number  14 set
+ # Grain number  15 set
+ # Grain number  16 set
+ # Grain number  17 set
+ # Grain number  18 set
+ # Grain number  19 set
+ # Grain number  20 set
+ # Grain number  21 set
+ # Grain number  22 set
+ # Grain number  23 set
+ # Grain number  24 set
+ # Grain number  25 set
+ # Grain number  26 set
+ # Grain number  27 set
+ # Grain number  28 set
+ # Grain number  29 set
+ # Grain number  30 set
+ # Grain number  31 set
+ # Grain number  32 set
+ # Grain number  33 set
+ # Grain number  34 set
+ # Grain number  35 set
+ # Grain number  36 set
+ # Grain number  37 set
+ # Grain number  38 set
+ # Grain number  39 set
+ # Grain number  40 set
+ # Grain number  41 set
+ # Grain number  42 set
+ # Grain number  43 set
+ # Grain number  44 set
+ # Grain number  45 set
+ # Grain number  46 set
+ # Grain number  47 set
+ # Grain number  48 set
+ # Grain number  49 set
+ # Grain number  50 set
+ # Grain number  51 set
+ # Grain number  52 set
+ # Grain number  53 set
+ # Grain number  54 set
+ # Grain number  55 set
+ # Grain number  56 set
+ # Grain number  57 set
+ # Grain number  58 set
+ # Grain number  59 set
+ # Grain number  60 set
+ # Grain number  61 set
+ # Grain number  62 set
+ # Grain number  63 set
+ # Grain number  64 set
+ # Grain number  65 set
+ # Grain number  66 set
+ # Grain number  67 set
+ # Grain number  68 set
+ # Grain number  69 set
+ # Grain number  70 set
+ # Grain number  71 set
+ # Grain number  72 set
+ # Grain number  73 set
+ # Grain number  74 set
+ # Grain number  75 set
+ # Grain number  76 set
+ # Grain number  77 set
+ # Grain number  78 set
+ # Grain number  79 set
+ # Grain number  80 set
+ # Grain number  81 set
+ # Grain number  82 set
+ # Grain number  83 set
+ # Grain number  84 set
+ # Grain number  85 set
+ # Grain number  86 set
+ # Grain number  87 set
+ # Grain number  88 set
+ # Grain number  89 set
+ # Grain number  90 set
+ # Grain number  91 set
+ # Grain number  92 set
+ # Grain number  93 set
+ # Grain number  94 set
+ # Grain number  95 set
+ # Grain number  96 set
+ # Grain number  97 set
+ # Grain number  98 set
+ # Grain number  99 set
+ # Grain number 100 set
+ # Grain number 101 set
+ # Grain number 102 set
+ # Grain number 103 set
+ # Grain number 104 set
+ # Grain number 105 set
+ # Grain number 106 set
+ # Grain number 107 set
+ # Grain number 108 set
+ # Grain number 109 set
+ # Grain number 110 set
+ # Grain number 111 set
+ # Grain number 112 set
+ # Grain number 113 set
+ # Grain number 114 set
+ # Grain number 115 set
+ # Grain number 116 set
+ # Grain number 117 set
+ # Grain number 118 set
+ # Grain number 119 set
+ # Grain number 120 set
+ # Grain number 121 set
+ # Grain number 122 set
+ # Grain number 123 set
+ # Grain number 124 set
+ # Grain number 125 set
+ # Grain number 126 set
+ # Grain number 127 set
+ # Grain number 128 set
+ # Grain number 129 set
+ # Grain number 130 set
+ # Grain number 131 set
+ # Grain number 132 set
+ # Grain number 133 set
+ # Grain number 134 set
+ # Grain number 135 set
+ # Grain number 136 set
+ # Grain number 137 set
+ # Grain number 138 set
+ # Grain number 139 set
+ # Grain number 140 set
+ # Grain number 141 set
+ # Grain number 142 set
+ # Grain number 143 set
+ # Grain number 144 set
+ # Grain number 145 set
+ # Grain number 146 set
+ # Grain number 147 set
+ # Grain number 148 set
+ # Grain number 149 set
+ # Grain number 150 set
+ # Grain number 151 set
+ # Grain number 152 set
+ # Grain number 153 set
+ # Grain number 154 set
+ # Grain number 155 set
+ # Grain number 156 set
+ # Grain number 157 set
+ # Grain number 158 set
+ # Grain number 159 set
+ # Grain number 160 set
+ # Grain number 161 set
+ # Grain number 162 set
+ # Grain number 163 set
+ # Grain number 164 set
+ # Grain number 165 set
+ # Grain number 166 set
+ # Grain number 167 set
+ # Grain number 168 set
+ # Grain number 169 set
+ # Grain number 170 set
+ # Grain number 171 set
+ # Grain number 172 set
+ # Grain number 173 set
+ # Grain number 174 set
+ # Grain number 175 set
+ # Grain number 176 set
+ # Grain number 177 set
+ # Grain number 178 set
+ # Grain number 179 set
+ # Grain number 180 set
+ # Grain number 181 set
+ # Grain number 182 set
+ # Grain number 183 set
+ # Grain number 184 set
+ # Grain number 185 set
+ # Grain number 186 set
+ # Grain number 187 set
+ # Grain number 188 set
+ # Grain number 189 set
+ # Grain number 190 set
+ # Grain number 191 set
+ # Grain number 192 set
+ # Grain number 193 set
+ # Grain number 194 set
+ # Grain number 195 set
+ # Grain number 196 set
+ # Grain number 197 set
+ # Grain number 198 set
+ # Grain number 199 set
+ # Grain number 200 set
+ # Grain number 201 set
+ # Grain number 202 set
+ # Grain number 203 set
+ # Grain number 204 set
+ # Grain number 205 set
+ # Grain number 206 set
+ # Grain number 207 set
+ # Grain number 208 set
+ # Grain number 209 set
+ # Grain number 210 set
+ # Grain number 211 set
+ # Grain number 212 set
+ # Grain number 213 set
+ # Grain number 214 set
+ # Grain number 215 set
+ # Grain number 216 set
+ # Grain number 217 set
+ # Grain number 218 set
+ # Grain number 219 set
+ # Grain number 220 set
+ # Grain number 221 set
+ # Grain number 222 set
+ # Grain number 223 set
+ # Grain number 224 set
+ # Grain number 225 set
+ # Grain number 226 set
+ # Grain number 227 set
+ # Grain number 228 set
+ # Grain number 229 set
+ # Grain number 230 set
+ # Grain number 231 set
+ # Grain number 232 set
+ # Grain number 233 set
+ # Grain number 234 set
+ # Grain number 235 set
+ # Grain number 236 set
+ # Grain number 237 set
+ # Grain number 238 set
+ # Grain number 239 set
+ # Grain number 240 set
+ # Grain number 241 set
+ # Grain number 242 set
+ # Grain number 243 set
+ # Grain number 244 set
+ # Grain number 245 set
+ # Grain number 246 set
+ # Grain number 247 set
+ # Grain number 248 set
+ # Grain number 249 set
+ # Grain number 250 set
+ # Grain number 251 set
+ # Grain number 252 set
+ # Grain number 253 set
+ # Grain number 254 set
+ # Grain number 255 set
+ # Grain number 256 set
+ # Grain number 257 set
+ # Grain number 258 set
+ # Grain number 259 set
+ # Grain number 260 set
+ # Grain number 261 set
+ # Grain number 262 set
+ # Grain number 263 set
+ # Grain number 264 set
+ # Grain number 265 set
+ # Grain number 266 set
+ # Grain number 267 set
+ # Grain number 268 set
+ # Grain number 269 set
+ # Grain number 270 set
+ # Grain number 271 set
+ # Grain number 272 set
+ # Grain number 273 set
+ # Grain number 274 set
+ # Grain number 275 set
+ # Grain number 276 set
+ # Grain number 277 set
+ # Grain number 278 set
+ # Grain number 279 set
+ # Grain number 280 set
+ # Grain number 281 set
+ # Grain number 282 set
+ # Grain number 283 set
+ # Grain number 284 set
+ # Grain number 285 set
+ # Grain number 286 set
+ # Grain number 287 set
+ # Grain number 288 set
+ # Grain number 289 set
+ # Grain number 290 set
+ # Grain number 291 set
+ # Grain number 292 set
+ # Grain number 293 set
+ # Grain number 294 set
+ # Grain number 295 set
+ # Grain number 296 set
+ # Grain number 297 set
+ # Grain number 298 set
+ # Grain number 299 set
+ # Grain number 300 set
+ # Grain number 301 set
+ # Grain number 302 set
+ # Grain number 303 set
+ # Grain number 304 set
+ # Grain number 305 set
+ # Grain number 306 set
+ # Grain number 307 set
+ # Grain number 308 set
+ # Grain number 309 set
+ # Grain number 310 set
+ # Grain number 311 set
+ # Grain number 312 set
+ # Grain number 313 set
+ # Grain number 314 set
+ # Grain number 315 set
+ # Grain number 316 set
+ # Grain number 317 set
+ # Grain number 318 set
+ # Grain number 319 set
+ # Grain number 320 set
+ # Grain number 321 set
+ # Grain number 322 set
+ # Grain number 323 set
+ # Grain number 324 set
+ # Grain number 325 set
+ # Grain number 326 set
+ # Grain number 327 set
+ # Grain number 328 set
+ # Grain number 329 set
+ # Grain number 330 set
+ # Grain number 331 set
+ # Grain number 332 set
+ # Grain number 333 set
+ # Grain number 334 set
+ # Grain number 335 set
+ # Grain number 336 set
+ # Grain number 337 set
+ # Grain number 338 set
+ # Grain number 339 set
+ # Grain number 340 set
+ # Grain number 341 set
+ # Grain number 342 set
+ # Grain number 343 set
+ # Grain number 344 set
+ # Grain number 345 set
+ # Grain number 346 set
+ # Grain number 347 set
+ # Grain number 348 set
+ # Grain number 349 set
+ # Grain number 350 set
+ # Grain number 351 set
+ # Grain number 352 set
+ # Grain number 353 set
+ # Grain number 354 set
+ # Grain number 355 set
+ # Grain number 356 set
+ # Grain number 357 set
+ # Grain number 358 set
+ # Grain number 359 set
+ # Grain number 360 set
+ # Grain number 361 set
+ # Grain number 362 set
+ # Grain number 363 set
+ # Grain number 364 set
+ # Grain number 365 set
+ # Grain number 366 set
+ # Grain number 367 set
+ # Grain number 368 set
+ # Grain number 369 set
+ # Grain number 370 set
+ # Grain number 371 set
+ # Grain number 372 set
+ # Grain number 373 set
+ # Grain number 374 set
+ # Grain number 375 set
+ # Grain number 376 set
+ # Grain number 377 set
+ # Grain number 378 set
+ # Grain number 379 set
+ # Grain number 380 set
+ # Grain number 381 set
+ # Grain number 382 set
+ # Grain number 383 set
+ # Grain number 384 set
+ # Grain number 385 set
+ # Grain number 386 set
+ # Grain number 387 set
+ # Grain number 388 set
+ # Grain number 389 set
+ # Grain number 390 set
+ # Grain number 391 set
+ # Grain number 392 set
+ # Grain number 393 set
+ # Grain number 394 set
+ # Grain number 395 set
+ # Grain number 396 set
+ # Grain number 397 set
+ # Grain number 398 set
+ # Grain number 399 set
+ # Grain number 400 set
+ 
+ # tWidth_max( 1 : 1 ) = 0.1085714 s
+ # Maximal value for tWidth = 0.1085714 s for phase-field solver
+ # Initial value for tWidth = 0.10857 s for automatic time stepping (phase-field solver)
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 157 s
+ Current phase-field solver time step = 1.09E-01 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Intermediate output for t = 50.000 s
+ CPU-time: 4625 s
+ Current phase-field solver time step = 4.90E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 100.00 s
+ CPU-time: 3928 s
+ Current phase-field solver time step = 4.71E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 150.00 s
+ CPU-time: 3060 s
+ Current phase-field solver time step = 4.85E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 200.00 s
+ CPU-time: 2700 s
+ Current phase-field solver time step = 5.07E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 250.00 s
+ CPU-time: 2399 s
+ Current phase-field solver time step = 5.32E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 300.00 s
+ CPU-time: 2137 s
+ Current phase-field solver time step = 5.17E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 350.00 s
+ CPU-time: 1945 s
+ Current phase-field solver time step = 5.30E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 400.00 s
+ CPU-time: 1803 s
+ Current phase-field solver time step = 8.55E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 450.00 s
+ CPU-time: 1691 s
+ Current phase-field solver time step = 5.21E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 500.00 s
+ CPU-time: 1538 s
+ Current phase-field solver time step = 6.25E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 600.00 s
+ CPU-time: 2823 s
+ Current phase-field solver time step = 7.21E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 700.00 s
+ CPU-time: 2406 s
+ Current phase-field solver time step = 8.84E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 800.00 s
+ CPU-time: 2170 s
+ Current phase-field solver time step = 7.21E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 900.00 s
+ CPU-time: 1768 s
+ Current phase-field solver time step = 5.54E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1000.0 s
+ CPU-time: 1667 s
+ Current phase-field solver time step = 7.77E-02 s
+ Temperature at the bottom = 1200.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:       36827
+ Wall clock time in seconds:  37390
+ End
+ 

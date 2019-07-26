@@ -1,0 +1,1820 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/18/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: enabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 19/01/2018 (11:00)
+ Machine: n017
+ Driving file: T032_P_Peak_2D_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 400, 1, 400
+ deltaX, deltaY, deltaZ [cm] = 2.0000E-04, 2.0000E-04, 2.0000E-04
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Multi-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 69
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 2.0000000E+00 s
+ Intermediate output at t       = 3.0000000E+00 s
+ Intermediate output at t       = 4.0000000E+00 s
+ Intermediate output at t       = 5.0000000E+00 s
+ Intermediate output at t       = 6.0000000E+00 s
+ Intermediate output at t       = 7.0000000E+00 s
+ Intermediate output at t       = 8.0000000E+00 s
+ Intermediate output at t       = 9.0000000E+00 s
+ Intermediate output at t       = 1.0000000E+01 s
+ Intermediate output at t       = 2.0000000E+01 s
+ Intermediate output at t       = 3.0000000E+01 s
+ Intermediate output at t       = 4.0000000E+01 s
+ Intermediate output at t       = 5.0000000E+01 s
+ Intermediate output at t       = 6.0000000E+01 s
+ Intermediate output at t       = 7.0000000E+01 s
+ Intermediate output at t       = 8.0000000E+01 s
+ Intermediate output at t       = 9.0000000E+01 s
+ Intermediate output at t       = 1.0000000E+02 s
+ Intermediate output at t       = 1.1000000E+02 s
+ Intermediate output at t       = 1.2000000E+02 s
+ Intermediate output at t       = 1.3000000E+02 s
+ Intermediate output at t       = 1.4000000E+02 s
+ Intermediate output at t       = 1.4200000E+02 s
+ Intermediate output at t       = 1.4400000E+02 s
+ Intermediate output at t       = 1.4600000E+02 s
+ Intermediate output at t       = 1.4800000E+02 s
+ Intermediate output at t       = 1.5000000E+02 s
+ Intermediate output at t       = 1.5200000E+02 s
+ Intermediate output at t       = 1.5400000E+02 s
+ Intermediate output at t       = 1.5600000E+02 s
+ Intermediate output at t       = 1.5800000E+02 s
+ Intermediate output at t       = 1.6000000E+02 s
+ Intermediate output at t       = 1.7000000E+02 s
+ Intermediate output at t       = 1.8000000E+02 s
+ Intermediate output at t       = 1.9000000E+02 s
+ Intermediate output at t       = 2.0000000E+02 s
+ Intermediate output at t       = 2.5000000E+02 s
+ Intermediate output at t       = 3.0000000E+02 s
+ Intermediate output at t       = 3.5000000E+02 s
+ Intermediate output at t       = 4.0000000E+02 s
+ Intermediate output at t       = 4.5000000E+02 s
+ Intermediate output at t       = 5.0000000E+02 s
+ Intermediate output at t       = 5.5000000E+02 s
+ Intermediate output at t       = 6.0000000E+02 s
+ Intermediate output at t       = 7.0000000E+02 s
+ Intermediate output at t       = 8.0000000E+02 s
+ Intermediate output at t       = 9.0000000E+02 s
+ Intermediate output at t       = 1.0000000E+03 s
+ Intermediate output at t       = 1.1000000E+03 s
+ Intermediate output at t       = 1.2000000E+03 s
+ Intermediate output at t       = 1.3000000E+03 s
+ Intermediate output at t       = 1.4000000E+03 s
+ Intermediate output at t       = 1.5000000E+03 s
+ Intermediate output at t       = 1.6000000E+03 s
+ Intermediate output at t       = 1.7000000E+03 s
+ Intermediate output at t       = 1.8000000E+03 s
+ Intermediate output at t       = 1.9000000E+03 s
+ Intermediate output at t       = 2.0000000E+03 s
+ Intermediate output at t       = 2.1000000E+03 s
+ Intermediate output at t       = 2.2000000E+03 s
+ Intermediate output at t       = 2.3000000E+03 s
+ Intermediate output at t       = 2.4000000E+03 s
+ Intermediate output at t       = 2.5000000E+03 s
+ Intermediate output at t       = 2.6000000E+03 s
+ Intermediate output at t       = 2.7000000E+03 s
+ Intermediate output at t       = 2.8000000E+03 s
+ Intermediate output at t       = 2.9000000E+03 s
+ Intermediate output at t       = 3.0000000E+03 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.000E+20
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 0
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 2
+ Grain orientations will be defined by 2D angles.
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 1
+ Input data for grain number 1:
+  'Round' grain.
+  x,z coordinates               : 0.250000, 0.250000 micrometers
+  Grain radius                  : 0.00000 micrometers
+  Grain 1 is stabilized
+  No Voronoi construction
+  Phase number                  : 1
+  Rotation angle                : 45.0000000000000  degree
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 1
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  The influence of the curvature undercooling will not be taken into account.
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 10000
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 2.5000
+  Determination of grain orientations is 'parent_relation'
+  Minimal value of rotation angle -5.000
+  Maximal value of rotation angle +5.000
+  Shield time [s]: 10.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 250.00
+  min. nucleation temperature for seed type 1: 1700.0000 K
+  max. nucleation temperature for seed type 1: 1735.0000 K
+  Time between checks for nucleation: 1.0000 [s]
+  Random noise will be applied.
+  Factor for random noise:  5.000000000000000E-002
+
+ Other nucleation parameters
+ ---------------------------
+  Seed for random-number generator initialisation: 13
+  Max. number of simultaneous nucleations: 10000
+  Metastable small seeds will be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  Averaging coefficient        Av = +0.50
+  Maximal driving force     dGMax = 20.000 [J/cm**3]
+  Interfacial energy        sigma = 1.60000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 2.50000E-03 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 0.3000000
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 0.3000000
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will be simulated.
+  Interaction parameters between phases  0  and 2:
+  Averaging coefficient        Av = +0.50
+  Maximal driving force     dGMax = 20.000 [J/cm**3]
+  Interfacial energy        sigma = 1.60000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-03 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 0.3000000
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 0.3000000
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will not be simulated.
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will be simulated.
+  Interaction parameters between phases  1  and 2:
+  Averaging coefficient        Av = +0.50
+  Maximal driving force     dGMax = 20.000 [J/cm**3]
+  Interfacial energy        sigma = 5.00000E-06 [J/cm**2]
+  Kinetic coefficient          mu = 5.00000E-04 [cm**4/(Js)]
+  Misorientation will not be considered.
+  Phases  1 /  2 have an isotropic interaction.
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will be simulated.
+  Interaction parameters between phases  2  and 2:
+  Interfacial energy        sigma = 1.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-05 [cm**4/(Js)]
+  Misorientation will not be considered.
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 4
+ Concentration in weight percent wt%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will be solved with diffusion coefficient values from database ('global')
+ Diffusion of component 1  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 1  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 0  will be solved with diffusion coefficient values from database ('global')
+ Diffusion of component 2  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 3  in phase 0  will be solved with diffusion coefficient values from database ('global')
+ Diffusion of component 3  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 3  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 4  in phase 0  will be solved with diffusion coefficient values from database ('global')
+ Diffusion of component 4  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 4  in phase 2  will be solved with user-defined diffusion matrix
+ Interval for updating diffusion coefficients data: 10.000 [s]
+
+
+ Phase diagram - input data
+ **************************
+
+ Name of Thermo-Calc *.GES5 file: GES_Files/TC2015a_Fe_C_Mn_Si_P
+ Interval for updating thermodynamic data [s] = 10.000
+
+ Input of the phase diagram of phase 0 and phase 1:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+
+ Input of the phase diagram of phase 0 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+
+ Input of the phase diagram of phase 1 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+ Redistribution characteristics of components:
+ 1:  normal normal
+ 2:  nple nple
+ 3:  normal normal
+ 4:  nple nple
+ # Reading GES5 workspace ...
+ The database contains the following components:
+ 1: C
+ 2: FE
+ 3: MN
+ 4: P
+ 5: SI
+ Thermo-Calc index of (MICRESS) component 0 = 2
+ Thermo-Calc index of (MICRESS) component 1 = 1
+ Thermo-Calc index of (MICRESS) component 2 = 3
+ Thermo-Calc index of (MICRESS) component 3 = 4
+ Thermo-Calc index of (MICRESS) component 4 = 5
+ 0 -> FE
+ 1 -> C
+ 2 -> MN
+ 3 -> P
+ 4 -> SI
+ The database contains 3 phases:
+ 1: LIQUID
+ 2: BCC_A2
+ 3: FCC_A1
+ Thermo-Calc index of the (MICRESS) phase 0 = 1
+ Thermo-Calc index of the (MICRESS) phase 1 = 2
+ Thermo-Calc index of the (MICRESS) phase 2 = 3
+ 0 -> LIQUID
+ 1 -> BCC_A2
+ 2 -> FCC_A1
+ # Molar volume of phase 0 (LIQUID): 15.000 [cm**3/mol]
+ # Molar volume of phase 1 (BCC_A2): 15.000 [cm**3/mol]
+ # Molar volume of phase 2 (FCC_A1): 15.000 [cm**3/mol]
+ initial equilibrium at T = 1763.750
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 0
+ Initial concentration of component 1 (C) in phase 0 (LIQUID) = 0.4000000000 wt%
+ Initial concentration of component 2 (MN) in phase 0 (LIQUID) = 0.8000000000 wt%
+ Initial concentration of component 3 (P) in phase 0 (LIQUID) = 3.0000000000E-02 wt%
+ Initial concentration of component 4 (SI) in phase 0 (LIQUID) = 0.7000000000 wt%
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1763.750 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: -0.20000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction symmetric boundary condition for phase field
+ In E-direction symmetric boundary condition for phase field
+ In B-direction symmetric boundary condition for phase field
+ In T-direction symmetric boundary condition for phase field
+ 
+ In W-direction symmetric boundary condition for concentration field
+ In E-direction symmetric boundary condition for concentration field
+ In B-direction symmetric boundary condition for concentration field
+ In T-direction symmetric boundary condition for concentration field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.00000000000000
+ Number of parallel threads: 12
+
+
+ Beginning of initialisation
+ ***************************
+  Grain number 1 set
+
+ Start Composition for iteration of quasi-equilibrium
+ ****************************************************
+  FE in LIQUID:  96.07078
+  C in LIQUID: 0.9608981
+  MN in LIQUID: 0.9799258
+  P in LIQUID: 0.9894396
+  SI in LIQUID: 0.9989535
+  FE in BCC_A2:  94.17180
+  C in BCC_A2:  2.862595
+  MN in BCC_A2: 0.9698819
+  P in BCC_A2: 0.9885335
+  SI in BCC_A2:  1.007185
+  FE in FCC_A1:  95.73168
+  C in FCC_A1: 0.9375837
+  MN in FCC_A1:  1.038615
+  P in FCC_A1:  1.110244
+  SI in FCC_A1:  1.181873
+
+ # The linearisation parameters of the phases LIQUID/BCC_A2 are:
+ # -------------------------------------------------------------
+ 1763.7500            ! T0 [K]
+ -0.82110952          ! dG [J/cm**3]
+ 0.49702521           ! dSf+ [J/cm**3K]
+ 0.43719219           ! dSf- [J/cm**3K]
+ 806.37049            ! dH [J/cm3]
+ 0.40005746133011     ! c0(C)/LIQUID
+ 6.38534409673878E-02 ! c0(C)/BCC_A2
+ 0.80004748562764     ! c0(MN)/LIQUID
+ 0.51306328136211     ! c0(MN)/BCC_A2
+ 3.00552299048496E-02 ! c0(P)/LIQUID
+ 8.66105333705184E-03 ! c0(P)/BCC_A2
+ 0.70000608687102     ! c0(SI)/LIQUID
+ 0.46775086493164     ! c0(SI)/BCC_A2
+ -89.817052           ! m(C)/LIQUID
+ -550.04258           ! m(C)/BCC_A2
+ -5.7018161           ! m(MN)/LIQUID
+ -11.591246           ! m(MN)/BCC_A2
+ -32.436859           ! m(P)/LIQUID
+ -120.05346           ! m(P)/BCC_A2
+ -13.602024           ! m(SI)/LIQUID
+ -24.739387           ! m(SI)/BCC_A2
+ -1.29250182E-03      ! dcdT(C)/LIQUID
+ 2.07077715E-04       ! dcdT(C)/BCC_A2
+ -2.55890889E-04      ! dcdT(MN)/LIQUID
+ 1.20282602E-04       ! dcdT(MN)/BCC_A2
+ -3.15127266E-05      ! dcdT(P)/LIQUID
+ 1.19280459E-05       ! dcdT(P)/BCC_A2
+ -1.32292926E-04      ! dcdT(SI)/LIQUID
+ 1.09280218E-04       ! dcdT(SI)/BCC_A2
+ Initial concentration in the phases:
+ LIQUID, FE: 98.07000 wt%
+ LIQUID, C: 0.4000000 wt%
+ LIQUID, MN: 0.8000000 wt%
+ LIQUID, P: 3.0000000E-02 wt%
+ LIQUID, SI: 0.7000000 wt%
+ BCC_A2, FE: 98.94667 wt%
+ BCC_A2, C: 6.3853441E-02 wt%
+ BCC_A2, MN: 0.5130633 wt%
+ BCC_A2, P: 8.6610533E-03 wt%
+ BCC_A2, SI: 0.4677509 wt%
+ 
+ # tWidth_max( 0 : 1 ) = 0.1826923 s
+ # tWidth_max( 0 : 2 ) = 0.4567308 s
+ # tWidth_max( 1 : 2 ) = 3.800000 s
+ # tWidth_max( 2 : 2 ) = 95.00000 s
+ # Maximal value for tWidth = 0.1826923 s for phase-field solver
+ Updating of diffusion data from database...
+ # Maximal value for tWidth = 1.3938483E-04 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 1.32416E-04 s
+ # Initial value for tWidth = 1.32416E-04 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 0.32192 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 1.32E-04 s
+ Average conc. of comp. 1 = 0.4000000 wt%
+ Average conc. of comp. 2 = 0.8000000 wt%
+ Average conc. of comp. 3 = 0.0300000 wt%
+ Average conc. of comp. 4 = 0.7000000 wt%
+ Temperature at the bottom = 1763.8 K
+ Temperature gradient = 0.00000 K/cm
+ Fraction of phase 0: 1.00000
+ Fraction of phase 1: 0.00000
+ Fraction of phase 2: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 122 s
+ Current phase-field solver time step = 2.98E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1763.6 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.0000 s
+ CPU-time: 129 s
+ Current phase-field solver time step = 2.86E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1763.3 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.0000 s
+ CPU-time: 130 s
+ Current phase-field solver time step = 3.06E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1763.2 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.0000 s
+ CPU-time: 132 s
+ Current phase-field solver time step = 2.71E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1763.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 130 s
+ Current phase-field solver time step = 2.77E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1762.8 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 6.0000 s
+ CPU-time: 124 s
+ Current phase-field solver time step = 3.12E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1762.6 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 7.0000 s
+ CPU-time: 128 s
+ Current phase-field solver time step = 2.68E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1762.3 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 8.0000 s
+ CPU-time: 129 s
+ Current phase-field solver time step = 2.91E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1762.2 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.0000 s
+ CPU-time: 134 s
+ Current phase-field solver time step = 2.71E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1762.0 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 140 s
+ Current phase-field solver time step = 2.98E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1761.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 20.000 s
+ CPU-time: 1419 s
+ Current phase-field solver time step = 2.53E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1759.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 30.000 s
+ CPU-time: 1694 s
+ Current phase-field solver time step = 2.39E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1757.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 40.000 s
+ CPU-time: 2165 s
+ Current phase-field solver time step = 2.28E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1755.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 50.000 s
+ CPU-time: 3214 s
+ Current phase-field solver time step = 2.19E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1753.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 60.000 s
+ CPU-time: 5327 s
+ Current phase-field solver time step = 2.11E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1751.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 70.000 s
+ CPU-time: 6997 s
+ Current phase-field solver time step = 2.03E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1749.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 80.000 s
+ CPU-time: 10438 s
+ Current phase-field solver time step = 1.96E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1747.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 90.000 s
+ CPU-time: 9495 s
+ Current phase-field solver time step = 1.90E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1745.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 100.00 s
+ CPU-time: 9545 s
+ Current phase-field solver time step = 1.84E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1743.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 110.00 s
+ CPU-time: 9541 s
+ Current phase-field solver time step = 1.78E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1741.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 120.00 s
+ CPU-time: 9569 s
+ Current phase-field solver time step = 1.72E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1739.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 130.00 s
+ CPU-time: 9631 s
+ Current phase-field solver time step = 1.67E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1737.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 140.00 s
+ CPU-time: 9668 s
+ Current phase-field solver time step = 1.63E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1735.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 142.00 s
+ CPU-time: 2098 s
+ Current phase-field solver time step = 1.60E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1735.3 K
+ Temperature gradient = 0.00000 K/cm
+
+ # The linearisation parameters of the phases LIQUID/FCC_A1 are:
+ # -------------------------------------------------------------
+ 1735.0000            ! T0 [K]
+ -2.2237220           ! dG [J/cm**3]
+ 0.53335275           ! dSf+ [J/cm**3K]
+ 0.49863353           ! dSf- [J/cm**3K]
+ 831.40367            ! dH [J/cm3]
+ 0.68962403985206     ! c0(C)/LIQUID
+ 0.21293366226924     ! c0(C)/FCC_A1
+ 1.0005087788092      ! c0(MN)/LIQUID
+ 0.68116664097891     ! c0(MN)/FCC_A1
+ 4.71960873686495E-02 ! c0(P)/LIQUID
+ 8.85387520749650E-03 ! c0(P)/FCC_A1
+ 0.83556872159680     ! c0(SI)/LIQUID
+ 0.52335190438624     ! c0(SI)/FCC_A1
+ -76.442358           ! m(C)/LIQUID
+ -212.82082           ! m(C)/FCC_A1
+ -4.2304626           ! m(MN)/LIQUID
+ -7.1352047           ! m(MN)/FCC_A1
+ -35.749946           ! m(P)/LIQUID
+ -159.77463           ! m(P)/FCC_A1
+ -16.585767           ! m(SI)/LIQUID
+ -29.035615           ! m(SI)/FCC_A1
+ -7.39294738E-04      ! dcdT(C)/LIQUID
+ 1.71937820E-04       ! dcdT(C)/FCC_A1
+ 1.03871385E-06       ! dcdT(MN)/LIQUID
+ -1.99667021E-05      ! dcdT(MN)/FCC_A1
+ -1.07760407E-04      ! dcdT(P)/LIQUID
+ 2.25103615E-05       ! dcdT(P)/FCC_A1
+ -2.85376608E-04      ! dcdT(SI)/LIQUID
+ 2.25469997E-04       ! dcdT(SI)/FCC_A1
+
+ # Minimum undercooling for stable growth, seed type 1: 0.2999891 K [r=2.000000 mic.]
+
+ Seed number 1 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1731 K
+ Grain number = 2
+
+ Seed number 2 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1987 K
+ Grain number = 3
+
+ Seed number 3 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1940 K
+ Grain number = 4
+
+ Seed number 4 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1829 K
+ Grain number = 5
+
+ Seed number 5 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1877 K
+ Grain number = 6
+
+ Seed number 6 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.2121 K
+ Grain number = 7
+
+ Seed number 7 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1782 K
+ Grain number = 8
+
+ Seed number 8 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1889 K
+ Grain number = 9
+
+ Seed number 9 set at time t = 143.75 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1890 K
+ Grain number = 10
+
+ Seed number 10 set at time t = 143.75 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1735.0 K
+ Undercooling = 4.1699 K
+ Grain number = 11
+
+ # The linearisation parameters of the phases BCC_A2/FCC_A1 are:
+ # -------------------------------------------------------------
+ 1735.0000            ! T0 [K]
+ -1.5808516           ! dG [J/cm**3]
+ 5.56172253E-02       ! dSf+ [J/cm**3K]
+ 4.52258464E-02       ! dSf- [J/cm**3K]
+ 68.212088            ! dH [J/cm3]
+ 9.35350521344364E-02 ! c0(C)/BCC_A2
+ 0.18293636550312     ! c0(C)/FCC_A1
+ 0.56804513958496     ! c0(MN)/BCC_A2
+ 0.62576700270204     ! c0(MN)/FCC_A1
+ 1.06863044667313E-02 ! c0(P)/BCC_A2
+ 6.82247609866789E-03 ! c0(P)/FCC_A1
+ 0.51203189819909     ! c0(SI)/BCC_A2
+ 0.47885707061858     ! c0(SI)/FCC_A1
+ 776.28330            ! m(C)/BCC_A2
+ 500.72362            ! m(C)/FCC_A1
+ 17.586166            ! m(MN)/BCC_A2
+ 19.520325            ! m(MN)/FCC_A1
+ -74.279106           ! m(P)/BCC_A2
+ -196.50280           ! m(P)/FCC_A1
+ -20.489353           ! m(SI)/BCC_A2
+ -21.654401           ! m(SI)/FCC_A1
+ 2.34570323E-04       ! dcdT(C)/BCC_A2
+ -4.48912458E-04      ! dcdT(C)/FCC_A1
+ 2.01620034E-04       ! dcdT(MN)/BCC_A2
+ -2.20963755E-04      ! dcdT(MN)/FCC_A1
+ -1.28567193E-05      ! dcdT(P)/BCC_A2
+ 7.83439557E-06       ! dcdT(P)/FCC_A1
+ -1.90261076E-04      ! dcdT(SI)/BCC_A2
+ 2.28310477E-04       ! dcdT(SI)/FCC_A1
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 144.00 s
+ CPU-time: 2141 s
+ Current phase-field solver time step = 1.60E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1735.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Grain 6 reaches full size at t = 144.027 s
+
+ Grain 5 reaches full size at t = 144.029 s
+
+ Grain 7 reaches full size at t = 144.029 s
+
+ Grain 4 reaches full size at t = 144.030 s
+
+ Grain 8 reaches full size at t = 144.032 s
+
+ Grain 9 reaches full size at t = 144.035 s
+
+ Grain 3 reaches full size at t = 144.037 s
+
+ Grain 10 reaches full size at t = 144.037 s
+
+ Grain 2 reaches full size at t = 144.038 s
+
+ Grain 11 reaches full size at t = 144.043 s
+
+ Intermediate output for t = 146.00 s
+ CPU-time: 3178 s
+ Current phase-field solver time step = 1.59E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1734.6 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 148.00 s
+ CPU-time: 3501 s
+ Current phase-field solver time step = 1.58E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1734.2 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 150.00 s
+ CPU-time: 3582 s
+ Current phase-field solver time step = 1.57E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1733.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 152.00 s
+ CPU-time: 3724 s
+ Current phase-field solver time step = 1.56E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1733.3 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 11 set at time t = 154.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1733.0 K
+ Undercooling = 4.6193 K
+ Grain number = 12
+
+ Seed number 12 set at time t = 154.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1733.0 K
+ Undercooling = 4.4974 K
+ Grain number = 13
+
+ Seed number 13 set at time t = 154.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1733.0 K
+ Undercooling = 4.6339 K
+ Grain number = 14
+
+ Seed number 14 set at time t = 154.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1733.0 K
+ Undercooling = 4.6329 K
+ Grain number = 15
+
+ Seed number 15 set at time t = 154.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1733.0 K
+ Undercooling = 4.6100 K
+ Grain number = 16
+
+ Seed number 16 set at time t = 154.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1733.0 K
+ Undercooling = 4.6344 K
+ Grain number = 17
+
+ Seed number 17 set at time t = 154.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1733.0 K
+ Undercooling = 4.4805 K
+ Grain number = 18
+
+ Seed number 18 set at time t = 154.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1733.0 K
+ Undercooling = 4.5352 K
+ Grain number = 19
+
+ Intermediate output for t = 154.00 s
+ CPU-time: 3636 s
+ Current phase-field solver time step = 1.55E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1733.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Grain 15 reaches full size at t = 154.254 s
+
+ Grain 12 reaches full size at t = 154.257 s
+
+ Grain 16 reaches full size at t = 154.257 s
+
+ Grain 19 reaches full size at t = 154.260 s
+
+ Grain 18 reaches full size at t = 154.262 s
+
+ Grain 13 reaches full size at t = 154.263 s
+
+ Grain 14 reaches full size at t = 154.263 s
+
+ Grain 17 reaches full size at t = 154.265 s
+
+ Intermediate output for t = 156.00 s
+ CPU-time: 4248 s
+ Current phase-field solver time step = 1.55E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1732.6 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 158.00 s
+ CPU-time: 4187 s
+ Current phase-field solver time step = 1.54E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1732.2 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 160.00 s
+ CPU-time: 3890 s
+ Current phase-field solver time step = 1.54E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1731.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Seed number 19 set at time t = 165.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1730.8 K
+ Undercooling = 4.6236 K
+ Grain number = 20
+
+ Seed number 20 set at time t = 165.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1730.8 K
+ Undercooling = 4.5927 K
+ Grain number = 21
+
+ Seed number 21 set at time t = 165.00 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1730.8 K
+ Undercooling = 4.8609 K
+ Grain number = 22
+
+ Grain 22 reaches full size at t = 165.245 s
+
+ Grain 20 reaches full size at t = 165.265 s
+
+ Grain 21 reaches full size at t = 165.274 s
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 170.00 s
+ CPU-time: 10249 s
+ Current phase-field solver time step = 5.45E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1729.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Phase 1 disappeared at 170.6257 s
+
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 180.00 s
+ CPU-time: 2440 s
+ Current phase-field solver time step = 6.28E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1727.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 190.00 s
+ CPU-time: 2255 s
+ Current phase-field solver time step = 6.13E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1725.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 200.00 s
+ CPU-time: 2256 s
+ Current phase-field solver time step = 6.00E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1723.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 250.00 s
+ CPU-time: 11359 s
+ Current phase-field solver time step = 5.39E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1713.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 300.00 s
+ CPU-time: 11146 s
+ Current phase-field solver time step = 4.94E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1703.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 350.00 s
+ CPU-time: 10647 s
+ Current phase-field solver time step = 4.56E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1693.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 400.00 s
+ CPU-time: 10300 s
+ Current phase-field solver time step = 4.25E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1683.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 450.00 s
+ CPU-time: 10193 s
+ Current phase-field solver time step = 3.98E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1673.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 500.00 s
+ CPU-time: 9311 s
+ Current phase-field solver time step = 3.72E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1663.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 550.00 s
+ CPU-time: 8282 s
+ Current phase-field solver time step = 3.46E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1653.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 600.00 s
+ CPU-time: 7596 s
+ Current phase-field solver time step = 3.20E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1643.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 700.00 s
+ CPU-time: 14207 s
+ Current phase-field solver time step = 2.71E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1623.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 800.00 s
+ CPU-time: 13390 s
+ Current phase-field solver time step = 3.33E-03 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1603.8 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Phase 0 disappeared at 816.9954 s
+
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 900.00 s
+ CPU-time: 6020 s
+ Current phase-field solver time step = 1.28E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1583.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1000.0 s
+ CPU-time: 4501 s
+ Current phase-field solver time step = 1.31E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1563.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1100.0 s
+ CPU-time: 3961 s
+ Current phase-field solver time step = 1.13E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1543.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1200.0 s
+ CPU-time: 3445 s
+ Current phase-field solver time step = 1.11E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1523.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1300.0 s
+ CPU-time: 2962 s
+ Current phase-field solver time step = 1.03E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1503.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1400.0 s
+ CPU-time: 2510 s
+ Current phase-field solver time step = 1.93E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1483.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1500.0 s
+ CPU-time: 2088 s
+ Current phase-field solver time step = 2.09E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1463.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1600.0 s
+ CPU-time: 1806 s
+ Current phase-field solver time step = 2.29E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1443.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1700.0 s
+ CPU-time: 1495 s
+ Current phase-field solver time step = 4.02E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1423.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1800.0 s
+ CPU-time: 1234 s
+ Current phase-field solver time step = 5.86E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1403.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 1900.0 s
+ CPU-time: 1038 s
+ Current phase-field solver time step = 6.39E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1383.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2000.0 s
+ CPU-time: 887 s
+ Current phase-field solver time step = 3.70E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1363.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2100.0 s
+ CPU-time: 738 s
+ Current phase-field solver time step = 7.11E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1343.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2200.0 s
+ CPU-time: 605 s
+ Current phase-field solver time step = 7.45E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1323.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2300.0 s
+ CPU-time: 493 s
+ Current phase-field solver time step = 5.44E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1303.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2400.0 s
+ CPU-time: 409 s
+ Current phase-field solver time step = 8.09E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1283.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2500.0 s
+ CPU-time: 332 s
+ Current phase-field solver time step = 8.27E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1263.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2600.0 s
+ CPU-time: 264 s
+ Current phase-field solver time step = 8.45E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1243.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2700.0 s
+ CPU-time: 213 s
+ Current phase-field solver time step = 8.55E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1223.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2800.0 s
+ CPU-time: 168 s
+ Current phase-field solver time step = 8.26E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1203.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2900.0 s
+ CPU-time: 142 s
+ Current phase-field solver time step = 3.50E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1183.8 K
+ Temperature gradient = 0.00000 K/cm
+ Updating of diffusion data from database...
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 3000.0 s
+ CPU-time: 120 s
+ Current phase-field solver time step = 8.60E+01 s
+ Average conc. of comp. 1 = 0.4000000, Variation = +0.0000000 wt%
+ Average conc. of comp. 2 = 0.8000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 3 = 0.0300000, Variation = +0.0000000 wt%
+ Average conc. of comp. 4 = 0.7000000, Variation = -0.0000000 wt%
+ Temperature at the bottom = 1163.8 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ Simulation run on machine n017
+ Remaining license time: permanent
+ CPU time in seconds:      283301
+ Wall clock time in seconds:  25009
+ End
+ 

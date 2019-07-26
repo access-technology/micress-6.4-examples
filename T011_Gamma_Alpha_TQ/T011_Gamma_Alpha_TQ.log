@@ -1,0 +1,5248 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (04:05)
+ Machine: n009
+ Driving file: T011_Gamma_Alpha_TQ_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 250, 1, 250
+ deltaX, deltaY, deltaZ [cm] = 2.5000E-05, 2.5000E-05, 2.5000E-05
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Multi-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 27
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 2.0000000E+00 s
+ Intermediate output at t       = 3.0000000E+00 s
+ Intermediate output at t       = 4.0000000E+00 s
+ Intermediate output at t       = 5.0000000E+00 s
+ Intermediate output at t       = 6.0000000E+00 s
+ Intermediate output at t       = 8.0000000E+00 s
+ Intermediate output at t       = 1.0000000E+01 s
+ Intermediate output at t       = 1.5000000E+01 s
+ Intermediate output at t       = 2.0000000E+01 s
+ Intermediate output at t       = 2.5000000E+01 s
+ Intermediate output at t       = 3.0000000E+01 s
+ Intermediate output at t       = 4.0000000E+01 s
+ Intermediate output at t       = 5.0000000E+01 s
+ Intermediate output at t       = 6.0000000E+01 s
+ Intermediate output at t       = 7.0000000E+01 s
+ Intermediate output at t       = 8.0000000E+01 s
+ Intermediate output at t       = 9.0000000E+01 s
+ Intermediate output at t       = 1.0000000E+02 s
+ Intermediate output at t       = 1.2500000E+02 s
+ Intermediate output at t       = 1.5000000E+02 s
+ Intermediate output at t       = 1.7500000E+02 s
+ Intermediate output at t       = 2.0000000E+02 s
+ Intermediate output at t       = 2.2500000E+02 s
+ Intermediate output at t       = 2.5000000E+02 s
+ Intermediate output at t       = 2.7500000E+02 s
+ Intermediate output at t       = 3.0000000E+02 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.00
+ Lower limit for time step: 1.000E-04
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 20
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is isotropic.
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is isotropic.
+ No categorization is allowed for phase 2
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 9
+ Input data for grain number 1:
+  'Round' grain.
+  x,z coordinates               : 51.2400, 20.9700 micrometers
+  Grain radius                  : 23.3600 micrometers
+  Grain 1 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 2:
+  'Round' grain.
+  x,z coordinates               : 52.1000, 47.3650 micrometers
+  Grain radius                  : 25.8600 micrometers
+  Grain 2 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 3:
+  'Round' grain.
+  x,z coordinates               : 37.1300, 23.0300 micrometers
+  Grain radius                  : 23.8100 micrometers
+  Grain 3 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 4:
+  'Round' grain.
+  x,z coordinates               : 3.24500, 21.1300 micrometers
+  Grain radius                  : 23.8700 micrometers
+  Grain 4 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 5:
+  'Round' grain.
+  x,z coordinates               : 13.1700, 35.4850 micrometers
+  Grain radius                  : 27.0200 micrometers
+  Grain 5 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 6:
+  'Round' grain.
+  x,z coordinates               : 29.3050, 12.8200 micrometers
+  Grain radius                  : 27.7700 micrometers
+  Grain 6 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 7:
+  'Round' grain.
+  x,z coordinates               : 4.78500, 31.4650 micrometers
+  Grain radius                  : 25.3700 micrometers
+  Grain 7 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 8:
+  'Round' grain.
+  x,z coordinates               : 2.15500, 2.49000 micrometers
+  Grain radius                  : 27.9450 micrometers
+  Grain 8 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 9:
+  'Round' grain.
+  x,z coordinates               : 42.1750, 4.61000 micrometers
+  Grain radius                  : 24.1500 micrometers
+  Grain 9 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 3
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: higher-order junctions
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 250
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 1: 0.0000 K
+  max. nucleation temperature for seed type 1: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Input for seed type 2:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  Nucleation driving force for seed type 2 will be undercooling.
+  Seed type 2 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 2: 500
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 2: 0.0000 K
+  max. nucleation temperature for seed type 2: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Input for seed type 3:
+ ----------------------
+  Type of 'position' of the seeds: bulk
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 3 will be undercooling.
+  Seed type 3 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 3: 500
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 3: 0.0000 K
+  max. nucleation temperature for seed type 3: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Max. number of simultaneous nucleations: 1250
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will not be simulated.
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will not be simulated.
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will be simulated.
+  Interaction parameters between phases  1  and 1:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-05 [cm**4/(Js)]
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will be simulated.
+  Interaction parameters between phases  1  and 2:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 2.20000E-06 [cm**4/(Js)]
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will be simulated.
+  Interaction parameters between phases  2  and 2:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-05 [cm**4/(Js)]
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 2
+ Concentration in weight percent wt%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will not be solved.
+ Diffusion of component 1  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 1  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 0  will not be solved.
+ Diffusion of component 2  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 2  will be solved with user-defined diffusion matrix
+ Interval for updating diffusion coefficients data: 5.0000 [s]
+
+
+ Phase diagram - input data
+ **************************
+
+ Name of Thermo-Calc *.GES5 file: GES_Files/TC2015a_FeCMn
+ Interval for updating thermodynamic data [s] = 1.0000
+
+ Input of the phase diagram of phase 1 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+ Redistribution characteristics of components:
+ 1:  normal normal
+ 2:  nple nple
+ # Reading GES5 workspace ...
+ The database contains the following components:
+ 1: C
+ 2: FE
+ 3: MN
+ Thermo-Calc index of (MICRESS) component 0 = 2
+ Thermo-Calc index of (MICRESS) component 1 = 1
+ Thermo-Calc index of (MICRESS) component 2 = 3
+ 0 -> FE
+ 1 -> C
+ 2 -> MN
+ The database contains 4 phases:
+ 1: LIQUID
+ 2: BCC_A2
+ 3: CEMENTITE
+ 4: FCC_A1
+ Thermo-Calc index of the (MICRESS) phase 1 = 4
+ Thermo-Calc index of the (MICRESS) phase 2 = 2
+ 1 -> FCC_A1
+ 2 -> BCC_A2
+ # Molar volume of phase 1 (FCC_A1): 7.1824 [cm**3/mol]
+ # Molar volume of phase 2 (BCC_A2): 7.2757 [cm**3/mol]
+ initial equilibrium at T = 1100.000
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 1
+ Initial concentration of component 1 (C) in phase 1 (FCC_A1) = 0.1000000000 wt%
+ Initial concentration of component 2 (MN) in phase 1 (FCC_A1) = 1.500000000 wt%
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1023.000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: 0.0000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction periodic/wrap-around boundary condition for phase field
+ In E-direction periodic/wrap-around boundary condition for phase field
+ In B-direction periodic/wrap-around boundary condition for phase field
+ In T-direction periodic/wrap-around boundary condition for phase field
+ 
+ In W-direction periodic/wrap-around boundary condition for concentration field
+ In E-direction periodic/wrap-around boundary condition for concentration field
+ In B-direction periodic/wrap-around boundary condition for concentration field
+ In T-direction periodic/wrap-around boundary condition for concentration field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ # Grain number 1 set
+ # Grain number 2 set
+ # Grain number 3 set
+ # Grain number 4 set
+ # Grain number 5 set
+ # Grain number 6 set
+ # Grain number 7 set
+ # Grain number 8 set
+ # Grain number 9 set
+
+ Start Composition for iteration of quasi-equilibrium
+ ****************************************************
+  FE in FCC_A1:  98.00255
+  C in FCC_A1: 0.9257909
+  MN in FCC_A1:  1.071662
+  FE in BCC_A2:  96.14901
+  C in BCC_A2:  2.860741
+  MN in BCC_A2: 0.9902453
+ Initial concentration in the phases:
+ FCC_A1, FE: 98.40000 wt%
+ FCC_A1, C: 0.1000000 wt%
+ FCC_A1, MN: 1.500000 wt%
+ 
+ # tWidth_max( 1 : 1 ) = 0.7421875 s
+ # tWidth_max( 1 : 2 ) = 3.373580 s
+ # tWidth_max( 2 : 2 ) = 0.7421875 s
+ # Maximal value for tWidth = 0.7421875 s for phase-field solver
+ Updating of diffusion data from database...
+ # Maximal value for tWidth = 1.9431420E-02 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 1.84598E-02 s
+ # Initial value for tWidth = 1.84598E-02 s for automatic time stepping (phase-field solver)
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 1.85E-02 s
+ Average conc. of comp. 1 = 0.1000000 wt%
+ Average conc. of comp. 2 = 1.5000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ Fraction of phase 0: 0.00000
+ Fraction of phase 1: 1.00000
+ Fraction of phase 2: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 7.42E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ # The linearisation parameters of the phases FCC_A1/BCC_A2 are:
+ # -------------------------------------------------------------
+ 1023.0000            ! T0 [K]
+ -19.848353           ! dG [J/cm**3]
+ 0.38178480           ! dSf+ [J/cm**3K]
+ 0.26826293           ! dSf- [J/cm**3K]
+ 460.83171            ! dH [J/cm3]
+ 0.10006239983321     ! c0(C)/FCC_A1
+ 2.14555348352241E-03 ! c0(C)/BCC_A2
+ 1.5000468953091      ! c0(MN)/FCC_A1
+ 0.54528318294632     ! c0(MN)/BCC_A2
+ -142.73319           ! m(C)/FCC_A1
+ -9357.1074           ! m(C)/BCC_A2
+ -20.046226           ! m(MN)/FCC_A1
+ -73.589661           ! m(MN)/BCC_A2
+ -7.50659076E-04      ! dcdT(C)/FCC_A1
+ 1.63833453E-05       ! dcdT(C)/BCC_A2
+ -8.78046045E-03      ! dcdT(MN)/FCC_A1
+ 3.33193956E-03       ! dcdT(MN)/BCC_A2
+
+ # Minimum undercooling for stable growth, seed type 1: 4.190843 K [r=0.2500000 mic.]
+
+ # Minimum undercooling for stable growth, seed type 2: 4.190843 K [r=0.2500000 mic.]
+
+ # Minimum undercooling for stable growth, seed type 3: 4.190843 K [r=0.2500000 mic.]
+
+ Seed number 1 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 10
+
+ Seed number 2 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 11
+
+ Seed number 3 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 12
+
+ Seed number 4 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 13
+
+ Seed number 5 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 14
+
+ Seed number 6 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 15
+
+ Seed number 7 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 16
+
+ Seed number 8 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 17
+
+ Seed number 9 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 18
+
+ Seed number 10 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 19
+
+ Seed number 11 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 20
+
+ Seed number 12 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 21
+
+ Seed number 13 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 22
+
+ Seed number 14 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 23
+
+ Seed number 15 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 24
+
+ Seed number 16 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 25
+
+ Seed number 17 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 26
+
+ Seed number 18 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 27
+
+ Seed number 19 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 28
+
+ Seed number 20 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 29
+
+ Seed number 21 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 30
+
+ Seed number 22 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 31
+
+ Seed number 23 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 32
+
+ Seed number 24 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 33
+
+ Seed number 25 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 34
+
+ Seed number 26 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 35
+
+ Seed number 27 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 36
+
+ Seed number 28 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 37
+
+ Seed number 29 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 38
+
+ Seed number 30 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 39
+
+ Seed number 31 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 40
+
+ Seed number 32 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 41
+
+ Seed number 33 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 42
+
+ Seed number 34 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 43
+
+ Seed number 35 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 44
+
+ Seed number 36 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 45
+
+ Seed number 37 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 46
+
+ Seed number 38 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 47
+
+ Seed number 39 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 48
+
+ Seed number 40 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 49
+
+ Seed number 41 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 50
+
+ Seed number 42 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 51
+
+ Seed number 43 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 52
+
+ Seed number 44 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 53
+
+ Seed number 45 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 54
+
+ Seed number 46 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 55
+
+ Seed number 47 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 56
+
+ Seed number 48 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 57
+
+ Seed number 49 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 58
+
+ Seed number 50 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 59
+
+ Seed number 51 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 60
+
+ Seed number 52 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 61
+
+ Seed number 53 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 62
+
+ Seed number 54 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 63
+
+ Seed number 55 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 64
+
+ Seed number 56 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 65
+
+ Seed number 57 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 66
+
+ Seed number 58 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 67
+
+ Seed number 59 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 68
+
+ Seed number 60 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 69
+
+ Seed number 61 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 70
+
+ Seed number 62 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 71
+
+ Seed number 63 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 72
+
+ Seed number 64 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 73
+
+ Seed number 65 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 74
+
+ Seed number 66 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 75
+
+ Seed number 67 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 76
+
+ Seed number 68 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 77
+
+ Seed number 69 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 78
+
+ Seed number 70 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 79
+
+ Seed number 71 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 80
+
+ Seed number 72 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 81
+
+ Seed number 73 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 82
+
+ Seed number 74 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 83
+
+ Seed number 75 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 84
+
+ Seed number 76 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 85
+
+ Seed number 77 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 86
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2.0000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 3.71E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 78 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 87
+
+ Seed number 79 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 88
+
+ Seed number 80 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 89
+
+ Seed number 81 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 90
+
+ Seed number 82 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 91
+
+ Seed number 83 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 92
+
+ Seed number 84 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 93
+
+ Seed number 85 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 94
+
+ Seed number 86 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 95
+
+ Seed number 87 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 96
+
+ Seed number 88 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 97
+
+ Seed number 89 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 98
+ complete relinearisation!
+
+ Intermediate output for t = 3.0000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 1.48E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 90 set at time t = 3.0300 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.999 K
+ Grain number = 99
+ complete relinearisation!
+
+ Intermediate output for t = 4.0000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 2.01E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 91 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 100
+
+ Seed number 92 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 101
+
+ Seed number 93 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 102
+
+ Seed number 94 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 103
+
+ Seed number 95 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 104
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 3.33E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 6.0000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 4.22E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Seed number 96 set at time t = 7.0700 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.994 K
+ Grain number = 105
+ complete relinearisation!
+
+ Intermediate output for t = 8.0000 s
+ CPU-time: 10 s
+ Current phase-field solver time step = 3.69E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 97 set at time t = 8.0800 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.996 K
+ Grain number = 106
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 3.98E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 15.000 s
+ CPU-time: 24 s
+ Current phase-field solver time step = 3.61E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 98 set at time t = 15.150 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.980 K
+ Grain number = 107
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Grain 68 reaches full size at t = 18.8993 s
+
+ Grain 75 reaches full size at t = 18.8993 s
+
+ Grain 76 reaches full size at t = 18.8993 s
+
+ Grain 79 reaches full size at t = 18.8993 s
+
+ Grain 80 reaches full size at t = 18.8993 s
+
+ Grain 81 reaches full size at t = 18.8993 s
+
+ Grain 82 reaches full size at t = 18.8993 s
+
+ Grain 83 reaches full size at t = 18.8993 s
+
+ Grain 67 reaches full size at t = 18.8993 s
+
+ Grain 69 reaches full size at t = 18.8993 s
+
+ Grain 66 reaches full size at t = 18.8993 s
+
+ Grain 71 reaches full size at t = 18.8993 s
+
+ Grain 72 reaches full size at t = 18.8993 s
+
+ Grain 73 reaches full size at t = 18.8993 s
+
+ Grain 74 reaches full size at t = 18.8993 s
+
+ Grain 77 reaches full size at t = 18.8993 s
+
+ Grain 78 reaches full size at t = 18.8993 s
+
+ Grain 61 reaches full size at t = 18.8993 s
+
+ Grain 64 reaches full size at t = 18.8993 s
+
+ Grain 65 reaches full size at t = 18.8993 s
+
+ Grain 70 reaches full size at t = 18.8993 s
+
+ Grain 60 reaches full size at t = 18.8993 s
+
+ Grain 63 reaches full size at t = 18.8993 s
+
+ Grain 84 reaches full size at t = 18.8993 s
+
+ Grain 85 reaches full size at t = 18.8993 s
+
+ Grain 62 reaches full size at t = 18.8993 s
+
+ Grain 86 reaches full size at t = 18.8993 s
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 20.000 s
+ CPU-time: 28 s
+ Current phase-field solver time step = 1.90E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Grain 93 reaches full size at t = 20.3810 s
+
+ Grain 95 reaches full size at t = 20.3810 s
+
+ Grain 98 reaches full size at t = 20.3810 s
+
+ Grain 94 reaches full size at t = 20.3810 s
+
+ Grain 96 reaches full size at t = 20.3810 s
+
+ Grain 91 reaches full size at t = 20.3810 s
+
+ Grain 97 reaches full size at t = 20.3810 s
+
+ Grain 90 reaches full size at t = 20.3810 s
+
+ Grain 92 reaches full size at t = 20.3810 s
+
+ Grain 87 reaches full size at t = 20.3810 s
+
+ Grain 89 reaches full size at t = 20.3810 s
+
+ Grain 88 reaches full size at t = 20.3810 s
+
+ Grain 99 reaches full size at t = 20.9877 s
+
+ Grain 44 reaches full size at t = 21.1355 s
+ complete relinearisation!
+
+ Grain 49 reaches full size at t = 21.3683 s
+
+ Grain 58 reaches full size at t = 21.3683 s
+
+ Grain 27 reaches full size at t = 21.5289 s
+
+ Grain 21 reaches full size at t = 21.9980 s
+
+ Grain 23 reaches full size at t = 21.9980 s
+
+ Grain 30 reaches full size at t = 21.9980 s
+
+ Grain 59 reaches full size at t = 21.9980 s
+
+ Grain 20 reaches full size at t = 22.1477 s
+
+ Grain 33 reaches full size at t = 22.1477 s
+ complete relinearisation!
+
+ Grain 31 reaches full size at t = 22.2200 s
+
+ Grain 13 reaches full size at t = 22.5128 s
+
+ Grain 26 reaches full size at t = 22.5128 s
+
+ Grain 39 reaches full size at t = 22.5128 s
+
+ Grain 50 reaches full size at t = 22.6540 s
+
+ Grain 10 reaches full size at t = 22.8000 s
+
+ Grain 14 reaches full size at t = 22.8000 s
+
+ Grain 15 reaches full size at t = 22.8000 s
+
+ Grain 103 reaches full size at t = 22.8000 s
+
+ Grain 40 reaches full size at t = 22.8000 s
+
+ Grain 41 reaches full size at t = 22.8000 s
+
+ Grain 101 reaches full size at t = 22.8000 s
+
+ Grain 102 reaches full size at t = 22.8000 s
+
+ Grain 55 reaches full size at t = 22.8000 s
+
+ Grain 57 reaches full size at t = 22.8000 s
+
+ Grain 100 reaches full size at t = 22.8000 s
+
+ Grain 104 reaches full size at t = 22.8000 s
+
+ Grain 52 reaches full size at t = 22.9423 s
+ complete relinearisation!
+
+ Grain 32 reaches full size at t = 23.2300 s
+
+ Grain 34 reaches full size at t = 23.2300 s
+
+ Grain 12 reaches full size at t = 23.3757 s
+
+ Grain 29 reaches full size at t = 23.8274 s
+
+ Grain 46 reaches full size at t = 24.0947 s
+
+ Grain 48 reaches full size at t = 24.0947 s
+
+ Grain 53 reaches full size at t = 24.0947 s
+ complete relinearisation!
+
+ Grain 54 reaches full size at t = 24.2400 s
+
+ Grain 28 reaches full size at t = 24.5337 s
+
+ Grain 45 reaches full size at t = 24.5337 s
+
+ Grain 11 reaches full size at t = 24.6974 s
+
+ Grain 42 reaches full size at t = 24.6974 s
+
+ Grain 24 reaches full size at t = 24.9922 s
+
+ Grain 25 reaches full size at t = 24.9922 s
+
+ Grain 36 reaches full size at t = 24.9922 s
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 25.000 s
+ CPU-time: 33 s
+ Current phase-field solver time step = 1.51E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Grain 18 reaches full size at t = 25.4155 s
+
+ Grain 37 reaches full size at t = 25.7125 s
+
+ Grain 47 reaches full size at t = 25.7125 s
+
+ Grain 22 reaches full size at t = 26.0263 s
+
+ Grain 35 reaches full size at t = 26.0263 s
+ complete relinearisation!
+
+ Grain 105 reaches full size at t = 26.1860 s
+
+ Seed number 99 set at time t = 26.260 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.852 K
+ Grain number = 108
+
+ Seed number 100 set at time t = 26.260 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.822 K
+ Grain number = 109
+
+ Grain 19 reaches full size at t = 26.9065 s
+
+ Grain 106 reaches full size at t = 27.0785 s
+ complete relinearisation!
+
+ Grain 43 reaches full size at t = 27.4154 s
+
+ Grain 38 reaches full size at t = 27.7346 s
+
+ Grain 51 reaches full size at t = 27.7346 s
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 101 set at time t = 29.290 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.759 K
+ Grain number = 110
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 30.000 s
+ CPU-time: 41 s
+ Current phase-field solver time step = 5.65E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Grain 56 reaches full size at t = 30.2825 s
+
+ Grain 16 reaches full size at t = 30.4222 s
+
+ Grain 17 reaches full size at t = 30.4222 s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Seed number 102 set at time t = 35.350 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.612 K
+ Grain number = 111
+
+ Grain 107 reaches full size at t = 35.3500 s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 103 set at time t = 39.390 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.397 K
+ Grain number = 112
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 40.000 s
+ CPU-time: 105 s
+ Current phase-field solver time step = 1.11E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 104 set at time t = 46.460 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.539 K
+ Grain number = 113
+
+ Seed number 105 set at time t = 46.460 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.549 K
+ Grain number = 114
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 50.000 s
+ CPU-time: 138 s
+ Current phase-field solver time step = 1.10E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 106 set at time t = 52.520 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.045 K
+ Grain number = 115
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 107 set at time t = 54.540 s
+ ----------------------------------------
+ at a triple-junction
+ Phase: 2 (BCC_A2)
+ Seed type: 1
+ Local temperature = 1023.0 K
+ Undercooling = 57.077 K
+ Grain number = 116
+
+ Seed number 108 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.142 K
+ Grain number = 117
+
+ Seed number 109 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.888 K
+ Grain number = 118
+
+ Seed number 110 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.001 K
+ Grain number = 119
+
+ Seed number 111 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.850 K
+ Grain number = 120
+
+ Seed number 112 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.586 K
+ Grain number = 121
+
+ Seed number 113 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.277 K
+ Grain number = 122
+
+ Seed number 114 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.274 K
+ Grain number = 123
+
+ Seed number 115 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.566 K
+ Grain number = 124
+
+ Seed number 116 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.142 K
+ Grain number = 125
+
+ Seed number 117 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.902 K
+ Grain number = 126
+
+ Seed number 118 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.479 K
+ Grain number = 127
+
+ Seed number 119 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.317 K
+ Grain number = 128
+
+ Seed number 120 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.779 K
+ Grain number = 129
+
+ Seed number 121 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.457 K
+ Grain number = 130
+
+ Seed number 122 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.011 K
+ Grain number = 131
+
+ Seed number 123 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.294 K
+ Grain number = 132
+
+ Seed number 124 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.489 K
+ Grain number = 133
+
+ Seed number 125 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.656 K
+ Grain number = 134
+
+ Seed number 126 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.961 K
+ Grain number = 135
+
+ Seed number 127 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.191 K
+ Grain number = 136
+
+ Seed number 128 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.208 K
+ Grain number = 137
+
+ Seed number 129 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.638 K
+ Grain number = 138
+
+ Seed number 130 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.764 K
+ Grain number = 139
+
+ Seed number 131 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.852 K
+ Grain number = 140
+
+ Seed number 132 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.398 K
+ Grain number = 141
+
+ Seed number 133 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.325 K
+ Grain number = 142
+
+ Seed number 134 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.385 K
+ Grain number = 143
+
+ Seed number 135 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.995 K
+ Grain number = 144
+
+ Seed number 136 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.212 K
+ Grain number = 145
+
+ Seed number 137 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.106 K
+ Grain number = 146
+
+ Seed number 138 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.249 K
+ Grain number = 147
+
+ Seed number 139 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.430 K
+ Grain number = 148
+
+ Seed number 140 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.899 K
+ Grain number = 149
+
+ Seed number 141 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.500 K
+ Grain number = 150
+
+ Seed number 142 set at time t = 54.540 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.399 K
+ Grain number = 151
+
+ Seed number 143 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.703 K
+ Grain number = 152
+
+ Seed number 144 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.738 K
+ Grain number = 153
+
+ Seed number 145 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.741 K
+ Grain number = 154
+
+ Seed number 146 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.650 K
+ Grain number = 155
+
+ Seed number 147 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.511 K
+ Grain number = 156
+
+ Seed number 148 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.748 K
+ Grain number = 157
+
+ Seed number 149 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.617 K
+ Grain number = 158
+
+ Seed number 150 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.541 K
+ Grain number = 159
+
+ Seed number 151 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.055 K
+ Grain number = 160
+
+ Seed number 152 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.369 K
+ Grain number = 161
+
+ Seed number 153 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.864 K
+ Grain number = 162
+
+ Seed number 154 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.933 K
+ Grain number = 163
+
+ Seed number 155 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 56.080 K
+ Grain number = 164
+
+ Seed number 156 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.768 K
+ Grain number = 165
+
+ Seed number 157 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.529 K
+ Grain number = 166
+
+ Seed number 158 set at time t = 54.540 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.569 K
+ Grain number = 167
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 60.000 s
+ CPU-time: 187 s
+ Current phase-field solver time step = 7.39E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Grain 110 reaches full size at t = 63.8997 s
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 70.000 s
+ CPU-time: 197 s
+ Current phase-field solver time step = 1.11E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 159 set at time t = 77.770 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.521 K
+ Grain number = 168
+
+ Seed number 160 set at time t = 77.770 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.147 K
+ Grain number = 169
+
+ Seed number 161 set at time t = 77.770 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.961 K
+ Grain number = 170
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 80.000 s
+ CPU-time: 208 s
+ Current phase-field solver time step = 1.74E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 90.000 s
+ CPU-time: 218 s
+ Current phase-field solver time step = 5.55E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 162 set at time t = 93.930 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.543 K
+ Grain number = 171
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 163 set at time t = 99.990 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.251 K
+ Grain number = 172
+
+ Seed number 164 set at time t = 99.990 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.928 K
+ Grain number = 173
+
+ Seed number 165 set at time t = 99.990 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.141 K
+ Grain number = 174
+
+ Seed number 166 set at time t = 99.990 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.624 K
+ Grain number = 175
+
+ Seed number 167 set at time t = 99.990 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.816 K
+ Grain number = 176
+
+ Seed number 168 set at time t = 99.990 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.178 K
+ Grain number = 177
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 100.00 s
+ CPU-time: 217 s
+ Current phase-field solver time step = 1.32E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Seed number 169 set at time t = 105.04 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.188 K
+ Grain number = 178
+
+ Seed number 170 set at time t = 105.04 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.105 K
+ Grain number = 179
+
+ Seed number 171 set at time t = 105.04 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.049 K
+ Grain number = 180
+
+ Seed number 172 set at time t = 105.04 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.888 K
+ Grain number = 181
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 125.00 s
+ CPU-time: 563 s
+ Current phase-field solver time step = 3.07E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 173 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.112 K
+ Grain number = 182
+
+ Seed number 174 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.806 K
+ Grain number = 183
+
+ Seed number 175 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.266 K
+ Grain number = 184
+
+ Seed number 176 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.677 K
+ Grain number = 185
+
+ Seed number 177 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.396 K
+ Grain number = 186
+
+ Seed number 178 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.890 K
+ Grain number = 187
+
+ Seed number 179 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.940 K
+ Grain number = 188
+
+ Seed number 180 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.344 K
+ Grain number = 189
+
+ Seed number 181 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.627 K
+ Grain number = 190
+
+ Seed number 182 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.115 K
+ Grain number = 191
+
+ Seed number 183 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.911 K
+ Grain number = 192
+
+ Seed number 184 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.133 K
+ Grain number = 193
+
+ Seed number 185 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.163 K
+ Grain number = 194
+
+ Seed number 186 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.154 K
+ Grain number = 195
+
+ Seed number 187 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.329 K
+ Grain number = 196
+
+ Seed number 188 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.016 K
+ Grain number = 197
+
+ Seed number 189 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.385 K
+ Grain number = 198
+
+ Seed number 190 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.870 K
+ Grain number = 199
+
+ Seed number 191 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.274 K
+ Grain number = 200
+
+ Seed number 192 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.055 K
+ Grain number = 201
+
+ Seed number 193 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.612 K
+ Grain number = 202
+
+ Seed number 194 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.462 K
+ Grain number = 203
+
+ Seed number 195 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.487 K
+ Grain number = 204
+
+ Seed number 196 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.611 K
+ Grain number = 205
+
+ Seed number 197 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.609 K
+ Grain number = 206
+
+ Seed number 198 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.610 K
+ Grain number = 207
+
+ Seed number 199 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.848 K
+ Grain number = 208
+
+ Seed number 200 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.812 K
+ Grain number = 209
+
+ Seed number 201 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.463 K
+ Grain number = 210
+
+ Seed number 202 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.307 K
+ Grain number = 211
+
+ Seed number 203 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.153 K
+ Grain number = 212
+
+ Seed number 204 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.038 K
+ Grain number = 213
+
+ Seed number 205 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.729 K
+ Grain number = 214
+
+ Seed number 206 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.749 K
+ Grain number = 215
+
+ Seed number 207 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.357 K
+ Grain number = 216
+
+ Seed number 208 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.797 K
+ Grain number = 217
+
+ Seed number 209 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.284 K
+ Grain number = 218
+
+ Seed number 210 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.474 K
+ Grain number = 219
+
+ Seed number 211 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.009 K
+ Grain number = 220
+
+ Seed number 212 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.848 K
+ Grain number = 221
+
+ Seed number 213 set at time t = 137.36 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.824 K
+ Grain number = 222
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 150.00 s
+ CPU-time: 572 s
+ Current phase-field solver time step = 7.42E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 214 set at time t = 151.50 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.248 K
+ Grain number = 223
+
+ Seed number 215 set at time t = 151.50 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.972 K
+ Grain number = 224
+
+ Seed number 216 set at time t = 151.50 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.552 K
+ Grain number = 225
+
+ Seed number 217 set at time t = 151.50 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.337 K
+ Grain number = 226
+
+ Seed number 218 set at time t = 151.50 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.663 K
+ Grain number = 227
+
+ Seed number 219 set at time t = 151.50 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.188 K
+ Grain number = 228
+
+ Seed number 220 set at time t = 151.50 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.396 K
+ Grain number = 229
+
+ Seed number 221 set at time t = 151.50 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.317 K
+ Grain number = 230
+
+ Seed number 222 set at time t = 151.50 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.806 K
+ Grain number = 231
+
+ Seed number 223 set at time t = 151.50 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.466 K
+ Grain number = 232
+
+ Seed number 224 set at time t = 151.50 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.473 K
+ Grain number = 233
+
+ Seed number 225 set at time t = 151.50 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.987 K
+ Grain number = 234
+
+ Seed number 226 set at time t = 151.50 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.924 K
+ Grain number = 235
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 227 set at time t = 158.57 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.369 K
+ Grain number = 236
+
+ Seed number 228 set at time t = 158.57 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.031 K
+ Grain number = 237
+
+ Seed number 229 set at time t = 158.57 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.807 K
+ Grain number = 238
+
+ Seed number 230 set at time t = 158.57 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.337 K
+ Grain number = 239
+
+ Seed number 231 set at time t = 158.57 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.527 K
+ Grain number = 240
+
+ Seed number 232 set at time t = 158.57 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.572 K
+ Grain number = 241
+
+ Seed number 233 set at time t = 158.57 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.157 K
+ Grain number = 242
+
+ Seed number 234 set at time t = 158.57 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.390 K
+ Grain number = 243
+
+ Seed number 235 set at time t = 158.57 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.371 K
+ Grain number = 244
+
+ Seed number 236 set at time t = 158.57 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.487 K
+ Grain number = 245
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 175.00 s
+ CPU-time: 635 s
+ Current phase-field solver time step = 4.46E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 237 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.116 K
+ Grain number = 246
+
+ Seed number 238 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.937 K
+ Grain number = 247
+
+ Seed number 239 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.137 K
+ Grain number = 248
+
+ Seed number 240 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.215 K
+ Grain number = 249
+
+ Seed number 241 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.064 K
+ Grain number = 250
+
+ Seed number 242 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.764 K
+ Grain number = 251
+
+ Seed number 243 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.102 K
+ Grain number = 252
+
+ Seed number 244 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.081 K
+ Grain number = 253
+
+ Seed number 245 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.861 K
+ Grain number = 254
+
+ Seed number 246 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.215 K
+ Grain number = 255
+
+ Seed number 247 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.257 K
+ Grain number = 256
+
+ Seed number 248 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.325 K
+ Grain number = 257
+
+ Seed number 249 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.889 K
+ Grain number = 258
+
+ Seed number 250 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.441 K
+ Grain number = 259
+
+ Seed number 251 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.402 K
+ Grain number = 260
+
+ Seed number 252 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.137 K
+ Grain number = 261
+
+ Seed number 253 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.079 K
+ Grain number = 262
+
+ Seed number 254 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.177 K
+ Grain number = 263
+
+ Seed number 255 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.684 K
+ Grain number = 264
+
+ Seed number 256 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.877 K
+ Grain number = 265
+
+ Seed number 257 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.997 K
+ Grain number = 266
+
+ Seed number 258 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.359 K
+ Grain number = 267
+
+ Seed number 259 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.438 K
+ Grain number = 268
+
+ Seed number 260 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.715 K
+ Grain number = 269
+
+ Seed number 261 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.815 K
+ Grain number = 270
+
+ Seed number 262 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.292 K
+ Grain number = 271
+
+ Seed number 263 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.595 K
+ Grain number = 272
+
+ Seed number 264 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.995 K
+ Grain number = 273
+
+ Seed number 265 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.454 K
+ Grain number = 274
+
+ Seed number 266 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.183 K
+ Grain number = 275
+
+ Seed number 267 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.831 K
+ Grain number = 276
+
+ Seed number 268 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.437 K
+ Grain number = 277
+
+ Seed number 269 set at time t = 187.86 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.119 K
+ Grain number = 278
+
+ Seed number 270 set at time t = 187.86 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 59.161 K
+ Grain number = 279
+
+ Seed number 271 set at time t = 187.86 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.918 K
+ Grain number = 280
+
+ Seed number 272 set at time t = 187.86 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.853 K
+ Grain number = 281
+
+ Seed number 273 set at time t = 187.86 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.646 K
+ Grain number = 282
+
+ Seed number 274 set at time t = 187.86 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.908 K
+ Grain number = 283
+
+ Seed number 275 set at time t = 187.86 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.609 K
+ Grain number = 284
+
+ Seed number 276 set at time t = 187.86 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.510 K
+ Grain number = 285
+
+ Seed number 277 set at time t = 187.86 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.010 K
+ Grain number = 286
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 200.00 s
+ CPU-time: 712 s
+ Current phase-field solver time step = 4.50E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 278 set at time t = 208.06 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.176 K
+ Grain number = 287
+
+ Seed number 279 set at time t = 208.06 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.156 K
+ Grain number = 288
+
+ Seed number 280 set at time t = 208.06 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.018 K
+ Grain number = 289
+
+ Seed number 281 set at time t = 208.06 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.733 K
+ Grain number = 290
+
+ Seed number 282 set at time t = 208.06 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.725 K
+ Grain number = 291
+
+ Seed number 283 set at time t = 208.06 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.201 K
+ Grain number = 292
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 284 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.420 K
+ Grain number = 293
+
+ Seed number 285 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.609 K
+ Grain number = 294
+
+ Seed number 286 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.155 K
+ Grain number = 295
+
+ Seed number 287 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.237 K
+ Grain number = 296
+
+ Seed number 288 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.781 K
+ Grain number = 297
+
+ Seed number 289 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.380 K
+ Grain number = 298
+
+ Seed number 290 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.329 K
+ Grain number = 299
+
+ Seed number 291 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.842 K
+ Grain number = 300
+
+ Seed number 292 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.061 K
+ Grain number = 301
+
+ Seed number 293 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.306 K
+ Grain number = 302
+
+ Seed number 294 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.910 K
+ Grain number = 303
+
+ Seed number 295 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.598 K
+ Grain number = 304
+
+ Seed number 296 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.727 K
+ Grain number = 305
+
+ Seed number 297 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.554 K
+ Grain number = 306
+
+ Seed number 298 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.648 K
+ Grain number = 307
+
+ Seed number 299 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.228 K
+ Grain number = 308
+
+ Seed number 300 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.583 K
+ Grain number = 309
+
+ Seed number 301 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.275 K
+ Grain number = 310
+
+ Seed number 302 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.393 K
+ Grain number = 311
+
+ Seed number 303 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.346 K
+ Grain number = 312
+
+ Seed number 304 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.542 K
+ Grain number = 313
+
+ Seed number 305 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.121 K
+ Grain number = 314
+
+ Seed number 306 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.431 K
+ Grain number = 315
+
+ Seed number 307 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.863 K
+ Grain number = 316
+
+ Seed number 308 set at time t = 223.21 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.514 K
+ Grain number = 317
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 225.00 s
+ CPU-time: 731 s
+ Current phase-field solver time step = 1.40E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 309 set at time t = 227.25 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.244 K
+ Grain number = 318
+
+ Seed number 310 set at time t = 227.25 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.122 K
+ Grain number = 319
+
+ Seed number 311 set at time t = 227.25 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 56.709 K
+ Grain number = 320
+
+ Seed number 312 set at time t = 227.25 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.145 K
+ Grain number = 321
+
+ Seed number 313 set at time t = 227.25 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 56.731 K
+ Grain number = 322
+
+ Seed number 314 set at time t = 227.25 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 56.666 K
+ Grain number = 323
+
+ Seed number 315 set at time t = 227.25 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.627 K
+ Grain number = 324
+
+ Seed number 316 set at time t = 227.25 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.662 K
+ Grain number = 325
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Seed number 317 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.567 K
+ Grain number = 326
+
+ Seed number 318 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.655 K
+ Grain number = 327
+
+ Seed number 319 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.195 K
+ Grain number = 328
+
+ Seed number 320 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.278 K
+ Grain number = 329
+
+ Seed number 321 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.466 K
+ Grain number = 330
+
+ Seed number 322 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.669 K
+ Grain number = 331
+
+ Seed number 323 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.174 K
+ Grain number = 332
+
+ Seed number 324 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.718 K
+ Grain number = 333
+
+ Seed number 325 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.276 K
+ Grain number = 334
+
+ Seed number 326 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.578 K
+ Grain number = 335
+
+ Seed number 327 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.965 K
+ Grain number = 336
+
+ Seed number 328 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.774 K
+ Grain number = 337
+
+ Seed number 329 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.099 K
+ Grain number = 338
+
+ Seed number 330 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.562 K
+ Grain number = 339
+
+ Seed number 331 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.716 K
+ Grain number = 340
+
+ Seed number 332 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.634 K
+ Grain number = 341
+
+ Seed number 333 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.429 K
+ Grain number = 342
+
+ Seed number 334 set at time t = 240.38 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.432 K
+ Grain number = 343
+
+ Seed number 335 set at time t = 240.38 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 56.196 K
+ Grain number = 344
+
+ Seed number 336 set at time t = 240.38 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.817 K
+ Grain number = 345
+
+ Seed number 337 set at time t = 240.38 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 52.273 K
+ Grain number = 346
+
+ Seed number 338 set at time t = 240.38 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.455 K
+ Grain number = 347
+
+ Seed number 339 set at time t = 240.38 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 56.167 K
+ Grain number = 348
+
+ Seed number 340 set at time t = 240.38 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.441 K
+ Grain number = 349
+
+ Seed number 341 set at time t = 240.38 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.042 K
+ Grain number = 350
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 250.00 s
+ CPU-time: 928 s
+ Current phase-field solver time step = 1.66E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 342 set at time t = 271.69 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.123 K
+ Grain number = 351
+
+ Seed number 343 set at time t = 271.69 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.442 K
+ Grain number = 352
+
+ Seed number 344 set at time t = 271.69 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.561 K
+ Grain number = 353
+
+ Seed number 345 set at time t = 271.69 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.917 K
+ Grain number = 354
+
+ Seed number 346 set at time t = 271.69 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.586 K
+ Grain number = 355
+
+ Seed number 347 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.942 K
+ Grain number = 356
+
+ Seed number 348 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.284 K
+ Grain number = 357
+
+ Seed number 349 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 61.554 K
+ Grain number = 358
+
+ Seed number 350 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.220 K
+ Grain number = 359
+
+ Seed number 351 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.112 K
+ Grain number = 360
+
+ Seed number 352 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 62.301 K
+ Grain number = 361
+
+ Seed number 353 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 61.937 K
+ Grain number = 362
+
+ Seed number 354 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.119 K
+ Grain number = 363
+
+ Seed number 355 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.018 K
+ Grain number = 364
+
+ Seed number 356 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 61.856 K
+ Grain number = 365
+
+ Seed number 357 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 65.071 K
+ Grain number = 366
+
+ Seed number 358 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.966 K
+ Grain number = 367
+
+ Seed number 359 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.921 K
+ Grain number = 368
+
+ Seed number 360 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 64.605 K
+ Grain number = 369
+
+ Seed number 361 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.890 K
+ Grain number = 370
+
+ Seed number 362 set at time t = 271.69 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 61.323 K
+ Grain number = 371
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 275.00 s
+ CPU-time: 796 s
+ Current phase-field solver time step = 7.42E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 363 set at time t = 276.74 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.368 K
+ Grain number = 372
+
+ Seed number 364 set at time t = 276.74 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.407 K
+ Grain number = 373
+ complete relinearisation!
+
+ Seed number 365 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.971 K
+ Grain number = 374
+
+ Seed number 366 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.078 K
+ Grain number = 375
+
+ Seed number 367 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.107 K
+ Grain number = 376
+
+ Seed number 368 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.894 K
+ Grain number = 377
+
+ Seed number 369 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.234 K
+ Grain number = 378
+
+ Seed number 370 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.976 K
+ Grain number = 379
+
+ Seed number 371 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 52.714 K
+ Grain number = 380
+
+ Seed number 372 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.221 K
+ Grain number = 381
+
+ Seed number 373 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.691 K
+ Grain number = 382
+
+ Seed number 374 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.611 K
+ Grain number = 383
+
+ Seed number 375 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.424 K
+ Grain number = 384
+
+ Seed number 376 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.682 K
+ Grain number = 385
+
+ Seed number 377 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.920 K
+ Grain number = 386
+
+ Seed number 378 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.339 K
+ Grain number = 387
+
+ Seed number 379 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.435 K
+ Grain number = 388
+
+ Seed number 380 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 55.115 K
+ Grain number = 389
+
+ Seed number 381 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.020 K
+ Grain number = 390
+
+ Seed number 382 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 53.867 K
+ Grain number = 391
+
+ Seed number 383 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 50.437 K
+ Grain number = 392
+
+ Seed number 384 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.510 K
+ Grain number = 393
+
+ Seed number 385 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.431 K
+ Grain number = 394
+
+ Seed number 386 set at time t = 277.75 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.203 K
+ Grain number = 395
+
+ Seed number 387 set at time t = 277.75 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 55.246 K
+ Grain number = 396
+
+ Seed number 388 set at time t = 277.75 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.789 K
+ Grain number = 397
+
+ Seed number 389 set at time t = 277.75 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.102 K
+ Grain number = 398
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 390 set at time t = 279.77 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.882 K
+ Grain number = 399
+
+ Seed number 391 set at time t = 279.77 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 50.587 K
+ Grain number = 400
+
+ Seed number 392 set at time t = 279.77 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.500 K
+ Grain number = 401
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Seed number 393 set at time t = 285.83 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.154 K
+ Grain number = 402
+
+ Seed number 394 set at time t = 285.83 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.995 K
+ Grain number = 403
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 395 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.659 K
+ Grain number = 404
+
+ Seed number 396 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.523 K
+ Grain number = 405
+
+ Seed number 397 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.653 K
+ Grain number = 406
+
+ Seed number 398 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.527 K
+ Grain number = 407
+
+ Seed number 399 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 60.295 K
+ Grain number = 408
+
+ Seed number 400 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.880 K
+ Grain number = 409
+
+ Seed number 401 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.711 K
+ Grain number = 410
+
+ Seed number 402 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 54.044 K
+ Grain number = 411
+
+ Seed number 403 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.755 K
+ Grain number = 412
+
+ Seed number 404 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.015 K
+ Grain number = 413
+
+ Seed number 405 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.581 K
+ Grain number = 414
+
+ Seed number 406 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.634 K
+ Grain number = 415
+
+ Seed number 407 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.585 K
+ Grain number = 416
+
+ Seed number 408 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 61.609 K
+ Grain number = 417
+
+ Seed number 409 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.547 K
+ Grain number = 418
+
+ Seed number 410 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 57.785 K
+ Grain number = 419
+
+ Seed number 411 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.846 K
+ Grain number = 420
+
+ Seed number 412 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.210 K
+ Grain number = 421
+
+ Seed number 413 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.246 K
+ Grain number = 422
+
+ Seed number 414 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 64.573 K
+ Grain number = 423
+
+ Seed number 415 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.916 K
+ Grain number = 424
+
+ Seed number 416 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 58.752 K
+ Grain number = 425
+
+ Seed number 417 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.543 K
+ Grain number = 426
+
+ Seed number 418 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 62.843 K
+ Grain number = 427
+
+ Seed number 419 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.841 K
+ Grain number = 428
+
+ Seed number 420 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.164 K
+ Grain number = 429
+
+ Seed number 421 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 56.506 K
+ Grain number = 430
+
+ Seed number 422 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.965 K
+ Grain number = 431
+
+ Seed number 423 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.750 K
+ Grain number = 432
+
+ Seed number 424 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 63.210 K
+ Grain number = 433
+
+ Seed number 425 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.176 K
+ Grain number = 434
+
+ Seed number 426 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 59.366 K
+ Grain number = 435
+
+ Seed number 427 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.100 K
+ Grain number = 436
+
+ Seed number 428 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 66.746 K
+ Grain number = 437
+
+ Seed number 429 set at time t = 298.96 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 65.875 K
+ Grain number = 438
+
+ Seed number 430 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 63.689 K
+ Grain number = 439
+
+ Seed number 431 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 63.324 K
+ Grain number = 440
+
+ Seed number 432 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 59.782 K
+ Grain number = 441
+
+ Seed number 433 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 60.240 K
+ Grain number = 442
+
+ Seed number 434 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.587 K
+ Grain number = 443
+
+ Seed number 435 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 63.299 K
+ Grain number = 444
+
+ Seed number 436 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 62.004 K
+ Grain number = 445
+
+ Seed number 437 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 60.073 K
+ Grain number = 446
+
+ Seed number 438 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.864 K
+ Grain number = 447
+
+ Seed number 439 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 59.349 K
+ Grain number = 448
+
+ Seed number 440 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.666 K
+ Grain number = 449
+
+ Seed number 441 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 59.931 K
+ Grain number = 450
+
+ Seed number 442 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.769 K
+ Grain number = 451
+
+ Seed number 443 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 54.027 K
+ Grain number = 452
+
+ Seed number 444 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 53.453 K
+ Grain number = 453
+
+ Seed number 445 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 59.786 K
+ Grain number = 454
+
+ Seed number 446 set at time t = 298.96 s
+ ----------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 59.134 K
+ Grain number = 455
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 300.00 s
+ CPU-time: 862 s
+ Current phase-field solver time step = 9.78E-03 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:        7256
+ Wall clock time in seconds:  8062
+ End
+ 

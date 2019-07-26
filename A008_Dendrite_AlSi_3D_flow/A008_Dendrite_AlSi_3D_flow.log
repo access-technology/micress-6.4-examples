@@ -1,0 +1,348 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/18/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: enabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 20/01/2018 (14:04)
+ Machine: n025
+ Driving file: A008_Dendrite_AlSi_3D_flow_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 80, 80, 200
+ deltaX, deltaY, deltaZ [cm] = 2.0000E-04, 2.0000E-04, 2.0000E-04
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ Simulation with flow coupling
+ 'Double-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.00 (0.75, 0.50)
+ nTupelDim coeff.: 0.00 (0.75, 0.50)
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 5
+ Intermediate output at t       = 5.0000000E-01 s
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 1.5000000E+00 s
+ Intermediate output at t       = 2.0000000E+00 s
+ Intermediate output at t       = 2.5000000E+00 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.990
+ Upper limit for time step: 1.000E-02
+ Lower limit for time step: 1.000E-06
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 0
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 1
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ Grain orientations will be defined by angle and axis.
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 0
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 1
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: area
+  Minimal value of x-coordinates: 1.0000 micrometers
+  Maximal value of x-coordinates: 1.0000 micrometers
+  Minimal value of y-coordinates: 1.0000 micrometers
+  Maximal value of y-coordinates: 1.0000 micrometers
+  Minimal value of z-coordinates: 200.00 micrometers
+  Maximal value of z-coordinates: 200.00 micrometers
+  Phase of new grains: 1
+  Phase of new grains: 1
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 1
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 3.0000
+  Determination of grain orientations is 'fix'
+  Rotation angle                : +0.000  degree
+  Rotation axis: +0.000 +0.000 +1.000
+  min. nucleation temperature for seed type 1: 884.0000 K
+  max. nucleation temperature for seed type 1: 890.0000 K
+  Time between checks for nucleation: 1.00000E-03 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Metastable small seeds will be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  Averaging coefficient        Av = +0.50
+  Interfacial energy        sigma = 1.60000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-02 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 0.2880000
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 8.0000000E-02
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 1
+ Concentration in atom percent at%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will be solved.
+ Diff.-coefficient:
+ Prefactor: 3.000000000000000E-005 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+ Diffusion of component 1  in phase 1  will be solved.
+ Diff.-coefficient:
+ Prefactor: 1.000000000000000E-008 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+
+
+ Phase diagram - input data
+ **************************
+
+ TC-Coupling is not performed
+
+ Input of the phase diagram of phase 0 and phase 1:
+ --------------------------------------------------
+ Linear phase diagram is used
+  Temperature of the cut = 886.000000000000 K
+  conc0( 0: 1: 1) = 7.91170E+00 [at%]
+  conc0( 1: 0: 1) = 1.02850E+00 [at%]
+  Slope       mSlope( 1: 0: 1) = -4.61538E+01 K/at%
+  Slope       mSlope( 0: 1: 1) = -6.00000E+00 K/at%
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 0
+ Initial concentration of component 1 in phase 0 = 7.000000000 at%
+ 
+ Material data for flow calculation
+ **********************************
+ 
+ Phase           0
+ -------------
+ Viscosity [cm**2/s], phase           0
+  3.700000000000000E-003
+ mean density [g/cm**3], Phase           0
+   2.70000000000000     
+ partial density change with composition [g/cm**3/%]
+ dRho / dC, component           1
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 888.4700 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: -0.10000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction symmetric boundary condition for phase field
+ In E-direction isolation boundary condition for phase field
+ In S-direction symmetric boundary condition for phase field
+ In N-direction isolation boundary condition for phase field
+ In B-direction periodic/wrap-around boundary condition for phase field
+ In T-direction periodic/wrap-around boundary condition for phase field
+ 
+ In W-direction symmetric boundary condition for concentration field
+ In E-direction isolation boundary condition for concentration field
+ In S-direction symmetric boundary condition for concentration field
+ In N-direction isolation boundary condition for concentration field
+ In B-direction periodic/wrap-around boundary condition for concentration field
+ In T-direction periodic/wrap-around boundary condition for concentration field
+ #
+ # Boundary conditions for flow field in each direction
+ # Options: p (periodic) e (in-out) o,+ (in-out normal to wall) f (fixed)
+ # Options: i (insulation parallel to wall) s (symmetric) l,= (parallel to wall)
+ # Sequence: W E (S N, if 3D) B T borders
+ sisiff
+  # Fixed value for flow field in B-direction  [micro-m/s] (real) (real) 3D:(real)
+ 0 0 1000
+  # Fixed value for flow field in T-direction  [micro-m/s] (real) (real) 3D:(real)
+ 0 0 1000
+ #
+ # Boundary conditions for pressure in each direction
+ # Options: i (insulation) s (symmetric) n (vonNeumann) p (periodic)
+ #          g (continuous gradient) f (fixed) - (none, for flow: fisl)
+ # Sequence: W E (S N, if 3D) B T borders
+ sisi--
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ # Convergence criterion for impulse eqn. (absolute) [mue_m/s] 3.00E-04
+ # Max. number of iterations for linear solver:   500
+ # Max. number of iterations for linear solver:   300
+ 3
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.50000000000000
+ Number of parallel threads: 12
+
+
+ Beginning of initialisation
+ ***************************
+ Equilibrium temperature T_Glgew = 891.4702 K
+ Phase  0, Component  0: 93.00000
+ Phase  0, Component  1: 7.000000
+ Phase  1, Component  0: 99.09002
+ Phase  1, Component  1:0.9099789
+ 
+ # tWidth_max( 0 : 1 ) = 3.5185185E-02 s
+ # Maximal value for tWidth = 3.5185185E-02 s for phase-field solver
+ # Maximal value for tWidth = 2.0266667E-04 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 1.92533E-04 s
+ # Initial value for tWidth = 1.92533E-04 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 0.40000 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 1.93E-04 s
+ Temperature at the bottom = 888.47 K
+ Temperature gradient = 0.00000 K/cm
+ Flow, domain averages: p = 0.0000E+00 Pa, RMS(|V|) = 0.0000E+00 micron/s
+                V_x = 0.0000E+00 V_y = 0.0000E+00 V_z = 0.0000E+00 micron/s
+ Fraction of phase 0: 1.00000
+ Fraction of phase 1: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Seed number 1 set at time t = 0.10000E-02 s
+ -------------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 1
+ Local temperature = 888.47 K
+ Undercooling = 3.0003 K
+ Grain number = 1
+ WARNING, Flow: velocity not converged 3.304E-04 > 3.000E-04 micron/s
+ WARNING, Flow: continuity not converged 1.058E-02 > 1.000E-02 /s
+ WARNING, Flow: pressure not converged 6.114E-06 > 1.000E-06 Pa
+
+ Grain 1 reaches full size at t = 5.607642E-02 s
+
+ Intermediate output for t = 0.50000 s
+ CPU-time: 27244 s
+ Current phase-field solver time step = 4.00E-04 s
+ Temperature at the bottom = 888.42 K
+ Temperature gradient = 0.00000 K/cm
+ Flow, domain averages: p = 1.3589E+02 Pa, RMS(|V|) = 1.0250E+03 micron/s
+                V_x = 3.8349E+00 V_y =-5.2885E+00 V_z = 1.0192E+03 micron/s
+ WARNING, Flow (    1273X): max. continuity error 1.795E+01 /s
+ WARNING, Flow (    1252X): max. pressure error 1.350E-02 Pa
+ WARNING, Flow (    1307X): max. velocity error 8.933E+03 micron/s
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 28006 s
+ Current phase-field solver time step = 4.65E-04 s
+ Temperature at the bottom = 888.37 K
+ Temperature gradient = 0.00000 K/cm
+ Flow, domain averages: p =-1.9906E+01 Pa, RMS(|V|) = 1.0154E+03 micron/s
+                V_x = 3.0027E+00 V_y = 4.1614E+00 V_z = 9.9825E+02 micron/s
+ WARNING, Flow (    1359X): max. continuity error 7.095E+00 /s
+ WARNING, Flow (    1340X): max. pressure error 7.312E-03 Pa
+ WARNING, Flow (    1359X): max. velocity error 4.246E+02 micron/s
+
+ Intermediate output for t = 1.5000 s
+ CPU-time: 29914 s
+ Current phase-field solver time step = 4.68E-04 s
+ Temperature at the bottom = 888.32 K
+ Temperature gradient = 0.00000 K/cm
+ Flow, domain averages: p = 3.6240E+00 Pa, RMS(|V|) = 1.0351E+03 micron/s
+                V_x = 3.2652E-01 V_y = 3.0664E-01 V_z = 1.0017E+03 micron/s
+ WARNING, Flow (    1414X): max. continuity error 1.128E+01 /s
+ WARNING, Flow (    1391X): max. pressure error 1.194E-02 Pa
+ WARNING, Flow (    1414X): max. velocity error 5.852E+02 micron/s
+
+ Intermediate output for t = 2.0000 s
+ CPU-time: 29890 s
+ Current phase-field solver time step = 4.64E-04 s
+ Temperature at the bottom = 888.27 K
+ Temperature gradient = 0.00000 K/cm
+ Flow, domain averages: p =-3.2858E+01 Pa, RMS(|V|) = 1.0371E+03 micron/s
+                V_x =-1.6958E+00 V_y =-2.0060E+00 V_z = 1.0043E+03 micron/s
+ WARNING, Flow (    1391X): max. continuity error 4.210E+00 /s
+ WARNING, Flow (    1359X): max. pressure error 4.106E-03 Pa
+ WARNING, Flow (    1391X): max. velocity error 4.883E+02 micron/s
+
+ Intermediate output for t = 2.5000 s
+ CPU-time: 29748 s
+ Current phase-field solver time step = 4.67E-04 s
+ Temperature at the bottom = 888.22 K
+ Temperature gradient = 0.00000 K/cm
+ Flow, domain averages: p =-3.3098E+01 Pa, RMS(|V|) = 1.0494E+03 micron/s
+                V_x = 1.4668E+00 V_y = 1.5287E+00 V_z = 9.9789E+02 micron/s
+ WARNING, Flow (    1445X): max. continuity error 3.332E+01 /s
+ WARNING, Flow (    1431X): max. pressure error 3.727E-02 Pa
+ WARNING, Flow (    1445X): max. velocity error 7.680E+02 micron/s
+
+ ==================================================
+
+ Simulation run on machine n025
+ Remaining license time: permanent
+ CPU time in seconds:      144814
+ Wall clock time in seconds:  12131
+ End
+ 

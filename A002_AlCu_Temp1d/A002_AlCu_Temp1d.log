@@ -1,0 +1,3367 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/24/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: enabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 24/01/2018 (03:54)
+ Machine: n027
+ Driving file: A002_AlCu_Temp1d_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 600, 1, 400
+ deltaX, deltaY, deltaZ [cm] = 3.0000E-05, 3.0000E-05, 3.0000E-05
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Multi-obstacle' potential
+ no_1d_far_field
+ 1d_temp, 500, 1.0000E+02
+ Kinetic coefficient:,   0.10000E-01
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 35
+ Intermediate output at t       = 4.5000000E-02 s
+ Intermediate output at t       = 5.0000000E-02 s
+ Intermediate output at t       = 5.2000000E-02 s
+ Intermediate output at t       = 5.4000000E-02 s
+ Intermediate output at t       = 5.6000000E-02 s
+ Intermediate output at t       = 5.8000000E-02 s
+ Intermediate output at t       = 6.0000000E-02 s
+ Intermediate output at t       = 6.5000000E-02 s
+ Intermediate output at t       = 7.0000000E-02 s
+ Intermediate output at t       = 7.5000000E-02 s
+ Intermediate output at t       = 8.0000000E-02 s
+ Intermediate output at t       = 8.5000000E-02 s
+ Intermediate output at t       = 9.0000000E-02 s
+ Intermediate output at t       = 9.5000000E-02 s
+ Intermediate output at t       = 1.0000000E-01 s
+ Intermediate output at t       = 1.1000000E-01 s
+ Intermediate output at t       = 1.2000000E-01 s
+ Intermediate output at t       = 1.3000000E-01 s
+ Intermediate output at t       = 1.4000000E-01 s
+ Intermediate output at t       = 1.5000000E-01 s
+ Intermediate output at t       = 2.0000000E-01 s
+ Intermediate output at t       = 2.5000000E-01 s
+ Intermediate output at t       = 3.0000000E-01 s
+ Intermediate output at t       = 3.5000000E-01 s
+ Intermediate output at t       = 4.0000000E-01 s
+ Intermediate output at t       = 4.1000000E-01 s
+ Intermediate output at t       = 4.2000000E-01 s
+ Intermediate output at t       = 4.3000000E-01 s
+ Intermediate output at t       = 4.4000000E-01 s
+ Intermediate output at t       = 4.5000000E-01 s
+ Intermediate output at t       = 4.6000000E-01 s
+ Intermediate output at t       = 4.7000000E-01 s
+ Intermediate output at t       = 4.8000000E-01 s
+ Intermediate output at t       = 4.9000000E-01 s
+ Intermediate output at t       = 5.0000000E-01 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.000E-02
+ Lower limit for time step: 1.000E-06
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 0
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is isotropic.
+ phase 2 is scheduled for categorization
+ Grain orientations will be defined by 2D angles.
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 0
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 2
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: bulk
+  Phase of new grains: 1
+  Phase of new grains: 1
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1  will be described by the nucleation model seed_density
+  Integer for randomization :         134
+  17 classes are read for the critical seed radius
+  Class   1:    0 seed(s), 3.7500E-01 < radii < 5.2500E-01 [micrometers]
+  Class   2:    0 seed(s), 2.7500E-01 < radii < 3.7500E-01 [micrometers]
+  Class   3:    0 seed(s), 2.1500E-01 < radii < 2.7500E-01 [micrometers]
+  Class   4:    0 seed(s), 1.6500E-01 < radii < 2.1500E-01 [micrometers]
+  Class   5:    0 seed(s), 1.3500E-01 < radii < 1.6500E-01 [micrometers]
+  Class   6:    0 seed(s), 1.1000E-01 < radii < 1.3500E-01 [micrometers]
+  Class   7:    0 seed(s), 9.0000E-02 < radii < 1.1000E-01 [micrometers]
+  Class   8:    0 seed(s), 7.5000E-02 < radii < 9.0000E-02 [micrometers]
+  Class   9:    0 seed(s), 6.5000E-02 < radii < 7.5000E-02 [micrometers]
+  Class  10:    0 seed(s), 5.5000E-02 < radii < 6.5000E-02 [micrometers]
+  Class  11:    1 seed(s), 4.5000E-02 < radii < 5.5000E-02 [micrometers]
+  Class  12:    1 seed(s), 3.5000E-02 < radii < 4.5000E-02 [micrometers]
+  Class  13:    1 seed(s), 2.7500E-02 < radii < 3.5000E-02 [micrometers]
+  Class  14:    1 seed(s), 2.2500E-02 < radii < 2.7500E-02 [micrometers]
+  Class  15:    2 seed(s), 1.7500E-02 < radii < 2.2500E-02 [micrometers]
+  Class  16:    2 seed(s), 1.2500E-02 < radii < 1.7500E-02 [micrometers]
+  Class  17:   21 seed(s), 1.0000E-08 < radii < 1.2500E-02 [micrometers]
+  For this seed type 29  seed positions have been generated
+  Determination of grain orientations is 'random'
+  Shield time [s]: 1.0000
+  shield phase or group number: 1
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 0.0000
+  min. nucleation temperature for seed type 1: 0.0000 K
+  max. nucleation temperature for seed type 1: 1000.0000 K
+  Time between checks for nucleation: 1.00000E-03 [s]
+  No random noise will be applied.
+
+ Input for seed type 2:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  The influence of the curvature undercooling will not be taken into account.
+  Nucleation driving force for seed type 2 will be undercooling.
+  Seed type 2 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 2 is unlimited
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 2.0000
+  Shield time [s]: 3.00000E-03
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 10.000
+  min. nucleation temperature for seed type 2: 0.0000 K
+  max. nucleation temperature for seed type 2: 820.0000 K
+  Time between checks for nucleation: 1.00000E-03 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Max. number of simultaneous nucleations: 2147483646
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  Averaging coefficient        Av = +0.50
+  Maximal driving force     dGMax = 100.00 [J/cm**3]
+  Interfacial energy        sigma = 8.00000E-06 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E+00 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 5.0000000E-02
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 0.3000000
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will be simulated.
+  Interaction parameters between phases  0  and 2:
+  Averaging coefficient        Av = +0.50
+  Maximal driving force     dGMax = 100.00 [J/cm**3]
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E+00 [cm**4/(Js)]
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will not be simulated.
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will not be simulated.
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will not be simulated.
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 1
+ Concentration in atom percent at%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will be solved.
+ Diff.-coefficient:
+ Prefactor: 2.000000000000000E-004 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+ Diffusion of component 1  in phase 1  will be solved.
+ Diff.-coefficient:
+ Prefactor: 1.000000000000000E-008 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+ Diffusion of component 1  in phase 2  will be solved.
+ Diff.-coefficient:
+ Prefactor: 1.000000000000000E-008 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+
+
+ Phase diagram - input data
+ **************************
+ In phase 2 component 1 is defined as stoichiometric.
+
+ Name of Thermo-Calc *.GES5 file: GES_Files/TC2015a_AlCu
+ Interval for updating thermodynamic data [s] = 1.00000E-02
+
+ Input of the phase diagram of phase 0 and phase 1:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+ Redistribution characteristics of components:
+ 1:  normal mobility correction
+
+ Input of the phase diagram of phase 0 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+ Redistribution characteristics of components:
+ 1:  normal mobility correction
+ # Reading GES5 workspace ...
+ The database contains the following components:
+ 1: AL
+ 2: CU
+ Thermo-Calc index of (MICRESS) component 0 = 1
+ Thermo-Calc index of (MICRESS) component 1 = 2
+ 0 -> AL
+ 1 -> CU
+ The database contains 3 phases:
+ 1: LIQUID
+ 2: ALCU_THETA
+ 3: FCC_A1
+ Thermo-Calc index of the (MICRESS) phase 0 = 1
+ Thermo-Calc index of the (MICRESS) phase 1 = 3
+ Thermo-Calc index of the (MICRESS) phase 2 = 2
+ 0 -> LIQUID
+ 1 -> FCC_A1
+ 2 -> ALCU_THETA
+ # Molar volume of phase 0 (LIQUID): 10.000 [cm**3/mol]
+ # Molar volume of phase 1 (FCC_A1): 10.000 [cm**3/mol]
+ # Molar volume of phase 2 (ALCU_THETA): 10.000 [cm**3/mol]
+ initial equilibrium at T = 925.0000
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 0
+ Initial concentration of component 1 (CU) in phase 0 (LIQUID) = 3.000000000 at%
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation with release of latent heat
+ Thermal conductivity lambda( 0 (LIQUID)) = 1.3000  [W/cm/K]
+ Thermal conductivity lambda( 1 (FCC_A1)) = 1.2000  [W/cm/K]
+  Simulation with release of pseudo-3D latent heat of phase 1 (FCC_A1), fracKrit=  0.750000000000000 !
+ Thermal conductivity lambda( 2 (ALCU_THETA)) = 1.2000  [W/cm/K]
+ Simulation without release of pseudo-3D latent heat of phase 2 (ALCU_THETA) !
+ 
+ 
+ Boundary conditions
+ *******************
+ Simulation domain not shifted
+ 
+ Initial temperature at the bottom               = 950.0000 K
+ Initial temperature at the top                  = 950.0000 K
+ 
+ In W-direction periodic/wrap-around boundary condition for phase field
+ In E-direction periodic/wrap-around boundary condition for phase field
+ In B-direction isolation boundary condition for phase field
+ In T-direction isolation boundary condition for phase field
+ 
+ In W-direction periodic/wrap-around boundary condition for concentration field
+ In E-direction periodic/wrap-around boundary condition for concentration field
+ In B-direction isolation boundary condition for concentration field
+ In T-direction isolation boundary condition for concentration field
+ 
+ In B-direction fixed boundary condition for 1D temperature field
+ In T-direction isolation boundary condition for 1D temperature field
+ temperature for B-direction is set constant to the value  298.000    K
+ heat transfer coefficient for B-direction is set constant to the value  1.50000    W/cm2K
+ enthalpy for 1D temperature calculation outside the calculation domain in  B-direction is read from file A002_AlCu_Temp1d_latHeatData columns 2 8
+ Cp for 1D temperature calculation outside the calculation domain in  B-direction is read from file A002_AlCu_Temp1d_latHeatData columns 2 6
+ lambda for 1D temperature calculation outside the calculation domain in  B-direction is read from file A002_AlCu_Temp1d_latHeatData columns 2 7
+ enthalpy for 1D temperature calculation outside the calculation domain in  T-direction is read from file A002_AlCu_Temp1d_latHeatData columns 2 8
+ Cp for 1D temperature calculation outside the calculation domain in  T-direction is read from file A002_AlCu_Temp1d_latHeatData columns 2 6
+ lambda for 1D temperature calculation outside the calculation domain in  T-direction is read from file A002_AlCu_Temp1d_latHeatData columns 2 7
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.00000000000000
+ Number of parallel threads: 6
+
+
+ Beginning of initialisation
+ ***************************
+ 1D temperature field linearly initialized
+
+ Start Composition for iteration of quasi-equilibrium
+ ****************************************************
+  AL in LIQUID:  49.75369
+  CU in LIQUID:  50.24631
+  AL in FCC_A1:  49.28230
+  CU in FCC_A1:  50.71770
+  AL in ALCU_THETA:  83.17460
+  CU in ALCU_THETA:  16.82540
+ Initial concentration in the phases:
+ LIQUID, AL: 97.00000 at%
+ LIQUID, CU: 3.000000 at%
+ 
+ # tWidth_max( 0 : 1 ) = 2.0552885E-05 s
+ # tWidth_max( 0 : 2 ) = 1.0687500E-05 s
+ # Maximal value for tWidth = 1.0687500E-05 s for phase-field solver
+ # Maximal value for tWidth = 1.0687500E-06 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 1.01531E-06 s
+ # Initial value for tWidth = 1.01531E-06 s for automatic time stepping (phase-field solver)
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 1.02E-06 s
+ Average conc. of comp. 1 = 3.0000000 at%
+ Temperature at the bottom = 950.00 K
+ Temperature gradient = 0.0000 K/cm
+ Fraction of phase 0: 1.00000
+ Fraction of phase 1: 0.00000
+ Fraction of phase 2: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ # The linearisation parameters of the phases LIQUID/FCC_A1 are:
+ # -------------------------------------------------------------
+ 949.62870            ! T0 [K]
+ 39.944385            ! dG [J/cm**3]
+ 1.1633233            ! dSf+ [J/cm**3K]
+ 1.1141946            ! dSf- [J/cm**3K]
+ 976.60595            ! dH [J/cm3]
+ 3.0050908679075      ! c0(CU)/LIQUID
+ 0.31816107018007     ! c0(CU)/FCC_A1
+ -6.1924339           ! m(CU)/LIQUID
+ -56.974269           ! m(CU)/FCC_A1
+ -6.81982778E-03      ! dcdT(CU)/LIQUID
+ 7.73918998E-04       ! dcdT(CU)/FCC_A1
+
+ # Minimum undercooling for stable growth, seed type 1: 0.4584567 K [r=0.3000000 mic.]
+
+ Seed number 1 set at time t = 0.43000E-01 s
+ -------------------------------------------
+ in the bulk
+ Phase: 1 (FCC_A1)
+ Seed type: 1 (12: 1/1)
+ Local temperature = 912.39 K
+ Undercooling = 3.0535 K
+ Grain number = 1
+ complete relinearisation!
+ complete relinearisation!
+
+ Grain 1 reaches full size at t = 4.316192E-02 s
+
+ Intermediate output for t = 4.50000E-02 s
+ CPU-time: 22 s
+ Current phase-field solver time step = 2.38E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 911.37 K
+ Temperature gradient = 212.93 K/cm
+
+ Seed number 2 set at time t = 0.45002E-01 s
+ -------------------------------------------
+ in the bulk
+ Phase: 1 (FCC_A1)
+ Seed type: 1 (11: 1/1)
+ Local temperature = 912.90 K
+ Undercooling = 2.5356 K
+ Grain number = 2
+
+ Grain 2 reaches full size at t = 4.518944E-02 s
+
+ Intermediate output for t = 5.00000E-02 s
+ CPU-time: 56 s
+ Current phase-field solver time step = 1.97E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 910.26 K
+ Temperature gradient = 207.34 K/cm
+
+ Intermediate output for t = 5.20000E-02 s
+ CPU-time: 30 s
+ Current phase-field solver time step = 1.98E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 910.03 K
+ Temperature gradient = 203.56 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 5.40000E-02 s
+ CPU-time: 36 s
+ Current phase-field solver time step = 1.99E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 909.70 K
+ Temperature gradient = 203.58 K/cm
+
+ Intermediate output for t = 5.60000E-02 s
+ CPU-time: 40 s
+ Current phase-field solver time step = 1.97E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 909.34 K
+ Temperature gradient = 203.75 K/cm
+
+ Intermediate output for t = 5.80000E-02 s
+ CPU-time: 44 s
+ Current phase-field solver time step = 1.97E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 908.85 K
+ Temperature gradient = 210.89 K/cm
+
+ Intermediate output for t = 6.00000E-02 s
+ CPU-time: 49 s
+ Current phase-field solver time step = 1.95E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 908.32 K
+ Temperature gradient = 216.04 K/cm
+
+ Seed number 3 set at time t = 0.63001E-01 s
+ -------------------------------------------
+ in the bulk
+ Phase: 1 (FCC_A1)
+ Seed type: 1 (15: 2/2)
+ Local temperature = 908.51 K
+ Undercooling = 6.8515 K
+ Grain number = 3
+ complete relinearisation!
+
+ Grain 3 reaches full size at t = 6.305516E-02 s
+
+ Intermediate output for t = 6.50000E-02 s
+ CPU-time: 166 s
+ Current phase-field solver time step = 1.89E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 906.51 K
+ Temperature gradient = 249.96 K/cm
+
+ Intermediate output for t = 7.00000E-02 s
+ CPU-time: 284 s
+ Current phase-field solver time step = 1.18E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 905.34 K
+ Temperature gradient = 287.08 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 7.50000E-02 s
+ CPU-time: 358 s
+ Current phase-field solver time step = 1.90E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 904.07 K
+ Temperature gradient = 342.93 K/cm
+
+ Intermediate output for t = 8.00000E-02 s
+ CPU-time: 398 s
+ Current phase-field solver time step = 1.88E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 902.56 K
+ Temperature gradient = 385.32 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 8.50000E-02 s
+ CPU-time: 446 s
+ Current phase-field solver time step = 1.87E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 900.91 K
+ Temperature gradient = 416.12 K/cm
+
+ Intermediate output for t = 9.00000E-02 s
+ CPU-time: 501 s
+ Current phase-field solver time step = 1.86E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 899.25 K
+ Temperature gradient = 440.92 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 9.50000E-02 s
+ CPU-time: 532 s
+ Current phase-field solver time step = 1.85E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 897.64 K
+ Temperature gradient = 462.21 K/cm
+
+ Intermediate output for t = 0.10000 s
+ CPU-time: 597 s
+ Current phase-field solver time step = 1.84E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 895.95 K
+ Temperature gradient = 477.27 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.11000 s
+ CPU-time: 1255 s
+ Current phase-field solver time step = 1.84E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 892.47 K
+ Temperature gradient = 504.26 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.12000 s
+ CPU-time: 1309 s
+ Current phase-field solver time step = 1.84E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 889.07 K
+ Temperature gradient = 523.61 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.13000 s
+ CPU-time: 1344 s
+ Current phase-field solver time step = 1.85E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 885.77 K
+ Temperature gradient = 539.69 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.14000 s
+ CPU-time: 1348 s
+ Current phase-field solver time step = 1.86E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 882.47 K
+ Temperature gradient = 547.73 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.15000 s
+ CPU-time: 1327 s
+ Current phase-field solver time step = 1.88E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 879.23 K
+ Temperature gradient = 555.80 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 0.20000 s
+ CPU-time: 6133 s
+ Current phase-field solver time step = 2.03E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 864.07 K
+ Temperature gradient = 579.01 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 0.25000 s
+ CPU-time: 5589 s
+ Current phase-field solver time step = 2.24E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 850.31 K
+ Temperature gradient = 585.17 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 0.30000 s
+ CPU-time: 5019 s
+ Current phase-field solver time step = 2.43E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 839.47 K
+ Temperature gradient = 560.60 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 0.35000 s
+ CPU-time: 4536 s
+ Current phase-field solver time step = 2.64E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 829.51 K
+ Temperature gradient = 549.19 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ # The linearisation parameters of the phases LIQUID/ALCU_THETA are:
+ # -----------------------------------------------------------------
+ 819.86104            ! T0 [K]
+ -2.7253898           ! dG [J/cm**3]
+ 1.7700915            ! dSf+ [J/cm**3K]
+ 1.7700915            ! dSf- [J/cm**3K]
+ 1970.7437            ! dH [J/cm3]
+ 17.604010753508      ! c0(CU)/LIQUID
+ 31.783995786366      ! c0(CU)/ALCU_THETA
+ 5.5378149            ! m(CU)/LIQUID
+ -999.99900           ! m(CU)/ALCU_THETA
+ 0.0000000            ! dcdT(CU)/LIQUID
+ 0.0000000            ! dcdT(CU)/ALCU_THETA
+
+ # Minimum undercooling for stable growth, seed type 2: 0.7532567 K [r=0.3000000 mic.]
+ Slopes of CU in phase ALCU_THETA cannot be calculated!
+
+ Seed number 4 set at time t = 0.39900 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.63 K
+ Undercooling = 2.0355 K
+ Grain number = 4
+
+ Seed number 5 set at time t = 0.39900 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.63 K
+ Undercooling = 2.2117 K
+ Grain number = 5
+
+ Seed number 6 set at time t = 0.39900 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.63 K
+ Undercooling = 2.0344 K
+ Grain number = 6
+
+ Seed number 7 set at time t = 0.39900 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.63 K
+ Undercooling = 2.1239 K
+ Grain number = 7
+
+ Seed number 8 set at time t = 0.39900 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.63 K
+ Undercooling = 2.1086 K
+ Grain number = 8
+
+ Seed number 9 set at time t = 0.39900 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.66 K
+ Undercooling = 2.0727 K
+ Grain number = 9
+
+ Seed number 10 set at time t = 0.40000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.42 K
+ Undercooling = 2.3553 K
+ Grain number = 10
+
+ Seed number 11 set at time t = 0.40000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.42 K
+ Undercooling = 2.2788 K
+ Grain number = 11
+
+ Seed number 12 set at time t = 0.40000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.47 K
+ Undercooling = 2.1577 K
+ Grain number = 12
+
+ Seed number 13 set at time t = 0.40000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.47 K
+ Undercooling = 2.1402 K
+ Grain number = 13
+
+ Seed number 14 set at time t = 0.40000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.47 K
+ Undercooling = 2.1682 K
+ Grain number = 14
+
+ Intermediate output for t = 0.40000 s
+ CPU-time: 4132 s
+ Current phase-field solver time step = 1.18E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 819.42 K
+ Temperature gradient = 552.97 K/cm
+
+ Seed number 15 set at time t = 0.40100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.47 K
+ Undercooling = 2.2185 K
+ Grain number = 15
+
+ Grain 11 reaches full size at t = 0.401830 s
+
+ Seed number 16 set at time t = 0.40200 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.67 K
+ Undercooling = 2.0841 K
+ Grain number = 16
+
+ Seed number 17 set at time t = 0.40300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.97 K
+ Undercooling = 3.0097 K
+ Grain number = 17
+
+ Seed number 18 set at time t = 0.40300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.97 K
+ Undercooling = 3.0192 K
+ Grain number = 18
+
+ Seed number 19 set at time t = 0.40300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.99 K
+ Undercooling = 3.0290 K
+ Grain number = 19
+
+ Seed number 20 set at time t = 0.40300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.27 K
+ Undercooling = 2.5231 K
+ Grain number = 20
+
+ Seed number 21 set at time t = 0.40300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.34 K
+ Undercooling = 2.4133 K
+ Grain number = 21
+
+ Seed number 22 set at time t = 0.40300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.53 K
+ Undercooling = 2.0745 K
+ Grain number = 22
+
+ Seed number 23 set at time t = 0.40300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.96 K
+ Undercooling = 3.0171 K
+ Grain number = 23
+
+ Seed number 24 set at time t = 0.40300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.94 K
+ Undercooling = 3.3435 K
+ Grain number = 24
+ complete relinearisation!
+
+ Grain 13 reaches full size at t = 0.403072 s
+  categorize (connect) grain    13 to    11 time: 0.403073     s
+
+ Seed number 25 set at time t = 0.40400 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.66 K
+ Undercooling = 2.0386 K
+ Grain number = 25
+
+ Seed number 26 set at time t = 0.40400 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.39 K
+ Undercooling = 2.3014 K
+ Grain number = 26
+
+ Seed number 27 set at time t = 0.40400 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.46 K
+ Undercooling = 2.1856 K
+ Grain number = 27
+
+ Seed number 28 set at time t = 0.40400 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.52 K
+ Undercooling = 2.1549 K
+ Grain number = 28
+
+ Seed number 29 set at time t = 0.40400 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.80 K
+ Undercooling = 2.8330 K
+ Grain number = 29
+
+ Grain 20 reaches full size at t = 0.404488 s
+
+ Grain 22 reaches full size at t = 0.404706 s
+
+ Grain 21 reaches full size at t = 0.404877 s
+
+ Grain 27 reaches full size at t = 0.405680 s
+
+ Grain 26 reaches full size at t = 0.405738 s
+
+ Grain 28 reaches full size at t = 0.405818 s
+
+ Seed number 30 set at time t = 0.40600 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.44 K
+ Undercooling = 2.2266 K
+ Grain number = 30
+
+ Seed number 31 set at time t = 0.40600 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.61 K
+ Undercooling = 2.1322 K
+ Grain number = 31
+
+ Seed number 32 set at time t = 0.40600 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.66 K
+ Undercooling = 2.1538 K
+ Grain number = 32
+  categorize (connect) grain    20 to    11 time: 0.406002     s
+  categorize (connect) grain    22 to    11 time: 0.406002     s
+
+ Grain 24 reaches full size at t = 0.406844 s
+  categorize (connect) grain    24 to    11 time: 0.406845     s
+
+ Seed number 33 set at time t = 0.40700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.36 K
+ Undercooling = 3.6615 K
+ Grain number = 33
+
+ Seed number 34 set at time t = 0.40700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.37 K
+ Undercooling = 4.3172 K
+ Grain number = 34
+
+ Seed number 35 set at time t = 0.40700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.90 K
+ Undercooling = 3.0356 K
+ Grain number = 35
+
+ Seed number 36 set at time t = 0.40700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.57 K
+ Undercooling = 2.2031 K
+ Grain number = 36
+
+ Seed number 37 set at time t = 0.40700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.59 K
+ Undercooling = 2.1982 K
+ Grain number = 37
+
+ Seed number 38 set at time t = 0.40700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.42 K
+ Undercooling = 3.5578 K
+ Grain number = 38
+
+ Seed number 39 set at time t = 0.40700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.59 K
+ Undercooling = 2.2833 K
+ Grain number = 39
+  categorize (connect) grain    27 to    11 time: 0.407002     s
+  categorize (connect) grain    28 to    11 time: 0.407002     s
+  categorize (connect) grain    26 to    21 time: 0.407002     s
+
+ Grain 30 reaches full size at t = 0.407664 s
+
+ Seed number 40 set at time t = 0.40800 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.87 K
+ Undercooling = 3.0217 K
+ Grain number = 40
+
+ Seed number 41 set at time t = 0.40800 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.35 K
+ Undercooling = 2.3788 K
+ Grain number = 41
+
+ Seed number 42 set at time t = 0.40800 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.87 K
+ Undercooling = 3.1217 K
+ Grain number = 42
+
+ Grain 35 reaches full size at t = 0.408749 s
+
+ Seed number 43 set at time t = 0.40900 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.59 K
+ Undercooling = 2.1390 K
+ Grain number = 43
+
+ Seed number 44 set at time t = 0.40900 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.46 K
+ Undercooling = 2.1949 K
+ Grain number = 44
+
+ Seed number 45 set at time t = 0.40900 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.54 K
+ Undercooling = 2.0454 K
+ Grain number = 45
+  categorize (connect) grain    30 to    11 time: 0.409002     s
+
+ Grain 25 reaches full size at t = 0.409553 s
+  categorize (connect) grain    25 to    11 time: 0.409554     s
+
+ Seed number 46 set at time t = 0.41000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.66 K
+ Undercooling = 2.0469 K
+ Grain number = 46
+
+ Seed number 47 set at time t = 0.41000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.71 K
+ Undercooling = 3.2826 K
+ Grain number = 47
+
+ Seed number 48 set at time t = 0.41000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.59 K
+ Undercooling = 2.0159 K
+ Grain number = 48
+
+ Seed number 49 set at time t = 0.41000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.42 K
+ Undercooling = 2.4976 K
+ Grain number = 49
+
+ Intermediate output for t = 0.41000 s
+ CPU-time: 2293 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 817.89 K
+ Temperature gradient = 548.00 K/cm
+
+ Grain 40 reaches full size at t = 0.410391 s
+
+ Grain 41 reaches full size at t = 0.410777 s
+
+ Grain 44 reaches full size at t = 0.410794 s
+  categorize (connect) grain    41 to    11 time: 0.411001     s
+  categorize (connect) grain    40 to    35 time: 0.411001     s
+
+ Seed number 50 set at time t = 0.41100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.64 K
+ Undercooling = 3.4172 K
+ Grain number = 50
+
+ Seed number 51 set at time t = 0.41100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.28 K
+ Undercooling = 2.4413 K
+ Grain number = 51
+
+ Seed number 52 set at time t = 0.41100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.33 K
+ Undercooling = 2.6997 K
+ Grain number = 52
+
+ Seed number 53 set at time t = 0.41100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.50 K
+ Undercooling = 2.1142 K
+ Grain number = 53
+
+ Seed number 54 set at time t = 0.41100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.47 K
+ Undercooling = 4.1185 K
+ Grain number = 54
+
+ Seed number 55 set at time t = 0.41100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.01 K
+ Undercooling = 3.0884 K
+ Grain number = 55
+
+ Seed number 56 set at time t = 0.41100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.23 K
+ Undercooling = 2.8256 K
+ Grain number = 56
+
+ Seed number 57 set at time t = 0.41100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.57 K
+ Undercooling = 2.1720 K
+ Grain number = 57
+
+ Grain 36 reaches full size at t = 0.411029 s
+  categorize (connect) grain    36 to    11 time: 0.411030     s
+
+ Grain 32 reaches full size at t = 0.411382 s
+  categorize (connect) grain    32 to    11 time: 0.411383     s
+
+ Grain 48 reaches full size at t = 0.411777 s
+  categorize (connect) grain    44 to    11 time: 0.412001     s
+
+ Seed number 58 set at time t = 0.41200 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.51 K
+ Undercooling = 2.1226 K
+ Grain number = 58
+
+ Seed number 59 set at time t = 0.41200 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.29 K
+ Undercooling = 2.2091 K
+ Grain number = 59
+
+ Seed number 60 set at time t = 0.41200 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.91 K
+ Undercooling = 2.9778 K
+ Grain number = 60
+
+ Seed number 61 set at time t = 0.41200 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.48 K
+ Undercooling = 2.1453 K
+ Grain number = 61
+
+ Seed number 62 set at time t = 0.41200 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.03 K
+ Undercooling = 2.7728 K
+ Grain number = 62
+
+ Grain 57 reaches full size at t = 0.412694 s
+
+ Grain 37 reaches full size at t = 0.412809 s
+  categorize (connect) grain    37 to    11 time: 0.412810     s
+
+ Grain 53 reaches full size at t = 0.412875 s
+  categorize (connect) grain    48 to    11 time: 0.413001     s
+
+ Seed number 63 set at time t = 0.41300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.80 K
+ Undercooling = 3.2561 K
+ Grain number = 63
+
+ Seed number 64 set at time t = 0.41300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.35 K
+ Undercooling = 2.3327 K
+ Grain number = 64
+
+ Seed number 65 set at time t = 0.41300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.43 K
+ Undercooling = 2.2185 K
+ Grain number = 65
+
+ Seed number 66 set at time t = 0.41300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.03 K
+ Undercooling = 4.9992 K
+ Grain number = 66
+
+ Seed number 67 set at time t = 0.41300 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.45 K
+ Undercooling = 2.1474 K
+ Grain number = 67
+ complete relinearisation!
+
+ Grain 61 reaches full size at t = 0.413615 s
+
+ Seed number 68 set at time t = 0.41400 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.57 K
+ Undercooling = 2.0441 K
+ Grain number = 68
+  categorize (connect) grain    53 to    11 time: 0.414002     s
+  categorize (connect) grain    57 to    11 time: 0.414002     s
+
+ Grain 58 reaches full size at t = 0.414041 s
+
+ Grain 51 reaches full size at t = 0.414166 s
+  categorize (connect) grain    51 to    21 time: 0.414167     s
+
+ Grain 45 reaches full size at t = 0.414418 s
+  categorize (connect) grain    45 to    21 time: 0.414419     s
+
+ Grain 64 reaches full size at t = 0.414512 s
+
+ Grain 65 reaches full size at t = 0.414569 s
+
+ Seed number 69 set at time t = 0.41500 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.88 K
+ Undercooling = 5.0574 K
+ Grain number = 69
+
+ Seed number 70 set at time t = 0.41500 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.98 K
+ Undercooling = 3.0607 K
+ Grain number = 70
+
+ Seed number 71 set at time t = 0.41500 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.41 K
+ Undercooling = 2.2640 K
+ Grain number = 71
+
+ Seed number 72 set at time t = 0.41500 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.62 K
+ Undercooling = 2.1083 K
+ Grain number = 72
+
+ Seed number 73 set at time t = 0.41500 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.48 K
+ Undercooling = 2.1547 K
+ Grain number = 73
+
+ Seed number 74 set at time t = 0.41500 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.72 K
+ Undercooling = 3.6386 K
+ Grain number = 74
+
+ Seed number 75 set at time t = 0.41500 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.36 K
+ Undercooling = 2.3181 K
+ Grain number = 75
+  categorize (connect) grain    58 to    11 time: 0.415002     s
+  categorize (connect) grain    61 to    21 time: 0.415002     s
+
+ Seed number 76 set at time t = 0.41600 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.50 K
+ Undercooling = 2.2048 K
+ Grain number = 76
+
+ Seed number 77 set at time t = 0.41600 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.84 K
+ Undercooling = 3.1436 K
+ Grain number = 77
+
+ Seed number 78 set at time t = 0.41600 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.69 K
+ Undercooling = 3.7886 K
+ Grain number = 78
+
+ Seed number 79 set at time t = 0.41600 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.58 K
+ Undercooling = 2.0737 K
+ Grain number = 79
+  categorize (connect) grain    65 to    11 time: 0.416002     s
+  categorize (connect) grain    64 to    21 time: 0.416002     s
+
+ Grain 68 reaches full size at t = 0.416004 s
+
+ Grain 73 reaches full size at t = 0.416338 s
+
+ Grain 71 reaches full size at t = 0.416500 s
+
+ Seed number 80 set at time t = 0.41700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.46 K
+ Undercooling = 5.7294 K
+ Grain number = 80
+
+ Seed number 81 set at time t = 0.41700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.69 K
+ Undercooling = 3.3908 K
+ Grain number = 81
+
+ Seed number 82 set at time t = 0.41700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.17 K
+ Undercooling = 4.8226 K
+ Grain number = 82
+
+ Seed number 83 set at time t = 0.41700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.05 K
+ Undercooling = 2.8189 K
+ Grain number = 83
+
+ Seed number 84 set at time t = 0.41700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.41 K
+ Undercooling = 4.2734 K
+ Grain number = 84
+
+ Seed number 85 set at time t = 0.41700 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.13 K
+ Undercooling = 2.9685 K
+ Grain number = 85
+  categorize (connect) grain    68 to    11 time: 0.417002     s
+
+ Grain 75 reaches full size at t = 0.417516 s
+
+ Grain 52 reaches full size at t = 0.417698 s
+  categorize (connect) grain    52 to    11 time: 0.417699     s
+
+ Grain 79 reaches full size at t = 0.417897 s
+
+ Seed number 86 set at time t = 0.41800 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.46 K
+ Undercooling = 2.1690 K
+ Grain number = 86
+
+ Seed number 87 set at time t = 0.41800 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.52 K
+ Undercooling = 2.0874 K
+ Grain number = 87
+
+ Seed number 88 set at time t = 0.41800 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.23 K
+ Undercooling = 2.6578 K
+ Grain number = 88
+
+ Seed number 89 set at time t = 0.41800 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.95 K
+ Undercooling = 2.7826 K
+ Grain number = 89
+  categorize (connect) grain    71 to    11 time: 0.418002     s
+  categorize (connect) grain    73 to    11 time: 0.418002     s
+  categorize (connect) grain    75 to    11 time: 0.418002     s
+
+ Grain 76 reaches full size at t = 0.418265 s
+
+ Seed number 90 set at time t = 0.41900 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.27 K
+ Undercooling = 2.4121 K
+ Grain number = 90
+
+ Seed number 91 set at time t = 0.41900 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.63 K
+ Undercooling = 3.4853 K
+ Grain number = 91
+
+ Seed number 92 set at time t = 0.41900 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.81 K
+ Undercooling = 3.5523 K
+ Grain number = 92
+
+ Seed number 93 set at time t = 0.41900 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.60 K
+ Undercooling = 3.9054 K
+ Grain number = 93
+  categorize (connect) grain    76 to    11 time: 0.419002     s
+  categorize (connect) grain    79 to    11 time: 0.419002     s
+
+ Grain 87 reaches full size at t = 0.419580 s
+
+ Grain 88 reaches full size at t = 0.419622 s
+
+ Grain 86 reaches full size at t = 0.419682 s
+
+ Seed number 94 set at time t = 0.42000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.45 K
+ Undercooling = 2.2017 K
+ Grain number = 94
+
+ Seed number 95 set at time t = 0.42000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.62 K
+ Undercooling = 2.1667 K
+ Grain number = 95
+
+ Seed number 96 set at time t = 0.42000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.66 K
+ Undercooling = 2.0567 K
+ Grain number = 96
+
+ Seed number 97 set at time t = 0.42000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.05 K
+ Undercooling = 2.8032 K
+ Grain number = 97
+
+ Seed number 98 set at time t = 0.42000 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.69 K
+ Undercooling = 2.0242 K
+ Grain number = 98
+
+ Intermediate output for t = 0.42000 s
+ CPU-time: 2175 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 816.33 K
+ Temperature gradient = 551.87 K/cm
+  categorize (connect) grain    86 to    11 time: 0.421001     s
+  categorize (connect) grain    87 to    11 time: 0.421001     s
+  categorize (connect) grain    88 to    21 time: 0.421001     s
+
+ Seed number 99 set at time t = 0.42100 s
+ ----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.27 K
+ Undercooling = 6.6135 K
+ Grain number = 99
+
+ Seed number 100 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.33 K
+ Undercooling = 4.3108 K
+ Grain number = 100
+
+ Seed number 101 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.45 K
+ Undercooling = 2.2192 K
+ Grain number = 101
+
+ Seed number 102 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.51 K
+ Undercooling = 2.0662 K
+ Grain number = 102
+
+ Seed number 103 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.04 K
+ Undercooling = 5.3890 K
+ Grain number = 103
+
+ Seed number 104 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.59 K
+ Undercooling = 3.6365 K
+ Grain number = 104
+
+ Seed number 105 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.26 K
+ Undercooling = 2.5284 K
+ Grain number = 105
+
+ Seed number 106 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.45 K
+ Undercooling = 2.1950 K
+ Grain number = 106
+
+ Seed number 107 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.16 K
+ Undercooling = 4.4921 K
+ Grain number = 107
+
+ Seed number 108 set at time t = 0.42100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.61 K
+ Undercooling = 2.1623 K
+ Grain number = 108
+
+ Grain 94 reaches full size at t = 0.421743 s
+
+ Seed number 109 set at time t = 0.42200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.07 K
+ Undercooling = 4.7334 K
+ Grain number = 109
+
+ Grain 105 reaches full size at t = 0.422466 s
+  categorize (connect) grain    94 to    11 time: 0.423001     s
+
+ Seed number 110 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.12 K
+ Undercooling = 5.2302 K
+ Grain number = 110
+
+ Seed number 111 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.85 K
+ Undercooling = 3.1957 K
+ Grain number = 111
+
+ Seed number 112 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.00 K
+ Undercooling = 2.8467 K
+ Grain number = 112
+
+ Seed number 113 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.27 K
+ Undercooling = 2.7530 K
+ Grain number = 113
+
+ Seed number 114 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.70 K
+ Undercooling = 2.0154 K
+ Grain number = 114
+
+ Seed number 115 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.42 K
+ Undercooling = 2.2262 K
+ Grain number = 115
+
+ Seed number 116 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.27 K
+ Undercooling = 2.4395 K
+ Grain number = 116
+
+ Seed number 117 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.36 K
+ Undercooling = 2.3401 K
+ Grain number = 117
+
+ Seed number 118 set at time t = 0.42300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.39 K
+ Undercooling = 2.2968 K
+ Grain number = 118
+ complete relinearisation!
+
+ Grain 72 reaches full size at t = 0.423102 s
+  categorize (connect) grain    72 to    11 time: 0.423103     s
+
+ Grain 95 reaches full size at t = 0.423719 s
+  categorize (connect) grain    95 to    11 time: 0.423720     s
+
+ Seed number 119 set at time t = 0.42400 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.59 K
+ Undercooling = 2.1917 K
+ Grain number = 119
+
+ Seed number 120 set at time t = 0.42400 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.40 K
+ Undercooling = 2.2478 K
+ Grain number = 120
+  categorize (connect) grain   105 to    21 time: 0.424002     s
+
+ Grain 118 reaches full size at t = 0.424367 s
+
+ Grain 106 reaches full size at t = 0.424420 s
+  categorize (connect) grain   106 to    21 time: 0.424421     s
+
+ Grain 117 reaches full size at t = 0.424637 s
+
+ Grain 115 reaches full size at t = 0.424643 s
+
+ Seed number 121 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.51 K
+ Undercooling = 7.3312 K
+ Grain number = 121
+
+ Seed number 122 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.46 K
+ Undercooling = 6.5376 K
+ Grain number = 122
+
+ Seed number 123 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.65 K
+ Undercooling = 3.6857 K
+ Grain number = 123
+
+ Seed number 124 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.49 K
+ Undercooling = 2.0853 K
+ Grain number = 124
+
+ Seed number 125 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.52 K
+ Undercooling = 2.0697 K
+ Grain number = 125
+
+ Seed number 126 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.57 K
+ Undercooling = 2.0731 K
+ Grain number = 126
+
+ Seed number 127 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.19 K
+ Undercooling = 4.6008 K
+ Grain number = 127
+
+ Seed number 128 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.99 K
+ Undercooling = 3.0565 K
+ Grain number = 128
+
+ Seed number 129 set at time t = 0.42500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.36 K
+ Undercooling = 2.3134 K
+ Grain number = 129
+
+ Grain 120 reaches full size at t = 0.425744 s
+
+ Seed number 130 set at time t = 0.42600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.54 K
+ Undercooling = 2.0494 K
+ Grain number = 130
+
+ Seed number 131 set at time t = 0.42600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.68 K
+ Undercooling = 2.0056 K
+ Grain number = 131
+
+ Seed number 132 set at time t = 0.42600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.55 K
+ Undercooling = 2.2505 K
+ Grain number = 132
+
+ Seed number 133 set at time t = 0.42600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.60 K
+ Undercooling = 2.1794 K
+ Grain number = 133
+  categorize (connect) grain   117 to    11 time: 0.426002     s
+  categorize (connect) grain   115 to    21 time: 0.426002     s
+
+ Grain 128 reaches full size at t = 0.426361 s
+
+ Grain 125 reaches full size at t = 0.426622 s
+
+ Grain 129 reaches full size at t = 0.426622 s
+
+ Seed number 134 set at time t = 0.42700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.53 K
+ Undercooling = 3.6207 K
+ Grain number = 134
+
+ Seed number 135 set at time t = 0.42700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.68 K
+ Undercooling = 3.4003 K
+ Grain number = 135
+
+ Seed number 136 set at time t = 0.42700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.35 K
+ Undercooling = 2.3557 K
+ Grain number = 136
+
+ Seed number 137 set at time t = 0.42700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.49 K
+ Undercooling = 2.1021 K
+ Grain number = 137
+
+ Seed number 138 set at time t = 0.42700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.55 K
+ Undercooling = 3.5610 K
+ Grain number = 138
+
+ Seed number 139 set at time t = 0.42700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.53 K
+ Undercooling = 2.3023 K
+ Grain number = 139
+
+ Seed number 140 set at time t = 0.42700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.41 K
+ Undercooling = 2.2522 K
+ Grain number = 140
+  categorize (connect) grain   120 to   118 time: 0.427002     s
+
+ Grain 126 reaches full size at t = 0.427154 s
+
+ Grain 130 reaches full size at t = 0.427571 s
+
+ Seed number 141 set at time t = 0.42800 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.54 K
+ Undercooling = 2.0081 K
+ Grain number = 141
+
+ Seed number 142 set at time t = 0.42800 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.57 K
+ Undercooling = 2.2125 K
+ Grain number = 142
+  categorize (connect) grain   125 to    11 time: 0.428002     s
+  categorize (connect) grain   126 to    11 time: 0.428002     s
+  categorize (connect) grain   129 to    11 time: 0.428002     s
+  categorize (connect) grain   128 to    35 time: 0.428002     s
+
+ Grain 140 reaches full size at t = 0.428422 s
+
+ Grain 137 reaches full size at t = 0.428844 s
+
+ Seed number 143 set at time t = 0.42900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.09 K
+ Undercooling = 8.0463 K
+ Grain number = 143
+
+ Seed number 144 set at time t = 0.42900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.92 K
+ Undercooling = 7.1142 K
+ Grain number = 144
+
+ Seed number 145 set at time t = 0.42900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.09 K
+ Undercooling = 4.7230 K
+ Grain number = 145
+
+ Seed number 146 set at time t = 0.42900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.37 K
+ Undercooling = 2.2695 K
+ Grain number = 146
+
+ Seed number 147 set at time t = 0.42900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.46 K
+ Undercooling = 2.1636 K
+ Grain number = 147
+
+ Seed number 148 set at time t = 0.42900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.50 K
+ Undercooling = 2.0518 K
+ Grain number = 148
+
+ Seed number 149 set at time t = 0.42900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.16 K
+ Undercooling = 3.9863 K
+ Grain number = 149
+
+ Seed number 150 set at time t = 0.42900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.37 K
+ Undercooling = 2.2978 K
+ Grain number = 150
+  categorize (connect) grain   130 to    11 time: 0.429002     s
+
+ Grain 141 reaches full size at t = 0.429635 s
+
+ Grain 147 reaches full size at t = 0.429993 s
+
+ Seed number 151 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.69 K
+ Undercooling = 3.6902 K
+ Grain number = 151
+
+ Seed number 152 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.49 K
+ Undercooling = 2.0812 K
+ Grain number = 152
+
+ Seed number 153 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.52 K
+ Undercooling = 2.0596 K
+ Grain number = 153
+
+ Seed number 154 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.57 K
+ Undercooling = 3.3080 K
+ Grain number = 154
+
+ Seed number 155 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.82 K
+ Undercooling = 3.2034 K
+ Grain number = 155
+
+ Seed number 156 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.41 K
+ Undercooling = 2.3161 K
+ Grain number = 156
+
+ Seed number 157 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.42 K
+ Undercooling = 2.2072 K
+ Grain number = 157
+
+ Seed number 158 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.52 K
+ Undercooling = 2.0924 K
+ Grain number = 158
+
+ Seed number 159 set at time t = 0.43000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.34 K
+ Undercooling = 3.7340 K
+ Grain number = 159
+
+ Intermediate output for t = 0.43000 s
+ CPU-time: 1902 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 814.07 K
+ Temperature gradient = 564.86 K/cm
+  categorize (connect) grain   137 to    11 time: 0.430001     s
+  categorize (connect) grain   140 to    11 time: 0.430001     s
+
+ Grain 146 reaches full size at t = 0.430328 s
+
+ Grain 132 reaches full size at t = 0.430664 s
+  categorize (connect) grain   132 to    11 time: 0.430665     s
+  categorize (connect) grain   141 to    11 time: 0.431001     s
+
+ Seed number 160 set at time t = 0.43100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.57 K
+ Undercooling = 3.5829 K
+ Grain number = 160
+
+ Seed number 161 set at time t = 0.43100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.39 K
+ Undercooling = 3.6379 K
+ Grain number = 161
+
+ Seed number 162 set at time t = 0.43100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.19 K
+ Undercooling = 2.6035 K
+ Grain number = 162
+
+ Seed number 163 set at time t = 0.43100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.45 K
+ Undercooling = 2.1885 K
+ Grain number = 163
+
+ Seed number 164 set at time t = 0.43100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.66 K
+ Undercooling = 2.0331 K
+ Grain number = 164
+
+ Seed number 165 set at time t = 0.43100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.83 K
+ Undercooling = 4.6374 K
+ Grain number = 165
+
+ Grain 124 reaches full size at t = 0.431356 s
+  categorize (connect) grain   124 to    11 time: 0.431357     s
+
+ Grain 152 reaches full size at t = 0.431403 s
+
+ Grain 139 reaches full size at t = 0.431466 s
+  categorize (connect) grain   139 to    11 time: 0.431467     s
+
+ Grain 157 reaches full size at t = 0.431546 s
+
+ Grain 158 reaches full size at t = 0.431599 s
+
+ Grain 153 reaches full size at t = 0.431846 s
+  categorize (connect) grain   146 to    11 time: 0.432001     s
+  categorize (connect) grain   147 to    11 time: 0.432001     s
+
+ Seed number 166 set at time t = 0.43200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 815.89 K
+ Undercooling = 8.8946 K
+ Grain number = 166
+
+ Seed number 167 set at time t = 0.43200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.46 K
+ Undercooling = 2.1782 K
+ Grain number = 167
+
+ Seed number 168 set at time t = 0.43200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.94 K
+ Undercooling = 7.5240 K
+ Grain number = 168
+
+ Seed number 169 set at time t = 0.43200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.56 K
+ Undercooling = 2.0112 K
+ Grain number = 169
+
+ Seed number 170 set at time t = 0.43200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.57 K
+ Undercooling = 2.0072 K
+ Grain number = 170
+
+ Seed number 171 set at time t = 0.43200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.61 K
+ Undercooling = 6.0794 K
+ Grain number = 171
+
+ Seed number 172 set at time t = 0.43200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.62 K
+ Undercooling = 3.4372 K
+ Grain number = 172
+
+ Seed number 173 set at time t = 0.43200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.71 K
+ Undercooling = 3.4313 K
+ Grain number = 173
+
+ Grain 163 reaches full size at t = 0.432857 s
+  categorize (connect) grain   152 to    11 time: 0.433001     s
+  categorize (connect) grain   153 to    11 time: 0.433001     s
+  categorize (connect) grain   157 to    11 time: 0.433001     s
+  categorize (connect) grain   158 to    11 time: 0.433001     s
+
+ Seed number 174 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.62 K
+ Undercooling = 6.3225 K
+ Grain number = 174
+
+ Seed number 175 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.54 K
+ Undercooling = 4.0170 K
+ Grain number = 175
+
+ Seed number 176 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.70 K
+ Undercooling = 3.2355 K
+ Grain number = 176
+
+ Seed number 177 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.78 K
+ Undercooling = 3.2372 K
+ Grain number = 177
+
+ Seed number 178 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.24 K
+ Undercooling = 2.5532 K
+ Grain number = 178
+
+ Seed number 179 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.54 K
+ Undercooling = 2.0398 K
+ Grain number = 179
+
+ Seed number 180 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.23 K
+ Undercooling = 4.5406 K
+ Grain number = 180
+
+ Seed number 181 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.41 K
+ Undercooling = 3.9303 K
+ Grain number = 181
+
+ Seed number 182 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.70 K
+ Undercooling = 3.3227 K
+ Grain number = 182
+
+ Seed number 183 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.13 K
+ Undercooling = 2.6522 K
+ Grain number = 183
+
+ Seed number 184 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.57 K
+ Undercooling = 2.2070 K
+ Grain number = 184
+
+ Seed number 185 set at time t = 0.43300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.77 K
+ Undercooling = 3.3597 K
+ Grain number = 185
+ complete relinearisation!
+
+ Grain 164 reaches full size at t = 0.433094 s
+
+ Grain 170 reaches full size at t = 0.433650 s
+
+ Grain 148 reaches full size at t = 0.433695 s
+  categorize (connect) grain   148 to    11 time: 0.433696     s
+
+ Grain 169 reaches full size at t = 0.433753 s
+
+ Seed number 186 set at time t = 0.43400 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.51 K
+ Undercooling = 2.2369 K
+ Grain number = 186
+
+ Seed number 187 set at time t = 0.43400 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.64 K
+ Undercooling = 2.1478 K
+ Grain number = 187
+
+ Seed number 188 set at time t = 0.43400 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.68 K
+ Undercooling = 2.0277 K
+ Grain number = 188
+  categorize (connect) grain   163 to    11 time: 0.434002     s
+  categorize (connect) grain   164 to    11 time: 0.434002     s
+
+ Grain 167 reaches full size at t = 0.434029 s
+
+ Grain 178 reaches full size at t = 0.434291 s
+
+ Grain 183 reaches full size at t = 0.434369 s
+
+ Grain 176 reaches full size at t = 0.434584 s
+
+ Grain 179 reaches full size at t = 0.434596 s
+
+ Grain 177 reaches full size at t = 0.434917 s
+
+ Grain 184 reaches full size at t = 0.434925 s
+
+ Seed number 189 set at time t = 0.43500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.93 K
+ Undercooling = 5.0956 K
+ Grain number = 189
+
+ Seed number 190 set at time t = 0.43500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.66 K
+ Undercooling = 5.4779 K
+ Grain number = 190
+
+ Seed number 191 set at time t = 0.43500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.43 K
+ Undercooling = 2.1967 K
+ Grain number = 191
+  categorize (connect) grain   167 to    11 time: 0.435002     s
+  categorize (connect) grain   169 to    11 time: 0.435002     s
+  categorize (connect) grain   170 to    11 time: 0.435002     s
+
+ Grain 186 reaches full size at t = 0.435721 s
+
+ Seed number 192 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 814.98 K
+ Undercooling = 9.8801 K
+ Grain number = 192
+
+ Seed number 193 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.61 K
+ Undercooling = 3.3923 K
+ Grain number = 193
+
+ Seed number 194 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 815.59 K
+ Undercooling = 8.9166 K
+ Grain number = 194
+
+ Seed number 195 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.16 K
+ Undercooling = 8.0389 K
+ Grain number = 195
+
+ Seed number 196 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.95 K
+ Undercooling = 7.1645 K
+ Grain number = 196
+
+ Seed number 197 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.23 K
+ Undercooling = 2.7991 K
+ Grain number = 197
+
+ Seed number 198 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.55 K
+ Undercooling = 2.0298 K
+ Grain number = 198
+
+ Seed number 199 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.58 K
+ Undercooling = 3.1588 K
+ Grain number = 199
+
+ Seed number 200 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.63 K
+ Undercooling = 3.4405 K
+ Grain number = 200
+
+ Seed number 201 set at time t = 0.43600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.12 K
+ Undercooling = 4.7316 K
+ Grain number = 201
+  categorize (connect) grain   179 to    11 time: 0.436002     s
+  categorize (connect) grain   184 to    11 time: 0.436002     s
+  categorize (connect) grain   176 to    21 time: 0.436002     s
+  categorize (connect) grain   177 to    21 time: 0.436002     s
+  categorize (connect) grain   178 to    21 time: 0.436002     s
+  categorize (connect) grain   183 to    21 time: 0.436002     s
+
+ Grain 191 reaches full size at t = 0.436529 s
+
+ Seed number 202 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.56 K
+ Undercooling = 6.4892 K
+ Grain number = 202
+
+ Seed number 203 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.72 K
+ Undercooling = 3.2104 K
+ Grain number = 203
+
+ Seed number 204 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.93 K
+ Undercooling = 5.7677 K
+ Grain number = 204
+
+ Seed number 205 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.21 K
+ Undercooling = 4.8878 K
+ Grain number = 205
+
+ Seed number 206 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.31 K
+ Undercooling = 4.6429 K
+ Grain number = 206
+
+ Seed number 207 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.10 K
+ Undercooling = 2.6997 K
+ Grain number = 207
+
+ Seed number 208 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.37 K
+ Undercooling = 2.3301 K
+ Grain number = 208
+
+ Seed number 209 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.41 K
+ Undercooling = 2.2556 K
+ Grain number = 209
+
+ Seed number 210 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.43 K
+ Undercooling = 2.2346 K
+ Grain number = 210
+
+ Seed number 211 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.45 K
+ Undercooling = 2.2003 K
+ Grain number = 211
+
+ Seed number 212 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.46 K
+ Undercooling = 2.1729 K
+ Grain number = 212
+
+ Seed number 213 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.48 K
+ Undercooling = 2.1453 K
+ Grain number = 213
+
+ Seed number 214 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.51 K
+ Undercooling = 2.0964 K
+ Grain number = 214
+
+ Seed number 215 set at time t = 0.43700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.53 K
+ Undercooling = 2.2949 K
+ Grain number = 215
+  categorize (connect) grain   186 to    11 time: 0.437002     s
+
+ Grain 198 reaches full size at t = 0.437679 s
+
+ Seed number 216 set at time t = 0.43800 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.53 K
+ Undercooling = 3.7528 K
+ Grain number = 216
+
+ Seed number 217 set at time t = 0.43800 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.00 K
+ Undercooling = 2.8663 K
+ Grain number = 217
+
+ Seed number 218 set at time t = 0.43800 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 819.20 K
+ Undercooling = 2.5906 K
+ Grain number = 218
+
+ Seed number 219 set at time t = 0.43800 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.62 K
+ Undercooling = 3.2262 K
+ Grain number = 219
+  categorize (connect) grain   191 to    11 time: 0.438002     s
+
+ Grain 187 reaches full size at t = 0.438286 s
+  categorize (connect) grain   187 to    11 time: 0.438287     s
+
+ Grain 208 reaches full size at t = 0.438512 s
+
+ Grain 209 reaches full size at t = 0.438620 s
+
+ Grain 210 reaches full size at t = 0.438661 s
+
+ Grain 211 reaches full size at t = 0.438720 s
+
+ Grain 212 reaches full size at t = 0.438804 s
+
+ Seed number 220 set at time t = 0.43900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.52 K
+ Undercooling = 3.4842 K
+ Grain number = 220
+  categorize (connect) grain   198 to    11 time: 0.439002     s
+
+ Grain 213 reaches full size at t = 0.439040 s
+
+ Grain 188 reaches full size at t = 0.439249 s
+  categorize (connect) grain   188 to    11 time: 0.439250     s
+
+ Grain 218 reaches full size at t = 0.439597 s
+
+ Grain 197 reaches full size at t = 0.439919 s
+  categorize (connect) grain   197 to    11 time: 0.439920     s
+
+ Grain 217 reaches full size at t = 0.439979 s
+
+ Seed number 221 set at time t = 0.44000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.19 K
+ Undercooling = 8.7561 K
+ Grain number = 221
+
+ Seed number 222 set at time t = 0.44000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.41 K
+ Undercooling = 6.6310 K
+ Grain number = 222
+
+ Seed number 223 set at time t = 0.44000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.88 K
+ Undercooling = 5.1203 K
+ Grain number = 223
+
+ Seed number 224 set at time t = 0.44000 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.67 K
+ Undercooling = 3.1056 K
+ Grain number = 224
+
+ Intermediate output for t = 0.44000 s
+ CPU-time: 1645 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 811.97 K
+ Temperature gradient = 574.29 K/cm
+  categorize (connect) grain   208 to    11 time: 0.440001     s
+  categorize (connect) grain   209 to    11 time: 0.440001     s
+  categorize (connect) grain   210 to    11 time: 0.440001     s
+  categorize (connect) grain   211 to    11 time: 0.440001     s
+  categorize (connect) grain   212 to    11 time: 0.440001     s
+  categorize (connect) grain   213 to    11 time: 0.440001     s
+
+ Grain 220 reaches full size at t = 0.440503 s
+
+ Grain 207 reaches full size at t = 0.440810 s
+  categorize (connect) grain   207 to    21 time: 0.440811     s
+  categorize (connect) grain   217 to    21 time: 0.441001     s
+  categorize (connect) grain   218 to    21 time: 0.441001     s
+
+ Seed number 225 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.75 K
+ Undercooling = 7.7724 K
+ Grain number = 225
+
+ Seed number 226 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.90 K
+ Undercooling = 7.4670 K
+ Grain number = 226
+
+ Seed number 227 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.01 K
+ Undercooling = 6.6397 K
+ Grain number = 227
+
+ Seed number 228 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.31 K
+ Undercooling = 6.8467 K
+ Grain number = 228
+
+ Seed number 229 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.91 K
+ Undercooling = 5.1681 K
+ Grain number = 229
+
+ Seed number 230 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.92 K
+ Undercooling = 5.0984 K
+ Grain number = 230
+
+ Seed number 231 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.97 K
+ Undercooling = 5.7781 K
+ Grain number = 231
+
+ Seed number 232 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.99 K
+ Undercooling = 4.9432 K
+ Grain number = 232
+
+ Seed number 233 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.09 K
+ Undercooling = 4.7057 K
+ Grain number = 233
+
+ Seed number 234 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.36 K
+ Undercooling = 3.8005 K
+ Grain number = 234
+
+ Seed number 235 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.48 K
+ Undercooling = 3.7841 K
+ Grain number = 235
+
+ Seed number 236 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.50 K
+ Undercooling = 3.4319 K
+ Grain number = 236
+
+ Seed number 237 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.52 K
+ Undercooling = 3.7019 K
+ Grain number = 237
+
+ Seed number 238 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.53 K
+ Undercooling = 3.6228 K
+ Grain number = 238
+
+ Seed number 239 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.55 K
+ Undercooling = 3.6971 K
+ Grain number = 239
+
+ Seed number 240 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.57 K
+ Undercooling = 3.6801 K
+ Grain number = 240
+
+ Seed number 241 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.40 K
+ Undercooling = 4.0725 K
+ Grain number = 241
+
+ Seed number 242 set at time t = 0.44100 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 818.59 K
+ Undercooling = 3.3394 K
+ Grain number = 242
+  categorize (connect) grain   220 to    21 time: 0.442001     s
+
+ Grain 235 reaches full size at t = 0.442839 s
+
+ Seed number 243 set at time t = 0.44300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 815.40 K
+ Undercooling = 9.8512 K
+ Grain number = 243
+
+ Seed number 244 set at time t = 0.44300 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.92 K
+ Undercooling = 5.4013 K
+ Grain number = 244
+ complete relinearisation!
+  categorize (connect) grain   235 to    21 time: 0.444002     s
+
+ Seed number 245 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 815.65 K
+ Undercooling = 9.5670 K
+ Grain number = 245
+
+ Seed number 246 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.15 K
+ Undercooling = 8.6804 K
+ Grain number = 246
+
+ Seed number 247 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.36 K
+ Undercooling = 8.3781 K
+ Grain number = 247
+
+ Seed number 248 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.77 K
+ Undercooling = 6.9355 K
+ Grain number = 248
+
+ Seed number 249 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.87 K
+ Undercooling = 6.7758 K
+ Grain number = 249
+
+ Seed number 250 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.13 K
+ Undercooling = 7.0286 K
+ Grain number = 250
+
+ Seed number 251 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.27 K
+ Undercooling = 6.1712 K
+ Grain number = 251
+
+ Seed number 252 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.36 K
+ Undercooling = 6.0562 K
+ Grain number = 252
+
+ Seed number 253 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.41 K
+ Undercooling = 5.3038 K
+ Grain number = 253
+
+ Seed number 254 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.49 K
+ Undercooling = 2.3510 K
+ Grain number = 254
+
+ Seed number 255 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.49 K
+ Undercooling = 4.7829 K
+ Grain number = 255
+
+ Seed number 256 set at time t = 0.44500 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 817.49 K
+ Undercooling = 3.2243 K
+ Grain number = 256
+
+ Seed number 257 set at time t = 0.44700 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 814.24 K
+ Undercooling = 11.882 K
+ Grain number = 257
+
+ Seed number 258 set at time t = 0.44900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 815.02 K
+ Undercooling = 9.9078 K
+ Grain number = 258
+
+ Seed number 259 set at time t = 0.44900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 815.91 K
+ Undercooling = 8.3478 K
+ Grain number = 259
+
+ Seed number 260 set at time t = 0.44900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.00 K
+ Undercooling = 8.3015 K
+ Grain number = 260
+
+ Seed number 261 set at time t = 0.44900 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 816.24 K
+ Undercooling = 7.9059 K
+ Grain number = 261
+
+ Intermediate output for t = 0.45000 s
+ CPU-time: 1313 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 809.07 K
+ Temperature gradient = 585.50 K/cm
+
+ Seed number 262 set at time t = 0.45200 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 815.17 K
+ Undercooling = 9.6380 K
+ Grain number = 262
+ complete relinearisation!
+
+ Seed number 263 set at time t = 0.45600 s
+ -----------------------------------------
+ at an interface
+ Phase: 2 (ALCU_THETA)
+ Seed type: 2
+ Local temperature = 814.58 K
+ Undercooling = 11.067 K
+ Grain number = 263
+
+ Intermediate output for t = 0.46000 s
+ CPU-time: 607 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 806.65 K
+ Temperature gradient = 594.28 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.47000 s
+ CPU-time: 609 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 804.53 K
+ Temperature gradient = 591.73 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.48000 s
+ CPU-time: 602 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 802.26 K
+ Temperature gradient = 591.53 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.49000 s
+ CPU-time: 583 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 800.38 K
+ Temperature gradient = 592.18 K/cm
+ complete relinearisation!
+
+ Intermediate output for t = 0.50000 s
+ CPU-time: 578 s
+ Current phase-field solver time step = 1.00E-06 s
+ Average conc. of comp. 1 = 3.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 798.69 K
+ Temperature gradient = 586.18 K/cm
+
+ ==================================================
+
+ Simulation run on machine n027
+ Remaining license time: permanent
+ CPU time in seconds:       47879
+ Wall clock time in seconds:  8258
+ End
+ 

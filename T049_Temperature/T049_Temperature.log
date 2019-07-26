@@ -1,0 +1,234 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (06:47)
+ Machine: n009
+ Driving file: T049_Temperature_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 500, 1, 500
+ deltaX, deltaY, deltaZ [cm] = 2.0000E-05, 2.0000E-05, 2.0000E-05
+
+ Flags
+ -----
+ 'Double-obstacle' potential
+ ! Warning: fd-correction may be incomaptible with the chosen coupling!
+ IFaceDim coeff. : 0.400 (0.75, 0.70)
+ nTupelDim coeff.: 0.400 (0.75, 0.70)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 9
+ Intermediate output at t       = 2.5000000E-05 s
+ Intermediate output at t       = 5.0000000E-05 s
+ Intermediate output at t       = 1.0000000E-04 s
+ Intermediate output at t       = 1.5000000E-04 s
+ Intermediate output at t       = 2.0000000E-04 s
+ Intermediate output at t       = 2.5000000E-04 s
+ Intermediate output at t       = 3.0000000E-04 s
+ Intermediate output at t       = 3.5000000E-04 s
+ Intermediate output at t       = 4.0000000E-04 s
+ Coefficient for phase-field criterion 0.200
+ Weight factor for bulk increment = 4.000E-09
+ Upper limit for time step: 100.
+ Lower limit for time step: 1.000E-12
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 20
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 1
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ Grain orientations will be defined by 2D angles.
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 1
+ Input data for grain number 1:
+  'Round' grain.
+  x,z coordinates               : 0.00000, 0.00000 micrometers
+  Grain radius                  : 0.00000 micrometers
+  Grain 1 is stabilized
+  No Voronoi construction
+  Phase number                  : 1
+  Rotation angle                : 0.000000000000000E+000  degree
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation disabled
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  'Smoothing angle'        smooth = 45.00
+  Interfacial energy        sigma = 1.00000E-04 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E+01 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 0.3000000
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 0.1000000
+
+
+ Phase diagram - input data
+ **************************
+ Equilibrium temperature between 0  and 1 = 800.000000000000 K
+ Entropy of fusion between phase 0  and 1 = 0.500000000000000 J/(cm**3 K)
+ 
+ Temperature Data
+ ****************
+ Thermal conductivity lambda(0) = 0.10000 [W/cm/K]
+ Thermal conductivity lambda(1) = 0.10000 [W/cm/K]
+ Specific heat capacity cKap(0) = 5.0000 J/cm**3/K
+ Specific heat capacity cKap(1) = 5.0000 J/cm**3/K
+ Latent heat L for phase interaction 0 / 1 = 400.00 J/cm**3
+ 
+ 
+ Boundary conditions
+ *******************
+ 
+ Initial temperature at the bottom               = 765.0000 K
+ Initial temperature at the top                  = 765.0000 K
+ 
+ Simulation domain not shifted
+ 
+ 
+ In W-direction isolation boundary condition for phase field
+ In E-direction isolation boundary condition for phase field
+ In B-direction isolation boundary condition for phase field
+ In T-direction isolation boundary condition for phase field
+ 
+ In W-direction isolation boundary condition for temperature field
+ In E-direction isolation boundary condition for temperature field
+ In B-direction isolation boundary condition for temperature field
+ In T-direction isolation boundary condition for temperature field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Convergence criterion for temperature iterations (maximum norm) = 5.000000E-06 K
+ Maximum number of iterations for the temperature solver = 1500
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 4.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+  Grain number 1 set
+ # Temperature-field initialized
+ 
+ # tWidth_max( 0 : 1 ) = 8.6363636E-08 s
+ # Maximal value for tWidth = 8.6363636E-08 s for phase-field solver
+ # Maximal value for tWidth = 4.7500000E-09 s for explicit temperature-field solver
+ # Initial value for tWidth = 1.72727E-08 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 2.0000 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 1.73E-08 s
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Grain 1 reaches full size at t = 5.953770E-07 s
+
+ Intermediate output for t = 2.50000E-05 s
+ CPU-time: 96 s
+ Current phase-field solver time step = 1.74E-08 s
+ Average number of solver iterations for temperature field = 9.55
+
+ Intermediate output for t = 5.00000E-05 s
+ CPU-time: 64 s
+ Current phase-field solver time step = 1.74E-08 s
+ Average number of solver iterations for temperature field = 7.05
+
+ Intermediate output for t = 1.00000E-04 s
+ CPU-time: 128 s
+ Current phase-field solver time step = 1.73E-08 s
+ Average number of solver iterations for temperature field = 6.28
+
+ Intermediate output for t = 1.50000E-04 s
+ CPU-time: 132 s
+ Current phase-field solver time step = 1.73E-08 s
+ Average number of solver iterations for temperature field = 5.80
+
+ Intermediate output for t = 2.00000E-04 s
+ CPU-time: 107 s
+ Current phase-field solver time step = 1.73E-08 s
+ Average number of solver iterations for temperature field = 5.45
+
+ Intermediate output for t = 2.50000E-04 s
+ CPU-time: 132 s
+ Current phase-field solver time step = 1.73E-08 s
+ Average number of solver iterations for temperature field = 5.43
+
+ Intermediate output for t = 3.00000E-04 s
+ CPU-time: 124 s
+ Current phase-field solver time step = 1.73E-08 s
+ Average number of solver iterations for temperature field = 5.31
+
+ Intermediate output for t = 3.50000E-04 s
+ CPU-time: 99 s
+ Current phase-field solver time step = 1.73E-08 s
+ Average number of solver iterations for temperature field = 5.12
+
+ Intermediate output for t = 4.00000E-04 s
+ CPU-time: 101 s
+ Current phase-field solver time step = 1.73E-08 s
+ Average number of solver iterations for temperature field = 4.97
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:         991
+ Wall clock time in seconds:  1014
+ End
+ 

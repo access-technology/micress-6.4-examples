@@ -1,0 +1,1952 @@
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           0.0000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 1.0000E-01 wt%
+  Composition MN: 1.5000E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +7.639E-09       +0.228            +1.464E+05
+    C      MN     -1.615E-10       -4.826E-03        +1.464E+05
+    MN     C      -5.669E-16       -1.036E-02        +2.597E+05
+    MN     MN     +7.068E-15       +0.129            +2.597E+05
+
+Determinant: 0.924E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           1.0100 s
+  Temperature:    1023.00000000000 K
+  Composition C : 2.2511E-03 wt%
+  Composition MN: 1.5014E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.638            +1.118E+05
+    C      MN     -7.982E-10       -4.065E-04        +1.118E+05
+    MN     C      -2.032E-13       -2.109E+03        +3.137E+05
+    MN     MN     +1.799E-12       +1.868E+04        +3.137E+05
+
+Determinant: 0.144E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           5.0000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 1.0246E-01 wt%
+  Composition MN: 1.5001E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +7.663E-09       +0.228            +1.464E+05
+    C      MN     -1.659E-10       -4.936E-03        +1.464E+05
+    MN     C      -5.669E-16       -1.036E-02        +2.597E+05
+    MN     MN     +7.068E-15       +0.129            +2.597E+05
+
+Determinant: 0.921E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           5.0000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 2.6192E-03 wt%
+  Composition MN: 1.4965E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.252E-06       +0.640            +1.118E+05
+    C      MN     -9.283E-10       -4.748E-04        +1.118E+05
+    MN     C      -2.024E-13       -2.113E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.878E+04        +3.137E+05
+
+Determinant: 0.144E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           10.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 1.2716E-01 wt%
+  Composition MN: 1.5012E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +7.909E-09       +0.227            +1.461E+05
+    C      MN     -2.103E-10       -6.025E-03        +1.461E+05
+    MN     C      -5.679E-16       -1.039E-02        +2.597E+05
+    MN     MN     +7.067E-15       +0.129            +2.597E+05
+
+Determinant: 0.892E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           10.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.5040E-03 wt%
+  Composition MN: 1.4958E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.252E-06       +0.641            +1.118E+05
+    C      MN     -1.242E-09       -6.356E-04        +1.118E+05
+    MN     C      -2.022E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.880E+04        +3.137E+05
+
+Determinant: 0.144E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           15.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 2.0411E-01 wt%
+  Composition MN: 1.5046E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +8.721E-09       +0.222            +1.451E+05
+    C      MN     -3.606E-10       -9.193E-03        +1.451E+05
+    MN     C      -5.707E-16       -1.045E-02        +2.598E+05
+    MN     MN     +7.064E-15       +0.129            +2.598E+05
+
+Determinant: 0.807E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           15.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 5.5216E-03 wt%
+  Composition MN: 1.4958E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.641            +1.118E+05
+    C      MN     -1.957E-09       -1.002E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.144E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           20.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 2.9418E-01 wt%
+  Composition MN: 1.5084E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +9.769E-09       +0.218            +1.439E+05
+    C      MN     -5.616E-10       -1.251E-02        +1.439E+05
+    MN     C      -5.740E-16       -1.053E-02        +2.598E+05
+    MN     MN     +7.060E-15       +0.130            +2.598E+05
+
+Determinant: 0.719E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           20.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 7.5160E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.664E-09       -1.364E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           25.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2215E-01 wt%
+  Composition MN: 1.5095E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.012E-08       +0.216            +1.436E+05
+    C      MN     -6.301E-10       -1.346E-02        +1.436E+05
+    MN     C      -5.751E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.694E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           25.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1089E-03 wt%
+  Composition MN: 1.4961E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.874E-09       -1.472E-03        +1.118E+05
+    MN     C      -2.024E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           30.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2619E-01 wt%
+  Composition MN: 1.5097E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.402E-10       -1.359E-02        +1.435E+05
+    MN     C      -5.752E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.691E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           30.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1943E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.024E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           35.018 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2665E-01 wt%
+  Composition MN: 1.5098E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.413E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           35.018 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.2056E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.908E-09       -1.489E-03        +1.118E+05
+    MN     C      -2.024E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           40.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2661E-01 wt%
+  Composition MN: 1.5098E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.412E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           40.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.2017E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.907E-09       -1.489E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           45.118 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2666E-01 wt%
+  Composition MN: 1.5099E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.414E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           45.118 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1804E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.900E-09       -1.485E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           50.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2654E-01 wt%
+  Composition MN: 1.5099E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.411E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           50.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.2000E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.489E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           55.049 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2659E-01 wt%
+  Composition MN: 1.5099E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.412E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           55.049 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1871E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.902E-09       -1.486E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           60.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2657E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.411E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           60.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.2003E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.907E-09       -1.489E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           65.149 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           65.149 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1975E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           70.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2647E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           70.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1975E-03 wt%
+  Composition MN: 1.4960E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           75.079 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2648E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           75.079 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1969E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           80.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           80.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1895E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.903E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           85.010 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2657E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.411E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           85.010 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1993E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           90.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.056E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           90.000 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1905E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.903E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           95.110 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2652E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           95.110 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1984E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           100.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2650E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           100.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1853E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.901E-09       -1.486E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           105.04 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2647E-01 wt%
+  Composition MN: 1.5100E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           105.04 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1970E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           110.09 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2663E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.413E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           110.09 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1951E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           115.14 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2651E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.059E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           115.14 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1940E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           120.03 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2657E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.411E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           120.03 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1933E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           125.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           125.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1935E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           130.13 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2653E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           130.13 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1969E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           135.01 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           135.01 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1934E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           140.06 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2656E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.411E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           140.06 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1975E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           145.11 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2647E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           145.11 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1962E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           150.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2651E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           150.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1935E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           155.04 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2647E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           155.04 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1960E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           160.09 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2650E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           160.09 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1929E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           165.14 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2644E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.408E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           165.14 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1959E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           170.02 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           170.02 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1932E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.487E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           175.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2651E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           175.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1976E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           180.12 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           180.12 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1962E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           185.17 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2652E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           185.17 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1947E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           190.05 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2652E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           190.05 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1966E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           195.10 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2651E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           195.10 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1951E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           200.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2651E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           200.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1978E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           205.03 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2646E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           205.03 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1940E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.904E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           210.08 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2654E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.411E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           210.08 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1983E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           215.13 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           215.13 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1966E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           220.02 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2682E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.018E-08       +0.216            +1.435E+05
+    C      MN     -6.418E-10       -1.362E-02        +1.435E+05
+    MN     C      -5.754E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           220.02 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.0909E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.868E-09       -1.469E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           225.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2647E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           225.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1961E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           230.12 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2651E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           230.12 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1951E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           235.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           235.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1971E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           240.05 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2658E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.412E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           240.05 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1968E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           245.10 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2648E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           245.10 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1967E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           250.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2651E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           250.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1969E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           255.03 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2665E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.413E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           255.03 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1229E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.879E-09       -1.475E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           260.08 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2650E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           260.08 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1970E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           265.13 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2651E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           265.13 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1972E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           270.01 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2648E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           270.01 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1962E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           275.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2652E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.410E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           275.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1960E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           280.11 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2668E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.018E-08       +0.216            +1.435E+05
+    C      MN     -6.414E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           280.11 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1331E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.883E-09       -1.476E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           285.16 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2657E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.411E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           285.16 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1683E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.895E-09       -1.483E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           290.04 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2649E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.409E-10       -1.360E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           290.04 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1968E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.905E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           295.09 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2654E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.411E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           295.09 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1742E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.897E-09       -1.484E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+
+
+ Diffusion coefficients in FCC_A1 (global):
+  Time:           300.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 3.2662E-01 wt%
+  Composition MN: 1.5101E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.017E-08       +0.216            +1.435E+05
+    C      MN     -6.413E-10       -1.361E-02        +1.435E+05
+    MN     C      -5.753E-16       -1.057E-02        +2.598E+05
+    MN     MN     +7.058E-15       +0.130            +2.598E+05
+
+Determinant: 0.690E-06
+
+
+
+ Diffusion coefficients in BCC_A2 (global):
+  Time:           300.00 s
+  Temperature:    1023.00000000000 K
+  Composition C : 8.1984E-03 wt%
+  Composition MN: 1.4959E+00 wt%
+    Components    Diff. Coeff.    Frequency Term  Activation energy
+   Flux Gradient    [cm**2/s]       [cm**2/s]         [J/mol]
+    C      C      +1.253E-06       +0.642            +1.118E+05
+    C      MN     -2.906E-09       -1.488E-03        +1.118E+05
+    MN     C      -2.023E-13       -2.114E+03        +3.137E+05
+    MN     MN     +1.798E-12       +1.879E+04        +3.137E+05
+
+Determinant: 0.143E-05
+
+

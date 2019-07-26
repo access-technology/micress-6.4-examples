@@ -1,0 +1,449 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/18/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: enabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 19/01/2018 (10:51)
+ Machine: n017
+ Driving file: T031_P_Peak_1D_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 1, 1, 200
+ deltaX, deltaY, deltaZ [cm] = 5.0000E-05, 5.0000E-05, 5.0000E-05
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Double-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 32
+ Intermediate output at t       = 5.0000000E+01 s
+ Intermediate output at t       = 1.0000000E+02 s
+ Intermediate output at t       = 1.5000000E+02 s
+ Intermediate output at t       = 2.0000000E+02 s
+ Intermediate output at t       = 2.5000000E+02 s
+ Intermediate output at t       = 3.0000000E+02 s
+ Intermediate output at t       = 3.5000000E+02 s
+ Intermediate output at t       = 4.0000000E+02 s
+ Intermediate output at t       = 4.5000000E+02 s
+ Intermediate output at t       = 5.0000000E+02 s
+ Intermediate output at t       = 5.5000000E+02 s
+ Intermediate output at t       = 6.0000000E+02 s
+ Intermediate output at t       = 6.5000000E+02 s
+ Intermediate output at t       = 7.0000000E+02 s
+ Intermediate output at t       = 8.0000000E+02 s
+ Intermediate output at t       = 9.0000000E+02 s
+ Intermediate output at t       = 1.0000000E+03 s
+ Intermediate output at t       = 1.1000000E+03 s
+ Intermediate output at t       = 1.2000000E+03 s
+ Intermediate output at t       = 1.3000000E+03 s
+ Intermediate output at t       = 1.4000000E+03 s
+ Intermediate output at t       = 1.5000000E+03 s
+ Intermediate output at t       = 1.6000000E+03 s
+ Intermediate output at t       = 1.7000000E+03 s
+ Intermediate output at t       = 1.8000000E+03 s
+ Intermediate output at t       = 1.9000000E+03 s
+ Intermediate output at t       = 2.0000000E+03 s
+ Intermediate output at t       = 2.1000000E+03 s
+ Intermediate output at t       = 2.2000000E+03 s
+ Intermediate output at t       = 2.3000000E+03 s
+ Intermediate output at t       = 2.4000000E+03 s
+ Intermediate output at t       = 2.5000000E+03 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.000E+20
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 0
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 2
+ Grain orientations will be defined by 2D angles.
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 1
+ Input data for grain number 1:
+  'Round' grain.
+  x,z coordinates               : 0.250000, 0.250000 micrometers
+  Grain radius                  : 0.00000 micrometers
+  Grain 1 is stabilized
+  No Voronoi construction
+  Phase number                  : 1
+  Rotation angle                : 0.000000000000000E+000  degree
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 1
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 0
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 1
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 1.0000
+  Determination of grain orientations is 'random'
+  min. nucleation temperature for seed type 1: 1275.0000 K
+  max. nucleation temperature for seed type 1: 1775.0000 K
+  Time between checks for nucleation: 0.25000 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  Averaging coefficient        Av = +0.66
+  Maximal driving force     dGMax = 20.000 [J/cm**3]
+  Interfacial energy        sigma = 5.00000E-06 [J/cm**2]
+  Kinetic coefficient          mu = 6.65000E-04 [cm**4/(Js)]
+  Phases  0 /  1 have an isotropic interaction.
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will be simulated.
+  Interaction parameters between phases  0  and 2:
+  Averaging coefficient        Av = +0.66
+  Maximal driving force     dGMax = 20.000 [J/cm**3]
+  Interfacial energy        sigma = 5.00000E-06 [J/cm**2]
+  Kinetic coefficient          mu = 6.65000E-05 [cm**4/(Js)]
+  Phases  0 /  2 have an isotropic interaction.
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will not be simulated.
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will be simulated.
+  Interaction parameters between phases  1  and 2:
+  Averaging coefficient        Av = +0.66
+  Maximal driving force     dGMax = 20.000 [J/cm**3]
+  Interfacial energy        sigma = 5.00000E-06 [J/cm**2]
+  Kinetic coefficient          mu = 1.30000E-05 [cm**4/(Js)]
+  Misorientation will not be considered.
+  Phases  1 /  2 have an isotropic interaction.
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will not be simulated.
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 4
+ Concentration in weight percent wt%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will be solved with diffusion coefficient values from database ('global')
+ Diffusion of component 1  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 1  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 0  will be solved with diffusion coefficient values from database ('global')
+ Diffusion of component 2  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 3  in phase 0  will be solved with diffusion coefficient values from database ('global')
+ Diffusion of component 3  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 3  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 4  in phase 0  will be solved with diffusion coefficient values from database ('global')
+ Diffusion of component 4  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 4  in phase 2  will be solved with user-defined diffusion matrix
+ Interval for updating diffusion coefficients data: 1.0000 [s]
+
+
+ Phase diagram - input data
+ **************************
+
+ Name of Thermo-Calc *.GES5 file: GES_Files/TC2015a_Fe_C_Mn_Si_P
+ Interval for updating thermodynamic data [s] = 10.000
+
+ Input of the phase diagram of phase 0 and phase 1:
+ --------------------------------------------------
+ TC-Coupling activated
+ Relinearisation interval [s] 20.0000000000000 s
+
+ Input of the phase diagram of phase 0 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ Relinearisation interval [s] 20.0000000000000 s
+
+ Input of the phase diagram of phase 1 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ Relinearisation interval [s] 20.0000000000000 s
+ # Reading GES5 workspace ...
+ The database contains the following components:
+ 1: C
+ 2: FE
+ 3: MN
+ 4: P
+ 5: SI
+ Thermo-Calc index of (MICRESS) component 0 = 2
+ Thermo-Calc index of (MICRESS) component 1 = 1
+ Thermo-Calc index of (MICRESS) component 2 = 3
+ Thermo-Calc index of (MICRESS) component 3 = 4
+ Thermo-Calc index of (MICRESS) component 4 = 5
+ 0 -> FE
+ 1 -> C
+ 2 -> MN
+ 3 -> P
+ 4 -> SI
+ The database contains 3 phases:
+ 1: LIQUID
+ 2: BCC_A2
+ 3: FCC_A1
+ Thermo-Calc index of the (MICRESS) phase 0 = 1
+ Thermo-Calc index of the (MICRESS) phase 1 = 2
+ Thermo-Calc index of the (MICRESS) phase 2 = 3
+ 0 -> LIQUID
+ 1 -> BCC_A2
+ 2 -> FCC_A1
+ # Molar volume of phase 0 (LIQUID): 15.000 [cm**3/mol]
+ # Molar volume of phase 1 (BCC_A2): 15.000 [cm**3/mol]
+ # Molar volume of phase 2 (FCC_A1): 15.000 [cm**3/mol]
+ initial equilibrium at T = 1765.400
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 0
+ Initial concentration of component 1 (C) in phase 0 (LIQUID) = 0.4000000000 wt%
+ Initial concentration of component 2 (MN) in phase 0 (LIQUID) = 0.8000000000 wt%
+ Initial concentration of component 3 (P) in phase 0 (LIQUID) = 3.0000000000E-02 wt%
+ Initial concentration of component 4 (SI) in phase 0 (LIQUID) = 0.7000000000 wt%
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1764.750 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: -0.20000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction isolation boundary condition for phase field
+ In E-direction isolation boundary condition for phase field
+ In B-direction isolation boundary condition for phase field
+ In T-direction isolation boundary condition for phase field
+ 
+ In W-direction isolation boundary condition for concentration field
+ In E-direction isolation boundary condition for concentration field
+ In B-direction isolation boundary condition for concentration field
+ In T-direction isolation boundary condition for concentration field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 5.00E-04
+ Interface thickness etaZ = 4.00000000000000
+ Number of parallel threads: 12
+
+
+ Beginning of initialisation
+ ***************************
+  Grain number 1 set
+
+ Start Composition for iteration of quasi-equilibrium
+ ****************************************************
+  FE in LIQUID:  96.07078
+  C in LIQUID: 0.9608981
+  MN in LIQUID: 0.9799258
+  P in LIQUID: 0.9894396
+  SI in LIQUID: 0.9989535
+  FE in BCC_A2:  94.17180
+  C in BCC_A2:  2.862595
+  MN in BCC_A2: 0.9698819
+  P in BCC_A2: 0.9885335
+  SI in BCC_A2:  1.007185
+  FE in FCC_A1:  95.73168
+  C in FCC_A1: 0.9375837
+  MN in FCC_A1:  1.038615
+  P in FCC_A1:  1.110244
+  SI in FCC_A1:  1.181873
+
+ # The linearisation parameters of the phases LIQUID/BCC_A2 are:
+ # -------------------------------------------------------------
+ 1765.4000            ! T0 [K]
+ 1.33783905E-02       ! dG [J/cm**3]
+ 0.49718734           ! dSf+ [J/cm**3K]
+ 0.43748065           ! dSf- [J/cm**3K]
+ 806.62807            ! dH [J/cm3]
+ 0.40028722646273     ! c0(C)/LIQUID
+ 6.42381026163529E-02 ! c0(C)/BCC_A2
+ 0.80023735938855     ! c0(MN)/LIQUID
+ 0.51338590190748     ! c0(MN)/BCC_A2
+ 3.02762201232667E-02 ! c0(P)/LIQUID
+ 8.74489009467865E-03 ! c0(P)/BCC_A2
+ 0.70003033887993     ! c0(SI)/LIQUID
+ 0.46795968670918     ! c0(SI)/BCC_A2
+ -89.778115           ! m(C)/LIQUID
+ -546.26633           ! m(C)/BCC_A2
+ -5.7043959           ! m(MN)/LIQUID
+ -11.583707           ! m(MN)/BCC_A2
+ -32.426712           ! m(P)/LIQUID
+ -119.74316           ! m(P)/BCC_A2
+ -13.588063           ! m(SI)/LIQUID
+ -24.710622           ! m(SI)/BCC_A2
+ -1.28990658E-03      ! dcdT(C)/LIQUID
+ 2.07910127E-04       ! dcdT(C)/BCC_A2
+ -2.54930338E-04      ! dcdT(MN)/LIQUID
+ 1.20010003E-04       ! dcdT(MN)/BCC_A2
+ -3.16860633E-05      ! dcdT(P)/LIQUID
+ 1.20086305E-05       ! dcdT(P)/BCC_A2
+ -1.32624066E-04      ! dcdT(SI)/LIQUID
+ 1.09137903E-04       ! dcdT(SI)/BCC_A2
+ Initial concentration in the phases:
+ LIQUID, FE: 98.07000 wt%
+ LIQUID, C: 0.4000000 wt%
+ LIQUID, MN: 0.8000000 wt%
+ LIQUID, P: 3.0000000E-02 wt%
+ LIQUID, SI: 0.7000000 wt%
+ BCC_A2, FE: 98.94567 wt%
+ BCC_A2, C: 6.4238103E-02 wt%
+ BCC_A2, MN: 0.5133859 wt%
+ BCC_A2, P: 8.7448901E-03 wt%
+ BCC_A2, SI: 0.4679597 wt%
+ 
+ # tWidth_max( 0 : 1 ) = 0.3571429 s
+ # tWidth_max( 0 : 2 ) = 3.571429 s
+ # tWidth_max( 1 : 2 ) = 18.26923 s
+ # Maximal value for tWidth = 0.3571429 s for phase-field solver
+ Updating of diffusion data from database...
+ # Maximal value for tWidth = 1.7376583E-05 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 1.65078E-05 s
+ # Initial value for tWidth = 1.65078E-05 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 0.10057 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 1.65E-05 s
+ Average conc. of comp. 1 = 0.3999983 wt%
+ Average conc. of comp. 2 = 0.7999985 wt%
+ Average conc. of comp. 3 = 0.0299999 wt%
+ Average conc. of comp. 4 = 0.6999988 wt%
+ Temperature at the bottom = 1764.8 K
+ Temperature gradient = 0.00000 K/cm
+ Fraction of phase 0: 0.99999
+ Fraction of phase 1: 0.00001
+ Fraction of phase 2: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ # The linearisation parameters of the phases LIQUID/FCC_A1 are:
+ # -------------------------------------------------------------
+ 1764.7000            ! T0 [K]
+ 1.0520302            ! dG [J/cm**3]
+ 0.53931320           ! dSf+ [J/cm**3K]
+ 0.51781018           ! dSf- [J/cm**3K]
+ 877.02111            ! dH [J/cm3]
+ 0.40443185825487     ! c0(C)/LIQUID
+ 0.11882096436282     ! c0(C)/FCC_A1
+ 0.80398618955792     ! c0(MN)/LIQUID
+ 0.55901245865727     ! c0(MN)/FCC_A1
+ 3.05939318510605E-02 ! c0(P)/LIQUID
+ 5.76389031704093E-03 ! c0(P)/FCC_A1
+ 0.70310683240356     ! c0(SI)/LIQUID
+ 0.44910785318403     ! c0(SI)/FCC_A1
+ -69.763783           ! m(C)/LIQUID
+ -217.63860           ! m(C)/FCC_A1
+ -4.2614861           ! m(MN)/LIQUID
+ -6.9345893           ! m(MN)/FCC_A1
+ -32.427966           ! m(P)/LIQUID
+ -152.68084           ! m(P)/FCC_A1
+ -13.800184           ! m(SI)/LIQUID
+ -24.800735           ! m(SI)/FCC_A1
+ -4.65392694E-04      ! dcdT(C)/LIQUID
+ 9.11389374E-05       ! dcdT(C)/FCC_A1
+ 2.75460471E-05       ! dcdT(MN)/LIQUID
+ -4.34596318E-05      ! dcdT(MN)/FCC_A1
+ -7.05787151E-05      ! dcdT(P)/LIQUID
+ 1.42934278E-05       ! dcdT(P)/FCC_A1
+ -3.78997587E-04      ! dcdT(SI)/LIQUID
+ 2.54163990E-04       ! dcdT(SI)/FCC_A1
+
+ # Minimum undercooling for stable growth, seed type 1: 0.3708420 K [r=0.5000000 mic.]
+ Updating of diffusion data from database...
+
+ Grain 1 reaches full size at t = 1.92975 s
+ Updating of diffusion data from database...
+ Updating of diffusion data from database...
+ Updating of diffusion data from database...
+ Updating of diffusion data from database...
+ Updating of diffusion data from database...

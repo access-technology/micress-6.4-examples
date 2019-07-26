@@ -1,0 +1,768 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (06:08)
+ Machine: n009
+ Driving file: T043_dendrit_AlNi_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 300, 1, 500
+ deltaX, deltaY, deltaZ [cm] = 1.0000E-06, 1.0000E-06, 1.0000E-06
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Double-obstacle' potential
+ 1d_far_field 101
+ no_1d_temp
+ IFaceDim coeff. : 0.00 (0.75, 0.50)
+ nTupelDim coeff.: 0.00 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 51
+ Intermediate output at t       = 1.0000000E-06 s
+ Intermediate output at t       = 1.1000000E-05 s
+ Intermediate output at t       = 2.1000000E-05 s
+ Intermediate output at t       = 3.1000000E-05 s
+ Intermediate output at t       = 4.1000000E-05 s
+ Intermediate output at t       = 5.1000000E-05 s
+ Intermediate output at t       = 6.1000000E-05 s
+ Intermediate output at t       = 7.1000000E-05 s
+ Intermediate output at t       = 8.1000000E-05 s
+ Intermediate output at t       = 9.1000000E-05 s
+ Intermediate output at t       = 1.0100000E-04 s
+ Intermediate output at t       = 1.1100000E-04 s
+ Intermediate output at t       = 1.2100000E-04 s
+ Intermediate output at t       = 1.3100000E-04 s
+ Intermediate output at t       = 1.4100000E-04 s
+ Intermediate output at t       = 1.5100000E-04 s
+ Intermediate output at t       = 1.6100000E-04 s
+ Intermediate output at t       = 1.7100000E-04 s
+ Intermediate output at t       = 1.8100000E-04 s
+ Intermediate output at t       = 1.9100000E-04 s
+ Intermediate output at t       = 2.0100000E-04 s
+ Intermediate output at t       = 2.1100000E-04 s
+ Intermediate output at t       = 2.2100000E-04 s
+ Intermediate output at t       = 2.3100000E-04 s
+ Intermediate output at t       = 2.4100000E-04 s
+ Intermediate output at t       = 2.5100000E-04 s
+ Intermediate output at t       = 2.6100000E-04 s
+ Intermediate output at t       = 2.7100000E-04 s
+ Intermediate output at t       = 2.8100000E-04 s
+ Intermediate output at t       = 2.9100000E-04 s
+ Intermediate output at t       = 3.0100000E-04 s
+ Intermediate output at t       = 3.1100000E-04 s
+ Intermediate output at t       = 3.2100000E-04 s
+ Intermediate output at t       = 3.3100000E-04 s
+ Intermediate output at t       = 3.4100000E-04 s
+ Intermediate output at t       = 3.5100000E-04 s
+ Intermediate output at t       = 3.6100000E-04 s
+ Intermediate output at t       = 3.7100000E-04 s
+ Intermediate output at t       = 3.8100000E-04 s
+ Intermediate output at t       = 3.9100000E-04 s
+ Intermediate output at t       = 4.0100000E-04 s
+ Intermediate output at t       = 4.1100000E-04 s
+ Intermediate output at t       = 4.2100000E-04 s
+ Intermediate output at t       = 4.3100000E-04 s
+ Intermediate output at t       = 4.4100000E-04 s
+ Intermediate output at t       = 4.5100000E-04 s
+ Intermediate output at t       = 4.6100000E-04 s
+ Intermediate output at t       = 4.7100000E-04 s
+ Intermediate output at t       = 4.8100000E-04 s
+ Intermediate output at t       = 4.9100000E-04 s
+ Intermediate output at t       = 5.0000000E-04 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.000E+20
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 100
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 1
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ Grain orientations will be defined by 2D angles.
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 0
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 1
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: area
+  Minimal value of x-coordinates: 0.0000 micrometers
+  Maximal value of x-coordinates: 0.0000 micrometers
+  Minimal value of z-coordinates: 0.0000 micrometers
+  Maximal value of z-coordinates: 0.0000 micrometers
+  Phase of new grains: 1
+  Phase of new grains: 1
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 1
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 0.0000
+  Determination of grain orientations is 'fix'
+  Rotation angle                : +0.000  degree
+  min. nucleation temperature for seed type 1: 0.0000 K
+  max. nucleation temperature for seed type 1: 1000.0000 K
+  Time between checks for nucleation: 1.00000E-08 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Metastable small seeds will be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  Averaging coefficient        Av = +0.50
+  'Smoothing angle'        smooth = 30.00
+  Interfacial energy        sigma = 2.64000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E+30 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 0.4500000
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 0.000000
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will not be simulated.
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 1
+ Concentration in weight percent wt%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will be solved.
+ Diff.-coefficient:
+ Prefactor: 2.200000000000000E-005 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+ Diffusion of component 1  in phase 1  will not be solved.
+
+
+ Phase diagram - input data
+ **************************
+
+ TC-Coupling is not performed
+
+ Input of the phase diagram of phase 0 and phase 1:
+ --------------------------------------------------
+ Linear phase diagram is used
+  Temperature of the cut = 932.250000000000 K
+  conc0( 0: 1: 1) = 0.00000E+00 [wt%]
+  conc0( 1: 0: 1) = 0.00000E+00 [wt%]
+  Slope       mSlope( 1: 0: 1) = -3.50000E+01 K/wt%
+  Slope       mSlope( 0: 1: 1) = -3.50000E+00 K/wt%
+ Redistribution characteristics of components:
+ 1:  ATC
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 0
+ Initial concentration of component 1 in phase 0 = 3.500000000 wt%
+ 1D far-field diffusion approximation was set.
+ Number of cells for the 1D external field: 101
+ 1D-distance [micrometers] = 3.000
+ 1D-distance [cells]       = 300
+ Concentration for 1D extension set homogeneous for component 1
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 885.0000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: 0.0000 K/s
+ Simulation domain shifted in z-direction
+ minimal distance to the upper boundary MovingFrameDist = 1.000000 micrometer
+ Data shifted out from moving-frame system will not be stored
+ 
+ In W-direction symmetric boundary condition for phase field
+ In E-direction isolation boundary condition for phase field
+ In B-direction symmetric boundary condition for phase field
+ In T-direction isolation boundary condition for phase field
+ 
+ In W-direction symmetric boundary condition for concentration field
+ In E-direction isolation boundary condition for concentration field
+ In B-direction symmetric boundary condition for concentration field
+ In T-direction fixed boundary condition for concentration field
+ Fixed value for concentration field for component 1 in T-direction 3.50000 wt%
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 5.00E-04
+ Interface thickness etaZ = 4.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ Equilibrium temperature T_Glgew = 920.0000 K
+ Phase  0, Component  0: 96.50000
+ Phase  0, Component  1: 3.500000
+ Phase  1, Component  0: 99.65000
+ Phase  1, Component  1:0.3500000
+ 
+ # tWidth_max( 0 : 1 ) = 8.9962121E-39 s
+ # Maximal value for tWidth = 8.9962121E-39 s for phase-field solver
+ # Maximal value for tWidth = 1.0795455E-08 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 0.0000 s
+ # Initial value for tWidth = 8.99621E-39 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 0.24000 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 9.00E-39 s
+ Average conc. of comp. 1 = 3.5000000 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Fraction of phase 0: 1.00000
+ Fraction of phase 1: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Seed number 1 set at time t = 0.10000E-07 s
+ -------------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 1
+ Local temperature = 885.00 K
+ Undercooling = 35.000 K
+ Grain number = 1
+
+ Grain 1 reaches full size at t = 1.359561E-07 s
+
+ Intermediate output for t = 1.00000E-06 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 2.26E-09 s
+ Average conc. of comp. 1 = 3.5000000 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+
+ Intermediate output for t = 1.10000E-05 s
+ CPU-time: 10 s
+ Current phase-field solver time step = 2.67E-09 s
+ Average conc. of comp. 1 = 3.5000000 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+
+ Intermediate output for t = 2.10000E-05 s
+ CPU-time: 24 s
+ Current phase-field solver time step = 2.58E-09 s
+ Average conc. of comp. 1 = 3.5000000 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+
+ Intermediate output for t = 3.10000E-05 s
+ CPU-time: 34 s
+ Current phase-field solver time step = 5.87E-10 s
+ Average conc. of comp. 1 = 3.5690438 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 64 layers
+ Velocity of the comoving frame = 6.400 cm/s
+
+ Intermediate output for t = 4.10000E-05 s
+ CPU-time: 37 s
+ Current phase-field solver time step = 2.39E-09 s
+ Average conc. of comp. 1 = 3.5234359 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 200 layers
+ Velocity of the comoving frame = 13.60 cm/s
+
+ Intermediate output for t = 5.10000E-05 s
+ CPU-time: 91 s
+ Current phase-field solver time step = 1.77E-09 s
+ Average conc. of comp. 1 = 3.5442767 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 329 layers
+ Velocity of the comoving frame = 12.90 cm/s
+
+ Intermediate output for t = 6.10000E-05 s
+ CPU-time: 157 s
+ Current phase-field solver time step = 1.97E-09 s
+ Average conc. of comp. 1 = 3.5024893 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 448 layers
+ Velocity of the comoving frame = 11.90 cm/s
+
+ Intermediate output for t = 7.10000E-05 s
+ CPU-time: 161 s
+ Current phase-field solver time step = 1.20E-09 s
+ Average conc. of comp. 1 = 3.5601989 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 570 layers
+ Velocity of the comoving frame = 12.20 cm/s
+
+ Intermediate output for t = 8.10000E-05 s
+ CPU-time: 171 s
+ Current phase-field solver time step = 1.51E-09 s
+ Average conc. of comp. 1 = 3.4598594 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 690 layers
+ Velocity of the comoving frame = 12.00 cm/s
+
+ Intermediate output for t = 9.10000E-05 s
+ CPU-time: 161 s
+ Current phase-field solver time step = 8.89E-10 s
+ Average conc. of comp. 1 = 3.5700055 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 810 layers
+ Velocity of the comoving frame = 12.00 cm/s
+
+ Intermediate output for t = 1.01000E-04 s
+ CPU-time: 237 s
+ Current phase-field solver time step = 2.86E-09 s
+ Average conc. of comp. 1 = 3.5292189 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 921 layers
+ Velocity of the comoving frame = 11.10 cm/s
+
+ Intermediate output for t = 1.11000E-04 s
+ CPU-time: 219 s
+ Current phase-field solver time step = 2.73E-09 s
+ Average conc. of comp. 1 = 3.5497596 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1035 layers
+ Velocity of the comoving frame = 11.40 cm/s
+
+ Intermediate output for t = 1.21000E-04 s
+ CPU-time: 159 s
+ Current phase-field solver time step = 2.85E-09 s
+ Average conc. of comp. 1 = 3.5825461 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1156 layers
+ Velocity of the comoving frame = 12.10 cm/s
+
+ Intermediate output for t = 1.31000E-04 s
+ CPU-time: 238 s
+ Current phase-field solver time step = 1.64E-09 s
+ Average conc. of comp. 1 = 3.5231794 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1269 layers
+ Velocity of the comoving frame = 11.30 cm/s
+
+ Intermediate output for t = 1.41000E-04 s
+ CPU-time: 219 s
+ Current phase-field solver time step = 1.38E-09 s
+ Average conc. of comp. 1 = 3.5538218 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1378 layers
+ Velocity of the comoving frame = 10.90 cm/s
+
+ Intermediate output for t = 1.51000E-04 s
+ CPU-time: 217 s
+ Current phase-field solver time step = 2.81E-09 s
+ Average conc. of comp. 1 = 3.5639732 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1489 layers
+ Velocity of the comoving frame = 11.10 cm/s
+
+ Intermediate output for t = 1.61000E-04 s
+ CPU-time: 226 s
+ Current phase-field solver time step = 7.96E-10 s
+ Average conc. of comp. 1 = 3.5515724 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1603 layers
+ Velocity of the comoving frame = 11.40 cm/s
+
+ Intermediate output for t = 1.71000E-04 s
+ CPU-time: 266 s
+ Current phase-field solver time step = 2.53E-09 s
+ Average conc. of comp. 1 = 3.5482052 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1706 layers
+ Velocity of the comoving frame = 10.30 cm/s
+
+ Intermediate output for t = 1.81000E-04 s
+ CPU-time: 184 s
+ Current phase-field solver time step = 2.84E-09 s
+ Average conc. of comp. 1 = 3.5681559 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1824 layers
+ Velocity of the comoving frame = 11.80 cm/s
+
+ Intermediate output for t = 1.91000E-04 s
+ CPU-time: 189 s
+ Current phase-field solver time step = 2.42E-10 s
+ Average conc. of comp. 1 = 3.4749450 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 1943 layers
+ Velocity of the comoving frame = 11.90 cm/s
+
+ Intermediate output for t = 2.01000E-04 s
+ CPU-time: 238 s
+ Current phase-field solver time step = 3.61E-10 s
+ Average conc. of comp. 1 = 3.5037253 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2052 layers
+ Velocity of the comoving frame = 10.90 cm/s
+
+ Intermediate output for t = 2.11000E-04 s
+ CPU-time: 218 s
+ Current phase-field solver time step = 1.87E-09 s
+ Average conc. of comp. 1 = 3.5522389 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2162 layers
+ Velocity of the comoving frame = 11.00 cm/s
+
+ Intermediate output for t = 2.21000E-04 s
+ CPU-time: 227 s
+ Current phase-field solver time step = 1.79E-09 s
+ Average conc. of comp. 1 = 3.5874672 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2273 layers
+ Velocity of the comoving frame = 11.10 cm/s
+
+ Intermediate output for t = 2.31000E-04 s
+ CPU-time: 271 s
+ Current phase-field solver time step = 4.14E-10 s
+ Average conc. of comp. 1 = 3.5147709 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2378 layers
+ Velocity of the comoving frame = 10.50 cm/s
+
+ Intermediate output for t = 2.41000E-04 s
+ CPU-time: 196 s
+ Current phase-field solver time step = 3.32E-09 s
+ Average conc. of comp. 1 = 3.4897815 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2489 layers
+ Velocity of the comoving frame = 11.10 cm/s
+
+ Intermediate output for t = 2.51000E-04 s
+ CPU-time: 137 s
+ Current phase-field solver time step = 2.58E-09 s
+ Average conc. of comp. 1 = 3.5587212 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2610 layers
+ Velocity of the comoving frame = 12.10 cm/s
+
+ Intermediate output for t = 2.61000E-04 s
+ CPU-time: 181 s
+ Current phase-field solver time step = 4.14E-10 s
+ Average conc. of comp. 1 = 3.4754494 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2727 layers
+ Velocity of the comoving frame = 11.70 cm/s
+
+ Intermediate output for t = 2.71000E-04 s
+ CPU-time: 168 s
+ Current phase-field solver time step = 2.73E-10 s
+ Average conc. of comp. 1 = 3.4694529 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2845 layers
+ Velocity of the comoving frame = 11.80 cm/s
+
+ Intermediate output for t = 2.81000E-04 s
+ CPU-time: 217 s
+ Current phase-field solver time step = 1.14E-09 s
+ Average conc. of comp. 1 = 3.5681281 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 2954 layers
+ Velocity of the comoving frame = 10.90 cm/s
+
+ Intermediate output for t = 2.91000E-04 s
+ CPU-time: 247 s
+ Current phase-field solver time step = 2.94E-10 s
+ Average conc. of comp. 1 = 3.5118848 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3063 layers
+ Velocity of the comoving frame = 10.90 cm/s
+
+ Intermediate output for t = 3.01000E-04 s
+ CPU-time: 201 s
+ Current phase-field solver time step = 1.50E-09 s
+ Average conc. of comp. 1 = 3.5365765 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3174 layers
+ Velocity of the comoving frame = 11.10 cm/s
+
+ Intermediate output for t = 3.11000E-04 s
+ CPU-time: 160 s
+ Current phase-field solver time step = 2.76E-09 s
+ Average conc. of comp. 1 = 3.5555851 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3291 layers
+ Velocity of the comoving frame = 11.70 cm/s
+
+ Intermediate output for t = 3.21000E-04 s
+ CPU-time: 168 s
+ Current phase-field solver time step = 7.03E-10 s
+ Average conc. of comp. 1 = 3.5506650 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3411 layers
+ Velocity of the comoving frame = 12.00 cm/s
+
+ Intermediate output for t = 3.31000E-04 s
+ CPU-time: 202 s
+ Current phase-field solver time step = 1.51E-09 s
+ Average conc. of comp. 1 = 3.5726462 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3523 layers
+ Velocity of the comoving frame = 11.20 cm/s
+
+ Intermediate output for t = 3.41000E-04 s
+ CPU-time: 241 s
+ Current phase-field solver time step = 2.97E-09 s
+ Average conc. of comp. 1 = 3.4889478 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3633 layers
+ Velocity of the comoving frame = 11.00 cm/s
+
+ Intermediate output for t = 3.51000E-04 s
+ CPU-time: 149 s
+ Current phase-field solver time step = 3.06E-09 s
+ Average conc. of comp. 1 = 3.5103657 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3754 layers
+ Velocity of the comoving frame = 12.10 cm/s
+
+ Intermediate output for t = 3.61000E-04 s
+ CPU-time: 192 s
+ Current phase-field solver time step = 1.91E-09 s
+ Average conc. of comp. 1 = 3.5432308 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3866 layers
+ Velocity of the comoving frame = 11.20 cm/s
+
+ Intermediate output for t = 3.71000E-04 s
+ CPU-time: 146 s
+ Current phase-field solver time step = 2.65E-09 s
+ Average conc. of comp. 1 = 3.5784059 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 3985 layers
+ Velocity of the comoving frame = 11.90 cm/s
+
+ Intermediate output for t = 3.81000E-04 s
+ CPU-time: 155 s
+ Current phase-field solver time step = 1.87E-09 s
+ Average conc. of comp. 1 = 3.4599412 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 4106 layers
+ Velocity of the comoving frame = 12.10 cm/s
+
+ Intermediate output for t = 3.91000E-04 s
+ CPU-time: 181 s
+ Current phase-field solver time step = 6.48E-10 s
+ Average conc. of comp. 1 = 3.5648202 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 4220 layers
+ Velocity of the comoving frame = 11.40 cm/s
+
+ Intermediate output for t = 4.01000E-04 s
+ CPU-time: 198 s
+ Current phase-field solver time step = 3.19E-09 s
+ Average conc. of comp. 1 = 3.5454369 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 4334 layers
+ Velocity of the comoving frame = 11.40 cm/s
+
+ Intermediate output for t = 4.11000E-04 s
+ CPU-time: 157 s
+ Current phase-field solver time step = 2.88E-09 s
+ Average conc. of comp. 1 = 3.5624396 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 4449 layers
+ Velocity of the comoving frame = 11.50 cm/s
+
+ Intermediate output for t = 4.21000E-04 s
+ CPU-time: 163 s
+ Current phase-field solver time step = 3.11E-10 s
+ Average conc. of comp. 1 = 3.4732751 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 4567 layers
+ Velocity of the comoving frame = 11.80 cm/s
+
+ Intermediate output for t = 4.31000E-04 s
+ CPU-time: 164 s
+ Current phase-field solver time step = 1.90E-09 s
+ Average conc. of comp. 1 = 3.5437146 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 4687 layers
+ Velocity of the comoving frame = 12.00 cm/s
+
+ Intermediate output for t = 4.41000E-04 s
+ CPU-time: 156 s
+ Current phase-field solver time step = 2.77E-09 s
+ Average conc. of comp. 1 = 3.5680126 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 4806 layers
+ Velocity of the comoving frame = 11.90 cm/s
+
+ Intermediate output for t = 4.51000E-04 s
+ CPU-time: 137 s
+ Current phase-field solver time step = 9.13E-10 s
+ Average conc. of comp. 1 = 3.6018392 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 4928 layers
+ Velocity of the comoving frame = 12.20 cm/s
+
+ Intermediate output for t = 4.61000E-04 s
+ CPU-time: 154 s
+ Current phase-field solver time step = 4.49E-10 s
+ Average conc. of comp. 1 = 3.4744241 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 5052 layers
+ Velocity of the comoving frame = 12.40 cm/s
+
+ Intermediate output for t = 4.71000E-04 s
+ CPU-time: 180 s
+ Current phase-field solver time step = 4.83E-10 s
+ Average conc. of comp. 1 = 3.5530156 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 5168 layers
+ Velocity of the comoving frame = 11.60 cm/s
+
+ Intermediate output for t = 4.81000E-04 s
+ CPU-time: 223 s
+ Current phase-field solver time step = 1.65E-09 s
+ Average conc. of comp. 1 = 3.5856948 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 5280 layers
+ Velocity of the comoving frame = 11.20 cm/s
+
+ Intermediate output for t = 4.91000E-04 s
+ CPU-time: 288 s
+ Current phase-field solver time step = 2.82E-10 s
+ Average conc. of comp. 1 = 3.5092879 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 5383 layers
+ Velocity of the comoving frame = 10.30 cm/s
+
+ Intermediate output for t = 5.00000E-04 s
+ CPU-time: 243 s
+ Current phase-field solver time step = 7.00E-10 s
+ Average conc. of comp. 1 = 3.5526990 wt%
+ Temperature at the bottom = 885.00 K
+ Temperature gradient = 0.00000 K/cm
+ Simulation area shifted by 5474 layers
+ Velocity of the comoving frame = 10.11 cm/s
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:        8986
+ Wall clock time in seconds:  10347
+ End
+ 

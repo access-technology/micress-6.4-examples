@@ -1,0 +1,6173 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (05:28)
+ Machine: n009
+ Driving file: T035_ReX_local_recovery_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 409, 1, 317
+ deltaX, deltaY, deltaZ [cm] = 5.0000E-05, 5.0000E-05, 5.0000E-05
+
+ Flags
+ -----
+ Phase-field simulation without coupling
+ 'Multi-obstacle' potential
+ IFaceDim coeff. : 0.100 (0.75, 0.10)
+ nTupelDim coeff.: 0.100 (0.75, 0.10)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 155
+ Intermediate output at t       = 2.0000000E-02 s
+ Intermediate output at t       = 4.0000000E-02 s
+ Intermediate output at t       = 6.0000000E-02 s
+ Intermediate output at t       = 8.0000000E-02 s
+ Intermediate output at t       = 1.0000000E-01 s
+ Intermediate output at t       = 1.2000000E-01 s
+ Intermediate output at t       = 1.4000000E-01 s
+ Intermediate output at t       = 1.6000000E-01 s
+ Intermediate output at t       = 1.8000000E-01 s
+ Intermediate output at t       = 2.0000000E-01 s
+ Intermediate output at t       = 2.5000000E-01 s
+ Intermediate output at t       = 3.0000000E-01 s
+ Intermediate output at t       = 3.5000000E-01 s
+ Intermediate output at t       = 4.0000000E-01 s
+ Intermediate output at t       = 4.5000000E-01 s
+ Intermediate output at t       = 5.0000000E-01 s
+ Intermediate output at t       = 6.0000000E-01 s
+ Intermediate output at t       = 7.0000000E-01 s
+ Intermediate output at t       = 8.0000000E-01 s
+ Intermediate output at t       = 9.0000000E-01 s
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 1.1000000E+00 s
+ Intermediate output at t       = 1.2000000E+00 s
+ Intermediate output at t       = 1.3000000E+00 s
+ Intermediate output at t       = 1.4000000E+00 s
+ Intermediate output at t       = 1.5000000E+00 s
+ Intermediate output at t       = 1.6000000E+00 s
+ Intermediate output at t       = 1.7000000E+00 s
+ Intermediate output at t       = 1.8000000E+00 s
+ Intermediate output at t       = 1.9000000E+00 s
+ Intermediate output at t       = 2.0000000E+00 s
+ Intermediate output at t       = 2.1000000E+00 s
+ Intermediate output at t       = 2.2000000E+00 s
+ Intermediate output at t       = 2.3000000E+00 s
+ Intermediate output at t       = 2.4000000E+00 s
+ Intermediate output at t       = 2.5000000E+00 s
+ Intermediate output at t       = 2.6000000E+00 s
+ Intermediate output at t       = 2.7000000E+00 s
+ Intermediate output at t       = 2.8000000E+00 s
+ Intermediate output at t       = 2.9000000E+00 s
+ Intermediate output at t       = 3.0000000E+00 s
+ Intermediate output at t       = 3.1000000E+00 s
+ Intermediate output at t       = 3.2000000E+00 s
+ Intermediate output at t       = 3.3000000E+00 s
+ Intermediate output at t       = 3.4000000E+00 s
+ Intermediate output at t       = 3.5000000E+00 s
+ Intermediate output at t       = 3.6000000E+00 s
+ Intermediate output at t       = 3.7000000E+00 s
+ Intermediate output at t       = 3.8000000E+00 s
+ Intermediate output at t       = 3.9000000E+00 s
+ Intermediate output at t       = 4.0000000E+00 s
+ Intermediate output at t       = 4.2500000E+00 s
+ Intermediate output at t       = 4.5000000E+00 s
+ Intermediate output at t       = 4.7500000E+00 s
+ Intermediate output at t       = 5.0000000E+00 s
+ Intermediate output at t       = 5.2500000E+00 s
+ Intermediate output at t       = 5.5000000E+00 s
+ Intermediate output at t       = 5.7500000E+00 s
+ Intermediate output at t       = 6.0000000E+00 s
+ Intermediate output at t       = 6.2500000E+00 s
+ Intermediate output at t       = 6.5000000E+00 s
+ Intermediate output at t       = 6.7500000E+00 s
+ Intermediate output at t       = 7.0000000E+00 s
+ Intermediate output at t       = 7.2500000E+00 s
+ Intermediate output at t       = 7.5000000E+00 s
+ Intermediate output at t       = 7.7500000E+00 s
+ Intermediate output at t       = 8.0000000E+00 s
+ Intermediate output at t       = 8.2500000E+00 s
+ Intermediate output at t       = 8.5000000E+00 s
+ Intermediate output at t       = 8.7500000E+00 s
+ Intermediate output at t       = 9.0000000E+00 s
+ Intermediate output at t       = 9.2500000E+00 s
+ Intermediate output at t       = 9.5000000E+00 s
+ Intermediate output at t       = 9.7500000E+00 s
+ Intermediate output at t       = 1.0000000E+01 s
+ Intermediate output at t       = 1.0500000E+01 s
+ Intermediate output at t       = 1.1000000E+01 s
+ Intermediate output at t       = 1.1500000E+01 s
+ Intermediate output at t       = 1.2000000E+01 s
+ Intermediate output at t       = 1.2500000E+01 s
+ Intermediate output at t       = 1.3000000E+01 s
+ Intermediate output at t       = 1.3500000E+01 s
+ Intermediate output at t       = 1.4000000E+01 s
+ Intermediate output at t       = 1.4500000E+01 s
+ Intermediate output at t       = 1.5000000E+01 s
+ Intermediate output at t       = 1.5500000E+01 s
+ Intermediate output at t       = 1.6000000E+01 s
+ Intermediate output at t       = 1.6500000E+01 s
+ Intermediate output at t       = 1.7000000E+01 s
+ Intermediate output at t       = 1.7500000E+01 s
+ Intermediate output at t       = 1.8000000E+01 s
+ Intermediate output at t       = 1.8500000E+01 s
+ Intermediate output at t       = 1.9000000E+01 s
+ Intermediate output at t       = 1.9500000E+01 s
+ Intermediate output at t       = 2.0000000E+01 s
+ Intermediate output at t       = 2.0500000E+01 s
+ Intermediate output at t       = 2.1000000E+01 s
+ Intermediate output at t       = 2.1500000E+01 s
+ Intermediate output at t       = 2.2000000E+01 s
+ Intermediate output at t       = 2.2500000E+01 s
+ Intermediate output at t       = 2.3000000E+01 s
+ Intermediate output at t       = 2.3500000E+01 s
+ Intermediate output at t       = 2.4000000E+01 s
+ Intermediate output at t       = 2.4500000E+01 s
+ Intermediate output at t       = 2.5000000E+01 s
+ Intermediate output at t       = 2.5500000E+01 s
+ Intermediate output at t       = 2.6000000E+01 s
+ Intermediate output at t       = 2.6500000E+01 s
+ Intermediate output at t       = 2.7000000E+01 s
+ Intermediate output at t       = 2.7500000E+01 s
+ Intermediate output at t       = 2.8000000E+01 s
+ Intermediate output at t       = 2.8500000E+01 s
+ Intermediate output at t       = 2.9000000E+01 s
+ Intermediate output at t       = 2.9500000E+01 s
+ Intermediate output at t       = 3.0000000E+01 s
+ Intermediate output at t       = 3.0500000E+01 s
+ Intermediate output at t       = 3.1000000E+01 s
+ Intermediate output at t       = 3.1500000E+01 s
+ Intermediate output at t       = 3.2000000E+01 s
+ Intermediate output at t       = 3.2500000E+01 s
+ Intermediate output at t       = 3.3000000E+01 s
+ Intermediate output at t       = 3.3500000E+01 s
+ Intermediate output at t       = 3.4000000E+01 s
+ Intermediate output at t       = 3.4500000E+01 s
+ Intermediate output at t       = 3.5000000E+01 s
+ Intermediate output at t       = 3.5500000E+01 s
+ Intermediate output at t       = 3.6000000E+01 s
+ Intermediate output at t       = 3.6500000E+01 s
+ Intermediate output at t       = 3.7000000E+01 s
+ Intermediate output at t       = 3.7500000E+01 s
+ Intermediate output at t       = 3.8000000E+01 s
+ Intermediate output at t       = 3.8500000E+01 s
+ Intermediate output at t       = 3.9000000E+01 s
+ Intermediate output at t       = 3.9500000E+01 s
+ Intermediate output at t       = 4.0000000E+01 s
+ Intermediate output at t       = 4.0500000E+01 s
+ Intermediate output at t       = 4.1000000E+01 s
+ Intermediate output at t       = 4.1500000E+01 s
+ Intermediate output at t       = 4.2000000E+01 s
+ Intermediate output at t       = 4.2500000E+01 s
+ Intermediate output at t       = 4.3000000E+01 s
+ Intermediate output at t       = 4.3500000E+01 s
+ Intermediate output at t       = 4.4000000E+01 s
+ Intermediate output at t       = 4.4500000E+01 s
+ Intermediate output at t       = 4.5000000E+01 s
+ Intermediate output at t       = 4.5500000E+01 s
+ Intermediate output at t       = 4.6000000E+01 s
+ Intermediate output at t       = 4.6500000E+01 s
+ Intermediate output at t       = 4.7000000E+01 s
+ Intermediate output at t       = 4.7500000E+01 s
+ Intermediate output at t       = 4.8000000E+01 s
+ Intermediate output at t       = 4.8500000E+01 s
+ Intermediate output at t       = 4.9000000E+01 s
+ Intermediate output at t       = 4.9500000E+01 s
+ Intermediate output at t       = 5.0000000E+01 s
+ Coefficient for phase-field criterion 0.700
+ Weight factor for bulk increment = 2.250E-09
+ Upper limit for time step: 1.505E-02
+ Lower limit for time step: 1.000E-12
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 10
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 1
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will be considered.
+recrystallisation defined by local dislocation densities
+grain growth due to driving forces between existing grains
+dislocation threshold for recrystallisation of phase 1
+      2.000E+12
+norm of the Burgers vector of phase 1
+  0.2574    
+dislocation interaction coefficient of phase 1
+  0.5000    
+shear modulus of phase 1
+      3.205E+04
+stress recovery coefficient of phase 1
+       2.00    
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ Grain orientations will be defined by Euler angles.
+
+
+ Grain input
+ ***********
+ Grains will be positioned according to input file
+ File name for initial microstructure: T034_korn_T950.vtk
+ Treatment of data: n
+ VTK korn field read
+ Filename of initial grain/phase structure [VTK_identifier  (default=korn)] ?:T034_gr_Euler_T950.txt
+ Number of grains = 25
+ Input data for grain number 1:
+  Phase number                  : 1
+ Rotation axis defined by      : 191.25 11.75 6.02  degree
+ Input data for grain number 2:
+  Phase number                  : 1
+ Rotation axis defined by      : 2.15 80.11 347.15  degree
+ Input data for grain number 3:
+  Phase number                  : 1
+ Rotation axis defined by      : 229.64 162.35 230.10  degree
+ Input data for grain number 4:
+  Phase number                  : 1
+ Rotation axis defined by      : 217.64 65.28 320.02  degree
+ Input data for grain number 5:
+  Phase number                  : 1
+ Rotation axis defined by      : 262.88 97.73 330.70  degree
+ Input data for grain number 6:
+  Phase number                  : 1
+ Rotation axis defined by      : 280.47 30.56 22.85  degree
+ Input data for grain number 7:
+  Phase number                  : 1
+ Rotation axis defined by      : 271.15 103.27 175.16  degree
+ Input data for grain number 8:
+  Phase number                  : 1
+ Rotation axis defined by      : 237.48 111.90 302.58  degree
+ Input data for grain number 9:
+  Phase number                  : 1
+ Rotation axis defined by      : 230.52 129.35 229.85  degree
+ Input data for grain number 10:
+  Phase number                  : 1
+ Rotation axis defined by      : 59.44 68.89 277.01  degree
+ Input data for grain number 11:
+  Phase number                  : 1
+ Rotation axis defined by      : 124.51 137.41 223.11  degree
+ Input data for grain number 12:
+  Phase number                  : 1
+ Rotation axis defined by      : 253.30 63.18 334.33  degree
+ Input data for grain number 13:
+  Phase number                  : 1
+ Rotation axis defined by      : 253.16 53.06 198.34  degree
+ Input data for grain number 14:
+  Phase number                  : 1
+ Rotation axis defined by      : 28.23 91.92 214.05  degree
+ Input data for grain number 15:
+  Phase number                  : 1
+ Rotation axis defined by      : 26.16 168.77 125.00  degree
+ Input data for grain number 16:
+  Phase number                  : 1
+ Rotation axis defined by      : 148.36 121.96 343.01  degree
+ Input data for grain number 17:
+  Phase number                  : 1
+ Rotation axis defined by      : 347.06 10.72 97.09  degree
+ Input data for grain number 18:
+  Phase number                  : 1
+ Rotation axis defined by      : 297.47 31.30 257.32  degree
+ Input data for grain number 19:
+  Phase number                  : 1
+ Rotation axis defined by      : 174.59 101.41 158.24  degree
+ Input data for grain number 20:
+  Phase number                  : 1
+ Rotation axis defined by      : 325.30 102.99 154.97  degree
+ Input data for grain number 21:
+  Phase number                  : 1
+ Rotation axis defined by      : 126.16 125.07 51.38  degree
+ Input data for grain number 22:
+  Phase number                  : 1
+ Rotation axis defined by      : 211.16 75.70 159.95  degree
+ Input data for grain number 23:
+  Phase number                  : 1
+ Rotation axis defined by      : 209.71 72.69 199.17  degree
+ Input data for grain number 24:
+  Phase number                  : 1
+ Rotation axis defined by      : 2.07 38.46 228.09  degree
+ Input data for grain number 25:
+  Phase number                  : 1
+ Rotation axis defined by      : 213.13 67.21 311.81  degree
+ Filename for local dislocation distribution: T034_rho_T950.vtk
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 1
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 1
+  Phase of new grains: 1
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  Nucleation driving force for seed type 1 will be dislocation.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 5000
+  Grain radius [micrometers]: 0.900000
+  Choice of growth mode:stabilisation
+  Critical dislocation density [m^-2]: 2.25000E+14
+  critical recrystallisation energy [J/cm**3 or MPa]: 0.23886
+  Determination of grain orientations is 'parent_relation'
+  Minimal value of rotation angle -5.000
+  Maximal value of rotation angle +5.000
+  Rotation axis is defined in local system.
+  Rotation axis: +1.000 +1.000 +1.000
+  Shield time [s]: 2000.0
+  shield phase or group number: 1
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 0.75000
+  Minimal dislocation density of the nuclei: 8.00000E+11[m^-2]
+  Maximal dislocation density of the nuclei: 8.00000E+11[m^-2]
+  Minimum of recrystallisation energy: 8.49287E-04 [J/cm**3 or MPa]
+  Maximum of recrystallisation energy: 8.49287E-04 [J/cm**3 or MPa]
+  min. nucleation temperature for seed type 1: 10.0000 K
+  max. nucleation temperature for seed type 1: 10000.0000 K
+  Time between checks for nucleation: 1.50000E-02 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Max. number of simultaneous nucleations: 20
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will not be simulated.
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will be simulated.
+  Interaction parameters between phases  1  and 1:
+  Interfacial energy        sigma = 5.35053E-05 [J/cm**2]
+  Kinetic coefficient          mu = 9.00000E-04 [cm**4/(Js)]
+  Misorientation will be considered.
+ Transition from low to high angle boundary (in degrees): 15.000
+ Number of special orientation relations: 0
+  Misorientation coefficient defined by the Read-Shockley model
+  minimal reduction factor of the Humphreys model:   0.0000
+  Parameters B and N of the Humphreys model:   5.0000         4.0000
+
+
+ Phase diagram - input data
+ **************************
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1100.000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: 0.0000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction periodic/wrap-around boundary condition for phase field
+ In E-direction periodic/wrap-around boundary condition for phase field
+ In B-direction periodic/wrap-around boundary condition for phase field
+ In T-direction periodic/wrap-around boundary condition for phase field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ # Grain number  1 set
+ # Grain number  2 set
+ # Grain number  3 set
+ # Grain number  4 set
+ # Grain number  5 set
+ # Grain number  6 set
+ # Grain number  7 set
+ # Grain number  8 set
+ # Grain number  9 set
+ # Grain number 10 set
+ # Grain number 11 set
+ # Grain number 12 set
+ # Grain number 13 set
+ # Grain number 14 set
+ # Grain number 15 set
+ # Grain number 16 set
+ # Grain number 17 set
+ # Grain number 18 set
+ # Grain number 19 set
+ # Grain number 20 set
+ # Grain number 21 set
+ # Grain number 22 set
+ # Grain number 23 set
+ # Grain number 24 set
+ # Grain number 25 set
+ VTK rhoD field read
+ Local dislocation field is initialized
+ # mean recrystallisation energy of grain 1     : 0.22855
+ # mean recrystallisation energy of grain 2     : 0.26638
+ # mean recrystallisation energy of grain 3     : 0.26061
+ # mean recrystallisation energy of grain 4     : 0.22681
+ # mean recrystallisation energy of grain 5     : 0.22868
+ # mean recrystallisation energy of grain 6     : 0.28411
+ # mean recrystallisation energy of grain 7     : 0.25050
+ # mean recrystallisation energy of grain 8     : 0.24996
+ # mean recrystallisation energy of grain 9     : 0.26303
+ # mean recrystallisation energy of grain 10    : 0.23905
+ # mean recrystallisation energy of grain 11    : 0.25715
+ # mean recrystallisation energy of grain 12    : 0.24159
+ # mean recrystallisation energy of grain 13    : 0.26331
+ # mean recrystallisation energy of grain 14    : 0.24711
+ # mean recrystallisation energy of grain 15    : 0.22912
+ # mean recrystallisation energy of grain 16    : 0.26449
+ # mean recrystallisation energy of grain 17    : 0.24348
+ # mean recrystallisation energy of grain 18    : 0.23678
+ # mean recrystallisation energy of grain 19    : 0.25084
+ # mean recrystallisation energy of grain 20    : 0.26367
+ # mean recrystallisation energy of grain 21    : 0.22296
+ # mean recrystallisation energy of grain 22    : 0.25742
+ # mean recrystallisation energy of grain 23    : 0.29220
+ # mean recrystallisation energy of grain 24    : 0.26713
+ # mean recrystallisation energy of grain 25    : 0.26017
+ 
+ # tWidth_max( 1 : 1 ) = 1.2330035E-02 s
+ # Maximal value for tWidth = 1.2330035E-02 s for phase-field solver
+ # Initial value for tWidth = 8.63102E-03 s for automatic time stepping (phase-field solver)
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 8.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Seed number 1 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30725 MPa or J/cm**3
+ Grain number = 26
+
+ Seed number 2 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.32453 MPa or J/cm**3
+ Grain number = 27
+
+ Seed number 3 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30654 MPa or J/cm**3
+ Grain number = 28
+
+ Seed number 4 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.32748 MPa or J/cm**3
+ Grain number = 29
+
+ Seed number 5 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.31740 MPa or J/cm**3
+ Grain number = 30
+
+ Seed number 6 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30423 MPa or J/cm**3
+ Grain number = 31
+
+ Seed number 7 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30402 MPa or J/cm**3
+ Grain number = 32
+
+ Seed number 8 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30375 MPa or J/cm**3
+ Grain number = 33
+
+ Seed number 9 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30448 MPa or J/cm**3
+ Grain number = 34
+
+ Seed number 10 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30541 MPa or J/cm**3
+ Grain number = 35
+
+ Seed number 11 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30515 MPa or J/cm**3
+ Grain number = 36
+
+ Seed number 12 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30478 MPa or J/cm**3
+ Grain number = 37
+
+ Seed number 13 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30441 MPa or J/cm**3
+ Grain number = 38
+
+ Seed number 14 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30428 MPa or J/cm**3
+ Grain number = 39
+
+ Seed number 15 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30504 MPa or J/cm**3
+ Grain number = 40
+
+ Seed number 16 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30295 MPa or J/cm**3
+ Grain number = 41
+
+ Seed number 17 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30448 MPa or J/cm**3
+ Grain number = 42
+
+ Seed number 18 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30943 MPa or J/cm**3
+ Grain number = 43
+
+ Seed number 19 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30581 MPa or J/cm**3
+ Grain number = 44
+
+ Seed number 20 set at time t = 0.15000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.30494 MPa or J/cm**3
+ Grain number = 45
+
+ Intermediate output for t = 2.00000E-02 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 4.27E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 21 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29420 MPa or J/cm**3
+ Grain number = 46
+
+ Seed number 22 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29626 MPa or J/cm**3
+ Grain number = 47
+
+ Seed number 23 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29566 MPa or J/cm**3
+ Grain number = 48
+
+ Seed number 24 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29672 MPa or J/cm**3
+ Grain number = 49
+
+ Seed number 25 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29315 MPa or J/cm**3
+ Grain number = 50
+
+ Seed number 26 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29457 MPa or J/cm**3
+ Grain number = 51
+
+ Seed number 27 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29588 MPa or J/cm**3
+ Grain number = 52
+
+ Seed number 28 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29568 MPa or J/cm**3
+ Grain number = 53
+
+ Seed number 29 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29667 MPa or J/cm**3
+ Grain number = 54
+
+ Seed number 30 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29136 MPa or J/cm**3
+ Grain number = 55
+
+ Seed number 31 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28984 MPa or J/cm**3
+ Grain number = 56
+
+ Seed number 32 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28957 MPa or J/cm**3
+ Grain number = 57
+
+ Seed number 33 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29163 MPa or J/cm**3
+ Grain number = 58
+
+ Seed number 34 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29369 MPa or J/cm**3
+ Grain number = 59
+
+ Seed number 35 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29050 MPa or J/cm**3
+ Grain number = 60
+
+ Seed number 36 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29248 MPa or J/cm**3
+ Grain number = 61
+
+ Seed number 37 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29353 MPa or J/cm**3
+ Grain number = 62
+
+ Seed number 38 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29218 MPa or J/cm**3
+ Grain number = 63
+
+ Seed number 39 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29152 MPa or J/cm**3
+ Grain number = 64
+
+ Seed number 40 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29321 MPa or J/cm**3
+ Grain number = 65
+
+ Intermediate output for t = 4.00000E-02 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 4.01E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 41 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28241 MPa or J/cm**3
+ Grain number = 66
+
+ Seed number 42 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29276 MPa or J/cm**3
+ Grain number = 67
+
+ Seed number 43 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.29161 MPa or J/cm**3
+ Grain number = 68
+
+ Seed number 44 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28382 MPa or J/cm**3
+ Grain number = 69
+
+ Seed number 45 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28353 MPa or J/cm**3
+ Grain number = 70
+
+ Seed number 46 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28236 MPa or J/cm**3
+ Grain number = 71
+
+ Seed number 47 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28166 MPa or J/cm**3
+ Grain number = 72
+
+ Seed number 48 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28442 MPa or J/cm**3
+ Grain number = 73
+
+ Seed number 49 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28233 MPa or J/cm**3
+ Grain number = 74
+
+ Seed number 50 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28307 MPa or J/cm**3
+ Grain number = 75
+
+ Seed number 51 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28488 MPa or J/cm**3
+ Grain number = 76
+
+ Seed number 52 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28601 MPa or J/cm**3
+ Grain number = 77
+
+ Seed number 53 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28575 MPa or J/cm**3
+ Grain number = 78
+
+ Seed number 54 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28624 MPa or J/cm**3
+ Grain number = 79
+
+ Seed number 55 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28238 MPa or J/cm**3
+ Grain number = 80
+
+ Seed number 56 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28459 MPa or J/cm**3
+ Grain number = 81
+
+ Seed number 57 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28300 MPa or J/cm**3
+ Grain number = 82
+
+ Seed number 58 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28356 MPa or J/cm**3
+ Grain number = 83
+
+ Seed number 59 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28519 MPa or J/cm**3
+ Grain number = 84
+
+ Seed number 60 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.28291 MPa or J/cm**3
+ Grain number = 85
+
+ Seed number 61 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27867 MPa or J/cm**3
+ Grain number = 86
+
+ Seed number 62 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27627 MPa or J/cm**3
+ Grain number = 87
+
+ Seed number 63 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27898 MPa or J/cm**3
+ Grain number = 88
+
+ Seed number 64 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27808 MPa or J/cm**3
+ Grain number = 89
+
+ Seed number 65 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27658 MPa or J/cm**3
+ Grain number = 90
+
+ Seed number 66 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27854 MPa or J/cm**3
+ Grain number = 91
+
+ Seed number 67 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27739 MPa or J/cm**3
+ Grain number = 92
+
+ Seed number 68 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27844 MPa or J/cm**3
+ Grain number = 93
+
+ Seed number 69 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27630 MPa or J/cm**3
+ Grain number = 94
+
+ Seed number 70 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27733 MPa or J/cm**3
+ Grain number = 95
+
+ Seed number 71 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27846 MPa or J/cm**3
+ Grain number = 96
+
+ Seed number 72 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27937 MPa or J/cm**3
+ Grain number = 97
+
+ Seed number 73 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27766 MPa or J/cm**3
+ Grain number = 98
+
+ Seed number 74 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27719 MPa or J/cm**3
+ Grain number = 99
+
+ Seed number 75 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27791 MPa or J/cm**3
+ Grain number = 100
+
+ Seed number 76 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27653 MPa or J/cm**3
+ Grain number = 101
+
+ Seed number 77 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27723 MPa or J/cm**3
+ Grain number = 102
+
+ Seed number 78 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27861 MPa or J/cm**3
+ Grain number = 103
+
+ Seed number 79 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27850 MPa or J/cm**3
+ Grain number = 104
+
+ Seed number 80 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27627 MPa or J/cm**3
+ Grain number = 105
+
+ Intermediate output for t = 6.00000E-02 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 1.23E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 81 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27419 MPa or J/cm**3
+ Grain number = 106
+
+ Seed number 82 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27217 MPa or J/cm**3
+ Grain number = 107
+
+ Seed number 83 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27232 MPa or J/cm**3
+ Grain number = 108
+
+ Seed number 84 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27139 MPa or J/cm**3
+ Grain number = 109
+
+ Seed number 85 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27411 MPa or J/cm**3
+ Grain number = 110
+
+ Seed number 86 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27267 MPa or J/cm**3
+ Grain number = 111
+
+ Seed number 87 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27309 MPa or J/cm**3
+ Grain number = 112
+
+ Seed number 88 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27519 MPa or J/cm**3
+ Grain number = 113
+
+ Seed number 89 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27139 MPa or J/cm**3
+ Grain number = 114
+
+ Seed number 90 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27142 MPa or J/cm**3
+ Grain number = 115
+
+ Seed number 91 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27177 MPa or J/cm**3
+ Grain number = 116
+
+ Seed number 92 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27250 MPa or J/cm**3
+ Grain number = 117
+
+ Seed number 93 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27398 MPa or J/cm**3
+ Grain number = 118
+
+ Seed number 94 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27433 MPa or J/cm**3
+ Grain number = 119
+
+ Seed number 95 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27351 MPa or J/cm**3
+ Grain number = 120
+
+ Seed number 96 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27261 MPa or J/cm**3
+ Grain number = 121
+
+ Seed number 97 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27435 MPa or J/cm**3
+ Grain number = 122
+
+ Seed number 98 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27324 MPa or J/cm**3
+ Grain number = 123
+
+ Seed number 99 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27137 MPa or J/cm**3
+ Grain number = 124
+
+ Seed number 100 set at time t = 0.75000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27232 MPa or J/cm**3
+ Grain number = 125
+
+ Intermediate output for t = 8.00000E-02 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 4.19E-04 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 101 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26942 MPa or J/cm**3
+ Grain number = 126
+
+ Seed number 102 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26862 MPa or J/cm**3
+ Grain number = 127
+
+ Seed number 103 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26877 MPa or J/cm**3
+ Grain number = 128
+
+ Seed number 104 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.27070 MPa or J/cm**3
+ Grain number = 129
+
+ Seed number 105 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26894 MPa or J/cm**3
+ Grain number = 130
+
+ Seed number 106 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26893 MPa or J/cm**3
+ Grain number = 131
+
+ Seed number 107 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26917 MPa or J/cm**3
+ Grain number = 132
+
+ Seed number 108 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26913 MPa or J/cm**3
+ Grain number = 133
+
+ Seed number 109 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26829 MPa or J/cm**3
+ Grain number = 134
+
+ Seed number 110 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26794 MPa or J/cm**3
+ Grain number = 135
+
+ Seed number 111 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26797 MPa or J/cm**3
+ Grain number = 136
+
+ Seed number 112 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26900 MPa or J/cm**3
+ Grain number = 137
+
+ Seed number 113 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26965 MPa or J/cm**3
+ Grain number = 138
+
+ Seed number 114 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26913 MPa or J/cm**3
+ Grain number = 139
+
+ Seed number 115 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26867 MPa or J/cm**3
+ Grain number = 140
+
+ Seed number 116 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26816 MPa or J/cm**3
+ Grain number = 141
+
+ Seed number 117 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26896 MPa or J/cm**3
+ Grain number = 142
+
+ Seed number 118 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26835 MPa or J/cm**3
+ Grain number = 143
+
+ Seed number 119 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26836 MPa or J/cm**3
+ Grain number = 144
+
+ Seed number 120 set at time t = 0.90000E-01 s
+ ---------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26889 MPa or J/cm**3
+ Grain number = 145
+
+ Intermediate output for t = 0.10000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 9.07E-04 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 121 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26610 MPa or J/cm**3
+ Grain number = 146
+
+ Seed number 122 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26610 MPa or J/cm**3
+ Grain number = 147
+
+ Seed number 123 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26641 MPa or J/cm**3
+ Grain number = 148
+
+ Seed number 124 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26553 MPa or J/cm**3
+ Grain number = 149
+
+ Seed number 125 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26610 MPa or J/cm**3
+ Grain number = 150
+
+ Seed number 126 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26610 MPa or J/cm**3
+ Grain number = 151
+
+ Seed number 127 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26598 MPa or J/cm**3
+ Grain number = 152
+
+ Seed number 128 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26609 MPa or J/cm**3
+ Grain number = 153
+
+ Seed number 129 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26610 MPa or J/cm**3
+ Grain number = 154
+
+ Seed number 130 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26656 MPa or J/cm**3
+ Grain number = 155
+
+ Seed number 131 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26680 MPa or J/cm**3
+ Grain number = 156
+
+ Seed number 132 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26631 MPa or J/cm**3
+ Grain number = 157
+
+ Seed number 133 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26662 MPa or J/cm**3
+ Grain number = 158
+
+ Seed number 134 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26553 MPa or J/cm**3
+ Grain number = 159
+
+ Seed number 135 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26597 MPa or J/cm**3
+ Grain number = 160
+
+ Seed number 136 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26623 MPa or J/cm**3
+ Grain number = 161
+
+ Seed number 137 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26678 MPa or J/cm**3
+ Grain number = 162
+
+ Seed number 138 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26607 MPa or J/cm**3
+ Grain number = 163
+
+ Seed number 139 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26595 MPa or J/cm**3
+ Grain number = 164
+
+ Seed number 140 set at time t = 0.10500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26621 MPa or J/cm**3
+ Grain number = 165
+
+ Seed number 141 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26266 MPa or J/cm**3
+ Grain number = 166
+
+ Seed number 142 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26325 MPa or J/cm**3
+ Grain number = 167
+
+ Seed number 143 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26231 MPa or J/cm**3
+ Grain number = 168
+
+ Seed number 144 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26413 MPa or J/cm**3
+ Grain number = 169
+
+ Seed number 145 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26304 MPa or J/cm**3
+ Grain number = 170
+
+ Seed number 146 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26361 MPa or J/cm**3
+ Grain number = 171
+
+ Seed number 147 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26311 MPa or J/cm**3
+ Grain number = 172
+
+ Seed number 148 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26317 MPa or J/cm**3
+ Grain number = 173
+
+ Seed number 149 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26379 MPa or J/cm**3
+ Grain number = 174
+
+ Seed number 150 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26339 MPa or J/cm**3
+ Grain number = 175
+
+ Seed number 151 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26322 MPa or J/cm**3
+ Grain number = 176
+
+ Seed number 152 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26313 MPa or J/cm**3
+ Grain number = 177
+
+ Seed number 153 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26303 MPa or J/cm**3
+ Grain number = 178
+
+ Seed number 154 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26452 MPa or J/cm**3
+ Grain number = 179
+
+ Seed number 155 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26439 MPa or J/cm**3
+ Grain number = 180
+
+ Seed number 156 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26247 MPa or J/cm**3
+ Grain number = 181
+
+ Seed number 157 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26221 MPa or J/cm**3
+ Grain number = 182
+
+ Seed number 158 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26262 MPa or J/cm**3
+ Grain number = 183
+
+ Seed number 159 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26409 MPa or J/cm**3
+ Grain number = 184
+
+ Seed number 160 set at time t = 0.12000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26414 MPa or J/cm**3
+ Grain number = 185
+
+ Intermediate output for t = 0.12000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 1.36E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 161 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26099 MPa or J/cm**3
+ Grain number = 186
+
+ Seed number 162 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25988 MPa or J/cm**3
+ Grain number = 187
+
+ Seed number 163 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26054 MPa or J/cm**3
+ Grain number = 188
+
+ Seed number 164 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26069 MPa or J/cm**3
+ Grain number = 189
+
+ Seed number 165 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26179 MPa or J/cm**3
+ Grain number = 190
+
+ Seed number 166 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26071 MPa or J/cm**3
+ Grain number = 191
+
+ Seed number 167 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26007 MPa or J/cm**3
+ Grain number = 192
+
+ Seed number 168 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26030 MPa or J/cm**3
+ Grain number = 193
+
+ Seed number 169 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26022 MPa or J/cm**3
+ Grain number = 194
+
+ Seed number 170 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26084 MPa or J/cm**3
+ Grain number = 195
+
+ Seed number 171 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26095 MPa or J/cm**3
+ Grain number = 196
+
+ Seed number 172 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26140 MPa or J/cm**3
+ Grain number = 197
+
+ Seed number 173 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26019 MPa or J/cm**3
+ Grain number = 198
+
+ Seed number 174 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26140 MPa or J/cm**3
+ Grain number = 199
+
+ Seed number 175 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26021 MPa or J/cm**3
+ Grain number = 200
+
+ Seed number 176 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26111 MPa or J/cm**3
+ Grain number = 201
+
+ Seed number 177 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26011 MPa or J/cm**3
+ Grain number = 202
+
+ Seed number 178 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26043 MPa or J/cm**3
+ Grain number = 203
+
+ Seed number 179 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26022 MPa or J/cm**3
+ Grain number = 204
+
+ Seed number 180 set at time t = 0.13500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26096 MPa or J/cm**3
+ Grain number = 205
+
+ Intermediate output for t = 0.14000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 4.12E-04 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 181 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25821 MPa or J/cm**3
+ Grain number = 206
+
+ Seed number 182 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25844 MPa or J/cm**3
+ Grain number = 207
+
+ Seed number 183 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25859 MPa or J/cm**3
+ Grain number = 208
+
+ Seed number 184 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25859 MPa or J/cm**3
+ Grain number = 209
+
+ Seed number 185 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25845 MPa or J/cm**3
+ Grain number = 210
+
+ Seed number 186 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25780 MPa or J/cm**3
+ Grain number = 211
+
+ Seed number 187 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25974 MPa or J/cm**3
+ Grain number = 212
+
+ Seed number 188 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25812 MPa or J/cm**3
+ Grain number = 213
+
+ Seed number 189 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25904 MPa or J/cm**3
+ Grain number = 214
+
+ Seed number 190 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25900 MPa or J/cm**3
+ Grain number = 215
+
+ Seed number 191 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25802 MPa or J/cm**3
+ Grain number = 216
+
+ Seed number 192 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25888 MPa or J/cm**3
+ Grain number = 217
+
+ Seed number 193 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25876 MPa or J/cm**3
+ Grain number = 218
+
+ Seed number 194 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25830 MPa or J/cm**3
+ Grain number = 219
+
+ Seed number 195 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25886 MPa or J/cm**3
+ Grain number = 220
+
+ Seed number 196 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25893 MPa or J/cm**3
+ Grain number = 221
+
+ Seed number 197 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25776 MPa or J/cm**3
+ Grain number = 222
+
+ Seed number 198 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25855 MPa or J/cm**3
+ Grain number = 223
+
+ Seed number 199 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25851 MPa or J/cm**3
+ Grain number = 224
+
+ Seed number 200 set at time t = 0.15000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25821 MPa or J/cm**3
+ Grain number = 225
+
+ Intermediate output for t = 0.16000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 8.76E-04 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 201 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25632 MPa or J/cm**3
+ Grain number = 226
+
+ Seed number 202 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25655 MPa or J/cm**3
+ Grain number = 227
+
+ Seed number 203 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25697 MPa or J/cm**3
+ Grain number = 228
+
+ Seed number 204 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25673 MPa or J/cm**3
+ Grain number = 229
+
+ Seed number 205 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25708 MPa or J/cm**3
+ Grain number = 230
+
+ Seed number 206 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25640 MPa or J/cm**3
+ Grain number = 231
+
+ Seed number 207 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25751 MPa or J/cm**3
+ Grain number = 232
+
+ Seed number 208 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25674 MPa or J/cm**3
+ Grain number = 233
+
+ Seed number 209 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25798 MPa or J/cm**3
+ Grain number = 234
+
+ Seed number 210 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25745 MPa or J/cm**3
+ Grain number = 235
+
+ Seed number 211 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25677 MPa or J/cm**3
+ Grain number = 236
+
+ Seed number 212 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25686 MPa or J/cm**3
+ Grain number = 237
+
+ Seed number 213 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25673 MPa or J/cm**3
+ Grain number = 238
+
+ Seed number 214 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25862 MPa or J/cm**3
+ Grain number = 239
+
+ Seed number 215 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25640 MPa or J/cm**3
+ Grain number = 240
+
+ Seed number 216 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25685 MPa or J/cm**3
+ Grain number = 241
+
+ Seed number 217 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25746 MPa or J/cm**3
+ Grain number = 242
+
+ Seed number 218 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25682 MPa or J/cm**3
+ Grain number = 243
+
+ Seed number 219 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25660 MPa or J/cm**3
+ Grain number = 244
+
+ Seed number 220 set at time t = 0.16500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25694 MPa or J/cm**3
+ Grain number = 245
+
+ Intermediate output for t = 0.18000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 1.28E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 221 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25484 MPa or J/cm**3
+ Grain number = 246
+
+ Seed number 222 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25531 MPa or J/cm**3
+ Grain number = 247
+
+ Seed number 223 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25542 MPa or J/cm**3
+ Grain number = 248
+
+ Seed number 224 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25564 MPa or J/cm**3
+ Grain number = 249
+
+ Seed number 225 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25494 MPa or J/cm**3
+ Grain number = 250
+
+ Seed number 226 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25496 MPa or J/cm**3
+ Grain number = 251
+
+ Seed number 227 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25498 MPa or J/cm**3
+ Grain number = 252
+
+ Seed number 228 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25527 MPa or J/cm**3
+ Grain number = 253
+
+ Seed number 229 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25629 MPa or J/cm**3
+ Grain number = 254
+
+ Seed number 230 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25548 MPa or J/cm**3
+ Grain number = 255
+
+ Seed number 231 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25492 MPa or J/cm**3
+ Grain number = 256
+
+ Seed number 232 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25546 MPa or J/cm**3
+ Grain number = 257
+
+ Seed number 233 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25599 MPa or J/cm**3
+ Grain number = 258
+
+ Seed number 234 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25497 MPa or J/cm**3
+ Grain number = 259
+
+ Seed number 235 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25491 MPa or J/cm**3
+ Grain number = 260
+
+ Seed number 236 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25549 MPa or J/cm**3
+ Grain number = 261
+
+ Seed number 237 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25733 MPa or J/cm**3
+ Grain number = 262
+
+ Seed number 238 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25860 MPa or J/cm**3
+ Grain number = 263
+
+ Seed number 239 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25529 MPa or J/cm**3
+ Grain number = 264
+
+ Seed number 240 set at time t = 0.18000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25533 MPa or J/cm**3
+ Grain number = 265
+
+ Seed number 241 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25360 MPa or J/cm**3
+ Grain number = 266
+
+ Seed number 242 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25361 MPa or J/cm**3
+ Grain number = 267
+
+ Seed number 243 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25432 MPa or J/cm**3
+ Grain number = 268
+
+ Seed number 244 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25321 MPa or J/cm**3
+ Grain number = 269
+
+ Seed number 245 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25422 MPa or J/cm**3
+ Grain number = 270
+
+ Seed number 246 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25643 MPa or J/cm**3
+ Grain number = 271
+
+ Seed number 247 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25338 MPa or J/cm**3
+ Grain number = 272
+
+ Seed number 248 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25388 MPa or J/cm**3
+ Grain number = 273
+
+ Seed number 249 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25399 MPa or J/cm**3
+ Grain number = 274
+
+ Seed number 250 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25375 MPa or J/cm**3
+ Grain number = 275
+
+ Seed number 251 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25328 MPa or J/cm**3
+ Grain number = 276
+
+ Seed number 252 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25616 MPa or J/cm**3
+ Grain number = 277
+
+ Seed number 253 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25473 MPa or J/cm**3
+ Grain number = 278
+
+ Seed number 254 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25401 MPa or J/cm**3
+ Grain number = 279
+
+ Seed number 255 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25406 MPa or J/cm**3
+ Grain number = 280
+
+ Seed number 256 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25569 MPa or J/cm**3
+ Grain number = 281
+
+ Seed number 257 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25610 MPa or J/cm**3
+ Grain number = 282
+
+ Seed number 258 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25362 MPa or J/cm**3
+ Grain number = 283
+
+ Seed number 259 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25388 MPa or J/cm**3
+ Grain number = 284
+
+ Seed number 260 set at time t = 0.19500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25406 MPa or J/cm**3
+ Grain number = 285
+
+ Intermediate output for t = 0.20000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 4.00E-04 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 261 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25236 MPa or J/cm**3
+ Grain number = 286
+
+ Seed number 262 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25234 MPa or J/cm**3
+ Grain number = 287
+
+ Seed number 263 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25213 MPa or J/cm**3
+ Grain number = 288
+
+ Seed number 264 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25223 MPa or J/cm**3
+ Grain number = 289
+
+ Seed number 265 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25265 MPa or J/cm**3
+ Grain number = 290
+
+ Seed number 266 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25246 MPa or J/cm**3
+ Grain number = 291
+
+ Seed number 267 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25228 MPa or J/cm**3
+ Grain number = 292
+
+ Seed number 268 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25213 MPa or J/cm**3
+ Grain number = 293
+
+ Seed number 269 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25253 MPa or J/cm**3
+ Grain number = 294
+
+ Seed number 270 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25236 MPa or J/cm**3
+ Grain number = 295
+
+ Seed number 271 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25236 MPa or J/cm**3
+ Grain number = 296
+
+ Seed number 272 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25205 MPa or J/cm**3
+ Grain number = 297
+
+ Seed number 273 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25206 MPa or J/cm**3
+ Grain number = 298
+
+ Seed number 274 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25406 MPa or J/cm**3
+ Grain number = 299
+
+ Seed number 275 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25247 MPa or J/cm**3
+ Grain number = 300
+
+ Seed number 276 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25516 MPa or J/cm**3
+ Grain number = 301
+
+ Seed number 277 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25250 MPa or J/cm**3
+ Grain number = 302
+
+ Seed number 278 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25197 MPa or J/cm**3
+ Grain number = 303
+
+ Seed number 279 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25250 MPa or J/cm**3
+ Grain number = 304
+
+ Seed number 280 set at time t = 0.21000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25265 MPa or J/cm**3
+ Grain number = 305
+
+ Seed number 281 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25090 MPa or J/cm**3
+ Grain number = 306
+
+ Seed number 282 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25133 MPa or J/cm**3
+ Grain number = 307
+
+ Seed number 283 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25140 MPa or J/cm**3
+ Grain number = 308
+
+ Seed number 284 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25138 MPa or J/cm**3
+ Grain number = 309
+
+ Seed number 285 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25133 MPa or J/cm**3
+ Grain number = 310
+
+ Seed number 286 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25095 MPa or J/cm**3
+ Grain number = 311
+
+ Seed number 287 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25143 MPa or J/cm**3
+ Grain number = 312
+
+ Seed number 288 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25092 MPa or J/cm**3
+ Grain number = 313
+
+ Seed number 289 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25121 MPa or J/cm**3
+ Grain number = 314
+
+ Seed number 290 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25113 MPa or J/cm**3
+ Grain number = 315
+
+ Seed number 291 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25134 MPa or J/cm**3
+ Grain number = 316
+
+ Seed number 292 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25134 MPa or J/cm**3
+ Grain number = 317
+
+ Seed number 293 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25094 MPa or J/cm**3
+ Grain number = 318
+
+ Seed number 294 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25146 MPa or J/cm**3
+ Grain number = 319
+
+ Seed number 295 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25111 MPa or J/cm**3
+ Grain number = 320
+
+ Seed number 296 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25135 MPa or J/cm**3
+ Grain number = 321
+
+ Seed number 297 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25247 MPa or J/cm**3
+ Grain number = 322
+
+ Seed number 298 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25097 MPa or J/cm**3
+ Grain number = 323
+
+ Seed number 299 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25098 MPa or J/cm**3
+ Grain number = 324
+
+ Seed number 300 set at time t = 0.22500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25091 MPa or J/cm**3
+ Grain number = 325
+
+ Seed number 301 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25100 MPa or J/cm**3
+ Grain number = 326
+
+ Seed number 302 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25014 MPa or J/cm**3
+ Grain number = 327
+
+ Seed number 303 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25040 MPa or J/cm**3
+ Grain number = 328
+
+ Seed number 304 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24992 MPa or J/cm**3
+ Grain number = 329
+
+ Seed number 305 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26108 MPa or J/cm**3
+ Grain number = 330
+
+ Seed number 306 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25921 MPa or J/cm**3
+ Grain number = 331
+
+ Seed number 307 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25016 MPa or J/cm**3
+ Grain number = 332
+
+ Seed number 308 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24992 MPa or J/cm**3
+ Grain number = 333
+
+ Seed number 309 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25012 MPa or J/cm**3
+ Grain number = 334
+
+ Seed number 310 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25039 MPa or J/cm**3
+ Grain number = 335
+
+ Seed number 311 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24986 MPa or J/cm**3
+ Grain number = 336
+
+ Seed number 312 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25003 MPa or J/cm**3
+ Grain number = 337
+
+ Seed number 313 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24989 MPa or J/cm**3
+ Grain number = 338
+
+ Seed number 314 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25006 MPa or J/cm**3
+ Grain number = 339
+
+ Seed number 315 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24995 MPa or J/cm**3
+ Grain number = 340
+
+ Seed number 316 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25172 MPa or J/cm**3
+ Grain number = 341
+
+ Seed number 317 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25044 MPa or J/cm**3
+ Grain number = 342
+
+ Seed number 318 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24989 MPa or J/cm**3
+ Grain number = 343
+
+ Seed number 319 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25016 MPa or J/cm**3
+ Grain number = 344
+
+ Seed number 320 set at time t = 0.24000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25244 MPa or J/cm**3
+ Grain number = 345
+
+ Intermediate output for t = 0.25000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 8.54E-04 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 321 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24883 MPa or J/cm**3
+ Grain number = 346
+
+ Seed number 322 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24902 MPa or J/cm**3
+ Grain number = 347
+
+ Seed number 323 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26004 MPa or J/cm**3
+ Grain number = 348
+
+ Seed number 324 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25640 MPa or J/cm**3
+ Grain number = 349
+
+ Seed number 325 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25449 MPa or J/cm**3
+ Grain number = 350
+
+ Seed number 326 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25004 MPa or J/cm**3
+ Grain number = 351
+
+ Seed number 327 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24906 MPa or J/cm**3
+ Grain number = 352
+
+ Seed number 328 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24906 MPa or J/cm**3
+ Grain number = 353
+
+ Seed number 329 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24917 MPa or J/cm**3
+ Grain number = 354
+
+ Seed number 330 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24929 MPa or J/cm**3
+ Grain number = 355
+
+ Seed number 331 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24939 MPa or J/cm**3
+ Grain number = 356
+
+ Seed number 332 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25267 MPa or J/cm**3
+ Grain number = 357
+
+ Seed number 333 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25366 MPa or J/cm**3
+ Grain number = 358
+
+ Seed number 334 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25351 MPa or J/cm**3
+ Grain number = 359
+
+ Seed number 335 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25206 MPa or J/cm**3
+ Grain number = 360
+
+ Seed number 336 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25357 MPa or J/cm**3
+ Grain number = 361
+
+ Seed number 337 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25206 MPa or J/cm**3
+ Grain number = 362
+
+ Seed number 338 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24970 MPa or J/cm**3
+ Grain number = 363
+
+ Seed number 339 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24897 MPa or J/cm**3
+ Grain number = 364
+
+ Seed number 340 set at time t = 0.25500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24918 MPa or J/cm**3
+ Grain number = 365
+
+ Seed number 341 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24757 MPa or J/cm**3
+ Grain number = 366
+
+ Seed number 342 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24832 MPa or J/cm**3
+ Grain number = 367
+
+ Seed number 343 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24820 MPa or J/cm**3
+ Grain number = 368
+
+ Seed number 344 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24792 MPa or J/cm**3
+ Grain number = 369
+
+ Seed number 345 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24832 MPa or J/cm**3
+ Grain number = 370
+
+ Seed number 346 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25717 MPa or J/cm**3
+ Grain number = 371
+
+ Seed number 347 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25325 MPa or J/cm**3
+ Grain number = 372
+
+ Seed number 348 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24781 MPa or J/cm**3
+ Grain number = 373
+
+ Seed number 349 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24840 MPa or J/cm**3
+ Grain number = 374
+
+ Seed number 350 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24829 MPa or J/cm**3
+ Grain number = 375
+
+ Seed number 351 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24798 MPa or J/cm**3
+ Grain number = 376
+
+ Seed number 352 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24787 MPa or J/cm**3
+ Grain number = 377
+
+ Seed number 353 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24803 MPa or J/cm**3
+ Grain number = 378
+
+ Seed number 354 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24785 MPa or J/cm**3
+ Grain number = 379
+
+ Seed number 355 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24741 MPa or J/cm**3
+ Grain number = 380
+
+ Seed number 356 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24816 MPa or J/cm**3
+ Grain number = 381
+
+ Seed number 357 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24818 MPa or J/cm**3
+ Grain number = 382
+
+ Seed number 358 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24896 MPa or J/cm**3
+ Grain number = 383
+
+ Seed number 359 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25356 MPa or J/cm**3
+ Grain number = 384
+
+ Seed number 360 set at time t = 0.27000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24821 MPa or J/cm**3
+ Grain number = 385
+
+ Seed number 361 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24679 MPa or J/cm**3
+ Grain number = 386
+
+ Seed number 362 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24661 MPa or J/cm**3
+ Grain number = 387
+
+ Seed number 363 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24703 MPa or J/cm**3
+ Grain number = 388
+
+ Seed number 364 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24687 MPa or J/cm**3
+ Grain number = 389
+
+ Seed number 365 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24657 MPa or J/cm**3
+ Grain number = 390
+
+ Seed number 366 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.26017 MPa or J/cm**3
+ Grain number = 391
+
+ Seed number 367 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24700 MPa or J/cm**3
+ Grain number = 392
+
+ Seed number 368 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24673 MPa or J/cm**3
+ Grain number = 393
+
+ Seed number 369 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24753 MPa or J/cm**3
+ Grain number = 394
+
+ Seed number 370 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24696 MPa or J/cm**3
+ Grain number = 395
+
+ Seed number 371 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24699 MPa or J/cm**3
+ Grain number = 396
+
+ Seed number 372 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24660 MPa or J/cm**3
+ Grain number = 397
+
+ Seed number 373 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24698 MPa or J/cm**3
+ Grain number = 398
+
+ Seed number 374 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24685 MPa or J/cm**3
+ Grain number = 399
+
+ Seed number 375 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25185 MPa or J/cm**3
+ Grain number = 400
+
+ Seed number 376 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24903 MPa or J/cm**3
+ Grain number = 401
+
+ Seed number 377 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24696 MPa or J/cm**3
+ Grain number = 402
+
+ Seed number 378 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24704 MPa or J/cm**3
+ Grain number = 403
+
+ Seed number 379 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24652 MPa or J/cm**3
+ Grain number = 404
+
+ Seed number 380 set at time t = 0.28500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24673 MPa or J/cm**3
+ Grain number = 405
+
+ Intermediate output for t = 0.30000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 1.26E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 381 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25231 MPa or J/cm**3
+ Grain number = 406
+
+ Seed number 382 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24499 MPa or J/cm**3
+ Grain number = 407
+
+ Seed number 383 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24521 MPa or J/cm**3
+ Grain number = 408
+
+ Seed number 384 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24541 MPa or J/cm**3
+ Grain number = 409
+
+ Seed number 385 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24510 MPa or J/cm**3
+ Grain number = 410
+
+ Seed number 386 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24538 MPa or J/cm**3
+ Grain number = 411
+
+ Seed number 387 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24561 MPa or J/cm**3
+ Grain number = 412
+
+ Seed number 388 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24575 MPa or J/cm**3
+ Grain number = 413
+
+ Seed number 389 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24608 MPa or J/cm**3
+ Grain number = 414
+
+ Seed number 390 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24593 MPa or J/cm**3
+ Grain number = 415
+
+ Seed number 391 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24593 MPa or J/cm**3
+ Grain number = 416
+
+ Seed number 392 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24579 MPa or J/cm**3
+ Grain number = 417
+
+ Seed number 393 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24572 MPa or J/cm**3
+ Grain number = 418
+
+ Seed number 394 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24567 MPa or J/cm**3
+ Grain number = 419
+
+ Seed number 395 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24498 MPa or J/cm**3
+ Grain number = 420
+
+ Seed number 396 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24553 MPa or J/cm**3
+ Grain number = 421
+
+ Seed number 397 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24818 MPa or J/cm**3
+ Grain number = 422
+
+ Seed number 398 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25068 MPa or J/cm**3
+ Grain number = 423
+
+ Seed number 399 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24518 MPa or J/cm**3
+ Grain number = 424
+
+ Seed number 400 set at time t = 0.30000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24558 MPa or J/cm**3
+ Grain number = 425
+
+ Seed number 401 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24439 MPa or J/cm**3
+ Grain number = 426
+
+ Seed number 402 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24437 MPa or J/cm**3
+ Grain number = 427
+
+ Seed number 403 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24438 MPa or J/cm**3
+ Grain number = 428
+
+ Seed number 404 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24452 MPa or J/cm**3
+ Grain number = 429
+
+ Seed number 405 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 430
+
+ Seed number 406 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 431
+
+ Seed number 407 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 432
+
+ Seed number 408 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 433
+
+ Seed number 409 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24417 MPa or J/cm**3
+ Grain number = 434
+
+ Seed number 410 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 435
+
+ Seed number 411 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 436
+
+ Seed number 412 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 437
+
+ Seed number 413 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 438
+
+ Seed number 414 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24464 MPa or J/cm**3
+ Grain number = 439
+
+ Seed number 415 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24454 MPa or J/cm**3
+ Grain number = 440
+
+ Seed number 416 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24445 MPa or J/cm**3
+ Grain number = 441
+
+ Seed number 417 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24554 MPa or J/cm**3
+ Grain number = 442
+
+ Seed number 418 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 443
+
+ Seed number 419 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24413 MPa or J/cm**3
+ Grain number = 444
+
+ Seed number 420 set at time t = 0.31500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24434 MPa or J/cm**3
+ Grain number = 445
+
+ Seed number 421 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24367 MPa or J/cm**3
+ Grain number = 446
+
+ Seed number 422 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24362 MPa or J/cm**3
+ Grain number = 447
+
+ Seed number 423 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24361 MPa or J/cm**3
+ Grain number = 448
+
+ Seed number 424 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24334 MPa or J/cm**3
+ Grain number = 449
+
+ Seed number 425 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24384 MPa or J/cm**3
+ Grain number = 450
+
+ Seed number 426 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24351 MPa or J/cm**3
+ Grain number = 451
+
+ Seed number 427 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24365 MPa or J/cm**3
+ Grain number = 452
+
+ Seed number 428 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24323 MPa or J/cm**3
+ Grain number = 453
+
+ Seed number 429 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24322 MPa or J/cm**3
+ Grain number = 454
+
+ Seed number 430 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24323 MPa or J/cm**3
+ Grain number = 455
+
+ Seed number 431 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24303 MPa or J/cm**3
+ Grain number = 456
+
+ Seed number 432 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24362 MPa or J/cm**3
+ Grain number = 457
+
+ Seed number 433 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24318 MPa or J/cm**3
+ Grain number = 458
+
+ Seed number 434 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24420 MPa or J/cm**3
+ Grain number = 459
+
+ Seed number 435 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24343 MPa or J/cm**3
+ Grain number = 460
+
+ Seed number 436 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24384 MPa or J/cm**3
+ Grain number = 461
+
+ Seed number 437 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24315 MPa or J/cm**3
+ Grain number = 462
+
+ Seed number 438 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24309 MPa or J/cm**3
+ Grain number = 463
+
+ Seed number 439 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24359 MPa or J/cm**3
+ Grain number = 464
+
+ Seed number 440 set at time t = 0.33000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24337 MPa or J/cm**3
+ Grain number = 465
+
+ Seed number 441 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24211 MPa or J/cm**3
+ Grain number = 466
+
+ Seed number 442 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24158 MPa or J/cm**3
+ Grain number = 467
+
+ Seed number 443 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24221 MPa or J/cm**3
+ Grain number = 468
+
+ Seed number 444 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24196 MPa or J/cm**3
+ Grain number = 469
+
+ Seed number 445 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24196 MPa or J/cm**3
+ Grain number = 470
+
+ Seed number 446 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24244 MPa or J/cm**3
+ Grain number = 471
+
+ Seed number 447 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24195 MPa or J/cm**3
+ Grain number = 472
+
+ Seed number 448 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24193 MPa or J/cm**3
+ Grain number = 473
+
+ Seed number 449 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24211 MPa or J/cm**3
+ Grain number = 474
+
+ Seed number 450 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24270 MPa or J/cm**3
+ Grain number = 475
+
+ Seed number 451 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24215 MPa or J/cm**3
+ Grain number = 476
+
+ Seed number 452 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24481 MPa or J/cm**3
+ Grain number = 477
+
+ Seed number 453 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24406 MPa or J/cm**3
+ Grain number = 478
+
+ Seed number 454 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24196 MPa or J/cm**3
+ Grain number = 479
+
+ Seed number 455 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24195 MPa or J/cm**3
+ Grain number = 480
+
+ Seed number 456 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24192 MPa or J/cm**3
+ Grain number = 481
+
+ Seed number 457 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24180 MPa or J/cm**3
+ Grain number = 482
+
+ Seed number 458 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24268 MPa or J/cm**3
+ Grain number = 483
+
+ Seed number 459 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24254 MPa or J/cm**3
+ Grain number = 484
+
+ Seed number 460 set at time t = 0.34500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24264 MPa or J/cm**3
+ Grain number = 485
+
+ Intermediate output for t = 0.35000 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 3.82E-04 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 461 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24124 MPa or J/cm**3
+ Grain number = 486
+
+ Seed number 462 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24111 MPa or J/cm**3
+ Grain number = 487
+
+ Seed number 463 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24075 MPa or J/cm**3
+ Grain number = 488
+
+ Seed number 464 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24062 MPa or J/cm**3
+ Grain number = 489
+
+ Seed number 465 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24111 MPa or J/cm**3
+ Grain number = 490
+
+ Seed number 466 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24103 MPa or J/cm**3
+ Grain number = 491
+
+ Seed number 467 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24067 MPa or J/cm**3
+ Grain number = 492
+
+ Seed number 468 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24064 MPa or J/cm**3
+ Grain number = 493
+
+ Seed number 469 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24078 MPa or J/cm**3
+ Grain number = 494
+
+ Seed number 470 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24314 MPa or J/cm**3
+ Grain number = 495
+
+ Seed number 471 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24075 MPa or J/cm**3
+ Grain number = 496
+
+ Seed number 472 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24448 MPa or J/cm**3
+ Grain number = 497
+
+ Seed number 473 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24497 MPa or J/cm**3
+ Grain number = 498
+
+ Seed number 474 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24101 MPa or J/cm**3
+ Grain number = 499
+
+ Seed number 475 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24066 MPa or J/cm**3
+ Grain number = 500
+
+ Seed number 476 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24112 MPa or J/cm**3
+ Grain number = 501
+
+ Seed number 477 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24087 MPa or J/cm**3
+ Grain number = 502
+
+ Seed number 478 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24063 MPa or J/cm**3
+ Grain number = 503
+
+ Seed number 479 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24102 MPa or J/cm**3
+ Grain number = 504
+
+ Seed number 480 set at time t = 0.36000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24118 MPa or J/cm**3
+ Grain number = 505
+
+ Seed number 481 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24018 MPa or J/cm**3
+ Grain number = 506
+
+ Seed number 482 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23992 MPa or J/cm**3
+ Grain number = 507
+
+ Seed number 483 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24008 MPa or J/cm**3
+ Grain number = 508
+
+ Seed number 484 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24027 MPa or J/cm**3
+ Grain number = 509
+
+ Seed number 485 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24043 MPa or J/cm**3
+ Grain number = 510
+
+ Seed number 486 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24014 MPa or J/cm**3
+ Grain number = 511
+
+ Seed number 487 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24018 MPa or J/cm**3
+ Grain number = 512
+
+ Seed number 488 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24017 MPa or J/cm**3
+ Grain number = 513
+
+ Seed number 489 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24007 MPa or J/cm**3
+ Grain number = 514
+
+ Seed number 490 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24029 MPa or J/cm**3
+ Grain number = 515
+
+ Seed number 491 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24021 MPa or J/cm**3
+ Grain number = 516
+
+ Seed number 492 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24004 MPa or J/cm**3
+ Grain number = 517
+
+ Seed number 493 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24026 MPa or J/cm**3
+ Grain number = 518
+
+ Seed number 494 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24009 MPa or J/cm**3
+ Grain number = 519
+
+ Seed number 495 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24101 MPa or J/cm**3
+ Grain number = 520
+
+ Seed number 496 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24054 MPa or J/cm**3
+ Grain number = 521
+
+ Seed number 497 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24009 MPa or J/cm**3
+ Grain number = 522
+
+ Seed number 498 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24005 MPa or J/cm**3
+ Grain number = 523
+
+ Seed number 499 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24029 MPa or J/cm**3
+ Grain number = 524
+
+ Seed number 500 set at time t = 0.37500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24008 MPa or J/cm**3
+ Grain number = 525
+
+ Seed number 501 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23922 MPa or J/cm**3
+ Grain number = 526
+
+ Seed number 502 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23935 MPa or J/cm**3
+ Grain number = 527
+
+ Seed number 503 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23935 MPa or J/cm**3
+ Grain number = 528
+
+ Seed number 504 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23935 MPa or J/cm**3
+ Grain number = 529
+
+ Seed number 505 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23927 MPa or J/cm**3
+ Grain number = 530
+
+ Seed number 506 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23963 MPa or J/cm**3
+ Grain number = 531
+
+ Seed number 507 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23930 MPa or J/cm**3
+ Grain number = 532
+
+ Seed number 508 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23931 MPa or J/cm**3
+ Grain number = 533
+
+ Seed number 509 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23930 MPa or J/cm**3
+ Grain number = 534
+
+ Seed number 510 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23896 MPa or J/cm**3
+ Grain number = 535
+
+ Seed number 511 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23890 MPa or J/cm**3
+ Grain number = 536
+
+ Seed number 512 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23931 MPa or J/cm**3
+ Grain number = 537
+
+ Seed number 513 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23922 MPa or J/cm**3
+ Grain number = 538
+
+ Seed number 514 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23929 MPa or J/cm**3
+ Grain number = 539
+
+ Seed number 515 set at time t = 0.39000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23956 MPa or J/cm**3
+ Grain number = 540
+
+ Intermediate output for t = 0.40000 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 8.65E-04 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 516 set at time t = 0.43500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24242 MPa or J/cm**3
+ Grain number = 541
+
+ Intermediate output for t = 0.45000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 3.97E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 517 set at time t = 0.48000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25394 MPa or J/cm**3
+ Grain number = 542
+
+ Intermediate output for t = 0.50000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 3.19E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 0.60000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 3.02E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 518 set at time t = 0.67500 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24958 MPa or J/cm**3
+ Grain number = 543
+
+ Seed number 519 set at time t = 0.69000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24327 MPa or J/cm**3
+ Grain number = 544
+
+ Intermediate output for t = 0.70000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 2.61E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 0.80000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 4.29E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 0.90000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 2.78E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 520 set at time t = 0.99000 s
+ -----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24645 MPa or J/cm**3
+ Grain number = 545
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.07E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 521 set at time t = 1.0950 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24472 MPa or J/cm**3
+ Grain number = 546
+
+ Seed number 522 set at time t = 1.0950 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24546 MPa or J/cm**3
+ Grain number = 547
+
+ Intermediate output for t = 1.1000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 1.58E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 523 set at time t = 1.1100 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24131 MPa or J/cm**3
+ Grain number = 548
+
+ Seed number 524 set at time t = 1.1700 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.25636 MPa or J/cm**3
+ Grain number = 549
+
+ Intermediate output for t = 1.2000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 2.09E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 525 set at time t = 1.2600 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24533 MPa or J/cm**3
+ Grain number = 550
+
+ Intermediate output for t = 1.3000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 3.94E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 526 set at time t = 1.3050 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23942 MPa or J/cm**3
+ Grain number = 551
+
+ Intermediate output for t = 1.4000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 3.28E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 527 set at time t = 1.4100 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.24155 MPa or J/cm**3
+ Grain number = 552
+
+ Seed number 528 set at time t = 1.4550 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 1100.0 K
+ Driving force = 0.23953 MPa or J/cm**3
+ Grain number = 553
+
+ Intermediate output for t = 1.5000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 6.51E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.6000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 3.87E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.7000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 3.55E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.8000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 3.49E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.9000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 4.98E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.0000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 5.76E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.1000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 3.54E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.2000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 4.54E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.3000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 4.25E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.4000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 3.44E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.5000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 5.43E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.6000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 4.71E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.7000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 6.09E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.8000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 6.01E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.9000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 6.04E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.0000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 6.38E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.1000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 7.10E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.2000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 7.11E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.3000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 6.34E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.4000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 7.12E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.5000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 5.10E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.6000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 4.52E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.7000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 7.14E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.8000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 5.72E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.9000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 6.93E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.0000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 7.15E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.2500 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 7.16E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.5000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 3.19E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.7500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 7.18E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 5.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.2500 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 7.26E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.5000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 5.09E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.7500 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 5.61E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 6.0000 s
+ CPU-time: 8 s
+ Current phase-field solver time step = 4.46E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 6.2500 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 6.45E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 6.5000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 7.31E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 6.7500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 7.32E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 7.0000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 7.27E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 7.2500 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 5.99E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 7.5000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 5.96E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 7.7500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 6.39E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 8.0000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 6.24E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 8.2500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 6.32E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 8.5000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 6.11E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 8.7500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 2.77E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.0000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 2.87E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.2500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 4.76E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.5000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 6.45E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.7500 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 2.17E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 6.66E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 10.500 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 6.32E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 11.000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 4.98E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 11.500 s
+ CPU-time: 12 s
+ Current phase-field solver time step = 4.50E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 12.000 s
+ CPU-time: 12 s
+ Current phase-field solver time step = 5.47E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 12.500 s
+ CPU-time: 12 s
+ Current phase-field solver time step = 4.91E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 13.000 s
+ CPU-time: 13 s
+ Current phase-field solver time step = 5.50E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 13.500 s
+ CPU-time: 10 s
+ Current phase-field solver time step = 5.92E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 14.000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 4.46E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 14.500 s
+ CPU-time: 12 s
+ Current phase-field solver time step = 4.64E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 15.000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 5.71E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 15.500 s
+ CPU-time: 12 s
+ Current phase-field solver time step = 3.71E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 16.000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 2.42E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 16.500 s
+ CPU-time: 12 s
+ Current phase-field solver time step = 3.17E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 17.000 s
+ CPU-time: 13 s
+ Current phase-field solver time step = 2.73E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 17.500 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 5.28E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 18.000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 5.36E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 18.500 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 2.26E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 19.000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 5.33E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 19.500 s
+ CPU-time: 12 s
+ Current phase-field solver time step = 4.46E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 20.000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 3.73E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 20.500 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 5.35E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 21.000 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 2.66E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 21.500 s
+ CPU-time: 10 s
+ Current phase-field solver time step = 3.03E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 22.000 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 4.23E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 22.500 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 3.91E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 23.000 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 5.41E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 23.500 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 2.40E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 24.000 s
+ CPU-time: 8 s
+ Current phase-field solver time step = 4.84E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 24.500 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 5.05E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 25.000 s
+ CPU-time: 8 s
+ Current phase-field solver time step = 2.88E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 25.500 s
+ CPU-time: 8 s
+ Current phase-field solver time step = 5.19E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 26.000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 3.25E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 26.500 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 4.37E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 27.000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 5.64E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 27.500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 3.52E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 28.000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 5.48E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 28.500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 4.52E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 29.000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 5.80E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 29.500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 5.21E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 30.000 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 5.40E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 30.500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 6.20E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 31.000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 4.97E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 31.500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 5.43E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 32.000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 5.39E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 32.500 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 3.80E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 33.000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 6.93E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 33.500 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 5.00E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 34.000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 3.60E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 34.500 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 6.11E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 35.000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 4.14E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 35.500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 5.87E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 36.000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 7.57E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 36.500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 5.27E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 37.000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 5.24E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 37.500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 6.34E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 38.000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 3.75E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 38.500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 7.40E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 39.000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 1.73E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 39.500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.42E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 40.000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 6.10E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 40.500 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 7.85E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 41.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 7.16E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 41.500 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 8.24E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 42.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 5.81E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 42.500 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 7.44E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 43.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 8.36E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 43.500 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 7.79E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 44.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 8.38E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 44.500 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 7.79E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 45.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 8.36E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 45.500 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 6.35E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 46.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 6.86E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 46.500 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 3.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 47.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 8.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 47.500 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 8.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 48.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 48.500 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 5.62E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 49.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 8.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 49.500 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 8.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 50.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 8.63E-03 s
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:         943
+ Wall clock time in seconds:  1166
+ End
+ 

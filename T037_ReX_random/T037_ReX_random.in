@@ -1,0 +1,638 @@
+#
+# Automatic 'Driving File' written out by MICRESS.
+#
+#
+#
+# MICRESS binary
+# ==============
+# version number: 6.400 (Linux)
+# compiled: 01/17/2018
+# compiler version: Intel 1400 20140120
+# executable architecture: x64
+# Thermo-Calc coupling: enabled
+#    Version:    19
+#    Link Date:  20-03-2017 12:28:00
+#    OS Name:    Linux
+#    Build Date: 10716
+#    Compiler:   ifort (IFORT) 14.0.2 20140120
+# OpenMP: disabled
+# shell: /bin/tcsh
+# ('double precision' binary)
+#
+#
+# Language settings
+# =================
+# Please select a language: 'English', 'Deutsch' or 'Francais'
+English
+#
+#
+# Flags and settings
+# ==================
+#
+# Geometry
+# --------
+# Grid size?
+# (for 2D calculations: CellsY=1, for 1D calculations: CellsX=1, CellsY=1)
+# Cells in X-direction (CellsX):
+500
+# Cells in Y-direction (CellsY):
+1
+# Cells in Z-direction (CellsZ):
+1000
+# Cell dimension (grid spacing in micrometers):
+# (optionally followed by rescaling factor for the output in the form of '3/4')
+0.50000
+#
+# Flags
+# -----
+# Type of coupling?
+# Options:  phase  concentration [volume_change] temperature  temp_cyl_coord
+#    [stress] [stress_coupled] [flow] [flow_coarse] [dislocation]
+phase
+# Type of potential?
+# Options:  double_obstacle  multi_obstacle   [fd_correction]
+double_obstacle fd_correction
+#
+# Phase field data structure
+# --------------------------
+# Coefficient for initial dimension of field iFace
+#  [minimum usage] [target usage]
+0.1
+# Coefficient for initial dimension of field nTupel
+#  [minimum usage] [target usage]
+0.1
+#
+#
+# Restart options
+# ===============
+# Restart using old results?
+# Options:    new       restart [reset_time | structure_only]
+new
+#
+#
+# Name of output files
+# ====================
+# Name of result files?
+Results_ReX/T037_ReX_random
+# Overwrite files with the same name?
+# Options:    overwrite      write_protected     append
+#             [zipped|not_zipped|vtk]
+#             [unix|windows|non_native]
+overwrite
+#
+#
+# Selection of the outputs
+# ========================
+# [legacy|verbose|terse]
+# Restart data output?                                 ('rest')
+# Options:     out_restart      no_out_restart         [wallclock time, h.]
+no_out_restart
+# Grain number output?                                 ('korn')
+# Options:     out_grains       no_out_grains
+no_out_grains
+# Phase number output?                                 ('phas')
+# Options:     out_phases       no_out_phases          [no_interfaces]
+no_out_phases
+# Fraction output?                                     ('frac')
+# Options:     out_fraction     no_out_fraction        [phase number]
+no_out_fraction
+# Average fraction table?                              ('TabF')
+# Options:     tab_fractions    no_tab_fractions       [front_temp] [TabL_steps]
+no_tab_fractions
+# Interface output?                                    ('intf')
+# Options:     out_interface    no_out_interface       [sharp]
+no_out_interface
+# Driving-force output?                                ('driv')
+# Options:     out_driv_force   no_out_driv_force
+no_out_driv_force
+# Interface mobility output?                           ('mueS')
+# Options:     out_mobility     no_out_mobility
+no_out_mobility
+# Curvature output?                                    ('krum')
+# Options:     out_curvature    no_out_curvature
+no_out_curvature
+# Interface velocity output?                           ('vel')
+# Options:     out_velocity     no_out_velocity
+no_out_velocity
+# Should the grain-time file be written out?           ('TabK')
+# Options:     tab_grains       no_tab_grains          [extra|standard]
+no_tab_grains
+# Should the 'von Neumann Mullins' output be written out?       ('TabN')
+# Options:    tab_vnm    no_tab_vnm
+no_tab_vnm
+# Should the 'grain data output' be written out?       ('TabGD')
+# Options:    tab_grain_data    no_tab_grain_data
+no_tab_grain_data
+# Temperature output?                                  ('temp')
+# Options:     out_temp         no_out_temp
+no_out_temp
+# Recrystallisation energy output?                     ('rex')
+# Options:     out_recrystall   no_out_recrystall
+out_recrystall
+# Recrystallised fraction output?                      ('TabR')
+# Options:     tab_recrystall   no_tab_recrystall
+no_tab_recrystall
+# Dislocation density output?                          ('rhoD')
+# Options:     out_disloc       no_out_disloc
+no_out_disloc
+# Miller-Indices output?                               ('mill')
+# Options:     out_miller       no_out_miller
+out_miller
+# Orientation output?                                  ('orie')
+# Options:     out_orientation  no_out_orientation
+out_orientation
+# Should the orientation-time file be written?         ('TabO')
+# Options:   tab_orientation  no_tab_orientation    [rotmat]
+no_tab_orientation
+# Should monitoring outputs be written out?            ('TabL')
+# Options:     tab_log [simulation time, s] [wallclock time, min]  no_tab_log
+no_tab_log
+#
+#
+# Time input data
+# ===============
+# Finish input of output times (in seconds) with 'end_of_simulation'
+# 'regularly-spaced' outputs can be set with 'linear_step'
+# or 'logarithmic_step' and then specifying the increment
+# and end value
+# ('automatic_outputs' optionally followed by the number
+#  of outputs can be used in conjuction with 'linear_from_file')
+#  'first'                  : additional output for first time-step
+#  'end_at_temperature'    : additional output and end of simulation
+#                             at given temperature
+linear_step 0.5 5.
+linear_step 1.0 10.
+linear_step 2.0 20.
+linear_step 5.0 30.
+end_of_simulation
+# Time-step?
+# Options:   fix ...[s]   automatic    automatic_limited
+automatic
+# Coefficient for phase-field criterion 1.00
+# Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]?
+30
+#
+#
+# Phase data
+# ==========
+# Number of distinct solid phases?
+1
+#
+# Data for phase 1:
+# -----------------
+# Simulation of recrystallisation in phase 1?
+# Options:   recrystall     no_recrystall   [verbose|no_verbose]
+recrystall
+# Which recrystallisation model?
+# Options:  energy  mean_disloc  local_disloc  [all_interfaces]
+energy
+# Energy threshold for recrystallisation  model? [J/cm**3 or MPa]
+2.123E-03
+# Is phase 1 anisotrop?
+# Options: isotropic  anisotropic  faceted_a faceted_b  antifaceted
+anisotropic
+# Crystal symmetry of the phase?
+# Options:   none  cubic  hexagonal  tetragonal orthorhombic
+cubic
+# Should grains of phase 1 be reduced to categories?
+# Options:   categorize no_categorize
+no_categorize
+#
+# Orientation
+# -----------
+# How shall grain orientations be defined?
+# Options:  angle_2d  euler_zxz  angle_axis  miller_indices  quaternion
+miller_indices
+#
+#
+# Grain input
+# ===========
+# Type of grain positioning?
+# Options:  deterministic   random [deterministic_infile]   from_file
+random
+# Integer for randomization?
+6
+# Number of different types of grains?
+4
+# Number of grains of type 1?
+5
+# Number of grains of type 2?
+5
+# Number of grains of type 3?
+15
+# Number of grains of type 4?
+5
+# Input for grain type 1
+# ----------------------
+# Geometry of grain type 1
+# Options:  round  rectangular  elliptic  round_inverse
+elliptic
+# Minimal value of x-coordinates?  [micrometers]
+-10.0000
+# Maximal value of x-coordinates?  [micrometers]
+260.000
+# Minimal value of z-coordinates?  [micrometers]
+-10.0000
+# Maximal value of z-coordinates?  [micrometers]
+510.000
+# Minimal length of axis along x-axis?  [micrometers]
+150.000
+# Maximal length of axis along x-axis?  [micrometers]
+160.000
+# Minimal length of axis along z-axis?  [micrometers]
+300.000
+# Maximal length of axis along z-axis?  [micrometers]
+310.000
+# Should the Voronoi criterion for grains of type 1 be applied?
+# Options:    voronoi     no_voronoi
+voronoi
+# Phase number for grain type 1? (int)
+1
+# Input of minimal and maximal energy of the nuclei:
+# Minimum of recrystallisation energy?  [J/cm**3 or MPa]
+0.80000
+# Maximum of recrystallisation energy?  [J/cm**3 or MPa]
+1.0000
+# Determination of grain orientations?
+# Options:   fix   random    fix_direction
+#           [step beween random values in degrees]
+fix
+# Miller indices h,k,l or vector in y-direction [3 reals in one line]
++0.000 +0.000 +1.000
+# Miller indices u,v,w or vector in z-direction [3 reals in one line]
++1.000 +1.000 +0.000
+# Minimal distance between grains (real) [micrometers]?
+50.000
+# Input for grain type 2
+# ----------------------
+# Geometry of grain type 2
+# Options:  round  rectangular  elliptic  round_inverse
+elliptic
+# Minimal value of x-coordinates?  [micrometers]
+-10.0000
+# Maximal value of x-coordinates?  [micrometers]
+260.000
+# Minimal value of z-coordinates?  [micrometers]
+-10.0000
+# Maximal value of z-coordinates?  [micrometers]
+510.000
+# Minimal length of axis along x-axis?  [micrometers]
+150.000
+# Maximal length of axis along x-axis?  [micrometers]
+160.000
+# Minimal length of axis along z-axis?  [micrometers]
+300.000
+# Maximal length of axis along z-axis?  [micrometers]
+310.000
+# Should the Voronoi criterion for grains of type 2 be applied?
+# Options:    voronoi     no_voronoi
+voronoi
+# Phase number for grain type 2? (int)
+1
+# Input of minimal and maximal energy of the nuclei:
+# Minimum of recrystallisation energy?  [J/cm**3 or MPa]
+1.8000
+# Maximum of recrystallisation energy?  [J/cm**3 or MPa]
+2.0000
+# Determination of grain orientations?
+# Options:   fix   random    fix_direction
+#           [step beween random values in degrees]
+fix
+# Miller indices h,k,l or vector in y-direction [3 reals in one line]
++1.000 +1.000 +3.000
+# Miller indices u,v,w or vector in z-direction [3 reals in one line]
++1.000 -1.000 +0.000
+# Minimal distance between grains (real) [micrometers]?
+50.000
+# Input for grain type 3
+# ----------------------
+# Geometry of grain type 3
+# Options:  round  rectangular  elliptic  round_inverse
+elliptic
+# Minimal value of x-coordinates?  [micrometers]
+-10.0000
+# Maximal value of x-coordinates?  [micrometers]
+260.000
+# Minimal value of z-coordinates?  [micrometers]
+-10.0000
+# Maximal value of z-coordinates?  [micrometers]
+510.000
+# Minimal length of axis along x-axis?  [micrometers]
+150.000
+# Maximal length of axis along x-axis?  [micrometers]
+160.000
+# Minimal length of axis along z-axis?  [micrometers]
+300.000
+# Maximal length of axis along z-axis?  [micrometers]
+310.000
+# Should the Voronoi criterion for grains of type 3 be applied?
+# Options:    voronoi     no_voronoi
+voronoi
+# Phase number for grain type 3? (int)
+1
+# Input of minimal and maximal energy of the nuclei:
+# Minimum of recrystallisation energy?  [J/cm**3 or MPa]
+2.0000
+# Maximum of recrystallisation energy?  [J/cm**3 or MPa]
+3.0000
+# Determination of grain orientations?
+# Options:   fix   random    fix_direction
+#           [step beween random values in degrees]
+fix_direction
+# Global direction to be fixed
+# Options:  x   (-> fixed Miller-indices QRS)
+#           y   (-> fixed Miller-indices HKL)
+#           z   (-> fixed Miller-indices UVW)
+y
+# Vector in y-direction (Miller-indices HKL) [3 reals in one line]
+1.000 -0.407 -0.121
+# Minimal distance between grains (real) [micrometers]?
+50.000
+# Input for grain type 4
+# ----------------------
+# Geometry of grain type 4
+# Options:  round  rectangular  elliptic  round_inverse
+elliptic
+# Minimal value of x-coordinates?  [micrometers]
+-10.0000
+# Maximal value of x-coordinates?  [micrometers]
+260.000
+# Minimal value of z-coordinates?  [micrometers]
+-10.0000
+# Maximal value of z-coordinates?  [micrometers]
+510.000
+# Minimal length of axis along x-axis?  [micrometers]
+150.000
+# Maximal length of axis along x-axis?  [micrometers]
+160.000
+# Minimal length of axis along z-axis?  [micrometers]
+300.000
+# Maximal length of axis along z-axis?  [micrometers]
+310.000
+# Should the Voronoi criterion for grains of type 4 be applied?
+# Options:    voronoi     no_voronoi
+voronoi
+# Phase number for grain type 4? (int)
+1
+# Input of minimal and maximal energy of the nuclei:
+# Minimum of recrystallisation energy?  [J/cm**3 or MPa]
+3.8000
+# Maximum of recrystallisation energy?  [J/cm**3 or MPa]
+4.0000
+# Determination of grain orientations?
+# Options:   fix   random    fix_direction
+#           [step beween random values in degrees]
+fix
+# Miller indices h,k,l or vector in y-direction [3 reals in one line]
++1.000 +1.000 +0.000
+# Miller indices u,v,w or vector in z-direction [3 reals in one line]
++1.000 -1.000 +0.000
+# Minimal distance between grains (real) [micrometers]?
+50.000
+#
+#
+# Data for further nucleation
+# ===========================
+# Enable further nucleation?
+# Options:  nucleation   nucleation_symm   no_nucleation  [verbose|no_verbose]
+nucleation
+# Additional output for nucleation?
+# Options:     out_nucleation     no_out_nucleation
+no_out_nucleation
+#
+# Number of types of seeds?
+2
+#
+# Input for seed type 1:
+# ----------------------
+# Type of 'position' of the seeds?
+# Options:   bulk  region  interface  triple  quadruple  front  [restrictive]
+interface
+# Phase of new grains (integer) [unresolved|add_to_grain]?
+1
+# Reference phase (integer) [min. and max. fraction (real)]?
+1
+# Substrate phase [2nd phase in interface]?
+# (set to 1 to disable the effect of substrate curvature)
+1
+# maximum number of new nuclei 1?
+# (set negative for unlimited number)
+100
+# Grain radius [micrometers]?
+0.700000
+# Choice of growth mode:
+# Options:   stabilisation analytical_curvature
+stabilisation
+# critical recrystallisation energy [J/cm**3 or MPa]?
+1.5000
+# Determination of nuclei orientations?
+# Options:   random    fix     fix_direction   parent_relation
+parent_relation
+# Minimal value of rotation angle? [Degree]
++0.000
+# Maximal value of rotation angle? [Degree]
++15.00
+# Referring to which coordinate system shall the rotation axis be defined?
+# local  (system of the crystal)
+# global (system of the workpiece)
+global
+# Rotation axis? [3 reals in one line]
++0.000 +1.000 +0.000
+# Shield effect:
+# Shield time [s] [shield phase or group number] ?
+100.00
+# Shield distance [micrometers]  [ nucleation distance [micrometers] ]?
+25.000
+# Input of minimal and maximal energy of the nuclei:
+# Minimum of recrystallisation energy?  [J/cm**3 or MPa]
+0.0000
+# Maximum of recrystallisation energy?  [J/cm**3 or MPa]
+0.0000
+# Nucleation range
+# min. nucleation temperature for seed type 1 [K]
+998.5000
+# max. nucleation temperature for seed type 1 [K]
+1001.000
+# Time between checks for nucleation? [s]
+# Options:  constant   from_file
+constant
+# Time interval [s]
+1.50000E-02
+# Shall random noise be applied?
+# Options:     nucleation_noise   no_nucleation_noise
+nucleation_noise
+# Factor for random noise?
+# (applied as DeltaT -> (1+Factor*(RAND-1/2))*DeltaT)
+1.000E-03
+#
+# Input for seed type 2:
+# ----------------------
+# Type of 'position' of the seeds?
+# Options:   bulk  region  interface  triple  quadruple  front  [restrictive]
+region
+# Minimal value of x-coordinates?  [micrometers]
+0.0000
+# Maximal value of x-coordinates?  [micrometers]
+250.00
+# Minimal value of z-coordinates?  [micrometers]
+0.0000
+# Maximal value of z-coordinates?  [micrometers]
+250.00
+# Phase of new grains (integer) [unresolved|add_to_grain]?
+1
+# Reference phase (integer) [min. and max. fraction (real)]?
+1
+# Which nucleation model shall be used?
+# Options:    seed_undercooling    seed_density
+seed_undercooling
+# maximum number of new nuclei 2?
+# (set negative for unlimited number)
+100
+# Grain radius [micrometers]?
+0.700000
+# Choice of growth mode:
+# Options:   stabilisation analytical_curvature
+stabilisation
+# critical recrystallisation energy [J/cm**3 or MPa]?
+2.5000
+# Determination of nuclei orientations?
+# Options:   random    fix     fix_direction   parent_relation
+parent_relation
+# Minimal value of rotation angle? [Degree]
++20.00
+# Maximal value of rotation angle? [Degree]
++25.00
+# Referring to which coordinate system shall the rotation axis be defined?
+# local  (system of the crystal)
+# global (system of the workpiece)
+global
+# Rotation axis? [3 reals in one line]
++0.000 +1.000 +0.000
+# Shield effect:
+# Shield time [s] [shield phase or group number] ?
+100.00
+# Shield distance [micrometers]  [ nucleation distance [micrometers] ]?
+25.000
+# Input of minimal and maximal energy of the nuclei:
+# Minimum of recrystallisation energy?  [J/cm**3 or MPa]
+0.0000
+# Maximum of recrystallisation energy?  [J/cm**3 or MPa]
+0.0000
+# Nucleation range
+# min. nucleation temperature for seed type 2 [K]
+998.5000
+# max. nucleation temperature for seed type 2 [K]
+1001.000
+# Time between checks for nucleation? [s]
+# Options:  constant   from_file
+constant
+# Time interval [s]
+1.50000E-02
+# Shall random noise be applied?
+# Options:     nucleation_noise   no_nucleation_noise
+nucleation_noise
+# Factor for random noise?
+# (applied as DeltaT -> (1+Factor*(RAND-1/2))*DeltaT)
+1.000E-03
+#
+# Seed for random-number generator initialisation
+# -----------------------------------------------
+7
+#
+# Max. number of simultaneous nucleations?
+# ----------------------------------------
+# (set to 0 for automatic)
+5
+#
+# Shall metastable small seeds be killed?
+# ---------------------------------------
+# Options:     kill_metastable      no_kill_metastable
+no_kill_metastable
+#
+#
+# Phase interaction data
+# ======================
+#
+# Data for phase interaction 0 / 1:
+# ---------------------------------
+# Simulation of interaction between phases 0 and 1?
+# Options: phase_interaction  no_phase_interaction
+#  [standard|particle_pinning[_temperature]|solute_drag]
+no_phase_interaction
+#
+# Data for phase interaction 1 / 1:
+# ---------------------------------
+# Simulation of interaction between phases 1 and 1?
+# Options: phase_interaction  no_phase_interaction  identical phases nb
+#  [standard|particle_pinning[_temperature]|solute_drag]
+phase_interaction
+# Type of interfacial energy definition between phases 1 and 1?
+# Options:  constant  temp_dependent
+constant
+# Interfacial energy between phases 1 and 1? [J/cm**2]
+#     [max. value for num. interface stabilisation [J/cm**2]]
+5.00000E-05
+# Type of mobility definition between phases 1 and 1?
+# Options: constant temp_dependent dg_dependent [fixed_minimum]
+constant
+# Kinetic coefficient mu between phases 1 and 1  [ min. value ] [cm**4/(Js)] ?
+5.00000E-04
+# Shall misorientation be considered?
+# Options:   misorientation    no_misorientation
+#           [low_angle_limit (degrees)] default:15    [special_orient (nb)]
+misorientation  15.
+# Input of the misorientation coefficients:
+# Modification of interfacial energy for low angle boundaries
+# Options:  factor   read-shockley
+factor
+# Prefactor of interfacial energy for low angle boundaries?
+0.20000
+# Modification of the mobility for low angle boundaries
+# Options:  factor   humphreys [min_reduction + parameters B and N
+#                         (default: min_reduction=0. B=5.0 N=4.0)]
+factor
+# Prefactor of interfacial mobility for low angle boundaries?
+0.10000
+#
+#
+# Phase diagram - input data
+# ==========================
+#
+#
+#
+#
+# Boundary conditions
+# ===================
+# Type of temperature trend?
+# Options:   linear     linear_from_file     profiles_from_file
+linear
+# Number of connecting points?    (integer)
+0
+# Initial temperature at the bottom?  (real)  [K]
+1000.000
+# Temperature gradient in z-direction?  [K/cm]
+0.0000
+# Cooling rate? [K/s]
+-1.0000
+# Moving-frame system in z-direction?
+# Options:      moving_frame      no_moving_frame
+no_moving_frame
+#
+# Boundary conditions for phase field in each direction
+# Options: i (insulation) s (symmetric) p (periodic/wrap-around)
+#          g (gradient)   f (fixed)     w (wetting)
+# Sequence: W E (S N, if 3D) B T borders
+ppii
+# Unit-cell model symmetric with respect to the x/y diagonal plane?
+# Options:    unit_cell_symm   no_unit_cell_symm
+no_unit_cell_symm
+#
+#
+# Other numerical parameters
+# ==========================
+# Phase minimum?
+5.00E-03
+# Interface thickness (in cells)?
+4.00
+#
+#

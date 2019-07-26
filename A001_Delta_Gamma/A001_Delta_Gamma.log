@@ -1,0 +1,846 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/18/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: enabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 22/01/2018 (11:31)
+ Machine: n024
+ Driving file: A001_Delta_Gamma_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 500, 1, 1500
+ deltaX, deltaY, deltaZ [cm] = 1.0000E-04, 1.0000E-04, 1.0000E-04
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Multi-obstacle' potential
+ 1d_far_field 501
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 19
+ Intermediate output at t       = 1.0000000E-02 s
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 2.5000000E+00 s
+ Intermediate output at t       = 5.0000000E+00 s
+ Intermediate output at t       = 7.5000000E+00 s
+ Intermediate output at t       = 1.0000000E+01 s
+ Intermediate output at t       = 1.2500000E+01 s
+ Intermediate output at t       = 1.5000000E+01 s
+ Intermediate output at t       = 1.7500000E+01 s
+ Intermediate output at t       = 2.0000000E+01 s
+ Intermediate output at t       = 2.2500000E+01 s
+ Intermediate output at t       = 2.5000000E+01 s
+ Intermediate output at t       = 2.7500000E+01 s
+ Intermediate output at t       = 3.0000000E+01 s
+ Intermediate output at t       = 3.2500000E+01 s
+ Intermediate output at t       = 3.5000000E+01 s
+ Intermediate output at t       = 4.0000000E+01 s
+ Intermediate output at t       = 4.5000000E+01 s
+ Intermediate output at t       = 5.0000000E+01 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.000E+20
+ Lower limit for time step: 1.000E-04
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 0
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 2
+ Grain orientations will be defined by 2D angles.
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 1
+ Input data for grain number 1:
+  'Round' grain.
+  x,z coordinates               : 0.500000, 0.500000 micrometers
+  Grain radius                  : 0.00000 micrometers
+  Grain 1 is stabilized
+  No Voronoi construction
+  Phase number                  : 1
+  Rotation angle                : 0.000000000000000E+000  degree
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 1
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  The influence of the curvature undercooling will not be taken into account.
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1 is unlimited
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 1.0000
+  Determination of grain orientations is 'parent_relation'
+  Minimal value of rotation angle -5.000
+  Maximal value of rotation angle +5.000
+  Shield time [s]: 100.00
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 25.000
+  min. nucleation temperature for seed type 1: 1700.0000 K
+  max. nucleation temperature for seed type 1: 1765.0000 K
+  Time between checks for nucleation: 1.0000 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Max. number of simultaneous nucleations: 2147483647
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  Averaging coefficient        Av = +0.50
+  Maximal driving force     dGMax = 100.00 [J/cm**3]
+  Interfacial energy        sigma = 2.04000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E+00 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 0.3000000
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 0.3000000
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will be simulated.
+  Interaction parameters between phases  0  and 2:
+  Averaging coefficient        Av = +0.50
+  Maximal driving force     dGMax = 100.00 [J/cm**3]
+  Interfacial energy        sigma = 2.04000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E+00 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 0.3000000
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 0.3000000
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will not be simulated.
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will be simulated.
+  Interaction parameters between phases  1  and 2:
+  Averaging coefficient        Av = +0.50
+  Maximal driving force     dGMax = 1000.0 [J/cm**3]
+  Interfacial energy        sigma = 5.04000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E+00 [cm**4/(Js)]
+  Misorientation will not be considered.
+  Phases  1 /  2 have an isotropic interaction.
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will not be simulated.
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 2
+ Concentration in atom percent at%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will be solved.
+ Diff.-coefficient:
+ Prefactor: 2.000000000000000E-005 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+ Diffusion of component 1  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 1  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 0  will be solved.
+ Diff.-coefficient:
+ Prefactor: 2.000000000000000E-005 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+ Diffusion of component 2  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 2  will be solved with user-defined diffusion matrix
+ Interval for updating diffusion coefficients data: 5.0000 [s]
+
+
+ Phase diagram - input data
+ **************************
+
+ Name of Thermo-Calc *.GES5 file: GES_Files/TC2015a_FeCMn
+ Interval for updating thermodynamic data [s] = 0.50000
+
+ Input of the phase diagram of phase 0 and phase 1:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+ Redistribution characteristics of components:
+ 1:  normal mobility correction
+ 2:  normal mobility correction
+
+ Input of the phase diagram of phase 0 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+ Redistribution characteristics of components:
+ 1:  normal mobility correction
+ 2:  normal mobility correction
+
+ Input of the phase diagram of phase 1 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+ Redistribution characteristics of components:
+ 1:  normal mobility correction
+ 2:  nple nple
+ # Reading GES5 workspace ...
+ The database contains the following components:
+ 1: C
+ 2: FE
+ 3: MN
+ Thermo-Calc index of (MICRESS) component 0 = 2
+ Thermo-Calc index of (MICRESS) component 1 = 1
+ Thermo-Calc index of (MICRESS) component 2 = 3
+ 0 -> FE
+ 1 -> C
+ 2 -> MN
+ The database contains 4 phases:
+ 1: LIQUID
+ 2: BCC_A2
+ 3: CEMENTITE
+ 4: FCC_A1
+ Thermo-Calc index of the (MICRESS) phase 0 = 1
+ Thermo-Calc index of the (MICRESS) phase 1 = 2
+ Thermo-Calc index of the (MICRESS) phase 2 = 4
+ 0 -> LIQUID
+ 1 -> BCC_A2
+ 2 -> FCC_A1
+ # Molar volume of phase 0 (LIQUID): 8.0000 [cm**3/mol]
+ # Molar volume of phase 1 (BCC_A2): 8.0000 [cm**3/mol]
+ # Molar volume of phase 2 (FCC_A1): 8.0000 [cm**3/mol]
+ initial equilibrium at T = 1786.000
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 0
+ Initial concentration of component 1 (C) in phase 0 (LIQUID) = 1.000000000 at%
+ Initial concentration of component 2 (MN) in phase 0 (LIQUID) = 1.000000000 at%
+ 1D far-field diffusion approximation was set.
+ Number of cells for the 1D external field: 501
+ 1D-distance [micrometers] = 200.0
+ 1D-distance [cells]       = 200
+ Concentration for 1D extension set homogeneous for component 1
+ Concentration for 1D extension set homogeneous for component 2
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1786.000 K
+ Temperature gradient at beginning: 250.00 K/cm
+ Cooling rate: -1.0000 K/s
+ Simulation domain shifted in z-direction
+ minimal distance to the upper boundary MovingFrameDist = 200.0000 micrometer
+ Data shifted out from moving-frame system will not be stored
+ 
+ In W-direction symmetric boundary condition for phase field
+ In E-direction symmetric boundary condition for phase field
+ In B-direction isolation boundary condition for phase field
+ In T-direction isolation boundary condition for phase field
+ 
+ In W-direction symmetric boundary condition for concentration field
+ In E-direction symmetric boundary condition for concentration field
+ In B-direction isolation boundary condition for concentration field
+ In T-direction fixed boundary condition for concentration field
+ Fixed value for concentration field for component 1 in T-direction 1.00000 at%
+ Fixed value for concentration field for component 2 in T-direction 1.00000 at%
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.00000000000000
+ Number of parallel threads: 6
+
+
+ Beginning of initialisation
+ ***************************
+  Grain number 1 set
+
+ Start Composition for iteration of quasi-equilibrium
+ ****************************************************
+  FE in LIQUID:  98.01980
+  C in LIQUID: 0.9803922
+  MN in LIQUID: 0.9998059
+  FE in BCC_A2:  96.14901
+  C in BCC_A2:  2.860741
+  MN in BCC_A2: 0.9902453
+  FE in FCC_A1:  98.00255
+  C in FCC_A1: 0.9257909
+  MN in FCC_A1:  1.071662
+
+ # The linearisation parameters of the phases LIQUID/BCC_A2 are:
+ # -------------------------------------------------------------
+ 1786.0000            ! T0 [K]
+ -2.8378039           ! dG [J/cm**3]
+ 0.94428659           ! dSf+ [J/cm**3K]
+ 0.88523289           ! dSf- [J/cm**3K]
+ 1667.7901            ! dH [J/cm3]
+ 1.0002691952475      ! c0(C)/LIQUID
+ 0.16905575626966     ! c0(C)/BCC_A2
+ 1.0000260506626      ! c0(MN)/LIQUID
+ 0.72978789294020     ! c0(MN)/BCC_A2
+ -17.653329           ! m(C)/LIQUID
+ -104.62040           ! m(C)/BCC_A2
+ -4.9863669           ! m(MN)/LIQUID
+ -7.7554302           ! m(MN)/BCC_A2
+ -3.47319686E-03      ! dcdT(C)/LIQUID
+ 5.43454658E-04       ! dcdT(C)/BCC_A2
+ -2.44110399E-04      ! dcdT(MN)/LIQUID
+ 1.21097969E-04       ! dcdT(MN)/BCC_A2
+ Initial concentration in the phases:
+ LIQUID, FE: 98.00000 at%
+ LIQUID, C: 1.000000 at%
+ LIQUID, MN: 1.000000 at%
+ BCC_A2, FE: 99.10116 at%
+ BCC_A2, C: 0.1690558 at%
+ BCC_A2, MN: 0.7297879 at%
+ 
+ # tWidth_max( 0 : 1 ) = 8.9555053E-05 s
+ # tWidth_max( 0 : 2 ) = 8.9555053E-05 s
+ # tWidth_max( 1 : 2 ) = 4.7123016E-05 s
+ # Maximal value for tWidth = 4.7123016E-05 s for phase-field solver
+ Updating of diffusion data from database...
+ # Maximal value for tWidth = 3.3141020E-05 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 3.14840E-05 s
+ # Initial value for tWidth = 3.14840E-05 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 0.21604 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 3.15E-05 s
+ Average conc. of comp. 1 = 1.0000000 at%
+ Average conc. of comp. 2 = 1.0000000 at%
+ Temperature at the bottom = 1786.0 K
+ Temperature gradient = 250.000 K/cm
+ Fraction of phase 0: 1.00000
+ Fraction of phase 1: 0.00000
+ Fraction of phase 2: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Grain 1 reaches full size at t = 9.634712E-03 s
+
+ Intermediate output for t = 1.00000E-02 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 1.35E-04 s
+ Average conc. of comp. 1 = 1.0000000 at%
+ Average conc. of comp. 2 = 1.0000000 at%
+ Temperature at the bottom = 1786.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 112 s
+ Current phase-field solver time step = 1.55E-04 s
+ Average conc. of comp. 1 = 1.0000000 at%
+ Average conc. of comp. 2 = 1.0000000 at%
+ Temperature at the bottom = 1785.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 2.5000 s
+ CPU-time: 238 s
+ Current phase-field solver time step = 1.53E-04 s
+ Average conc. of comp. 1 = 1.0000000 at%
+ Average conc. of comp. 2 = 1.0000000 at%
+ Temperature at the bottom = 1783.5 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 782 s
+ Current phase-field solver time step = 1.52E-04 s
+ Average conc. of comp. 1 = 1.0000002 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1781.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 7.5000 s
+ CPU-time: 1125 s
+ Current phase-field solver time step = 1.54E-04 s
+ Average conc. of comp. 1 = 1.0000003 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1778.5 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 1410 s
+ Current phase-field solver time step = 1.54E-04 s
+ Average conc. of comp. 1 = 1.0000004 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1776.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 12.500 s
+ CPU-time: 1921 s
+ Current phase-field solver time step = 1.55E-04 s
+ Average conc. of comp. 1 = 1.0000004 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1773.5 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 15.000 s
+ CPU-time: 2760 s
+ Current phase-field solver time step = 1.54E-04 s
+ Average conc. of comp. 1 = 1.0000004 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1771.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 17.500 s
+ CPU-time: 4033 s
+ Current phase-field solver time step = 1.55E-04 s
+ Average conc. of comp. 1 = 1.0000005 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1768.5 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 20.000 s
+ CPU-time: 4954 s
+ Current phase-field solver time step = 1.55E-04 s
+ Average conc. of comp. 1 = 1.0000005 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1766.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 22.500 s
+ CPU-time: 5538 s
+ Current phase-field solver time step = 1.55E-04 s
+ Average conc. of comp. 1 = 1.0000005 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1763.5 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ # The linearisation parameters of the phases LIQUID/FCC_A1 are:
+ # -------------------------------------------------------------
+ 1764.3750            ! T0 [K]
+ -0.39993716          ! dG [J/cm**3]
+ 1.0243766            ! dSf+ [J/cm**3K]
+ 0.98358904           ! dSf- [J/cm**3K]
+ 1765.2092            ! dH [J/cm3]
+ 2.2459757506831      ! c0(C)/LIQUID
+ 0.71764705590016     ! c0(C)/FCC_A1
+ 1.3168384341797      ! c0(MN)/LIQUID
+ 0.97653626006750     ! c0(MN)/FCC_A1
+ -14.551365           ! m(C)/LIQUID
+ -41.866465           ! m(C)/FCC_A1
+ -4.0681502           ! m(MN)/LIQUID
+ -6.1867360           ! m(MN)/FCC_A1
+ -2.76127428E-03      ! dcdT(C)/LIQUID
+ 6.25111316E-04       ! dcdT(C)/FCC_A1
+ 8.92003606E-05       ! dcdT(MN)/LIQUID
+ -1.19946100E-04      ! dcdT(MN)/FCC_A1
+
+ # Minimum undercooling for stable growth, seed type 1: 0.3982910 K [r=1.000000 mic.]
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 25.000 s
+ CPU-time: 6109 s
+ Current phase-field solver time step = 1.55E-04 s
+ Average conc. of comp. 1 = 1.0000005 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1761.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Seed number 1 set at time t = 27.000 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1761.7 K
+ Undercooling = 1.0993 K
+ Grain number = 2
+
+ Seed number 2 set at time t = 27.000 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1761.9 K
+ Undercooling = 1.0210 K
+ Grain number = 3
+
+ Seed number 3 set at time t = 27.000 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1762.1 K
+ Undercooling = 1.0061 K
+ Grain number = 4
+
+ # The linearisation parameters of the phases BCC_A2/FCC_A1 are:
+ # -------------------------------------------------------------
+ 1761.7000            ! T0 [K]
+ 0.65215384           ! dG [J/cm**3]
+ 0.10489824           ! dSf+ [J/cm**3K]
+ 9.23271899E-02       ! dSf- [J/cm**3K]
+ 156.57792            ! dH [J/cm3]
+ 0.30563936943030     ! c0(C)/BCC_A2
+ 0.58106343117795     ! c0(C)/FCC_A1
+ 0.83335051914442     ! c0(MN)/BCC_A2
+ 0.87297368548719     ! c0(MN)/FCC_A1
+ 161.13244            ! m(C)/BCC_A2
+ 98.210390            ! m(C)/FCC_A1
+ 8.1515405            ! m(MN)/BCC_A2
+ 8.3501338            ! m(MN)/FCC_A1
+ 7.43117685E-04       ! dcdT(C)/BCC_A2
+ -1.38921531E-03      ! dcdT(C)/FCC_A1
+ 3.04918009E-04       ! dcdT(MN)/BCC_A2
+ -3.31863748E-04      ! dcdT(MN)/FCC_A1
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 27.000 s
+ CPU-time: 5291 s
+ Current phase-field solver time step = 1.00E-04 s
+ Average conc. of comp. 1 = 1.0000005 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1759.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+
+ Grain 2 reaches full size at t = 27.0045 s
+
+ Grain 3 reaches full size at t = 27.0051 s
+
+ Grain 4 reaches full size at t = 27.0057 s
+
+ Intermediate output for t = 27.500 s
+ CPU-time: 2303 s
+ Current phase-field solver time step = 1.00E-04 s
+ Average conc. of comp. 1 = 1.0000004 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1758.5 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+
+ Seed number 4 set at time t = 28.000 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1761.3 K
+ Undercooling = 1.1929 K
+ Grain number = 5
+
+ Seed number 5 set at time t = 28.000 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1761.5 K
+ Undercooling = 1.1283 K
+ Grain number = 6
+
+ Seed number 6 set at time t = 28.000 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1761.7 K
+ Undercooling = 1.1531 K
+ Grain number = 7
+
+ Seed number 7 set at time t = 28.000 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (FCC_A1)
+ Seed type: 1
+ Local temperature = 1761.8 K
+ Undercooling = 1.0477 K
+ Grain number = 8
+ complete relinearisation!
+
+ Intermediate output for t = 28.000 s
+ CPU-time: 2409 s
+ Current phase-field solver time step = 1.00E-04 s
+ Average conc. of comp. 1 = 1.0000004 at%
+ Average conc. of comp. 2 = 1.0000001 at%
+ Temperature at the bottom = 1758.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+
+ Grain 5 reaches full size at t = 28.0040 s
+
+ Grain 7 reaches full size at t = 28.0046 s
+
+ Grain 6 reaches full size at t = 28.0051 s
+
+ Grain 8 reaches full size at t = 28.0052 s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 30.000 s
+ CPU-time: 9571 s
+ Current phase-field solver time step = 1.18E-04 s
+ Average conc. of comp. 1 = 0.9999997 at%
+ Average conc. of comp. 2 = 0.9999999 at%
+ Temperature at the bottom = 1756.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+
+ Intermediate output for t = 32.500 s
+ CPU-time: 11689 s
+ Current phase-field solver time step = 1.05E-04 s
+ Average conc. of comp. 1 = 0.9999941 at%
+ Average conc. of comp. 2 = 0.9999985 at%
+ Temperature at the bottom = 1753.5 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 35.000 s
+ CPU-time: 12221 s
+ Current phase-field solver time step = 1.00E-04 s
+ Average conc. of comp. 1 = 0.9999560 at%
+ Average conc. of comp. 2 = 0.9999888 at%
+ Temperature at the bottom = 1751.0 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 0 layers
+ Velocity of the comoving frame = 0.000 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 40.000 s
+ CPU-time: 22266 s
+ Current phase-field solver time step = 1.44E-04 s
+ Average conc. of comp. 1 = 1.0415439 at%
+ Average conc. of comp. 2 = 1.0137490 at%
+ Temperature at the bottom = 1750.2 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 169 layers
+ Velocity of the comoving frame = 0.3380E-02 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 45.000 s
+ CPU-time: 21262 s
+ Current phase-field solver time step = 1.00E-04 s
+ Average conc. of comp. 1 = 1.0380789 at%
+ Average conc. of comp. 2 = 1.0088685 at%
+ Temperature at the bottom = 1750.2 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 369 layers
+ Velocity of the comoving frame = 0.4000E-02 cm/s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 50.000 s
+ CPU-time: 22508 s
+ Current phase-field solver time step = 1.18E-04 s
+ Average conc. of comp. 1 = 1.0390712 at%
+ Average conc. of comp. 2 = 1.0088842 at%
+ Temperature at the bottom = 1750.2 K
+ Temperature gradient = 250.000 K/cm
+ Simulation area shifted by 568 layers
+ Velocity of the comoving frame = 0.3980E-02 cm/s
+
+ ==================================================
+
+ Simulation run on machine n024
+ Remaining license time: permanent
+ CPU time in seconds:      138518
+ Wall clock time in seconds:  26853
+ End
+ 

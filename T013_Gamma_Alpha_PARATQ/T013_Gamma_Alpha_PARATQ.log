@@ -1,0 +1,2103 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (04:09)
+ Machine: n009
+ Driving file: T013_Gamma_Alpha_PARATQ_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 250, 1, 250
+ deltaX, deltaY, deltaZ [cm] = 2.5000E-05, 2.5000E-05, 2.5000E-05
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Multi-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 27
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 2.0000000E+00 s
+ Intermediate output at t       = 3.0000000E+00 s
+ Intermediate output at t       = 4.0000000E+00 s
+ Intermediate output at t       = 5.0000000E+00 s
+ Intermediate output at t       = 6.0000000E+00 s
+ Intermediate output at t       = 8.0000000E+00 s
+ Intermediate output at t       = 1.0000000E+01 s
+ Intermediate output at t       = 1.5000000E+01 s
+ Intermediate output at t       = 2.0000000E+01 s
+ Intermediate output at t       = 2.5000000E+01 s
+ Intermediate output at t       = 3.0000000E+01 s
+ Intermediate output at t       = 4.0000000E+01 s
+ Intermediate output at t       = 5.0000000E+01 s
+ Intermediate output at t       = 6.0000000E+01 s
+ Intermediate output at t       = 7.0000000E+01 s
+ Intermediate output at t       = 8.0000000E+01 s
+ Intermediate output at t       = 9.0000000E+01 s
+ Intermediate output at t       = 1.0000000E+02 s
+ Intermediate output at t       = 1.2500000E+02 s
+ Intermediate output at t       = 1.5000000E+02 s
+ Intermediate output at t       = 1.7500000E+02 s
+ Intermediate output at t       = 2.0000000E+02 s
+ Intermediate output at t       = 2.2500000E+02 s
+ Intermediate output at t       = 2.5000000E+02 s
+ Intermediate output at t       = 2.7500000E+02 s
+ Intermediate output at t       = 3.0000000E+02 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.00
+ Lower limit for time step: 1.000E-04
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 20
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is isotropic.
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is isotropic.
+ No categorization is allowed for phase 2
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 9
+ Input data for grain number 1:
+  'Round' grain.
+  x,z coordinates               : 51.2400, 20.9700 micrometers
+  Grain radius                  : 23.3600 micrometers
+  Grain 1 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 2:
+  'Round' grain.
+  x,z coordinates               : 52.1000, 47.3650 micrometers
+  Grain radius                  : 25.8600 micrometers
+  Grain 2 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 3:
+  'Round' grain.
+  x,z coordinates               : 37.1300, 23.0300 micrometers
+  Grain radius                  : 23.8100 micrometers
+  Grain 3 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 4:
+  'Round' grain.
+  x,z coordinates               : 3.24500, 21.1300 micrometers
+  Grain radius                  : 23.8700 micrometers
+  Grain 4 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 5:
+  'Round' grain.
+  x,z coordinates               : 13.1700, 35.4850 micrometers
+  Grain radius                  : 27.0200 micrometers
+  Grain 5 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 6:
+  'Round' grain.
+  x,z coordinates               : 29.3050, 12.8200 micrometers
+  Grain radius                  : 27.7700 micrometers
+  Grain 6 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 7:
+  'Round' grain.
+  x,z coordinates               : 4.78500, 31.4650 micrometers
+  Grain radius                  : 25.3700 micrometers
+  Grain 7 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 8:
+  'Round' grain.
+  x,z coordinates               : 2.15500, 2.49000 micrometers
+  Grain radius                  : 27.9450 micrometers
+  Grain 8 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 9:
+  'Round' grain.
+  x,z coordinates               : 42.1750, 4.61000 micrometers
+  Grain radius                  : 24.1500 micrometers
+  Grain 9 is stabilized
+  Voronoi construction
+  Phase number                  : 1
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 3
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: higher-order junctions
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 250
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 1: 0.0000 K
+  max. nucleation temperature for seed type 1: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Input for seed type 2:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  Nucleation driving force for seed type 2 will be undercooling.
+  Seed type 2 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 2: 500
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 2: 0.0000 K
+  max. nucleation temperature for seed type 2: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Input for seed type 3:
+ ----------------------
+  Type of 'position' of the seeds: bulk
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 3 will be undercooling.
+  Seed type 3 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 3: 500
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 50.000
+  Shield time [s]: 50.000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 3: 0.0000 K
+  max. nucleation temperature for seed type 3: 1200.0000 K
+  Time between checks for nucleation: 1.0100 [s]
+  No random noise will be applied.
+
+ Other nucleation parameters
+ ---------------------------
+  Max. number of simultaneous nucleations: 1250
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will not be simulated.
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will not be simulated.
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will be simulated.
+  Interaction parameters between phases  1  and 1:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-05 [cm**4/(Js)]
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will be simulated.
+  Interaction parameters between phases  1  and 2:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 2.20000E-06 [cm**4/(Js)]
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will be simulated.
+  Interaction parameters between phases  2  and 2:
+  Interfacial energy        sigma = 2.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-05 [cm**4/(Js)]
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 2
+ Concentration in weight percent wt%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will not be solved.
+ Diffusion of component 1  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 1  in phase 2  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 0  will not be solved.
+ Diffusion of component 2  in phase 1  will be solved with user-defined diffusion matrix
+ Diffusion of component 2  in phase 2  will be solved with user-defined diffusion matrix
+ Interval for updating diffusion coefficients data: 5.0000 [s]
+
+
+ Phase diagram - input data
+ **************************
+
+ Name of Thermo-Calc *.GES5 file: GES_Files/TC2015a_FeCMn
+ Interval for updating thermodynamic data [s] = 1.0000
+
+ Input of the phase diagram of phase 1 and phase 2:
+ --------------------------------------------------
+ TC-Coupling activated
+ No relinearisation is done per Interface!
+ Redistribution characteristics of components:
+ 1:  normal normal
+ 2:  paratq
+ # Reading GES5 workspace ...
+ The database contains the following components:
+ 1: C
+ 2: FE
+ 3: MN
+ Thermo-Calc index of (MICRESS) component 0 = 2
+ Thermo-Calc index of (MICRESS) component 1 = 1
+ Thermo-Calc index of (MICRESS) component 2 = 3
+ 0 -> FE
+ 1 -> C
+ 2 -> MN
+ The database contains 4 phases:
+ 1: LIQUID
+ 2: BCC_A2
+ 3: CEMENTITE
+ 4: FCC_A1
+ Thermo-Calc index of the (MICRESS) phase 1 = 4
+ Thermo-Calc index of the (MICRESS) phase 2 = 2
+ 1 -> FCC_A1
+ 2 -> BCC_A2
+ # Molar volume of phase 1 (FCC_A1): 7.1824 [cm**3/mol]
+ # Molar volume of phase 2 (BCC_A2): 7.2757 [cm**3/mol]
+ initial equilibrium at T = 1100.000
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 1
+ Initial concentration of component 1 (C) in phase 1 (FCC_A1) = 0.1000000000 wt%
+ Initial concentration of component 2 (MN) in phase 1 (FCC_A1) = 1.500000000 wt%
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1023.000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: 0.0000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction periodic/wrap-around boundary condition for phase field
+ In E-direction periodic/wrap-around boundary condition for phase field
+ In B-direction periodic/wrap-around boundary condition for phase field
+ In T-direction periodic/wrap-around boundary condition for phase field
+ 
+ In W-direction periodic/wrap-around boundary condition for concentration field
+ In E-direction periodic/wrap-around boundary condition for concentration field
+ In B-direction periodic/wrap-around boundary condition for concentration field
+ In T-direction periodic/wrap-around boundary condition for concentration field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ # Grain number 1 set
+ # Grain number 2 set
+ # Grain number 3 set
+ # Grain number 4 set
+ # Grain number 5 set
+ # Grain number 6 set
+ # Grain number 7 set
+ # Grain number 8 set
+ # Grain number 9 set
+
+ Start Composition for iteration of quasi-equilibrium
+ ****************************************************
+  FE in FCC_A1:  98.00255
+  C in FCC_A1: 0.9257909
+  MN in FCC_A1:  1.071662
+  FE in BCC_A2:  96.14901
+  C in BCC_A2:  2.860741
+  MN in BCC_A2: 0.9902453
+ Initial concentration in the phases:
+ FCC_A1, FE: 98.40000 wt%
+ FCC_A1, C: 0.1000000 wt%
+ FCC_A1, MN: 1.500000 wt%
+ 
+ # tWidth_max( 1 : 1 ) = 0.7421875 s
+ # tWidth_max( 1 : 2 ) = 3.373580 s
+ # tWidth_max( 2 : 2 ) = 0.7421875 s
+ # Maximal value for tWidth = 0.7421875 s for phase-field solver
+ Updating of diffusion data from database...
+ # Maximal value for tWidth = 1.9431420E-02 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 1.84598E-02 s
+ # Initial value for tWidth = 1.84598E-02 s for automatic time stepping (phase-field solver)
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 1.85E-02 s
+ Average conc. of comp. 1 = 0.1000000 wt%
+ Average conc. of comp. 2 = 1.5000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ Fraction of phase 0: 0.00000
+ Fraction of phase 1: 1.00000
+ Fraction of phase 2: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 7.42E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ # The linearisation parameters of the phases FCC_A1/BCC_A2 are:
+ # -------------------------------------------------------------
+ 1023.0000            ! T0 [K]
+ -13.389697           ! dG [J/cm**3]
+ 0.32167507           ! dSf+ [J/cm**3K]
+ 0.27725422           ! dSf- [J/cm**3K]
+ 0.0000000            ! dH [J/cm3]
+ 0.10006238752599     ! c0(C)/FCC_A1
+ 2.25109654842448E-03 ! c0(C)/BCC_A2
+ 1.4999499555728      ! c0(MN)/FCC_A1
+ 1.5014185454945      ! c0(MN)/BCC_A2
+ -177.85954           ! m(C)/FCC_A1
+ -8493.1565           ! m(C)/BCC_A2
+ -35.034903           ! m(MN)/FCC_A1
+ -39.643362           ! m(MN)/BCC_A2
+ -7.23396627E-04      ! dcdT(C)/FCC_A1
+ 1.71179182E-05       ! dcdT(C)/BCC_A2
+ 5.04894189E-05       ! dcdT(MN)/FCC_A1
+ -1.19480338E-06      ! dcdT(MN)/BCC_A2
+
+ # Minimum undercooling for stable growth, seed type 1: 4.973963 K [r=0.2500000 mic.]
+
+ # Minimum undercooling for stable growth, seed type 2: 4.973963 K [r=0.2500000 mic.]
+
+ # Minimum undercooling for stable growth, seed type 3: 4.973963 K [r=0.2500000 mic.]
+
+ Seed number 1 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 10
+
+ Seed number 2 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 11
+
+ Seed number 3 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 12
+
+ Seed number 4 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 13
+
+ Seed number 5 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 14
+
+ Seed number 6 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 15
+
+ Seed number 7 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 16
+
+ Seed number 8 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 17
+
+ Seed number 9 set at time t = 1.0100 s
+ --------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 18
+
+ Seed number 10 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 19
+
+ Seed number 11 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 20
+
+ Seed number 12 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 21
+
+ Seed number 13 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 22
+
+ Seed number 14 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 23
+
+ Seed number 15 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 24
+
+ Seed number 16 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 25
+
+ Seed number 17 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 26
+
+ Seed number 18 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 27
+
+ Seed number 19 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 28
+
+ Seed number 20 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 29
+
+ Seed number 21 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 30
+
+ Seed number 22 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 31
+
+ Seed number 23 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 32
+
+ Seed number 24 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 33
+
+ Seed number 25 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 34
+
+ Seed number 26 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 35
+
+ Seed number 27 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 36
+
+ Seed number 28 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 37
+
+ Seed number 29 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 38
+
+ Seed number 30 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 39
+
+ Seed number 31 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 40
+
+ Seed number 32 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 41
+
+ Seed number 33 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 42
+
+ Seed number 34 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 43
+
+ Seed number 35 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 44
+
+ Seed number 36 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 45
+
+ Seed number 37 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 46
+
+ Seed number 38 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 47
+
+ Seed number 39 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 48
+
+ Seed number 40 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 49
+
+ Seed number 41 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 50
+
+ Seed number 42 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 51
+
+ Seed number 43 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 52
+
+ Seed number 44 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 53
+
+ Seed number 45 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 54
+
+ Seed number 46 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 55
+
+ Seed number 47 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 56
+
+ Seed number 48 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 57
+
+ Seed number 49 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 58
+
+ Seed number 50 set at time t = 1.0100 s
+ ---------------------------------------
+ at an interface
+ Phase: 2 (BCC_A2)
+ Seed type: 2
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 59
+
+ Seed number 51 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 60
+
+ Seed number 52 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 61
+
+ Seed number 53 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 62
+
+ Seed number 54 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 63
+
+ Seed number 55 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 64
+
+ Seed number 56 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 65
+
+ Seed number 57 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 66
+
+ Seed number 58 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 67
+
+ Seed number 59 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 68
+
+ Seed number 60 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 69
+
+ Seed number 61 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 70
+
+ Seed number 62 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 71
+
+ Seed number 63 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 72
+
+ Seed number 64 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 73
+
+ Seed number 65 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 74
+
+ Seed number 66 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 75
+
+ Seed number 67 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 76
+
+ Seed number 68 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 77
+
+ Seed number 69 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 78
+
+ Seed number 70 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 79
+
+ Seed number 71 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 80
+
+ Seed number 72 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 81
+
+ Seed number 73 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 82
+
+ Seed number 74 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 83
+
+ Seed number 75 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 84
+
+ Seed number 76 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 85
+
+ Seed number 77 set at time t = 1.0100 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 86
+ Updating of diffusion data from database...
+ complete relinearisation!
+
+ Intermediate output for t = 2.0000 s
+ CPU-time: 19 s
+ Current phase-field solver time step = 1.30E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 78 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 87
+
+ Seed number 79 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 88
+
+ Seed number 80 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 89
+
+ Seed number 81 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 90
+
+ Seed number 82 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 91
+
+ Seed number 83 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 92
+
+ Seed number 84 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 93
+
+ Seed number 85 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 94
+
+ Seed number 86 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 95
+
+ Seed number 87 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 96
+
+ Seed number 88 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 97
+
+ Seed number 89 set at time t = 2.0200 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 98
+ complete relinearisation!
+
+ Grain 11 reaches full size at t = 2.41154 s
+
+ Grain 42 reaches full size at t = 2.41154 s
+
+ Grain 52 reaches full size at t = 2.41154 s
+
+ Intermediate output for t = 3.0000 s
+ CPU-time: 8 s
+ Current phase-field solver time step = 4.32E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 90 set at time t = 3.0300 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.998 K
+ Grain number = 99
+ complete relinearisation!
+
+ Grain 20 reaches full size at t = 3.15457 s
+
+ Grain 21 reaches full size at t = 3.15457 s
+
+ Grain 24 reaches full size at t = 3.15457 s
+
+ Grain 25 reaches full size at t = 3.15457 s
+
+ Grain 27 reaches full size at t = 3.15457 s
+
+ Grain 23 reaches full size at t = 3.19798 s
+
+ Grain 31 reaches full size at t = 3.19798 s
+
+ Grain 33 reaches full size at t = 3.27990 s
+
+ Grain 36 reaches full size at t = 3.27990 s
+
+ Grain 44 reaches full size at t = 3.27990 s
+
+ Grain 49 reaches full size at t = 3.27990 s
+
+ Grain 58 reaches full size at t = 3.27990 s
+
+ Grain 10 reaches full size at t = 3.32109 s
+
+ Grain 13 reaches full size at t = 3.32109 s
+
+ Grain 14 reaches full size at t = 3.32109 s
+
+ Grain 15 reaches full size at t = 3.32109 s
+
+ Grain 26 reaches full size at t = 3.32109 s
+
+ Grain 30 reaches full size at t = 3.32109 s
+
+ Grain 39 reaches full size at t = 3.32109 s
+
+ Grain 40 reaches full size at t = 3.32109 s
+
+ Grain 41 reaches full size at t = 3.32109 s
+
+ Grain 59 reaches full size at t = 3.32109 s
+
+ Grain 18 reaches full size at t = 3.36100 s
+
+ Grain 32 reaches full size at t = 3.36100 s
+
+ Grain 47 reaches full size at t = 3.36100 s
+
+ Grain 22 reaches full size at t = 3.40226 s
+
+ Grain 29 reaches full size at t = 3.40226 s
+
+ Grain 46 reaches full size at t = 3.40226 s
+
+ Grain 37 reaches full size at t = 3.44255 s
+
+ Grain 38 reaches full size at t = 3.44255 s
+
+ Grain 12 reaches full size at t = 3.48213 s
+
+ Grain 28 reaches full size at t = 3.48213 s
+
+ Grain 34 reaches full size at t = 3.48213 s
+
+ Grain 43 reaches full size at t = 3.48213 s
+
+ Grain 45 reaches full size at t = 3.48213 s
+
+ Grain 51 reaches full size at t = 3.48213 s
+
+ Grain 55 reaches full size at t = 3.48213 s
+
+ Grain 57 reaches full size at t = 3.48213 s
+
+ Grain 16 reaches full size at t = 3.52063 s
+
+ Grain 19 reaches full size at t = 3.52063 s
+
+ Grain 35 reaches full size at t = 3.52063 s
+
+ Grain 17 reaches full size at t = 3.56089 s
+
+ Grain 48 reaches full size at t = 3.56089 s
+
+ Grain 50 reaches full size at t = 3.56089 s
+
+ Grain 53 reaches full size at t = 3.56089 s
+
+ Grain 54 reaches full size at t = 3.56089 s
+
+ Grain 56 reaches full size at t = 3.56089 s
+
+ Grain 68 reaches full size at t = 3.79416 s
+
+ Grain 75 reaches full size at t = 3.79416 s
+
+ Grain 76 reaches full size at t = 3.79416 s
+
+ Grain 79 reaches full size at t = 3.79416 s
+
+ Grain 80 reaches full size at t = 3.79416 s
+
+ Grain 81 reaches full size at t = 3.79416 s
+
+ Grain 82 reaches full size at t = 3.79416 s
+
+ Grain 83 reaches full size at t = 3.79416 s
+
+ Grain 67 reaches full size at t = 3.79416 s
+
+ Grain 69 reaches full size at t = 3.79416 s
+
+ Grain 66 reaches full size at t = 3.79416 s
+
+ Grain 71 reaches full size at t = 3.79416 s
+
+ Grain 72 reaches full size at t = 3.79416 s
+
+ Grain 73 reaches full size at t = 3.79416 s
+
+ Grain 74 reaches full size at t = 3.79416 s
+
+ Grain 77 reaches full size at t = 3.79416 s
+
+ Grain 78 reaches full size at t = 3.79416 s
+
+ Grain 61 reaches full size at t = 3.79416 s
+
+ Grain 64 reaches full size at t = 3.79416 s
+
+ Grain 65 reaches full size at t = 3.79416 s
+
+ Grain 70 reaches full size at t = 3.79416 s
+
+ Grain 60 reaches full size at t = 3.79416 s
+
+ Grain 63 reaches full size at t = 3.79416 s
+
+ Grain 84 reaches full size at t = 3.79416 s
+
+ Grain 85 reaches full size at t = 3.79416 s
+
+ Grain 62 reaches full size at t = 3.79416 s
+
+ Grain 86 reaches full size at t = 3.79416 s
+
+ Intermediate output for t = 4.0000 s
+ CPU-time: 9 s
+ Current phase-field solver time step = 3.83E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Seed number 91 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.996 K
+ Grain number = 100
+
+ Seed number 92 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.995 K
+ Grain number = 101
+
+ Seed number 93 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.996 K
+ Grain number = 102
+
+ Seed number 94 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.996 K
+ Grain number = 103
+
+ Seed number 95 set at time t = 4.0400 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.994 K
+ Grain number = 104
+
+ Grain 93 reaches full size at t = 4.72688 s
+
+ Grain 95 reaches full size at t = 4.72688 s
+
+ Grain 98 reaches full size at t = 4.72688 s
+
+ Grain 94 reaches full size at t = 4.72688 s
+
+ Grain 96 reaches full size at t = 4.72688 s
+
+ Grain 91 reaches full size at t = 4.72688 s
+
+ Grain 97 reaches full size at t = 4.72688 s
+
+ Grain 90 reaches full size at t = 4.72688 s
+
+ Grain 92 reaches full size at t = 4.72688 s
+
+ Grain 87 reaches full size at t = 4.72688 s
+
+ Grain 89 reaches full size at t = 4.72688 s
+
+ Grain 88 reaches full size at t = 4.72688 s
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 11 s
+ Current phase-field solver time step = 3.95E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Grain 99 reaches full size at t = 5.73779 s
+
+ Intermediate output for t = 6.0000 s
+ CPU-time: 12 s
+ Current phase-field solver time step = 3.97E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Grain 103 reaches full size at t = 6.74192 s
+
+ Grain 101 reaches full size at t = 6.74192 s
+
+ Grain 102 reaches full size at t = 6.74192 s
+
+ Grain 100 reaches full size at t = 6.74192 s
+
+ Grain 104 reaches full size at t = 6.74192 s
+ complete relinearisation!
+
+ Seed number 96 set at time t = 7.0700 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.885 K
+ Grain number = 105
+
+ Intermediate output for t = 8.0000 s
+ CPU-time: 29 s
+ Current phase-field solver time step = 4.11E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Seed number 97 set at time t = 8.0800 s
+ ---------------------------------------
+ in the bulk
+ Phase: 2 (BCC_A2)
+ Seed type: 3
+ Local temperature = 1023.0 K
+ Undercooling = 51.851 K
+ Grain number = 106
+ complete relinearisation!
+
+ Grain 105 reaches full size at t = 9.84246 s
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 39 s
+ Current phase-field solver time step = 4.43E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+
+ Grain 106 reaches full size at t = 10.8913 s
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 15.000 s
+ CPU-time: 127 s
+ Current phase-field solver time step = 5.87E-02 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 20.000 s
+ CPU-time: 160 s
+ Current phase-field solver time step = 1.63E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 25.000 s
+ CPU-time: 161 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 30.000 s
+ CPU-time: 150 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 40.000 s
+ CPU-time: 287 s
+ Current phase-field solver time step = 1.69E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 50.000 s
+ CPU-time: 272 s
+ Current phase-field solver time step = 1.69E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 60.000 s
+ CPU-time: 279 s
+ Current phase-field solver time step = 1.69E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 70.000 s
+ CPU-time: 275 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 80.000 s
+ CPU-time: 276 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 90.000 s
+ CPU-time: 265 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 100.00 s
+ CPU-time: 274 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 125.00 s
+ CPU-time: 737 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 150.00 s
+ CPU-time: 743 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 175.00 s
+ CPU-time: 748 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 200.00 s
+ CPU-time: 752 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 225.00 s
+ CPU-time: 682 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 250.00 s
+ CPU-time: 697 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 275.00 s
+ CPU-time: 679 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ complete relinearisation!
+ Updating of diffusion data from database...
+
+ Intermediate output for t = 300.00 s
+ CPU-time: 674 s
+ Current phase-field solver time step = 1.70E-01 s
+ Average conc. of comp. 1 = 0.1000000, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 1.5000000, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1023.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:        8380
+ Wall clock time in seconds:  9011
+ End
+ 

@@ -1,0 +1,3 @@
+ #  Simulation  CPU Time     Wallclock     Time-step    IFace, NTupel  Temperature    Temperature    Shifted   Front Pos.    Front Temp.
+ #   time [s]      [s]        Time [s]        [s]         usage [%]        [K]        Grad. [K/cm]    Layers      [Cells]        [K]
+  0.000000      4.932308      6.886000      1.65E-05     0.330  0.000    1764.750       0.00000            0            1      1764.750    

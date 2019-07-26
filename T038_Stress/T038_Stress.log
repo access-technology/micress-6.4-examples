@@ -1,0 +1,384 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (05:59)
+ Machine: n009
+ Driving file: T038_Stress_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 200, 1, 200
+ deltaX, deltaY, deltaZ [cm] = 2.5000E-05, 2.5000E-05, 2.5000E-05
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Double-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 1
+ Intermediate output at t       = 1.0000000E-02 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.000E+20
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 10
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is isotropic.
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is isotropic.
+ No categorization is allowed for phase 2
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 2
+ Input data for grain number 1:
+  'Round' grain.
+  x,z coordinates               : 0.00000, 0.00000 micrometers
+  Grain radius                  : 1000.00 micrometers
+  Grain 1 is stabilized
+  No Voronoi construction
+  Phase number                  : 1
+ Input data for grain number 2:
+  'Round' grain.
+  x,z coordinates               : 25.5000, 24.2000 micrometers
+  Grain radius                  : 2.50000 micrometers
+  Grain 2 is stabilized
+  Voronoi construction
+  Phase number                  : 2
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation disabled
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will not be simulated.
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will not be simulated.
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will be simulated.
+  Interaction parameters between phases  1  and 1:
+  Interfacial energy        sigma = 1.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 5.00000E-05 [cm**4/(Js)]
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will be simulated.
+  Interaction parameters between phases  1  and 2:
+  Averaging coefficient        Av = +1.00
+  Maximal driving force     dGMax = 500.00 [J/cm**3]
+  Interfacial energy        sigma = 5.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 5.00000E-05 [cm**4/(Js)]
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will be simulated.
+  Interaction parameters between phases  2  and 2:
+  Interfacial energy        sigma = 1.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 5.00000E-05 [cm**4/(Js)]
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 2
+ Concentration in weight percent wt%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will not be solved.
+ Diffusion of component 1  in phase 1  will be solved.
+ Diff.-coefficient:
+ Prefactor: 0.150000000000000 [cm**2/s]
+ Activation energy: 142100.000000000 [J/mol]
+ Diffusion of component 1  in phase 2  will be solved.
+ Diff.-coefficient:
+ Prefactor: 2.20000000000000 [cm**2/s]
+ Activation energy: 122500.000000000 [J/mol]
+ Diffusion of component 2  in phase 0  will not be solved.
+ Diffusion of component 2  in phase 1  will be solved.
+ Diff.-coefficient:
+ Prefactor: 0.160000000000000 [cm**2/s]
+ Activation energy: 261250.000000000 [J/mol]
+ Diffusion of component 2  in phase 2  will be solved.
+ Diff.-coefficient:
+ Prefactor: 0.350000000000000 [cm**2/s]
+ Activation energy: 219500.000000000 [J/mol]
+
+
+ Phase diagram - input data
+ **************************
+
+ TC-Coupling is not performed
+
+ Input of the phase diagram of phase 1 and phase 2:
+ --------------------------------------------------
+ Linear phase diagram is used
+  Temperature of the cut = 1120.00000000000 K
+  conc0( 1: 2: 1) = 1.13000E-01 [wt%]
+  conc0( 2: 1: 1) = 4.80000E-03 [wt%]
+  conc0( 1: 2: 2) = 5.13000E-01 [wt%]
+  conc0( 2: 1: 2) = 2.61000E-01 [wt%]
+  Slope       mSlope( 2: 1: 1) = -1.03073E+04 K/wt%
+  Slope       mSlope( 1: 2: 1) = -3.23730E+02 K/wt%
+  Slope       mSlope( 2: 1: 2) = -8.99300E+01 K/wt%
+  Slope       mSlope( 1: 2: 2) = -3.41900E+01 K/wt%
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations must be input manually!
+ Initial concentration of component 1 in phase 0 = 0.000000000 wt%
+ Initial concentration of component 1 in phase 1 = 0.1030000000 wt%
+ Initial concentration of component 1 in phase 2 = 0.000000000 wt%
+ Initial concentration of component 2 in phase 0 = 0.000000000 wt%
+ Initial concentration of component 2 in phase 1 = 0.4900000000 wt%
+ Initial concentration of component 2 in phase 2 = 0.000000000 wt%
+ 
+ 
+ Material data for elastic calculation
+ *************************************
+ Phase number of the matrix phase (int) :           1
+ Notation for Eigenstrain?
+ Options: volume  matrix
+ volume
+ Abstraction of the 3D continuum
+   Options:  plane_stress  plane_strain
+ plane_stress
+ phase 0
+ -----------------------
+ Input of molar volumes:
+ constant
+ molar volume [cm**3], phase 0
+   1.00000000000000     
+ Thermal expansion coefficients
+ along the principal axes xx [1/K], yy [1/K], zz [1/K]?    (real)  (real)  (real)
+ 0.  0.  0.
+ Input of elastic constants (c_ij notation):
+ Notation for elastic coefficients?
+ Options: c_ij  Voigt materialParameter
+ c_ij
+ Elastic components (c_ij-notation)
+ C11 [MPa] ( >0 )      , phase 0
+ constant
+   1.00000000000000     
+ C12 [MPa] ( >0, <C11 ), phase 0
+ constant
+  0.949999990000000     
+ C44 [MPa] ( >0 )      , phase 0
+ constant
+   1.00000000000000     
+ phase 1
+ --------------------------------------
+ Input of molar volumes:
+ constant
+ molar volume [cm**3], phase 1
+   7.31799980000000     
+ Thermal expansion coefficients
+ along the principal axes xx [1/K], yy [1/K], zz [1/K]?    (real)  (real)  (real)
+ 0.  0.  0.
+ Input of elastic constants (c_ij notation):
+ Notation for elastic coefficients?
+ Options: c_ij  Voigt materialParameter
+ c_ij
+ Elastic components (c_ij-notation)
+ C11 [MPa] ( >0 )      , phase 1
+ constant
+   233000.000000000     
+ C12 [MPa] ( >0, <C11 ), phase 1
+ constant
+   133000.000000000     
+ C44 [MPa] ( >0 )      , phase 1
+ constant
+   50000.0000000000     
+ phase 2
+ --------------------------------------
+ Input of molar volumes:
+ constant
+ molar volume [cm**3], phase 2
+   7.37799980000000     
+ Thermal expansion coefficients
+ along the principal axes xx [1/K], yy [1/K], zz [1/K]?    (real)  (real)  (real)
+ 0.  0.  0.
+ Input of elastic constants (c_ij notation):
+ Notation for elastic coefficients?
+ Options: c_ij  Voigt materialParameter
+ c_ij
+ Elastic components (c_ij-notation)
+ C11 [MPa] ( >0 )      , phase 2
+ constant
+   233000.000000000     
+ C12 [MPa] ( >0, <C11 ), phase 2
+ constant
+   133000.000000000     
+ C44 [MPa] ( >0 )      , phase 2
+ constant
+   50000.0000000000     
+
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation without release of latent heat
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1100.000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: 0.0000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction isolation boundary condition for phase field
+ In E-direction isolation boundary condition for phase field
+ In B-direction isolation boundary condition for phase field
+ In T-direction isolation boundary condition for phase field
+ 
+ In W-direction isolation boundary condition for concentration field
+ In E-direction isolation boundary condition for concentration field
+ In B-direction isolation boundary condition for concentration field
+ In T-direction isolation boundary condition for concentration field
+ 
+ # Boundary condition for elastic stress calculation
+ # Options: constant_volume  normal_expansion  free_expansion
+ #          fix_isostatic_pressure  fix_normal_pressure
+ #          fix_isostatic_strain    fix_normal_strain
+ parallel_expansion
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ # convergence criteria for BiCGStab-solver (stress calculation) 1.00E-05
+ # and (average) strain calculation? (real) (real) 1.00E-09
+ # max. number of iterations for BiCGStab-solver 10000
+ # and (average) strain iterations? (int) (int)    20
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 4.50000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ # Grain number 1 set
+ # Grain number 2 set
+ 
+ # tWidth_max( 1 : 1 ) = 0.2968750 s
+ # tWidth_max( 1 : 2 ) = 5.9375000E-02 s
+ # tWidth_max( 2 : 2 ) = 0.2968750 s
+ # Maximal value for tWidth = 5.9375000E-02 s for phase-field solver
+ # Maximal value for tWidth = 4.4260231E-05 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 4.20472E-05 s
+ # Initial value for tWidth = 4.20472E-05 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 2 in phase 1 = 2.5000 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 4.20E-05 s
+ Average conc. of comp. 1 = 0.1021906 wt%
+ Average conc. of comp. 2 = 0.4861497 wt%
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+ Average number of iterations for stress solver = 122
+ Best solution (last call stress solver) for 122 iterations
+ Residual of stress solver = .80355E-05
+ Number of convergence mismatches = 0
+ Average number of strain iterations = 11.0
+ Displacement [%] of corner 1 =      0.00000 ,                       0.00000
+ Displacement [%] of corner 2 =      0.00214 ,                       0.00000
+ Displacement [%] of corner 3 =      0.00214 ,                       0.00214
+ Displacement [%] of corner 4 =      0.00000 ,                       0.00214
+ Normal Stress in x:      0.00000
+ Normal Stress in z:      0.00000
+ Fraction of phase 0: 0.00000
+ Fraction of phase 1: 0.99214
+ Fraction of phase 2: 0.00786
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Intermediate output for t = 1.00000E-02 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.91E-03 s
+ Average conc. of comp. 1 = 0.1021906, Variation = -0.0000000 wt%
+ Average conc. of comp. 2 = 0.4861497, Variation = +0.0000000 wt%
+ Temperature at the bottom = 1100.0 K
+ Temperature gradient = 0.00000 K/cm
+ Average number of iterations for stress solver = 32
+ Best solution (last call stress solver) for 32 iterations
+ Residual of stress solver = .93592E-05
+ Number of convergence mismatches = 0
+ Average number of strain iterations = 7.00
+ Displacement [%] of corner 1 =      0.00000 ,                       0.00000
+ Displacement [%] of corner 2 =      0.00219 ,                       0.00000
+ Displacement [%] of corner 3 =      0.00219 ,                       0.00219
+ Displacement [%] of corner 4 =      0.00000 ,                       0.00219
+ Normal Stress in x:      0.00000
+ Normal Stress in z:      0.00000
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:           4
+ Wall clock time in seconds:  7
+ End
+ 

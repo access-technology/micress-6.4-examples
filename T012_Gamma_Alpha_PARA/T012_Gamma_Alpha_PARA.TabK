@@ -1,0 +1,11 @@
+ #  Simulation   Avg. radius    Gr. density      Number of   Liquid        Phase 1          Phase 2
+ #   time [s]   [micrometer]  [micrometer**(-2)]  grains     present?     n.  avg. r.      n.  avg. r.
+ # NB: the radii are calculated from the average fractions
+   0.0000       11.754          2.30400E-03         9      No-Liquid      9  11.75395      0   0.00000
+  0.41249       11.754          2.30400E-03         9      No-Liquid      9  11.75395      0   0.00000
+   1.0105       3.7169          2.30400E-02        90      No-Liquid      9  11.75395     81   0.00200
+   2.0353       3.5087          2.58560E-02       101      No-Liquid      9  11.74584     92   0.13656
+   3.0453       3.4745          2.63680E-02       103      No-Liquid      9  11.73324     94   0.21579
+   4.0553       3.3775          2.79040E-02       109      No-Liquid      9  11.70838    100   0.31022
+   13.147       3.3621          2.81600E-02       110      No-Liquid      9   9.98578    101   1.85076
+   15.167       3.3469          2.84160E-02       111      No-Liquid      9   9.27243    102   2.14566

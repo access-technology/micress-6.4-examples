@@ -1,0 +1,6 @@
+#  Simulation      Temp.              Phase 0 component 1 [at%]                  Phase 1 component 1 [at%]
+#   time [s]         [K]          Average      Minimum      Maximum          Average      Minimum      Maximum
+#   C. 1,A        C. 2,B           C. 3,C       C. 4,D       C. 5,E           C. 6,F       C. 7,G       C. 8,H
+  5.00000        886.970      7.20473E+00  7.04309E+00  7.95864E+00      1.01348E+00  9.82051E-01  1.04535E+00
+  10.0000        885.470      7.72136E+00  7.48052E+00  8.14168E+00      1.03509E+00  1.00641E+00  1.05946E+00
+  15.0000        883.970      8.12508E+00  7.97412E+00  8.35134E+00      1.05493E+00  1.00914E+00  1.08655E+00

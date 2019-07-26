@@ -1,0 +1,1707 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (05:47)
+ Machine: n009
+ Driving file: T037_ReX_random_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 500, 1, 1000
+ deltaX, deltaY, deltaZ [cm] = 5.0000E-05, 5.0000E-05, 5.0000E-05
+
+ Flags
+ -----
+ Phase-field simulation without coupling
+ 'Double-obstacle' potential
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 22
+ Intermediate output at t       = 5.0000000E-01 s
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 1.5000000E+00 s
+ Intermediate output at t       = 2.0000000E+00 s
+ Intermediate output at t       = 2.5000000E+00 s
+ Intermediate output at t       = 3.0000000E+00 s
+ Intermediate output at t       = 3.5000000E+00 s
+ Intermediate output at t       = 4.0000000E+00 s
+ Intermediate output at t       = 4.5000000E+00 s
+ Intermediate output at t       = 5.0000000E+00 s
+ Intermediate output at t       = 6.0000000E+00 s
+ Intermediate output at t       = 7.0000000E+00 s
+ Intermediate output at t       = 8.0000000E+00 s
+ Intermediate output at t       = 9.0000000E+00 s
+ Intermediate output at t       = 1.0000000E+01 s
+ Intermediate output at t       = 1.2000000E+01 s
+ Intermediate output at t       = 1.4000000E+01 s
+ Intermediate output at t       = 1.6000000E+01 s
+ Intermediate output at t       = 1.8000000E+01 s
+ Intermediate output at t       = 2.0000000E+01 s
+ Intermediate output at t       = 2.5000000E+01 s
+ Intermediate output at t       = 3.0000000E+01 s
+ Coefficient for phase-field criterion 1.00
+ Weight factor for bulk increment = 2.500E-08
+ Upper limit for time step: 1.000E+20
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 30
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 1
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will be considered.
+recrystallisation energy model
+energy threshold for recrystallization of phase 1
+      2.123E-03
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ Grain orientations will be defined by miller indices.
+
+
+ Grain input
+ ***********
+ Grains will be positioned randomly
+ Integer for randomization: 6
+ Number of different types of grains: 4
+ Number of grains of type 1: 5
+ Number of grains of type 2: 5
+ Number of grains of type 3: 15
+ Number of grains of type 4: 5
+
+ Input for grain type 1
+ ----------------------
+  For grain type 1 elliptic grains will be set.
+  Minimal value of x-coordinates: -10.0000 micrometers
+  Maximal value of x-coordinates: 260.000 micrometers
+  Minimal value of z-coordinates: -10.0000 micrometers
+  Maximal value of z-coordinates: 510.000 micrometers
+  Minimal length of axis along x-axis: 150.000 micrometers
+  Maximal length of axis along x-axis: 160.000 micrometers
+  Minimal length of axis along z-axis: 300.000 micrometers
+  Maximal length of axis along z-axis: 310.000 micrometers
+  For grains of type 1 will be set according to the Voronoi construction
+  Phase number for grain type 1: 1
+  Minimum of recrystallisation energy: 0.80000 [J/cm**3 or MPa]
+  Maximum of recrystallisation energy: 1.0000 [J/cm**3 or MPa]
+  Determination of grain orientations is 'fix'
+  Vector in y-direction: +0.000 +0.000 +1.000
+  Miller indices h,k,l or vector in y-direction +1.000 +1.000 +0.000
+  Minimal distance between grains is: 50.000 micrometers
+
+ Input for grain type 2
+ ----------------------
+  For grain type 2 elliptic grains will be set.
+  Minimal value of x-coordinates: -10.0000 micrometers
+  Maximal value of x-coordinates: 260.000 micrometers
+  Minimal value of z-coordinates: -10.0000 micrometers
+  Maximal value of z-coordinates: 510.000 micrometers
+  Minimal length of axis along x-axis: 150.000 micrometers
+  Maximal length of axis along x-axis: 160.000 micrometers
+  Minimal length of axis along z-axis: 300.000 micrometers
+  Maximal length of axis along z-axis: 310.000 micrometers
+  For grains of type 2 will be set according to the Voronoi construction
+  Phase number for grain type 2: 1
+  Minimum of recrystallisation energy: 1.8000 [J/cm**3 or MPa]
+  Maximum of recrystallisation energy: 2.0000 [J/cm**3 or MPa]
+  Determination of grain orientations is 'fix'
+  Vector in y-direction: +1.000 +1.000 +3.000
+  Miller indices h,k,l or vector in y-direction +1.000 -1.000 +0.000
+  Minimal distance between grains is: 50.000 micrometers
+
+ Input for grain type 3
+ ----------------------
+  For grain type 3 elliptic grains will be set.
+  Minimal value of x-coordinates: -10.0000 micrometers
+  Maximal value of x-coordinates: 260.000 micrometers
+  Minimal value of z-coordinates: -10.0000 micrometers
+  Maximal value of z-coordinates: 510.000 micrometers
+  Minimal length of axis along x-axis: 150.000 micrometers
+  Maximal length of axis along x-axis: 160.000 micrometers
+  Minimal length of axis along z-axis: 300.000 micrometers
+  Maximal length of axis along z-axis: 310.000 micrometers
+  For grains of type 3 will be set according to the Voronoi construction
+  Phase number for grain type 3: 1
+  Minimum of recrystallisation energy: 2.0000 [J/cm**3 or MPa]
+  Maximum of recrystallisation energy: 3.0000 [J/cm**3 or MPa]
+  Determination of grain orientations is 'range'
+  Axis in y-direction: 1.000 -0.407 -0.121
+  Minimal distance between grains is: 50.000 micrometers
+
+ Input for grain type 4
+ ----------------------
+  For grain type 4 elliptic grains will be set.
+  Minimal value of x-coordinates: -10.0000 micrometers
+  Maximal value of x-coordinates: 260.000 micrometers
+  Minimal value of z-coordinates: -10.0000 micrometers
+  Maximal value of z-coordinates: 510.000 micrometers
+  Minimal length of axis along x-axis: 150.000 micrometers
+  Maximal length of axis along x-axis: 160.000 micrometers
+  Minimal length of axis along z-axis: 300.000 micrometers
+  Maximal length of axis along z-axis: 310.000 micrometers
+  For grains of type 4 will be set according to the Voronoi construction
+  Phase number for grain type 4: 1
+  Minimum of recrystallisation energy: 3.8000 [J/cm**3 or MPa]
+  Maximum of recrystallisation energy: 4.0000 [J/cm**3 or MPa]
+  Determination of grain orientations is 'fix'
+  Vector in y-direction: +1.000 +1.000 +0.000
+  Miller indices h,k,l or vector in y-direction +1.000 -1.000 +0.000
+  Minimal distance between grains is: 50.000 micrometers
+
+ I.e.:
+ -----
+ Number of grains = 30
+ Input data for grain number 1:
+  'Elliptic' grain.
+  x,z coordinates               : 132.901, 80.1689 micrometers
+  Axis length along X,Z axis    : 159.646 , 308.475  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 0.81274 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+ Input data for grain number 2:
+  'Elliptic' grain.
+  x,z coordinates               : 229.287, 6.92779 micrometers
+  Axis length along X,Z axis    : 157.430 , 302.328  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 0.87356 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+ Input data for grain number 3:
+  'Elliptic' grain.
+  x,z coordinates               : 79.2345, 500.025 micrometers
+  Axis length along X,Z axis    : 156.676 , 307.312  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 0.83010 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+ Input data for grain number 4:
+  'Elliptic' grain.
+  x,z coordinates               : -1.48416, 349.922 micrometers
+  Axis length along X,Z axis    : 151.797 , 302.139  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 0.80626 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+ Input data for grain number 5:
+  'Elliptic' grain.
+  x,z coordinates               : 1.94615, 52.2025 micrometers
+  Axis length along X,Z axis    : 158.351 , 301.926  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 0.89292 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+ Input data for grain number 6:
+  'Elliptic' grain.
+  x,z coordinates               : 244.421, 201.154 micrometers
+  Axis length along X,Z axis    : 154.413 , 307.866  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 1.9547 J/cm**3
+  Rotation angle                : +51.2722 degree
+  Rotation axis defined by      : -0.193245098191964       0.863134685121900       0.466534936917159
+ Input data for grain number 7:
+  'Elliptic' grain.
+  x,z coordinates               : 53.3743, 315.667 micrometers
+  Axis length along X,Z axis    : 158.442 , 303.833  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 1.8331 J/cm**3
+  Rotation angle                : +51.2722 degree
+  Rotation axis defined by      : -0.193245098191964       0.863134685121900       0.466534936917159
+ Input data for grain number 8:
+  'Elliptic' grain.
+  x,z coordinates               : 59.9049, 437.546 micrometers
+  Axis length along X,Z axis    : 151.508 , 306.644  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 1.8593 J/cm**3
+  Rotation angle                : +51.2722 degree
+  Rotation axis defined by      : -0.193245098191964       0.863134685121900       0.466534936917159
+ Input data for grain number 9:
+  'Elliptic' grain.
+  x,z coordinates               : 36.5625, 209.022 micrometers
+  Axis length along X,Z axis    : 155.738 , 302.991  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 1.8727 J/cm**3
+  Rotation angle                : +51.2722 degree
+  Rotation axis defined by      : -0.193245098191964       0.863134685121900       0.466534936917159
+ Input data for grain number 10:
+  'Elliptic' grain.
+  x,z coordinates               : 16.2728, 503.630 micrometers
+  Axis length along X,Z axis    : 154.608 , 309.670  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 1.9874 J/cm**3
+  Rotation angle                : +51.2722 degree
+  Rotation axis defined by      : -0.193245098191964       0.863134685121900       0.466534936917159
+ Input data for grain number 11:
+  'Elliptic' grain.
+  x,z coordinates               : 195.101, 110.550 micrometers
+  Axis length along X,Z axis    : 157.932 , 302.173  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.9075 J/cm**3
+  Rotation angle                : +36.0549 degree
+  Rotation axis defined by      : 0.555044061163343       0.764693689817036      -0.327367760968166
+ Input data for grain number 12:
+  'Elliptic' grain.
+  x,z coordinates               : 186.171, 400.593 micrometers
+  Axis length along X,Z axis    : 154.652 , 301.365  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.8997 J/cm**3
+  Rotation angle                : +40.8781 degree
+  Rotation axis defined by      : 4.518094235463227E-003 -0.820904568136891      -0.571047525899958
+ Input data for grain number 13:
+  'Elliptic' grain.
+  x,z coordinates               : 146.640, 448.323 micrometers
+  Axis length along X,Z axis    : 159.773 , 304.368  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.1989 J/cm**3
+  Rotation angle                : +40.1943 degree
+  Rotation axis defined by      : 0.485913141733774       0.814353619087492      -0.317358790282414
+ Input data for grain number 14:
+  'Elliptic' grain.
+  x,z coordinates               : 235.107, 64.9866 micrometers
+  Axis length along X,Z axis    : 156.002 , 300.258  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.5146 J/cm**3
+  Rotation angle                : +37.2261 degree
+  Rotation axis defined by      : -1.988822225987653E-002 -0.780781366761664      -0.624487722804163
+ Input data for grain number 15:
+  'Elliptic' grain.
+  x,z coordinates               : 191.147, 293.284 micrometers
+  Axis length along X,Z axis    : 152.868 , 305.958  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.3102 J/cm**3
+  Rotation angle                : +28.5853 degree
+  Rotation axis defined by      : 0.731520470285771       0.589475018932097      -0.342632461404182
+ Input data for grain number 16:
+  'Elliptic' grain.
+  x,z coordinates               : 85.4921, 383.780 micrometers
+  Axis length along X,Z axis    : 151.326 , 306.237  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.8157 J/cm**3
+  Rotation angle                : +42.5445 degree
+  Rotation axis defined by      : -1.399805042812035E-002 -0.835378496201959       0.549496881399308
+ Input data for grain number 17:
+  'Elliptic' grain.
+  x,z coordinates               : 84.3185, 245.423 micrometers
+  Axis length along X,Z axis    : 155.341 , 307.374  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.6287 J/cm**3
+  Rotation angle                : +48.9442 degree
+  Rotation axis defined by      : 4.355856563400543E-002 -0.876497794488062      -0.479431191744417
+ Input data for grain number 18:
+  'Elliptic' grain.
+  x,z coordinates               : -5.38836, -0.523682 micrometers
+  Axis length along X,Z axis    : 159.051 , 303.805  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.1556 J/cm**3
+  Rotation angle                : +37.6337 degree
+  Rotation axis defined by      : 0.323511508035468       0.785958209632821       0.526887081716175
+ Input data for grain number 19:
+  'Elliptic' grain.
+  x,z coordinates               : 142.677, 157.862 micrometers
+  Axis length along X,Z axis    : 156.173 , 305.633  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.8192 J/cm**3
+  Rotation angle                : +42.6527 degree
+  Rotation axis defined by      : 0.451156199859689       0.836251663651211      -0.311674892105134
+ Input data for grain number 20:
+  'Elliptic' grain.
+  x,z coordinates               : 253.877, 323.504 micrometers
+  Axis length along X,Z axis    : 152.605 , 300.039  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.2303 J/cm**3
+  Rotation angle                : +25.2192 degree
+  Rotation axis defined by      : 0.848420743834891       0.406846493175716      -0.338612126807757
+ Input data for grain number 21:
+  'Elliptic' grain.
+  x,z coordinates               : 3.28608, 153.754 micrometers
+  Axis length along X,Z axis    : 152.405 , 304.885  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.6284 J/cm**3
+  Rotation angle                : +23.2916 degree
+  Rotation axis defined by      : 0.955462152022233      -0.154960080819748      -0.251156225097808
+ Input data for grain number 22:
+  'Elliptic' grain.
+  x,z coordinates               : 124.700, 297.611 micrometers
+  Axis length along X,Z axis    : 152.446 , 307.811  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.6658 J/cm**3
+  Rotation angle                : +31.0721 degree
+  Rotation axis defined by      : 7.838574128058598E-002 -0.667574043611219       0.740405680597103
+ Input data for grain number 23:
+  'Elliptic' grain.
+  x,z coordinates               : 187.727, 194.192 micrometers
+  Axis length along X,Z axis    : 157.893 , 303.689  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.4192 J/cm**3
+  Rotation angle                : +28.3332 degree
+  Rotation axis defined by      : 0.806430583323162      -0.579704831887148      -0.116670571129818
+ Input data for grain number 24:
+  'Elliptic' grain.
+  x,z coordinates               : 55.4903, 91.7125 micrometers
+  Axis length along X,Z axis    : 151.022 , 307.221  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.0997 J/cm**3
+  Rotation angle                : +27.5220 degree
+  Rotation axis defined by      : -0.343143716867493       0.545118351245583      -0.764917232587722
+ Input data for grain number 25:
+  'Elliptic' grain.
+  x,z coordinates               : 147.530, 342.167 micrometers
+  Axis length along X,Z axis    : 153.036 , 303.405  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 2.3049 J/cm**3
+  Rotation angle                : +29.3001 degree
+  Rotation axis defined by      : 0.710549658768700       0.615040133752504      -0.341825710410126
+ Input data for grain number 26:
+  'Elliptic' grain.
+  x,z coordinates               : 92.5356, 0.346510 micrometers
+  Axis length along X,Z axis    : 150.034 , 300.453  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 3.9528 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+ Input data for grain number 27:
+  'Elliptic' grain.
+  x,z coordinates               : 207.560, 448.084 micrometers
+  Axis length along X,Z axis    : 151.973 , 307.586  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 3.9179 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+ Input data for grain number 28:
+  'Elliptic' grain.
+  x,z coordinates               : 4.28090, 292.245 micrometers
+  Axis length along X,Z axis    : 158.895 , 305.779  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 3.9194 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+ Input data for grain number 29:
+  'Elliptic' grain.
+  x,z coordinates               : 147.883, 8.95842 micrometers
+  Axis length along X,Z axis    : 150.316 , 300.343  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 3.8913 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+ Input data for grain number 30:
+  'Elliptic' grain.
+  x,z coordinates               : 259.801, 502.362 micrometers
+  Axis length along X,Z axis    : 156.204 , 306.887  micrometers
+  Stabilisation
+  Voronoi construction
+  Phase number                  : 1
+  Recrystallisation energy      : 3.8520 J/cm**3
+  Rotation angle                : +45.0000 degree
+  Rotation axis defined by      : 1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 2
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: interfaces
+  Phase of new grains: 1
+  Phase of new grains: 1
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  Nucleation driving force for seed type 1 will be recrystallisation.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 100
+  Grain radius [micrometers]: 0.700000
+  Choice of growth mode:stabilisation
+  critical recrystallisation energy [J/cm**3 or MPa]: 1.5000
+  Determination of grain orientations is 'parent_relation'
+  Minimal value of rotation angle +0.000
+  Maximal value of rotation angle +15.00
+  Rotation axis is defined in global system.
+  Rotation axis: +0.000 +1.000 +0.000
+  Shield time [s]: 100.00
+  shield phase or group number: 1
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 25.000
+  Minimum of recrystallisation energy: 0.0000 [J/cm**3 or MPa]
+  Maximum of recrystallisation energy: 0.0000 [J/cm**3 or MPa]
+  min. nucleation temperature for seed type 1: 998.5000 K
+  max. nucleation temperature for seed type 1: 1001.0000 K
+  Time between checks for nucleation: 1.50000E-02 [s]
+  Random noise will be applied.
+  Factor for random noise:  1.000000000000000E-003
+
+ Input for seed type 2:
+ ----------------------
+  Type of 'position' of the seeds: area
+  Minimal value of x-coordinates: 0.0000 micrometers
+  Maximal value of x-coordinates: 250.00 micrometers
+  Minimal value of z-coordinates: 0.0000 micrometers
+  Maximal value of z-coordinates: 250.00 micrometers
+  Phase of new grains: 1
+  Phase of new grains: 1
+  Reference phase is phase 1
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 2 will be recrystallisation.
+  Seed type 2 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 2: 100
+  Grain radius [micrometers]: 0.700000
+  Choice of growth mode:stabilisation
+  critical recrystallisation energy [J/cm**3 or MPa]: 2.5000
+  Determination of grain orientations is 'parent_relation'
+  Minimal value of rotation angle +20.00
+  Maximal value of rotation angle +25.00
+  Rotation axis is defined in global system.
+  Rotation axis: +0.000 +1.000 +0.000
+  Shield time [s]: 100.00
+  shield phase or group number: 1
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 25.000
+  Minimum of recrystallisation energy: 0.0000 [J/cm**3 or MPa]
+  Maximum of recrystallisation energy: 0.0000 [J/cm**3 or MPa]
+  min. nucleation temperature for seed type 2: 998.5000 K
+  max. nucleation temperature for seed type 2: 1001.0000 K
+  Time between checks for nucleation: 1.50000E-02 [s]
+  Random noise will be applied.
+  Factor for random noise:  1.000000000000000E-003
+
+ Other nucleation parameters
+ ---------------------------
+  Seed for random-number generator initialisation: 7
+  Max. number of simultaneous nucleations: 5
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will not be simulated.
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will be simulated.
+  Interaction parameters between phases  1  and 1:
+  Interfacial energy        sigma = 5.00000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 5.00000E-04 [cm**4/(Js)]
+  Misorientation will be considered.
+ Transition from low to high angle boundary (in degrees): 15.000
+ Number of special orientation relations: 0
+  Static misorientation coeff.    = 0.20000
+  Kinetic misorientation coeff.   = 0.10000
+
+
+ Phase diagram - input data
+ **************************
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 1000.000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Cooling rate: -1.0000 K/s
+ Simulation domain not shifted
+ 
+ In W-direction periodic/wrap-around boundary condition for phase field
+ In E-direction periodic/wrap-around boundary condition for phase field
+ In B-direction isolation boundary condition for phase field
+ In T-direction isolation boundary condition for phase field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 5.00E-03
+ Interface thickness etaZ = 4.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ # Grain number  1 set
+ # Grain number  2 set
+ # Grain number  3 set
+ # Grain number  4 set
+ # Grain number  5 set
+ # Grain number  6 set
+ # Grain number  7 set
+ # Grain number  8 set
+ # Grain number  9 set
+ # Grain number 10 set
+ # Grain number 11 set
+ # Grain number 12 set
+ # Grain number 13 set
+ # Grain number 14 set
+ # Grain number 15 set
+ # Grain number 16 set
+ # Grain number 17 set
+ # Grain number 18 set
+ # Grain number 19 set
+ # Grain number 20 set
+ # Grain number 21 set
+ # Grain number 22 set
+ # Grain number 23 set
+ # Grain number 24 set
+ # Grain number 25 set
+ # Grain number 26 set
+ # Grain number 27 set
+ # Grain number 28 set
+ # Grain number 29 set
+ # Grain number 30 set
+ 
+ # tWidth_max( 1 : 1 ) = 2.3750000E-02 s
+ # Maximal value for tWidth = 2.3750000E-02 s for phase-field solver
+ # Initial value for tWidth = 2.37500E-02 s for automatic time stepping (phase-field solver)
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.37E-02 s
+ Temperature at the bottom = 1000.0 K
+ Temperature gradient = 0.00000 K/cm
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Seed number 1 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.99 K
+ Driving force = 3.9528 MPa or J/cm**3
+ Grain number = 31
+
+ Seed number 2 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.99 K
+ Driving force = 3.9528 MPa or J/cm**3
+ Grain number = 32
+
+ Seed number 3 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.99 K
+ Driving force = 3.9528 MPa or J/cm**3
+ Grain number = 33
+
+ Seed number 4 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.99 K
+ Driving force = 3.9528 MPa or J/cm**3
+ Grain number = 34
+
+ Seed number 5 set at time t = 0.15000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.99 K
+ Driving force = 3.9528 MPa or J/cm**3
+ Grain number = 35
+
+ Seed number 6 set at time t = 0.30000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.97 K
+ Driving force = 3.9194 MPa or J/cm**3
+ Grain number = 36
+
+ Seed number 7 set at time t = 0.30000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.97 K
+ Driving force = 3.9194 MPa or J/cm**3
+ Grain number = 37
+
+ Seed number 8 set at time t = 0.30000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.97 K
+ Driving force = 3.9194 MPa or J/cm**3
+ Grain number = 38
+
+ Seed number 9 set at time t = 0.30000E-01 s
+ -------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.97 K
+ Driving force = 3.9194 MPa or J/cm**3
+ Grain number = 39
+
+ Seed number 10 set at time t = 0.30000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.97 K
+ Driving force = 3.9194 MPa or J/cm**3
+ Grain number = 40
+
+ Seed number 11 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.96 K
+ Driving force = 3.9179 MPa or J/cm**3
+ Grain number = 41
+
+ Seed number 12 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.96 K
+ Driving force = 3.9194 MPa or J/cm**3
+ Grain number = 42
+
+ Seed number 13 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.96 K
+ Driving force = 3.9179 MPa or J/cm**3
+ Grain number = 43
+
+ Seed number 14 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.96 K
+ Driving force = 3.9179 MPa or J/cm**3
+ Grain number = 44
+
+ Seed number 15 set at time t = 0.45000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.96 K
+ Driving force = 3.9194 MPa or J/cm**3
+ Grain number = 45
+
+ Seed number 16 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.94 K
+ Driving force = 3.8913 MPa or J/cm**3
+ Grain number = 46
+
+ Seed number 17 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.94 K
+ Driving force = 3.9179 MPa or J/cm**3
+ Grain number = 47
+
+ Seed number 18 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.94 K
+ Driving force = 3.9179 MPa or J/cm**3
+ Grain number = 48
+
+ Seed number 19 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.94 K
+ Driving force = 3.9179 MPa or J/cm**3
+ Grain number = 49
+
+ Seed number 20 set at time t = 0.60000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.94 K
+ Driving force = 3.9179 MPa or J/cm**3
+ Grain number = 50
+
+ Seed number 21 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.92 K
+ Driving force = 3.8913 MPa or J/cm**3
+ Grain number = 51
+
+ Seed number 22 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.92 K
+ Driving force = 3.8520 MPa or J/cm**3
+ Grain number = 52
+
+ Seed number 23 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.92 K
+ Driving force = 3.8520 MPa or J/cm**3
+ Grain number = 53
+
+ Seed number 24 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.92 K
+ Driving force = 3.8520 MPa or J/cm**3
+ Grain number = 54
+
+ Seed number 25 set at time t = 0.75000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.92 K
+ Driving force = 3.8913 MPa or J/cm**3
+ Grain number = 55
+
+ Seed number 26 set at time t = 0.90000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.91 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 56
+
+ Seed number 27 set at time t = 0.90000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.91 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 57
+
+ Seed number 28 set at time t = 0.90000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.91 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 58
+
+ Seed number 29 set at time t = 0.90000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.91 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 59
+
+ Seed number 30 set at time t = 0.90000E-01 s
+ --------------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.91 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 60
+
+ Seed number 31 set at time t = 0.10500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.89 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 61
+
+ Seed number 32 set at time t = 0.10500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.89 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 62
+
+ Seed number 33 set at time t = 0.10500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.89 K
+ Driving force = 2.8997 MPa or J/cm**3
+ Grain number = 63
+
+ Seed number 34 set at time t = 0.10500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.89 K
+ Driving force = 2.8997 MPa or J/cm**3
+ Grain number = 64
+
+ Seed number 35 set at time t = 0.10500 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.89 K
+ Driving force = 3.9528 MPa or J/cm**3
+ Grain number = 65
+
+ Seed number 36 set at time t = 0.12000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.88 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 66
+
+ Seed number 37 set at time t = 0.12000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.88 K
+ Driving force = 2.8997 MPa or J/cm**3
+ Grain number = 67
+
+ Seed number 38 set at time t = 0.12000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.88 K
+ Driving force = 2.8997 MPa or J/cm**3
+ Grain number = 68
+
+ Seed number 39 set at time t = 0.12000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.88 K
+ Driving force = 2.8997 MPa or J/cm**3
+ Grain number = 69
+
+ Seed number 40 set at time t = 0.12000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.88 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 70
+
+ Seed number 41 set at time t = 0.13500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.87 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 71
+
+ Seed number 42 set at time t = 0.13500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.87 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 72
+
+ Seed number 43 set at time t = 0.13500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.87 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 73
+
+ Seed number 44 set at time t = 0.13500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.87 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 74
+
+ Seed number 45 set at time t = 0.13500 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.87 K
+ Driving force = 3.8913 MPa or J/cm**3
+ Grain number = 75
+
+ Seed number 46 set at time t = 0.15000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.85 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 76
+
+ Seed number 47 set at time t = 0.15000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.85 K
+ Driving force = 2.8157 MPa or J/cm**3
+ Grain number = 77
+
+ Seed number 48 set at time t = 0.15000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.85 K
+ Driving force = 2.8157 MPa or J/cm**3
+ Grain number = 78
+
+ Seed number 49 set at time t = 0.15000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.85 K
+ Driving force = 2.8157 MPa or J/cm**3
+ Grain number = 79
+
+ Seed number 50 set at time t = 0.15000 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.85 K
+ Driving force = 3.8913 MPa or J/cm**3
+ Grain number = 80
+
+ Seed number 51 set at time t = 0.16500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.84 K
+ Driving force = 2.8157 MPa or J/cm**3
+ Grain number = 81
+
+ Seed number 52 set at time t = 0.16500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.84 K
+ Driving force = 2.8157 MPa or J/cm**3
+ Grain number = 82
+
+ Seed number 53 set at time t = 0.16500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.84 K
+ Driving force = 2.8157 MPa or J/cm**3
+ Grain number = 83
+
+ Seed number 54 set at time t = 0.16500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.84 K
+ Driving force = 2.8157 MPa or J/cm**3
+ Grain number = 84
+
+ Seed number 55 set at time t = 0.16500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.84 K
+ Driving force = 2.8157 MPa or J/cm**3
+ Grain number = 85
+
+ Seed number 56 set at time t = 0.18000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.82 K
+ Driving force = 2.6658 MPa or J/cm**3
+ Grain number = 86
+
+ Seed number 57 set at time t = 0.18000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.82 K
+ Driving force = 2.6658 MPa or J/cm**3
+ Grain number = 87
+
+ Seed number 58 set at time t = 0.18000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.82 K
+ Driving force = 2.6658 MPa or J/cm**3
+ Grain number = 88
+
+ Seed number 59 set at time t = 0.18000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.82 K
+ Driving force = 2.6658 MPa or J/cm**3
+ Grain number = 89
+
+ Seed number 60 set at time t = 0.18000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.82 K
+ Driving force = 2.6658 MPa or J/cm**3
+ Grain number = 90
+
+ Seed number 61 set at time t = 0.19500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.80 K
+ Driving force = 2.6287 MPa or J/cm**3
+ Grain number = 91
+
+ Seed number 62 set at time t = 0.19500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.80 K
+ Driving force = 2.6287 MPa or J/cm**3
+ Grain number = 92
+
+ Seed number 63 set at time t = 0.19500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.80 K
+ Driving force = 2.6287 MPa or J/cm**3
+ Grain number = 93
+
+ Seed number 64 set at time t = 0.19500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.80 K
+ Driving force = 2.6658 MPa or J/cm**3
+ Grain number = 94
+
+ Seed number 65 set at time t = 0.19500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.80 K
+ Driving force = 2.6658 MPa or J/cm**3
+ Grain number = 95
+
+ Seed number 66 set at time t = 0.21000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.79 K
+ Driving force = 2.6287 MPa or J/cm**3
+ Grain number = 96
+
+ Seed number 67 set at time t = 0.21000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.79 K
+ Driving force = 2.6284 MPa or J/cm**3
+ Grain number = 97
+
+ Seed number 68 set at time t = 0.21000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.79 K
+ Driving force = 2.6284 MPa or J/cm**3
+ Grain number = 98
+
+ Seed number 69 set at time t = 0.21000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.79 K
+ Driving force = 2.6284 MPa or J/cm**3
+ Grain number = 99
+
+ Seed number 70 set at time t = 0.21000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.79 K
+ Driving force = 2.6284 MPa or J/cm**3
+ Grain number = 100
+
+ Seed number 71 set at time t = 0.22500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.77 K
+ Driving force = 2.5146 MPa or J/cm**3
+ Grain number = 101
+
+ Seed number 72 set at time t = 0.22500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.77 K
+ Driving force = 2.5146 MPa or J/cm**3
+ Grain number = 102
+
+ Seed number 73 set at time t = 0.22500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.77 K
+ Driving force = 2.6284 MPa or J/cm**3
+ Grain number = 103
+
+ Seed number 74 set at time t = 0.22500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.77 K
+ Driving force = 2.4192 MPa or J/cm**3
+ Grain number = 104
+
+ Seed number 75 set at time t = 0.22500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.77 K
+ Driving force = 2.4192 MPa or J/cm**3
+ Grain number = 105
+
+ Seed number 76 set at time t = 0.24000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.76 K
+ Driving force = 2.3102 MPa or J/cm**3
+ Grain number = 106
+
+ Seed number 77 set at time t = 0.24000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.76 K
+ Driving force = 2.2303 MPa or J/cm**3
+ Grain number = 107
+
+ Seed number 78 set at time t = 0.24000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.76 K
+ Driving force = 2.4192 MPa or J/cm**3
+ Grain number = 108
+
+ Seed number 79 set at time t = 0.24000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.76 K
+ Driving force = 2.3049 MPa or J/cm**3
+ Grain number = 109
+
+ Seed number 80 set at time t = 0.24000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.76 K
+ Driving force = 2.3102 MPa or J/cm**3
+ Grain number = 110
+
+ Seed number 81 set at time t = 0.25500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.75 K
+ Driving force = 2.1556 MPa or J/cm**3
+ Grain number = 111
+
+ Seed number 82 set at time t = 0.25500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.75 K
+ Driving force = 2.1989 MPa or J/cm**3
+ Grain number = 112
+
+ Seed number 83 set at time t = 0.25500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.75 K
+ Driving force = 2.1989 MPa or J/cm**3
+ Grain number = 113
+
+ Seed number 84 set at time t = 0.25500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.75 K
+ Driving force = 2.2303 MPa or J/cm**3
+ Grain number = 114
+
+ Seed number 85 set at time t = 0.25500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.75 K
+ Driving force = 2.1556 MPa or J/cm**3
+ Grain number = 115
+
+ Seed number 86 set at time t = 0.27000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.73 K
+ Driving force = 2.0997 MPa or J/cm**3
+ Grain number = 116
+
+ Seed number 87 set at time t = 0.27000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.73 K
+ Driving force = 2.0997 MPa or J/cm**3
+ Grain number = 117
+
+ Seed number 88 set at time t = 0.27000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.73 K
+ Driving force = 2.0997 MPa or J/cm**3
+ Grain number = 118
+
+ Seed number 89 set at time t = 0.27000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.73 K
+ Driving force = 1.9874 MPa or J/cm**3
+ Grain number = 119
+
+ Seed number 90 set at time t = 0.27000 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.73 K
+ Driving force = 2.0997 MPa or J/cm**3
+ Grain number = 120
+
+ Seed number 91 set at time t = 0.28500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.72 K
+ Driving force = 1.8593 MPa or J/cm**3
+ Grain number = 121
+
+ Seed number 92 set at time t = 0.28500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.72 K
+ Driving force = 1.8593 MPa or J/cm**3
+ Grain number = 122
+
+ Seed number 93 set at time t = 0.28500 s
+ ----------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 1
+ Local temperature = 999.72 K
+ Driving force = 1.9547 MPa or J/cm**3
+ Grain number = 123
+
+ Seed number 94 set at time t = 0.28500 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.72 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 124
+
+ Seed number 95 set at time t = 0.28500 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.72 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 125
+
+ Seed number 96 set at time t = 0.31500 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.68 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 126
+
+ Seed number 97 set at time t = 0.31500 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.68 K
+ Driving force = 2.6287 MPa or J/cm**3
+ Grain number = 127
+
+ Seed number 98 set at time t = 0.33000 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.67 K
+ Driving force = 2.6284 MPa or J/cm**3
+ Grain number = 128
+
+ Seed number 99 set at time t = 0.48000 s
+ ----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.52 K
+ Driving force = 2.9075 MPa or J/cm**3
+ Grain number = 129
+
+ Intermediate output for t = 0.50000 s
+ CPU-time: 28 s
+ Current phase-field solver time step = 9.92E-04 s
+ Temperature at the bottom = 999.50 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 100 set at time t = 0.55500 s
+ -----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.45 K
+ Driving force = 2.8192 MPa or J/cm**3
+ Grain number = 130
+
+ Seed number 101 set at time t = 0.66000 s
+ -----------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 2
+ Local temperature = 999.34 K
+ Driving force = 2.6287 MPa or J/cm**3
+ Grain number = 131
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 38 s
+ Current phase-field solver time step = 9.37E-04 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.5000 s
+ CPU-time: 47 s
+ Current phase-field solver time step = 8.70E-04 s
+ Temperature at the bottom = 998.50 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.0000 s
+ CPU-time: 41 s
+ Current phase-field solver time step = 1.18E-03 s
+ Temperature at the bottom = 998.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.5000 s
+ CPU-time: 26 s
+ Current phase-field solver time step = 1.28E-03 s
+ Temperature at the bottom = 997.50 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.0000 s
+ CPU-time: 24 s
+ Current phase-field solver time step = 1.72E-03 s
+ Temperature at the bottom = 997.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.5000 s
+ CPU-time: 18 s
+ Current phase-field solver time step = 1.70E-03 s
+ Temperature at the bottom = 996.50 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.0000 s
+ CPU-time: 22 s
+ Current phase-field solver time step = 1.20E-03 s
+ Temperature at the bottom = 996.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.5000 s
+ CPU-time: 23 s
+ Current phase-field solver time step = 1.47E-03 s
+ Temperature at the bottom = 995.50 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 16 s
+ Current phase-field solver time step = 1.79E-03 s
+ Temperature at the bottom = 995.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 6.0000 s
+ CPU-time: 31 s
+ Current phase-field solver time step = 1.97E-03 s
+ Temperature at the bottom = 994.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 7.0000 s
+ CPU-time: 32 s
+ Current phase-field solver time step = 1.71E-03 s
+ Temperature at the bottom = 993.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 8.0000 s
+ CPU-time: 28 s
+ Current phase-field solver time step = 2.56E-03 s
+ Temperature at the bottom = 992.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.0000 s
+ CPU-time: 27 s
+ Current phase-field solver time step = 2.60E-03 s
+ Temperature at the bottom = 991.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 24 s
+ Current phase-field solver time step = 2.65E-03 s
+ Temperature at the bottom = 990.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 12.000 s
+ CPU-time: 41 s
+ Current phase-field solver time step = 3.19E-03 s
+ Temperature at the bottom = 988.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 14.000 s
+ CPU-time: 32 s
+ Current phase-field solver time step = 5.60E-03 s
+ Temperature at the bottom = 986.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 16.000 s
+ CPU-time: 19 s
+ Current phase-field solver time step = 5.60E-03 s
+ Temperature at the bottom = 984.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 18.000 s
+ CPU-time: 24 s
+ Current phase-field solver time step = 5.15E-03 s
+ Temperature at the bottom = 982.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 20.000 s
+ CPU-time: 25 s
+ Current phase-field solver time step = 5.39E-03 s
+ Temperature at the bottom = 980.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 25.000 s
+ CPU-time: 28 s
+ Current phase-field solver time step = 2.37E-02 s
+ Temperature at the bottom = 975.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 30.000 s
+ CPU-time: 13 s
+ Current phase-field solver time step = 6.32E-03 s
+ Temperature at the bottom = 970.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:         621
+ Wall clock time in seconds:  703
+ End
+ 

@@ -1,0 +1,715 @@
+
+ # MICRESS binary
+ # ==============
+ # version number: 6.402 (Linux)
+ # compiled: 03/22/2018
+ # compiler version: Intel 1400 20140120
+ # executable architecture: x64
+ # Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ # OpenMP: disabled
+ # shell: /bin/tcsh
+ # ('double precision' binary)
+
+ # Language settings
+ # =================
+ # Please select a language: 'English', 'Deutsch' or 'Francais'
+ English
+
+ # Flags and settings
+ # ==================
+ #
+ # Geometry
+ # --------
+ # Grid size?
+ # (for 2D calculations: CellsY=1, for 1D calculations: CellsX=1, CellsY=1)
+ # Cells in X-direction (CellsX):
+         200
+ # Cells in Y-direction (CellsY):
+           1
+ # Cells in Z-direction (CellsZ):
+         200
+ # Cell dimension (grid spacing in micrometers):
+ # (optionally followed by rescaling factor for the output in the form of '3/4')
+ 1.5
+ #
+ # Flags
+ # -----
+ # Type of coupling?
+ # Options:  phase  concentration [volume_change] temperature  temp_cyl_coord
+ #    [stress] [stress_coupled] [flow] [flow_coarse] [dislocation]
+ phase
+ # Type of potential?
+ # Options:  double_obstacle  multi_obstacle   [fd_correction]
+ multi_obstacle fd_correction
+ #
+ # Phase field data structure
+ # --------------------------
+ # Coefficient for initial dimension of field iFace
+ #  [minimum usage] [target usage]
+ 0.10
+ # Coefficient for initial dimension of field nTupel
+ #  [minimum usage] [target usage]
+ 0.01
+
+ # Restart options
+ # ===============
+ # Restart using old results?
+ # Options:    new       restart [reset_time | structure_only]
+ new
+
+ # Name of output files
+ # ====================
+ # Name of result files?
+ Results_Grain_Growth/T025_GrainGrowth
+ # Overwrite files with the same name?
+ # Options:    overwrite      write_protected     append
+ #             [zipped|not_zipped|vtk]
+ #             [unix|windows|non_native]
+ overwrite
+
+ # The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ # The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ # Selection of the outputs
+ # ========================
+ # [legacy|verbose|terse]
+ # Restart data output?                                 ('rest')
+ # Options:     out_restart      no_out_restart         [wallclock time, h.]
+ no_out_restart
+ # Grain number output?                                 ('korn')
+ # Options:     out_grains       no_out_grains
+ out_grains
+ # Phase number output?                                 ('phas')
+ # Options:     out_phases       no_out_phases          [no_interfaces]
+ out_phases
+ # Fraction output?                                     ('frac')
+ # Options:     out_fraction     no_out_fraction        [phase number]
+ out_fraction
+ # Average fraction table?                              ('TabF')
+ # Options:     tab_fractions    no_tab_fractions       [front_temp] [TabL_steps]
+ no_tab_fractions
+ # Interface output?                                    ('intf')
+ # Options:     out_interface    no_out_interface       [sharp]
+ out_interface
+ # Driving-force output?                                ('driv')
+ # Options:     out_driv_force   no_out_driv_force
+ no_out_driv_force
+ # Interface mobility output?                           ('mueS')
+ # Options:     out_mobility     no_out_mobility
+ out_mobility
+ # Curvature output?                                    ('krum')
+ # Options:     out_curvature    no_out_curvature
+ out_curvature
+ # Interface velocity output?                           ('vel')
+ # Options:     out_velocity     no_out_velocity
+ out_velocity
+ # Should the grain-time file be written out?           ('TabK')
+ # Options:     tab_grains       no_tab_grains          [extra|standard]
+ tab_grains
+ # Should the 'von Neumann Mullins' output be written out?       ('TabN')
+ # Options:    tab_vnm    no_tab_vnm
+ tab_vnm
+ # Should the 'grain data output' be written out?       ('TabGD')
+ # Options:    tab_grain_data    no_tab_grain_data
+ tab_grain_data
+ # Temperature output?                                  ('temp')
+ # Options:     out_temp         no_out_temp
+ no_out_temp
+ # Recrystallisation energy output?                     ('rex')
+ # Options:     out_recrystall   no_out_recrystall
+ no_out_recrystall
+ # Recrystallised fraction output?                      ('TabR')
+ # Options:     tab_recrystall   no_tab_recrystall
+ no_tab_recrystall
+ # Dislocation density output?                          ('rhoD')
+ # Options:     out_disloc       no_out_disloc
+ no_out_disloc
+ # Miller-Indices output?                               ('mill')
+ # Options:     out_miller       no_out_miller
+ no_out_miller
+ # Orientation output?                                  ('orie')
+ # Options:     out_orientation  no_out_orientation
+ out_orientation
+ # Should the orientation-time file be written?         ('TabO')
+ # Options:   tab_orientation  no_tab_orientation    [rotmat]
+ no_tab_orientation
+ # Should monitoring outputs be written out?            ('TabL')
+ # Options:     tab_log [simulation time, s] [wallclock time, min]  no_tab_log
+ tab_log 0.1
+
+ # Time input data
+ # ===============
+ # Finish input of output times (in seconds) with 'end_of_simulation'
+ # 'regularly-spaced' outputs can be set with 'linear_step'
+ # or 'logarithmic_step' and then specifying the increment
+ # and end value
+ # ('automatic_outputs' optionally followed by the number
+ #  of outputs can be used in conjuction with 'linear_from_file')
+ #  'first'                  : additional output for first time-step
+ #  'end_at_temperature'    : additional output and end of simulation
+ #                             at given temperature
+ linear_step 5.0 50.0
+ linear_step 10.0 100.0
+ linear_step 20.0 400.0
+ end_of_simulation
+ # Time-step?
+ # Options:   fix ...[s]   automatic    automatic_limited
+ automatic
+ # Coefficient for phase-field criterion 1.00
+ # Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]?
+ 50
+ 
+ # Phase data
+ # ==========
+ # Number of distinct solid phases?
+           1
+ #
+ # Data for phase 1:
+ # -----------------
+ # Simulation of recrystallisation in phase 1?
+ # Options:   recrystall     no_recrystall   [verbose|no_verbose]
+ no_recrystall
+ # Is phase 1 anisotrop?
+ # Options: isotropic  anisotropic  faceted_a faceted_b  antifaceted
+ anisotropic
+ # Crystal symmetry of the phase?
+ # Options:   none  cubic  hexagonal  tetragonal orthorhombic
+ cubic
+ # Should grains of phase 1 be reduced to categories?
+ # Options:   categorize no_categorize
+ no_categorize
+ #
+ # Orientation
+ # -----------
+ # How shall grain orientations be defined?
+ # Options:  angle_2d  euler_zxz  angle_axis  miller_indices  quaternion
+ angle_2d
+
+ # Grain input
+ # ===========
+ # Type of grain positioning?
+ # Options:  deterministic   random [deterministic_infile]   from_file
+ random
+ # Integer for randomization?
+       67789
+ # Number of different types of grains?
+           1
+ # Number of grains of type 1?
+         160
+ # Input for grain type 1
+ # ----------------------
+ # Geometry of grain type 1
+ # Options:  round  rectangular  elliptic  round_inverse
+ round
+ # Minimal value of x-coordinates?  [micrometers]
+  0.00000    
+ # Maximal value of x-coordinates?  [micrometers]
+  300.000    
+ # Minimal value of z-coordinates?  [micrometers]
+  0.00000    
+ # Maximal value of z-coordinates?  [micrometers]
+  300.000    
+ # Minimum grain radius?  [micrometers]
+  40.0000    
+ # Maximum grain radius?  [micrometers]
+  45.0000    
+ # Shall grain type 1 be stabilized or shall
+ # an analytical curvature description be applied?
+ # Options:    stabilisation   analytical_curvature
+ stabilisation
+ # Should the Voronoi criterion for grains of type 1 be applied?
+ # Options:    voronoi     no_voronoi
+ voronoi
+ # Phase number for grain type 1? (int)
+ 1
+ # Determination of grain orientations?
+ # Options:   fix   random    random_z    range
+ #           [step beween random values in degrees]
+ random
+ # Minimal distance between grains (real) [micrometers]?
+   10.000    
+
+ # Data for further nucleation
+ # ===========================
+ # Enable further nucleation?
+ # Options:  nucleation   nucleation_symm   no_nucleation  [verbose|no_verbose]
+ no_nucleation
+ 
+ # Phase interaction data
+ # ======================
+ #
+ # Data for phase interaction 0 / 1:
+ # ---------------------------------
+ # Simulation of interaction between phases 0 and 1?
+ # Options: phase_interaction  no_phase_interaction
+ #  [standard|particle_pinning[_temperature]|solute_drag]
+ #   |[no_junction_force|junction_force]
+ phase_interaction
+ # Type of interfacial energy definition between phases 0 and 1?
+ # Options:  constant  temp_dependent
+ constant
+ # Interfacial energy between phases 0 and 1? [J/cm**2]
+ #     [max. value for num. interface stabilisation [J/cm**2]]
+ 1.00000E-05
+ # Type of mobility definition between phases 0 and 1?
+ # Options: constant temp_dependent dg_dependent [fixed_minimum]
+ constant
+ # Kinetic coefficient mu between phases 0 and 1  [ min. value ] [cm**4/(Js)] ?
+ 1.00000E-02
+ # Is interaction isotropic?
+ # Options: isotropic
+ #          anisotropic [junction_force] [harmonic_expansion]
+ isotropic
+ #
+ # Data for phase interaction 1 / 1:
+ # ---------------------------------
+ # Simulation of interaction between phases 1 and 1?
+ # Options: phase_interaction  no_phase_interaction  identical phases nb
+ #  [standard|particle_pinning[_temperature]|solute_drag]
+ #   |[no_junction_force|junction_force]
+ phase_interaction
+ # Type of interfacial energy definition between phases 1 and 1?
+ # Options:  constant  temp_dependent
+ constant
+ # Interfacial energy between phases 1 and 1? [J/cm**2]
+ #     [max. value for num. interface stabilisation [J/cm**2]]
+ 5.00000E-05
+ # Type of mobility definition between phases 1 and 1?
+ # Options: constant temp_dependent dg_dependent [fixed_minimum]
+ constant
+ # Kinetic coefficient mu between phases 1 and 1  [ min. value ] [cm**4/(Js)] ?
+ 5.00000E-03
+ # Shall misorientation be considered?
+ # Options:   misorientation    no_misorientation
+ #           [low_angle_limit (degrees)] default:15    [special_orient (nb)]
+ no_misorientation
+
+ # Phase diagram - input data
+ # ==========================
+ # Equilibrium temperature [K] between 0  and 1
+   1000.00000000000     
+ # Entropy of fusion between phase 0  and 1 ?  [J/(cm**3 K)]
+   1.00000000000000     
+
+ # License check
+ # =============
+ 
+ # Boundary conditions
+ # ===================
+ # Type of temperature trend?
+ # Options:   linear     linear_from_file     profiles_from_file
+ linear
+ # Number of connecting points?    (integer)
+           0
+ # Initial temperature at the bottom?  (real)  [K]
+   999.0000    
+ # Temperature gradient in z-direction?  [K/cm]
+   0.0000    
+ # Cooling rate? [K/s]
+   0.0000    
+ # Moving-frame system in z-direction?
+ # Options:      moving_frame      no_moving_frame
+ no_moving_frame
+ #
+ # Boundary conditions for phase field in each direction
+ # Options: i (insulation) s (symmetric) p (periodic/wrap-around)
+ #          g (gradient)   f (fixed)     w (wetting)
+ # Sequence: W E (S N, if 3D) B T borders
+ ppii
+ # Unit-cell model symmetric with respect to the x/y diagonal plane?
+ # Options:    unit_cell_symm   no_unit_cell_symm
+ no_unit_cell_symm
+
+ # Other numerical parameters
+ # ==========================
+ # Phase minimum?
+ 1.E-04
+ # Interface thickness (in cells)?
+  4.00
+
+
+ Beginning of initialisation
+ ===========================
+ Routine init calls routine initDateien
+ Routine init calls routine initParallel
+ Routine init calls routine initRand
+ Routine init calls routine initWorkspace
+ Routine init calls routine initFixeFelder
+ Routine init calls routine initPointer
+ Routine init calls routine initIFaceSharp
+ # Grain number   1 set
+ # Grain number   2 set
+ # Grain number   3 set
+ # Grain number   4 set
+ # Grain number   5 set
+ # Grain number   6 set
+ # Grain number   7 set
+ # Grain number   8 set
+ # Grain number   9 set
+ # Grain number  10 set
+ # Grain number  11 set
+ # Grain number  12 set
+ # Grain number  13 set
+ # Grain number  14 set
+ # Grain number  15 set
+ # Grain number  16 set
+ # Grain number  17 set
+ # Grain number  18 set
+ # Grain number  19 set
+ # Grain number  20 set
+ # Grain number  21 set
+ # Grain number  22 set
+ # Grain number  23 set
+ # Grain number  24 set
+ # Grain number  25 set
+ # Grain number  26 set
+ # Grain number  27 set
+ # Grain number  28 set
+ # Grain number  29 set
+ # Grain number  30 set
+ # Grain number  31 set
+ # Grain number  32 set
+ # Grain number  33 set
+ # Grain number  34 set
+ # Grain number  35 set
+ # Grain number  36 set
+ # Grain number  37 set
+ # Grain number  38 set
+ # Grain number  39 set
+ # Grain number  40 set
+ # Grain number  41 set
+ # Grain number  42 set
+ # Grain number  43 set
+ # Grain number  44 set
+ # Grain number  45 set
+ # Grain number  46 set
+ # Grain number  47 set
+ # Grain number  48 set
+ # Grain number  49 set
+ # Grain number  50 set
+ # Grain number  51 set
+ # Grain number  52 set
+ # Grain number  53 set
+ # Grain number  54 set
+ # Grain number  55 set
+ # Grain number  56 set
+ # Grain number  57 set
+ # Grain number  58 set
+ # Grain number  59 set
+ # Grain number  60 set
+ # Grain number  61 set
+ # Grain number  62 set
+ # Grain number  63 set
+ # Grain number  64 set
+ # Grain number  65 set
+ # Grain number  66 set
+ # Grain number  67 set
+ # Grain number  68 set
+ # Grain number  69 set
+ # Grain number  70 set
+ # Grain number  71 set
+ # Grain number  72 set
+ # Grain number  73 set
+ # Grain number  74 set
+ # Grain number  75 set
+ # Grain number  76 set
+ # Grain number  77 set
+ # Grain number  78 set
+ # Grain number  79 set
+ # Grain number  80 set
+ # Grain number  81 set
+ # Grain number  82 set
+ # Grain number  83 set
+ # Grain number  84 set
+ # Grain number  85 set
+ # Grain number  86 set
+ # Grain number  87 set
+ # Grain number  88 set
+ # Grain number  89 set
+ # Grain number  90 set
+ # Grain number  91 set
+ # Grain number  92 set
+ # Grain number  93 set
+ # Grain number  94 set
+ # Grain number  95 set
+ # Grain number  96 set
+ # Grain number  97 set
+ # Grain number  98 set
+ # Grain number  99 set
+ # Grain number 100 set
+ # Grain number 101 set
+ # Grain number 102 set
+ # Grain number 103 set
+ # Grain number 104 set
+ # Grain number 105 set
+ # Grain number 106 set
+ # Grain number 107 set
+ # Grain number 108 set
+ # Grain number 109 set
+ # Grain number 110 set
+ # Grain number 111 set
+ # Grain number 112 set
+ # Grain number 113 set
+ # Grain number 114 set
+ # Grain number 115 set
+ # Grain number 116 set
+ # Grain number 117 set
+ # Grain number 118 set
+ # Grain number 119 set
+ # Grain number 120 set
+ # Grain number 121 set
+ # Grain number 122 set
+ # Grain number 123 set
+ # Grain number 124 set
+ # Grain number 125 set
+ # Grain number 126 set
+ # Grain number 127 set
+ # Grain number 128 set
+ # Grain number 129 set
+ # Grain number 130 set
+ # Grain number 131 set
+ # Grain number 132 set
+ # Grain number 133 set
+ # Grain number 134 set
+ # Grain number 135 set
+ # Grain number 136 set
+ # Grain number 137 set
+ # Grain number 138 set
+ # Grain number 139 set
+ # Grain number 140 set
+ # Grain number 141 set
+ # Grain number 142 set
+ # Grain number 143 set
+ # Grain number 144 set
+ # Grain number 145 set
+ # Grain number 146 set
+ # Grain number 147 set
+ # Grain number 148 set
+ # Grain number 149 set
+ # Grain number 150 set
+ # Grain number 151 set
+ # Grain number 152 set
+ # Grain number 153 set
+ # Grain number 154 set
+ # Grain number 155 set
+ # Grain number 156 set
+ # Grain number 157 set
+ # Grain number 158 set
+ # Grain number 159 set
+ # Grain number 160 set
+ Routine init calls routine initKorn
+ Routine init calls routine initEinschwing
+ Routine init calls routine initTwidth
+ 
+ # tWidth_max( 0 : 1 ) = 5.3437500E-02 s
+ # tWidth_max( 1 : 1 ) = 2.1375000E-02 s
+ # Maximal value for tWidth = 2.1375000E-02 s for phase-field solver
+ # Initial value for tWidth = 2.13750E-02 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 0.10000 / dT_unt  [micrometers]
+ End of routine init
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 6.10E-03 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 1.73E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 15.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 20.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 25.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 30.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 35.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 1.38E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 40.000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 45.000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 50.000 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 60.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 70.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 80.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 1.44E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 90.000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 100.00 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 120.00 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 140.00 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 160.00 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 180.00 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 200.00 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 220.00 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 240.00 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 260.00 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 280.00 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 300.00 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 320.00 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 340.00 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 360.00 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 380.00 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 400.00 s
+ CPU-time: 1 s
+ Current phase-field solver time step = 2.14E-02 s
+ Temperature at the bottom = 999.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ # Simulation run on machine acpcra
+ # Remaining license time: permanent
+ # CPU time in seconds:          78
+ # Wall clock time in seconds:  81
+ # End
+ 

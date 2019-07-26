@@ -1,0 +1,1051 @@
+
+ MICRESS binary
+ **************
+ version number: 6.400 (Linux)
+ compiled: 01/17/2018
+ compiler version: Intel 1400 20140120
+ executable architecture: x64
+ Thermo-Calc coupling: enabled
+ #    Version:    19
+ #    Link Date:  20-03-2017 12:28:00
+ #    OS Name:    Linux
+ #    Build Date: 10716
+ #    Compiler:   ifort (IFORT) 14.0.2 20140120
+ OpenMP: disabled
+ shell: /bin/tcsh
+ ('double precision' binary)
+
+ Miscellanea
+ ***********
+ Date and time: 17/01/2018 (06:25)
+ Machine: n009
+ Driving file: T046_Equiaxed_Eutectic_dri.temp
+
+
+ Flags and settings
+ ******************
+
+ Geometry
+ --------
+ AnzX,   AnzY,   AnzZ   = 200, 1, 200
+ deltaX, deltaY, deltaZ [cm] = 5.0000E-05, 5.0000E-05, 5.0000E-05
+
+ Flags
+ -----
+ Simulation with concentration coupling
+ 'Multi-obstacle' potential
+ no_1d_far_field
+ no_1d_temp
+ IFaceDim coeff. : 0.100 (0.75, 0.50)
+ nTupelDim coeff.: 0.100 (0.75, 0.50)
+
+
+ The data compression is done with 'zlib' (cf. http://www.zlib.net/).
+ The routine for appending is loosely derived from the 'gzappend.c' example.
+
+
+ Time input data
+ ***************
+ Number of intermediate outputs = 40
+ Intermediate output at t       = 2.5000000E-01 s
+ Intermediate output at t       = 5.0000000E-01 s
+ Intermediate output at t       = 7.5000000E-01 s
+ Intermediate output at t       = 1.0000000E+00 s
+ Intermediate output at t       = 1.2500000E+00 s
+ Intermediate output at t       = 1.5000000E+00 s
+ Intermediate output at t       = 1.7500000E+00 s
+ Intermediate output at t       = 2.0000000E+00 s
+ Intermediate output at t       = 2.2500000E+00 s
+ Intermediate output at t       = 2.5000000E+00 s
+ Intermediate output at t       = 2.7500000E+00 s
+ Intermediate output at t       = 3.0000000E+00 s
+ Intermediate output at t       = 3.2500000E+00 s
+ Intermediate output at t       = 3.5000000E+00 s
+ Intermediate output at t       = 3.7500000E+00 s
+ Intermediate output at t       = 4.0000000E+00 s
+ Intermediate output at t       = 4.2500000E+00 s
+ Intermediate output at t       = 4.5000000E+00 s
+ Intermediate output at t       = 4.7500000E+00 s
+ Intermediate output at t       = 5.0000000E+00 s
+ Intermediate output at t       = 5.2500000E+00 s
+ Intermediate output at t       = 5.5000000E+00 s
+ Intermediate output at t       = 5.7500000E+00 s
+ Intermediate output at t       = 6.0000000E+00 s
+ Intermediate output at t       = 6.2500000E+00 s
+ Intermediate output at t       = 6.5000000E+00 s
+ Intermediate output at t       = 6.7500000E+00 s
+ Intermediate output at t       = 7.0000000E+00 s
+ Intermediate output at t       = 7.2500000E+00 s
+ Intermediate output at t       = 7.5000000E+00 s
+ Intermediate output at t       = 7.7500000E+00 s
+ Intermediate output at t       = 8.0000000E+00 s
+ Intermediate output at t       = 8.2500000E+00 s
+ Intermediate output at t       = 8.5000000E+00 s
+ Intermediate output at t       = 8.7500000E+00 s
+ Intermediate output at t       = 9.0000000E+00 s
+ Intermediate output at t       = 9.2500000E+00 s
+ Intermediate output at t       = 9.5000000E+00 s
+ Intermediate output at t       = 9.7500000E+00 s
+ Intermediate output at t       = 1.0000000E+01 s
+ Coefficient for phase-field criterion 1.00
+ Coefficient for segregation criterion 0.900
+ Upper limit for time step: 1.000E+20
+ Number of steps to adjust profiles of initially sharp interfaces [exclude_inactive]: 0
+ 
+ 
+ Phase data
+ **********
+ Number of distinct solid phases = 2
+ 
+ Data for phase 1:
+ -----------------
+ in phase 1, recrystallisation will not be considered.
+ Phase 1 is anisotropic.
+ Cubic crystal symmetry will be considered:
+ No categorization is allowed for phase 1
+ 
+ Data for phase 2:
+ -----------------
+ in phase 2, recrystallisation will not be considered.
+ Phase 2 is isotropic.
+ phase 2 is scheduled for categorization
+ Grain orientations will be defined by 2D angles.
+
+
+ Grain input
+ ***********
+ Grains will be positioned deterministically
+ Number of grains = 0
+
+
+ Data for further nucleation
+ ***************************
+ Run-time nucleation enabled
+ Number of types of seeds: 4
+
+ Input for seed type 1:
+ ----------------------
+  Type of 'position' of the seeds: area
+  Minimal value of x-coordinates: 0.0000 micrometers
+  Maximal value of x-coordinates: 0.0000 micrometers
+  Minimal value of z-coordinates: 0.0000 micrometers
+  Maximal value of z-coordinates: 0.0000 micrometers
+  Phase of new grains: 1
+  Phase of new grains: 1
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 1 will be undercooling.
+  Seed type 1 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 1: 1
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:analytical_curvature
+  Critical Radius               : 0.500000 micrometers
+  min. undercooling [K] (>0): 2.0000
+  Determination of grain orientations is 'fix'
+  Rotation angle                : +0.000  degree
+  Shield time [s]: 5.0000
+  shield phase or group number: 1
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 1: 0.0000 K
+  max. nucleation temperature for seed type 1: 1000.0000 K
+  Time between checks for nucleation: 1.00000E-03 [s]
+  No random noise will be applied.
+
+ Input for seed type 2:
+ ----------------------
+  Type of 'position' of the seeds: area
+  Minimal value of x-coordinates: 90.000 micrometers
+  Maximal value of x-coordinates: 90.000 micrometers
+  Minimal value of z-coordinates: 90.000 micrometers
+  Maximal value of z-coordinates: 90.000 micrometers
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Nucleation driving force for seed type 2 will be undercooling.
+  Seed type 2 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 2: 1
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 2.0000
+  Shield time [s]: 5.0000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 5.0000
+  min. nucleation temperature for seed type 2: 0.0000 K
+  max. nucleation temperature for seed type 2: 1000.0000 K
+  Time between checks for nucleation: 1.00000E-03 [s]
+  No random noise will be applied.
+
+ Input for seed type 3:
+ ----------------------
+  Type of 'position' of the seeds: interfaces (restricted to binary interfaces)
+  Phase of new grains: 2
+  Phase of new grains: 2
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 1
+  The influence of the curvature undercooling will not be taken into account.
+  Nucleation driving force for seed type 3 will be undercooling.
+  Seed type 3 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 3: 200
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 2.0000
+  Shield time [s]: 2.0000
+  shield phase or group number: 2
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 10.000
+  min. nucleation temperature for seed type 3: 0.0000 K
+  max. nucleation temperature for seed type 3: 1000.0000 K
+  Time between checks for nucleation: 5.00000E-02 [s]
+  No random noise will be applied.
+
+ Input for seed type 4:
+ ----------------------
+  Type of 'position' of the seeds: interfaces (restricted to binary interfaces)
+  Phase of new grains: 1
+  Phase of new grains: 1
+  Reference phase is phase 0
+  Minimal fraction of reference phase: 0.00000
+  Maximal fraction of reference phase: 1.00000
+  Substrate phase: 2
+  The influence of the curvature undercooling will not be taken into account.
+  Nucleation driving force for seed type 4 will be undercooling.
+  Seed type 4 will be described by the nucleation model seed_undercooling
+  maximum number of new nuclei 4: 200
+  Grain radius [micrometers]: 0.00000
+  Choice of growth mode:stabilisation
+  min. undercooling [K] (>0): 2.0000
+  Determination of grain orientations is 'random'
+  Shield time [s]: 2.0000
+  shield phase or group number: 1
+  Shield distance [micrometers]  [ nucleation distance [micrometers] ]: 10.000
+  min. nucleation temperature for seed type 4: 0.0000 K
+  max. nucleation temperature for seed type 4: 1000.0000 K
+  Time between checks for nucleation: 5.00000E-03 [s]
+  Random noise will be applied.
+  Factor for random noise:  1.000000000000000E-002
+
+ Other nucleation parameters
+ ---------------------------
+  Seed for random-number generator initialisation: 66666
+  Max. number of simultaneous nucleations: 1
+  Metastable small seeds will not be killed
+ 
+ 
+ Phase interaction data
+ **********************
+ 
+ Data for phase interaction 0 / 1:
+ ---------------------------------
+  Interaction between 0 and 1 will be simulated.
+  Interaction parameters between phases  0  and 1:
+  Averaging coefficient        Av = +0.50
+  'Smoothing angle'        smooth = 30.00
+  Interfacial energy        sigma = 1.20000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 5.00000E-02 [cm**4/(Js)]
+ Cubic anisotropy of interfacial stiffness.
+  Coefficient delta = 0.5000000
+ Cubic anisotropy of interfacial mobility.
+  Coefficient delta = 5.0000000E-02
+ 
+ Data for phase interaction 0 / 2:
+ ---------------------------------
+  Interaction between 0 and 2 will be simulated.
+  Interaction parameters between phases  0  and 2:
+  Averaging coefficient        Av = +0.50
+  'Smoothing angle'        smooth = 20.00
+  Interfacial energy        sigma = 1.50000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 5.00000E-03 [cm**4/(Js)]
+ 
+ Data for phase interaction 1 / 1:
+ ---------------------------------
+  Interaction between 1 and 1 will not be simulated.
+ 
+ Data for phase interaction 1 / 2:
+ ---------------------------------
+  Interaction between 1 and 2 will be simulated.
+  Interaction parameters between phases  1  and 2:
+  Averaging coefficient        Av = +0.50
+  Interfacial energy        sigma = 1.70000E-05 [J/cm**2]
+  Kinetic coefficient          mu = 1.00000E-09 [cm**4/(Js)]
+  Phases  1 /  2 have an isotropic interaction.
+ 
+ Data for phase interaction 2 / 2:
+ ---------------------------------
+  Interaction between 2 and 2 will not be simulated.
+
+
+ Concentration data
+ ******************
+ Number of dissolved constituents = 1
+ Concentration in atom percent at%
+
+ Diffusion Data
+ --------------
+ Diffusion of component 1  in phase 0  will be solved.
+ Diff.-coefficient:
+ Prefactor: 1.000000000000000E-005 [cm**2/s]
+ Activation energy: 0.000000000000000E+000 [J/mol]
+
+
+ Phase diagram - input data
+ **************************
+ In phase 2 component 1 is defined as stoichiometric.
+
+ TC-Coupling is not performed
+
+ Input of the phase diagram of phase 0 and phase 1:
+ --------------------------------------------------
+ Linear phase diagram is used
+  Temperature of the cut = 350.000000000000 K
+  conc0( 0: 1: 1) = 1.00000E+01 [at%]
+  conc0( 1: 0: 1) = 5.00000E+00 [at%]
+  Slope       mSlope( 1: 0: 1) = -8.00000E+00 K/at%
+  Slope       mSlope( 0: 1: 1) = -4.00000E+00 K/at%
+ Redistribution characteristics of components:
+ 1:  ATC
+
+ Input of the phase diagram of phase 0 and phase 2:
+ --------------------------------------------------
+ Linear phase diagram is used
+  Temperature of the cut = 350.000000000000 K
+  conc0( 0: 2: 1) = 1.00000E+01 [at%]
+  conc0( 2: 0: 1) = 1.50000E+01 [at%]
+  Slope       mSlope( 2: 0: 1) = +8.00000E+00 K/at%
+  Slope       mSlope( 0: 2: 1) = +6.00000E+00 K/at%
+ Redistribution characteristics of components:
+ 1:  ATC
+
+ Input of the phase diagram of phase 1 and phase 2:
+ --------------------------------------------------
+ Linear phase diagram with TQ format is used:
+ 350.00000            ! T0 [K]
+ 0.0000000            ! dG [J/cm**3]
+ 0.20000000           ! dSf+ [J/cm**3K]
+ -0.20000000          ! dSf- [J/cm**3K]
+ -999.00000           ! dH [J/cm3]
+ 5.0000000            ! c0(1)/ph 1
+ 15.000000            ! c0(1)/ph 2
+ 10.000000            ! m(1)/ph 1
+ -10.000000           ! m(1)/ph 2
+ 0.0000000            ! dcdT(1)/ph 1
+ 0.0000000            ! dcdT(1)/ph 2
+ 
+ 
+ Initial concentrations
+ **********************
+ Concentrations will be automatically set, matrix phase: 0
+ Initial concentration of component 1 in phase 0 = 8.000000000 at%
+
+
+ Parameters for latent heat and 1D temperature field
+ ***************************************************
+ Simulation with release of latent heat
+ Enthalpy of phase 0 : 1400.0 [J/cm^3]
+ Specific heat capacity (Cp) of phase 0 : 2.0000 [J/(cm^3*K)]
+ Enthalpy of phase 1 : 1000.0 [J/cm^3]
+ Specific heat capacity (Cp) of phase 1 : 2.0000 [J/(cm^3*K)]
+  Simulation with release of pseudo-3D latent heat of phase 1, fracKrit=  0.000000000000000E+000 !
+ Enthalpy of phase 2 : 1000.0 [J/cm^3]
+ Specific heat capacity (Cp) of phase 2 : 2.0000 [J/(cm^3*K)]
+  Simulation with release of pseudo-3D latent heat of phase 2, fracKrit=  0.000000000000000E+000 !
+ 
+ 
+ Boundary conditions
+ *******************
+ Initial temperature at the bottom: 365.0000 K
+ Temperature gradient at beginning: 0.0000 K/cm
+ Heat flow = -50.000 [J/s*cm^3]
+ 
+ In W-direction symmetric boundary condition for phase field
+ In E-direction symmetric boundary condition for phase field
+ In B-direction symmetric boundary condition for phase field
+ In T-direction symmetric boundary condition for phase field
+ 
+ In W-direction symmetric boundary condition for concentration field
+ In E-direction symmetric boundary condition for concentration field
+ In B-direction symmetric boundary condition for concentration field
+ In T-direction symmetric boundary condition for concentration field
+ 
+ Unit-cell model symmetric with respect to the x/y diagonal plane not activated
+
+
+ Other numerical parameters
+ **************************
+ Phase minimum      phMin = 1.00E-04
+ Interface thickness etaZ = 3.00000000000000
+
+
+ Beginning of initialisation
+ ***************************
+ Equilibrium temperature T_Glgew = 358.0000 K
+ Phase  0, Component  0: 92.00000
+ Phase  0, Component  1: 8.000000
+ Phase  1, Component  0: 96.00000
+ Phase  1, Component  1: 4.000000
+ Phase  2, Component  0: 85.00000
+ Phase  2, Component  1: 15.00000
+ 
+ # tWidth_max( 0 : 1 ) = 9.4246032E-04 s
+ # tWidth_max( 0 : 2 ) = 7.9166667E-03 s
+ # tWidth_max( 1 : 2 ) = 34926.47 s
+ # Maximal value for tWidth = 9.4246032E-04 s for phase-field solver
+ # Maximal value for tWidth = 5.9375000E-05 s for conc-field solver
+ # Automatic time stepping (phase-field solver): decreased value for tWidth = 5.64063E-05 s
+ # Initial value for tWidth = 5.64062E-05 s for automatic time stepping (phase-field solver)
+ # Critical grain radius:
+ # of phase 1 in phase 0 = 0.15000 / dT_unt  [micrometers]
+ # of phase 2 in phase 0 = 0.18750 / dT_unt  [micrometers]
+ # of phase 2 in phase 1 = 0.85000 / dT_unt  [micrometers]
+ 
+ Remaining license time: permanent
+
+ ==================================================
+
+ Time t = 0.0000000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 5.64E-05 s
+ Average conc. of comp. 1 = 8.0000000 at%
+ Temperature at the bottom = 365.00 K
+ Temperature gradient = 0.00000 K/cm
+ Fraction of phase 0: 1.00000
+ Fraction of phase 1: 0.00000
+ Fraction of phase 2: 0.00000
+
+ **********************************************
+ *         Beginning of simulation            *
+ **********************************************
+
+ Intermediate output for t = 0.25000 s
+ CPU-time: 0 s
+ Current phase-field solver time step = 9.00E+00 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 358.75 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 1 set at time t = 0.36000 s
+ ---------------------------------------
+ in user-defined area
+ Phase: 1
+ Seed type: 1
+ Local temperature = 356.00 K
+ Undercooling = 2.0000 K
+ Grain number = 1
+
+ Grain 1 reaches full size at t = 0.364826 s
+
+ Intermediate output for t = 0.50000 s
+ CPU-time: 2 s
+ Current phase-field solver time step = 2.29E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 353.40 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 0.75000 s
+ CPU-time: 4 s
+ Current phase-field solver time step = 2.04E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 351.87 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.0000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.08E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 352.21 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.2500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.09E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 352.60 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.5000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.09E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 352.81 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 1.7500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.10E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 352.70 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.0000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.08E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 352.27 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.2500 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.07E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 351.72 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.5000 s
+ CPU-time: 5 s
+ Current phase-field solver time step = 2.06E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 351.13 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 2.7500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 2.05E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 350.54 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.0000 s
+ CPU-time: 7 s
+ Current phase-field solver time step = 2.04E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.94 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 3.2500 s
+ CPU-time: 6 s
+ Current phase-field solver time step = 2.03E-04 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.35 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 2 set at time t = 3.3000 s
+ --------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.23 K
+ Undercooling = 2.2041 K
+ Grain number = 2
+
+ Seed number 3 set at time t = 3.3500 s
+ --------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.14 K
+ Undercooling = 2.4209 K
+ Grain number = 3
+
+ Grain 2 reaches full size at t = 3.35691 s
+
+ Seed number 4 set at time t = 3.4000 s
+ --------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.10 K
+ Undercooling = 2.4843 K
+ Grain number = 4
+
+ Grain 3 reaches full size at t = 3.40700 s
+
+ Seed number 5 set at time t = 3.4500 s
+ --------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.11 K
+ Undercooling = 2.4819 K
+ Grain number = 5
+
+ Grain 4 reaches full size at t = 3.46111 s
+
+ Seed number 6 set at time t = 3.5000 s
+ --------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.15 K
+ Undercooling = 2.3406 K
+ Grain number = 6
+
+ Intermediate output for t = 3.5000 s
+ CPU-time: 19 s
+ Current phase-field solver time step = 2.07E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.15 K
+ Temperature gradient = 0.00000 K/cm
+
+ Grain 5 reaches full size at t = 3.51063 s
+
+ Seed number 7 set at time t = 3.5500 s
+ --------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.22 K
+ Undercooling = 2.1733 K
+ Grain number = 7
+
+ Grain 6 reaches full size at t = 3.56056 s
+
+ Seed number 8 set at time t = 3.6000 s
+ --------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.29 K
+ Undercooling = 2.0011 K
+ Grain number = 8
+
+ Grain 7 reaches full size at t = 3.62375 s
+
+ Grain 8 reaches full size at t = 3.70286 s
+
+ Intermediate output for t = 3.7500 s
+ CPU-time: 34 s
+ Current phase-field solver time step = 2.89E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.41 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.0000 s
+ CPU-time: 36 s
+ Current phase-field solver time step = 3.07E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.34 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.2500 s
+ CPU-time: 39 s
+ Current phase-field solver time step = 3.84E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.34 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.5000 s
+ CPU-time: 39 s
+ Current phase-field solver time step = 3.74E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.35 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 4.7500 s
+ CPU-time: 48 s
+ Current phase-field solver time step = 3.45E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.42 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.0000 s
+ CPU-time: 49 s
+ Current phase-field solver time step = 2.86E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.51 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 5.2500 s
+ CPU-time: 49 s
+ Current phase-field solver time step = 3.09E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.58 K
+ Temperature gradient = 0.00000 K/cm
+  categorize (connect) grain     3 to     2 time:  5.35000     s
+  categorize (connect) grain     4 to     2 time:  5.40000     s
+  categorize (connect) grain     6 to     2 time:  5.50000     s
+
+ Intermediate output for t = 5.5000 s
+ CPU-time: 52 s
+ Current phase-field solver time step = 3.84E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.47 K
+ Temperature gradient = 0.00000 K/cm
+  categorize (connect) grain     7 to     2 time:  5.55000     s
+  categorize (connect) grain     8 to     2 time:  5.60000     s
+
+ Intermediate output for t = 5.7500 s
+ CPU-time: 57 s
+ Current phase-field solver time step = 3.84E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.32 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 9 set at time t = 5.8000 s
+ --------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.27 K
+ Undercooling = 2.0653 K
+ Grain number = 9
+
+ Seed number 10 set at time t = 5.8500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.22 K
+ Undercooling = 2.1410 K
+ Grain number = 10
+
+ Seed number 11 set at time t = 5.9000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.15 K
+ Undercooling = 2.3187 K
+ Grain number = 11
+
+ Seed number 12 set at time t = 5.9500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.08 K
+ Undercooling = 2.5352 K
+ Grain number = 12
+
+ Seed number 13 set at time t = 6.0000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.07 K
+ Undercooling = 2.5165 K
+ Grain number = 13
+
+ Intermediate output for t = 6.0000 s
+ CPU-time: 59 s
+ Current phase-field solver time step = 2.62E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.07 K
+ Temperature gradient = 0.00000 K/cm
+
+ Grain 10 reaches full size at t = 6.00406 s
+
+ Grain 12 reaches full size at t = 6.03663 s
+
+ Seed number 14 set at time t = 6.0500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.14 K
+ Undercooling = 2.2978 K
+ Grain number = 14
+
+ Grain 13 reaches full size at t = 6.05881 s
+
+ Seed number 15 set at time t = 6.1000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.22 K
+ Undercooling = 2.0399 K
+ Grain number = 15
+
+ Grain 15 reaches full size at t = 6.17652 s
+
+ Intermediate output for t = 6.2500 s
+ CPU-time: 64 s
+ Current phase-field solver time step = 3.55E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.29 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 16 set at time t = 6.3500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.24 K
+ Undercooling = 2.0657 K
+ Grain number = 16
+
+ Grain 16 reaches full size at t = 6.43139 s
+
+ Intermediate output for t = 6.5000 s
+ CPU-time: 66 s
+ Current phase-field solver time step = 2.68E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.25 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 17 set at time t = 6.7500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.21 K
+ Undercooling = 2.0810 K
+ Grain number = 17
+
+ Intermediate output for t = 6.7500 s
+ CPU-time: 73 s
+ Current phase-field solver time step = 2.84E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.21 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 18 set at time t = 6.8000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.19 K
+ Undercooling = 2.1382 K
+ Grain number = 18
+
+ Seed number 19 set at time t = 6.8500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.19 K
+ Undercooling = 2.2554 K
+ Grain number = 19
+
+ Grain 17 reaches full size at t = 6.87496 s
+
+ Grain 19 reaches full size at t = 6.95916 s
+
+ Intermediate output for t = 7.0000 s
+ CPU-time: 73 s
+ Current phase-field solver time step = 3.68E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.32 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 7.2500 s
+ CPU-time: 83 s
+ Current phase-field solver time step = 3.74E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.40 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 20 set at time t = 7.4500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.33 K
+ Undercooling = 2.2570 K
+ Grain number = 20
+
+ Intermediate output for t = 7.5000 s
+ CPU-time: 86 s
+ Current phase-field solver time step = 4.46E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.33 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 21 set at time t = 7.7000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.33 K
+ Undercooling = 2.0912 K
+ Grain number = 21
+
+ Intermediate output for t = 7.7500 s
+ CPU-time: 90 s
+ Current phase-field solver time step = 2.16E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.35 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 22 set at time t = 7.8500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.27 K
+ Undercooling = 2.0023 K
+ Grain number = 22
+  categorize (connect) grain    10 to     5 time:  7.85000     s
+
+ Seed number 23 set at time t = 7.9000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.24 K
+ Undercooling = 2.0577 K
+ Grain number = 23
+
+ Seed number 24 set at time t = 7.9500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.16 K
+ Undercooling = 2.2270 K
+ Grain number = 24
+  categorize (connect) grain    12 to     5 time:  7.95000     s
+
+ Grain 23 reaches full size at t = 7.99863 s
+
+ Seed number 25 set at time t = 8.0000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.15 K
+ Undercooling = 2.1621 K
+ Grain number = 25
+  categorize (connect) grain    13 to     5 time:  8.00000     s
+
+ Intermediate output for t = 8.0000 s
+ CPU-time: 93 s
+ Current phase-field solver time step = 2.75E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.15 K
+ Temperature gradient = 0.00000 K/cm
+
+ Grain 25 reaches full size at t = 8.09357 s
+
+ Seed number 26 set at time t = 8.1500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.21 K
+ Undercooling = 2.0351 K
+ Grain number = 26
+
+ Seed number 27 set at time t = 8.2000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.21 K
+ Undercooling = 2.0197 K
+ Grain number = 27
+
+ Seed number 28 set at time t = 8.2500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.19 K
+ Undercooling = 2.0052 K
+ Grain number = 28
+
+ Intermediate output for t = 8.2500 s
+ CPU-time: 99 s
+ Current phase-field solver time step = 3.83E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.19 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 29 set at time t = 8.3000 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.18 K
+ Undercooling = 2.0837 K
+ Grain number = 29
+
+ Grain 28 reaches full size at t = 8.31918 s
+
+ Grain 26 reaches full size at t = 8.32342 s
+
+ Seed number 30 set at time t = 8.3500 s
+ ---------------------------------------
+ at an interface
+ Phase: 2
+ Seed type: 3
+ Local temperature = 349.20 K
+ Undercooling = 2.0792 K
+ Grain number = 30
+  categorize (connect) grain    16 to     2 time:  8.35000     s
+
+ Intermediate output for t = 8.5000 s
+ CPU-time: 122 s
+ Current phase-field solver time step = 4.90E-05 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 349.03 K
+ Temperature gradient = 0.00000 K/cm
+
+ Seed number 31 set at time t = 8.6150 s
+ ---------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 4
+ Local temperature = 348.73 K
+ Undercooling = 2.0344 K
+ Grain number = 31
+
+ Seed number 32 set at time t = 8.6350 s
+ ---------------------------------------
+ at an interface
+ Phase: 1
+ Seed type: 4
+ Local temperature = 348.57 K
+ Undercooling = 2.0414 K
+ Grain number = 32
+
+ Phase 0 disappeared at 8.675000 s
+
+  categorize (connect) grain    17 to     5 time:  8.75000     s
+
+ Intermediate output for t = 8.7500 s
+ CPU-time: 81 s
+ Current phase-field solver time step = 9.00E+00 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 346.25 K
+ Temperature gradient = 0.00000 K/cm
+  categorize (connect) grain    19 to     5 time:  8.85000     s
+
+ Intermediate output for t = 9.0000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 9.00E+00 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 340.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.2500 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 9.00E+00 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 333.75 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.5000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 9.00E+00 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 327.50 K
+ Temperature gradient = 0.00000 K/cm
+
+ Intermediate output for t = 9.7500 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 9.00E+00 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 321.25 K
+ Temperature gradient = 0.00000 K/cm
+  categorize (connect) grain    23 to    15 time:  9.90000     s
+  categorize (connect) grain    25 to    15 time:  10.0000     s
+
+ Intermediate output for t = 10.000 s
+ CPU-time: 3 s
+ Current phase-field solver time step = 9.00E+00 s
+ Average conc. of comp. 1 = 8.0000000, Variation = +0.0000000 at%
+ Temperature at the bottom = 315.00 K
+ Temperature gradient = 0.00000 K/cm
+
+ ==================================================
+
+ Simulation run on machine n009
+ Remaining license time: permanent
+ CPU time in seconds:        1505
+ Wall clock time in seconds:  1660
+ End
+ 
