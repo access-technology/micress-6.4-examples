@@ -102,8 +102,12 @@ find information on how to download individual examples in [this section][3].
 
 ## How to download individual examples
 
-Please check [this post][10] for different solutions. 
-[DownGit][11] provides an easy-to-use web interface.
+[DownGit][11] provides a web interface for downloading an individual file or 
+folder from a GitHub project. In order to download a MICRESS example using 
+DownGit, copy the GitHub address of the example folder and paste it in the 
+DownGit address bar.
+
+For more options check [this post][10]. 
 
 [10]: https://stackoverflow.com/a/18194523/6238076
 
