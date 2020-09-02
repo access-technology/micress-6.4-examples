@@ -2,11 +2,9 @@
 
 ![MICRESS](logo.png)
 
-# MICRESS Examples
+# MICRESS 6.4 Examples
 
-![MICRESS](https://img.shields.io/badge/MICRESS-6.4-blue)
-
-This repository contains a collection of [MICRESS][1] examples.
+This repository contains a collection of [MICRESS][1] 6.4 examples.
 
 MICRESS is a software simulating microstructure formation in time and space 
 during phase transformations. The software is based on the multiphase-field 
